@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const logFilePath = path.join(__dirname, '..', 'Vibe_Coding_Daily_Log.md');
+const workPlanPath = path.join(__dirname, '..', 'Work Plan.md');
 const issuesDir = path.join(__dirname, '..', '..', '10_Issues');
 const wikiDir = path.join(__dirname, '..', '..', '20_Wiki');
 
@@ -9,48 +9,66 @@ const wikiDir = path.join(__dirname, '..', '..', '20_Wiki');
 if (!fs.existsSync(issuesDir)) fs.mkdirSync(issuesDir, { recursive: true });
 if (!fs.existsSync(wikiDir)) fs.mkdirSync(wikiDir, { recursive: true });
 
-const logContent = fs.readFileSync(logFilePath, 'utf-8');
+const content = fs.readFileSync(workPlanPath, 'utf-8');
+console.log(`Read ${content.length} characters from ${workPlanPath}`);
 
-// A simple regex to find daily entries in the log
-// Assuming entries start with "## Day X" or "## [Date]"
-const entryRegex = /##\s+(.*?)\n([\s\S]*?)(?=\n##\s+|$)/g;
+// More flexible regex to find daily entries starting with "### Day X:"
+// We account for potential variations in dashes (hyphen vs em-dash) and spacing
+const entryRegex = /### Day (\d+): (.*?)\r?\n([\s\S]*?)(?=\r?\n### Day \d+:|\r?\n## |\r?\n---|$)/g;
 
 let match;
 let count = 0;
 
-while ((match = entryRegex.exec(logContent)) !== null) {
-  const titleLine = match[1].trim();
-  const body = match[2].trim();
+// Reference date is Wednesday, April 29, 2026 (Day 30/31)
+const baseDate = new Date('2026-04-29');
+
+while ((match = entryRegex.exec(content)) !== null) {
+  const dayNum = parseInt(match[1]);
+  const titleLine = match[2].trim();
+  const body = match[3].trim();
 
   // Create a slug for the file name
-  const slug = titleLine.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-  if (!slug) continue;
-
+  // Use a simple title cleaner for the slug
+  const titleSlug = titleLine.toLowerCase()
+    .replace(/[^\w\s-]/g, '') // remove non-word chars
+    .replace(/[\s-]+/g, '-')  // collapse spaces and dashes
+    .replace(/(^-|-$)/g, ''); // trim dashes
+    
+  const slug = `day-${dayNum.toString().padStart(2, '0')}-${titleSlug}`;
+  
   const issueFileName = `${slug}.md`;
   const wikiFileName = `${slug}-wiki.md`;
 
+  // Calculate backdate: Day 30 is baseDate, Day 1 is baseDate - 29 days
+  const issueDate = new Date(baseDate);
+  issueDate.setDate(baseDate.getDate() - (30 - dayNum));
+  const dateString = issueDate.toISOString().split('T')[0];
+
   const issueContent = `---
-title: "${titleLine}"
-date: ${new Date().toISOString().split('T')[0]}
-tags: [issue]
+title: "Day ${dayNum}: ${titleLine}"
+date: ${dateString}
+tags: [issue, vibe-coding]
 ---
 
-# ${titleLine}
+# Day ${dayNum}: ${titleLine}
 
 ${body}
+
+---
+**Backlink:** [[10_Issues_MOC|Issues MOC]]
 `;
 
   const wikiContent = `---
-title: "${titleLine} - Concept Wiki"
-tags: [wiki, concept]
+title: "Day ${dayNum}: ${titleLine} - Concept Wiki"
+tags: [wiki, concept, instructional-design]
 ---
 
-# ${titleLine} - Pedagogical Synthesis
+# Day ${dayNum}: ${titleLine} - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 
 ## ID Framework Integration
-(To be expanded by Vibe Coding using Bloom's Taxonomy or QM Standards)
+(To be expanded by VibeID Daily using Bloom's Taxonomy or QM Standards)
 
 ## Technical Implementation
 (To be expanded)
@@ -64,4 +82,20 @@ tags: [wiki, concept]
   count++;
 }
 
-console.log(`Successfully parsed ${count} entries into 10-Issues and 20_Wiki.`);
+if (count === 0) {
+    console.log("No matches found. Investigating line endings and format...");
+    const lines = content.split(/\r?\n/);
+    for (let i = 0; i < lines.length; i++) {
+        if (lines[i].includes("### Day")) {
+            console.log(`Found marker at line ${i+1}: "${lines[i]}"`);
+            // Check hex codes of the characters in that line
+            let hex = "";
+            for (let j = 0; j < lines[i].length; j++) {
+                hex += lines[i].charCodeAt(j).toString(16) + " ";
+            }
+            console.log(`Hex: ${hex}`);
+        }
+    }
+} else {
+    console.log(`Successfully backdated and parsed ${count} entries into 10_Issues and 20_Wiki.`);
+}
