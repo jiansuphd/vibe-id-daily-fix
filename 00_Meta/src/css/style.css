@@ -1,10 +1,10 @@
 /* ============================================
-   THE VIBE ID DAILY - New Yorker Editorial Style
-   v2.0 - Refined Typography & Layout
+   THE VIBE ID DAILY - Modern Tech Dashboard
+   v3.0 - Terminal Aesthetic / Cyber-Tech
    ============================================ */
 
 /* --- Google Fonts --- */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
 
 /* --- Reset & Base --- */
 *, *::before, *::after {
@@ -14,32 +14,35 @@
 }
 
 :root {
-  --black:       #000000;
-  --white:       #ffffff;
-  --paper:       #fcfaf6;       /* Subtle paper tint */
-  --light-gray:  #e0e0e0;
-  --mid-gray:    #777777;
-  --dark-gray:   #333333;
-  --red:         #c00000;       /* Signature Red */
-  --font-serif:  'EB Garamond', Georgia, serif;
-  --font-head:   'Libre Baskerville', 'Times New Roman', serif;
-  --font-sans:   'Helvetica Neue', Arial, sans-serif;
-  --max-width:   1140px;
-  --article-width: 720px;
+  --bg:          #0b0e14;
+  --panel:       #111827;
+  --panel-light: #1f2937;
+  --text:        #d1d5db;
+  --text-dim:    #9ca3af;
+  --accent:      #00f2ff;       /* Cyber Cyan */
+  --secondary:   #a6e22e;       /* Terminal Green */
+  --danger:      #ff453a;
+  --border:      #1f2937;
+  --glow:        rgba(0, 242, 255, 0.15);
+  
+  --font-mono:   'JetBrains Mono', monospace;
+  --font-sans:   'Inter', -apple-system, sans-serif;
+  
+  --max-width:   1200px;
 }
 
 html {
-  font-size: 18px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--paper);
+  background-color: var(--bg);
 }
 
 body {
-  background-color: var(--paper);
-  color: var(--black);
-  font-family: var(--font-serif);
-  line-height: 1.65;
-  padding-bottom: 100px;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  padding-bottom: 50px;
 }
 
 /* ============================================
@@ -48,237 +51,251 @@ body {
 .skip-link {
   position: absolute;
   top: -100px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--black);
-  color: var(--white);
+  left: 20px;
+  background: var(--accent);
+  color: var(--bg);
   padding: 10px 20px;
-  z-index: 1000;
+  z-index: 2000;
   text-decoration: none;
-  font-family: var(--font-sans);
-  font-size: 0.8rem;
+  font-family: var(--font-mono);
   font-weight: 700;
   text-transform: uppercase;
+  border-radius: 4px;
 }
 
 .skip-link:focus {
-  top: 10px;
+  top: 20px;
 }
 
 /* ============================================
-   HEADER / MASTHEAD
+   HEADER / HUD
    ============================================ */
 .hud {
-  background: var(--paper);
-  border-bottom: 1px solid var(--black);
-  margin-bottom: 2rem;
+  background: rgba(11, 14, 20, 0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--accent);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
 }
 
 .hud-logo {
-  text-align: center;
-  padding: 2.5rem 1rem 1.5rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hide-mobile {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .hide-mobile {
+    display: none;
+  }
 }
 
 .hud-logo a {
-  font-family: var(--font-serif);
-  font-size: 3.5rem;
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
   font-weight: 700;
-  font-style: italic;
-  letter-spacing: -0.02em;
-  color: var(--black);
+  color: var(--accent);
   text-decoration: none;
-  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px var(--glow);
 }
 
 .hud-tagline {
-  font-family: var(--font-sans);
+  font-family: var(--font-mono);
   font-size: 0.7rem;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  color: var(--mid-gray);
-  margin-top: 0.5rem;
-  text-transform: none;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 2px;
 }
 
 .hud-metrics {
+  background: var(--panel);
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 2.5rem;
-  padding: 0.6rem 1rem;
-  border-top: 1px solid var(--black);
-  border-bottom: 4px double var(--black); /* Classic double rule */
+  gap: 2rem;
+  padding: 0.4rem 1rem;
+  border-top: 1px solid var(--border);
 }
 
 .metric {
   display: flex;
   gap: 0.5rem;
   align-items: center;
-  font-family: var(--font-sans);
-  font-size: 0.6rem;
-  letter-spacing: 0.15em;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
   text-transform: uppercase;
-  color: var(--mid-gray);
 }
 
 .metric-label {
-  color: var(--black);
+  color: var(--text-dim);
+}
+
+.metric span:not(.metric-label) {
+  color: var(--secondary);
   font-weight: 700;
 }
 
 /* ============================================
-   LAYOUT GRID
+   LAYOUT
    ============================================ */
 .dashboard-grid {
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: 2rem auto;
   display: grid;
   grid-template-columns: 1fr 300px;
-  gap: 3rem;
+  gap: 2rem;
   padding: 0 1.5rem;
 }
 
 /* ============================================
-   MAIN CONTENT
+   CONTENT PANELS
    ============================================ */
 .content {
-  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-/* ============================================
-   ARTICLE
-   ============================================ */
 article {
-  max-width: var(--article-width);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Accent corner */
+article::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, transparent 50%, var(--accent) 50%);
 }
 
 article > header {
-  margin-bottom: 2.5rem;
-  text-align: left;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1.5rem;
 }
 
-/* Latest Transmission Label */
 article > header::before {
-  content: "Latest Transmission";
+  content: "TERMINAL_INPUT://";
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--secondary);
+  margin-bottom: 0.5rem;
   display: block;
-  font-family: var(--font-sans);
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--red);
-  margin-bottom: 1.25rem;
 }
 
 article h1 {
-  font-family: var(--font-head);
-  font-size: 2.8rem;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.01em;
-  color: var(--black);
-  margin-bottom: 1rem;
+  font-family: var(--font-mono);
+  font-size: 2rem;
+  color: var(--accent);
+  line-height: 1.2;
+}
+
+article h1 a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .post-meta {
-  font-family: var(--font-sans);
-  font-size: 0.65rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--mid-gray);
-  border-top: 1px solid var(--light-gray);
-  padding-top: 0.75rem;
-  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-top: 1rem;
 }
 
-/* Typography elements */
+/* Typography inside article */
 article h2 {
-  font-family: var(--font-serif);
-  font-size: 1.35rem;
-  font-weight: 700;
-  font-style: italic;
-  color: var(--black);
-  margin: 3rem 0 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--black);
+  font-family: var(--font-mono);
+  font-size: 1.25rem;
+  color: var(--secondary);
+  margin: 2.5rem 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+article h2::before {
+  content: '>';
+  color: var(--accent);
 }
 
 article p {
-  font-size: 1.1rem;
-  line-height: 1.75;
-  color: var(--dark-gray);
-  margin-bottom: 1.5rem;
-}
-
-/* The Pointer / ID Application custom styling */
-article h2 + p {
-  margin-top: 0;
-}
-
-/* Emulating the prompt screenshot's icons */
-article h2::before {
-  margin-right: 0.5rem;
-}
-
-/* Drop cap */
-article > p:first-of-type::first-letter,
-article .drop-cap::first-letter {
-  font-size: 4.8rem;
-  font-weight: 700;
-  float: left;
-  line-height: 0.7;
-  margin: 0.12em 0.1em 0 0;
-  color: var(--black);
+  margin-bottom: 1.25rem;
+  color: var(--text);
 }
 
 article blockquote {
-  border-top: 1px solid var(--black);
-  border-bottom: 1px solid var(--black);
-  margin: 3rem 0;
-  padding: 1.5rem 0;
+  background: rgba(0, 242, 255, 0.05);
+  border-left: 4px solid var(--accent);
+  margin: 2rem 0;
+  padding: 1.5rem;
   font-style: italic;
-  font-size: 1.4rem;
-  line-height: 1.5;
-  text-align: center;
-  color: var(--black);
+  color: var(--accent);
 }
 
 article code {
-  font-family: 'Courier New', monospace;
-  font-size: 0.85rem;
-  background: rgba(0,0,0,0.03);
-  padding: 0.1em 0.3em;
-  border: 1px solid var(--light-gray);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  background: var(--panel-light);
+  color: var(--secondary);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
 }
 
 /* ============================================
    SIDEBAR
    ============================================ */
 .sidebar {
-  border-left: 1px solid var(--light-gray);
-  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .widget {
-  margin-bottom: 3rem;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1.5rem;
 }
 
 .widget h3 {
-  font-family: var(--font-sans);
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
   text-transform: uppercase;
-  color: var(--black);
+  color: var(--accent);
   margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--black);
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget h3::after {
+  content: '[OK]';
+  color: var(--secondary);
 }
 
 .widget p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: var(--dark-gray);
+  font-size: 0.875rem;
+  color: var(--text-dim);
 }
 
 .widget ul {
@@ -286,34 +303,72 @@ article code {
 }
 
 .widget ul li {
-  margin-bottom: 1rem;
-  font-size: 0.95rem;
-  line-height: 1.4;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
 }
 
 .widget ul li a {
-  color: var(--black);
+  color: var(--text);
   text-decoration: none;
-  font-style: italic;
-  font-family: var(--font-serif);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.widget ul li a::before {
+  content: '·';
+  color: var(--accent);
 }
 
 .widget ul li a:hover {
-  color: var(--red);
-  text-decoration: underline;
+  color: var(--accent);
+  transform: translateX(4px);
+  transition: transform 0.2s ease;
+}
+
+/* ============================================
+   ARCHIVE
+   ============================================ */
+.archive-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.archive-item {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.archive-item time {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.archive-item h2 {
+  font-size: 1.1rem;
+  margin: 0;
+  border: none;
+  padding: 0;
 }
 
 /* ============================================
    GLOBAL LINKS
    ============================================ */
 a {
-  color: var(--black);
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  color: var(--secondary);
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 a:hover {
-  color: var(--red);
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--glow);
 }
 
 /* ============================================
@@ -322,25 +377,5 @@ a:hover {
 @media (max-width: 900px) {
   .dashboard-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  
-  .sidebar {
-    border-left: none;
-    border-top: 1px solid var(--light-gray);
-    padding-left: 0;
-    padding-top: 2rem;
-  }
-  
-  article h1 {
-    font-size: 2.2rem;
   }
 }
-
-/* ============================================
-   ARCHIVE PAGE
-   ============================================ */
-.archive-list { margin-top: 3rem; }
-.archive-item { margin-bottom: 2rem; border-bottom: 1px solid var(--light-gray); padding-bottom: 1rem; }
-.archive-item time { font-family: var(--font-sans); font-size: 0.65rem; text-transform: uppercase; color: var(--mid-gray); }
-.archive-item h2 { font-size: 1.5rem; margin-top: 0.5rem; border-top: none; padding-top: 0; }
