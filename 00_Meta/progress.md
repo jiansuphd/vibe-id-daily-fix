@@ -18,7 +18,7 @@
 - [x] **The "Cyborg" Script**: Created `scripts/cyborg_aggregator.js` to aggregate ID trends, accessibility news, and pedagogical research.
 - [x] **Skill Library**: Established `00_Meta/skills/` and created `AltText_Reviewer.md` SOP.
 - [ ] **Skill Library Expansion**: Build out remaining SOPs (e.g., "Syllabus_Migration").
-- [ ] **GitHub Actions Orchestration**: Automated daily builds and periodic wiki maintenance lints.
+- [x] **GitHub Actions Orchestration**: Automated daily builds at midnight UTC and integrated repo-wide link linting.
 
 ---
 **Backlinks:** [[00_Root_MOC|Root MOC]]

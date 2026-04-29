@@ -30,6 +30,12 @@ Append-only record of wiki operations. Sorted chronologically (oldest to newest)
 - **Workflow**: Updated `.github/workflows/deploy.yml` to support building from the `00_Meta` directory.
 - **Validation**: Verified the build locally and pushed to main.
 
+## [2026-04-29] Automation Orchestration | Configured daily builds and wiki linting.
+- **CI/CD**: Added a `lint` job to `.github/workflows/deploy.yml` that runs before every build.
+- **Automation**: Scheduled daily builds at midnight UTC to ensure the dashboard remains fresh.
+- **Linting**: Improved `00_Meta/scripts/check_links.js` to perform repository-wide link validation.
+- **Scripts**: Integrated linting into `package.json` for easier local and CI execution.
+
 ## [2026-04-29] Dash Usage Fix | Corrected "Day 27" formatting.
 - **Surgical Update**: Fixed dash usage for "Day 27: The "Vibe-to-SOP" (Auto-Documentation)" across 5 files.
 - **Clarification**: Removed spaces around hyphens for compound words/phrases as per instructions, maintaining " - " for em dashes elsewhere.

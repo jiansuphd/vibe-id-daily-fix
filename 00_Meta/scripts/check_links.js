@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const getAllFiles = (dirPath, arrayOfFiles) => {
-  files = fs.readdirSync(dirPath);
+  const files = fs.readdirSync(dirPath);
   arrayOfFiles = arrayOfFiles || [];
   files.forEach(function(file) {
     const fullPath = path.join(dirPath, file);
@@ -11,41 +11,47 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
         arrayOfFiles = getAllFiles(fullPath, arrayOfFiles);
       }
     } else {
-      if (file.endsWith('.md')) {
-        arrayOfFiles.push(fullPath);
-      }
+      arrayOfFiles.push(fullPath);
     }
   });
   return arrayOfFiles;
 };
 
 const rootPath = path.resolve(__dirname, '../../');
-const markdownFiles = getAllFiles(rootPath);
+const allFiles = getAllFiles(rootPath);
 let hasErrors = false;
 
-// Create a set of all valid basenames (without extension) for [[wikilink]] checking
-const validBasenames = new Set(markdownFiles.map(f => path.basename(f, '.md')));
+// Create sets for validation
+const validPaths = new Set(allFiles.map(f => path.relative(rootPath, f).replace(/\\/g, '/')));
+const validBasenames = new Set(allFiles.map(f => path.basename(f, path.extname(f))));
 
 console.log('Linting Vault Links starting from:', rootPath);
 
+// Only lint .md files
+const markdownFiles = allFiles.filter(f => f.endsWith('.md'));
+
 markdownFiles.forEach(file => {
   const content = fs.readFileSync(file, 'utf-8');
-  
   const relativeFile = path.relative(rootPath, file);
   
-  // Find WikiLinks: [[link]] or [[link|text]]
+  // 1. Find WikiLinks: [[link]] or [[link|text]]
   const wikiLinkRegex = /\[\[(.*?)(?:\|.*?)?\]\]/g;
   let match;
   while ((match = wikiLinkRegex.exec(content)) !== null) {
     const linkTarget = match[1];
-    // Simple check: does any file have this basename?
-    if (!validBasenames.has(linkTarget) && !validBasenames.has(path.basename(linkTarget, '.md'))) {
+    const targetBasename = path.basename(linkTarget, path.extname(linkTarget));
+    
+    // Check if it's a valid path or a valid basename
+    if (!validPaths.has(linkTarget) && 
+        !validPaths.has(linkTarget + '.md') && 
+        !validBasenames.has(linkTarget) &&
+        !validBasenames.has(targetBasename)) {
       console.log(`❌ Broken WikiLink in ${relativeFile}: [[${linkTarget}]]`);
       hasErrors = true;
     }
   }
 
-  // Find standard Markdown links: [text](path)
+  // 2. Find standard Markdown links: [text](path)
   const mdLinkRegex = /\[.*?\]\((.*?)\)/g;
   while ((match = mdLinkRegex.exec(content)) !== null) {
     const linkPath = match[1].split('#')[0]; // ignore hash fragments
