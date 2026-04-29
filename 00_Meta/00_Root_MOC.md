@@ -14,7 +14,6 @@ Welcome to the central Map of Content for the **Vibe Coding for IDs** repository
 - **[[Work Plan]]**: The 4-phase roadmap for this repository.
 
 - **[[log|Maintenance Log]]**: Append-only record of wiki operations.
-- **[[Vibe_Coding_Daily_Log DELETE]]**: The master log of daily strategic pointers.
 - **[[ID_Personas|ID Persona Anchors]]**: System prompts for Vibe Coding as a Senior ID or Accessibility Auditor.
 
 ## 📚 References & Archive

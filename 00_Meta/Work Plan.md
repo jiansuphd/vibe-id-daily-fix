@@ -31,15 +31,15 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 *   [x] **First Transmission**: Publish "Issue #001" based on Day 1 of the Vibe Coding Log.
 *   [x] **MOC Update**: Ensure all Maps of Content (00_Root_MOC, etc.) are synchronized with the new structure.
 
-### Phase 2: Content Digitization (Active - Week 1 - 2)
+### Phase 2: Content Digitization (Completed)
 **Goal**: Convert the `Vibe_Coding_Daily_Log.md` into structured daily posts and wiki entries.
 *   [x] **ID Persona Anchors**: Formalize the "Senior ID" and "Accessibility Auditor" personas in `00_Meta`.
 *   [x] **Log-to-Post Pipeline**: Created a script to parse the raw Vibe Coding Daily Log into individual issue files (`10-Issues`) and concept wiki templates (`20_Wiki`).
 *   [x] **Eleventy Fixes**: Fixed GitHub Pages CSS paths by configuring Eleventy's pathPrefix.
-*   [ ] **Wiki Synthesis**: Expand on the generated wiki templates in `20_Wiki` using specific ID frameworks (Bloom's Taxonomy, QM Standards).
-*   [ ] **Branding Selection**: Finalize between **VibeID Daily** or **The Daily VibeID**.
+*   [x] **Wiki Synthesis**: Expand on the generated wiki templates in `20_Wiki` using specific ID frameworks (Bloom's Taxonomy, QM Standards).
+*   [x] **Branding Selection**: Finalize between **VibeID Daily** or **The Daily VibeID**. Decision: **VibeID Daily**
 
-### Phase 3: Automation & Agentic Workflows (Week 3+)
+### Phase 3: Automation & Agentic Workflows (Active - Week 3+)
 **Goal**: Automate the generation of daily pointers and ID-specific audits.
 *   [ ] **The "Cyborg" Script**: Adapt the aggregation script to focus on ID trends, accessibility news, and pedagogical research.
 *   [ ] **Skill Library**: Build out `10_Projects/skills/` with SOPs for "AltText_Reviewer," "Syllabus_Migration," etc.
