@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
   // Passthrough Copy
-  eleventyConfig.addPassthroughCopy("00_Meta/src/css");
+  eleventyConfig.addPassthroughCopy({ "00_Meta/src/css": "css" });
 
   // Filters
   eleventyConfig.addFilter("dateFilter", (dateObj) => {
@@ -25,4 +25,3 @@ module.exports = function(eleventyConfig) {
     }
   };
 };
-

@@ -29,10 +29,8 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm install
-        working-directory: 00_Meta
       - name: Run Wiki Lint
         run: npm run lint
-        working-directory: 00_Meta
 
   build:
     runs-on: ubuntu-latest
@@ -47,14 +45,12 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm install
-        working-directory: 00_Meta
       - name: Build with Eleventy
         run: npm run build
-        working-directory: 00_Meta
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./00_Meta/_site
+          path: ./_site
 
   deploy:
     environment:

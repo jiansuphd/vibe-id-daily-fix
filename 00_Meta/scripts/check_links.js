@@ -17,7 +17,7 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
   return arrayOfFiles;
 };
 
-const rootPath = path.resolve(__dirname, '../../');
+const rootPath = process.cwd();
 const allFiles = getAllFiles(rootPath);
 let hasErrors = false;
 
