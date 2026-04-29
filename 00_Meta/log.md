@@ -30,6 +30,11 @@ Append-only record of wiki operations. Sorted chronologically (oldest to newest)
 - **Workflow**: Updated `.github/workflows/deploy.yml` to support building from the `00_Meta` directory.
 - **Validation**: Verified the build locally and pushed to main.
 
+## [2026-04-29] Dash Usage Fix | Corrected "Day 27" formatting.
+- **Surgical Update**: Fixed dash usage for "Day 27: The "Vibe-to-SOP" (Auto-Documentation)" across 5 files.
+- **Clarification**: Removed spaces around hyphens for compound words/phrases as per instructions, maintaining " - " for em dashes elsewhere.
+- **Files Affected**: `Work Plan.md`, `day-27-...md`, `day-27-...-wiki.md`, `10_Issues_MOC.md`, `20_Wiki_MOC.md`.
+
 ---
 
 **Backlinks:** [[00_Root_MOC|Root MOC]]
