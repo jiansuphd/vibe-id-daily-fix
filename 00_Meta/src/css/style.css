@@ -1,149 +1,362 @@
-:root {
-  --bg-color: #0b0e14;
-  --text-color: #d1d5db;
-  --accent-color: #00f2ff;
-  --secondary-accent: #a6e22e;
-  --border-color: #1f2937;
-  --card-bg: #111827;
-  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
-}
+/* ============================================
+   THE VIBE ID DAILY — New Yorker Style
+   Inspired by newyorker.com design system
+   ============================================ */
 
-* {
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* --- Reset & Base --- */
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+:root {
+  --black:       #000000;
+  --white:       #ffffff;
+  --off-white:   #f8f7f2;
+  --light-gray:  #e8e8e8;
+  --mid-gray:    #999999;
+  --dark-gray:   #333333;
+  --red:         #c00000;       /* The New Yorker's signature red accent */
+  --font-serif:  'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans:   'Helvetica Neue', Arial, sans-serif;
+  --max-width:   1200px;
+  --article-width: 680px;
+}
+
+html {
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: var(--font-mono);
-  line-height: 1.6;
-  padding-top: 60px; /* Space for HUD */
+  background-color: var(--white);
+  color: var(--black);
+  font-family: var(--font-serif);
+  line-height: 1.7;
 }
 
-/* HUD (Heads Up Display) */
-header.hud {
-  position: fixed;
+/* ============================================
+   HEADER / MASTHEAD
+   ============================================ */
+.hud {
+  border-bottom: 3px solid var(--black);
+  padding: 0;
+  background: var(--white);
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
-  height: 60px;
-  background-color: rgba(11, 14, 20, 0.95);
-  border-bottom: 1px solid var(--accent-color);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-  z-index: 1000;
-  backdrop-filter: blur(5px);
+  z-index: 100;
 }
 
+/* Publication name — top center like The New Yorker */
 .hud-logo {
-  font-weight: bold;
-  color: var(--accent-color);
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  text-align: center;
+  padding: 1.2rem 1rem 0.4rem;
+  border-bottom: 1px solid var(--light-gray);
 }
 
+.hud-logo a {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--black);
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* Slim metadata bar below the masthead */
 .hud-metrics {
   display: flex;
-  gap: 20px;
-  font-size: 0.8rem;
-  color: var(--secondary-accent);
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.4rem 1rem;
+  border-bottom: 1px solid var(--black);
 }
 
 .metric {
   display: flex;
-  flex-direction: column;
+  gap: 0.4rem;
+  align-items: center;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mid-gray);
 }
 
 .metric-label {
-  color: #6b7280;
-  text-transform: uppercase;
-  font-size: 0.6rem;
+  color: var(--black);
+  font-weight: 700;
 }
 
-/* Layout */
+/* ============================================
+   LAYOUT GRID
+   ============================================ */
 .dashboard-grid {
+  max-width: var(--max-width);
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 0 20px;
+  grid-template-columns: 1fr 280px;
+  gap: 0;
+  padding: 0 1.5rem;
 }
 
-@media (max-width: 900px) {
-  .dashboard-grid {
-    grid-template-columns: 1fr;
-  }
+/* ============================================
+   MAIN CONTENT
+   ============================================ */
+.content {
+  padding: 3rem 3rem 3rem 0;
+  border-right: 1px solid var(--light-gray);
 }
 
-main.content {
-  background-color: var(--card-bg);
-  border: 1px solid var(--border-color);
-  padding: 30px;
-  border-radius: 4px;
+/* ============================================
+   ARTICLE
+   ============================================ */
+article {
+  max-width: var(--article-width);
 }
 
-aside.sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+/* Article header */
+article > header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+/* Issue label — small caps above headline */
+article > header::before {
+  content: "Latest Transmission";
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 0.75rem;
+}
+
+/* Main headline */
+article h1 {
+  font-family: var(--font-serif);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--black);
+  margin-bottom: 0.75rem;
+}
+
+/* Post meta — date */
+.post-meta {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mid-gray);
+}
+
+/* Section headings inside article */
+article h2 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--black);
+  margin: 2rem 0 0.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--light-gray);
+}
+
+/* First h2 — no top border */
+article h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+/* Body text */
+article p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--dark-gray);
+  margin-bottom: 1.25rem;
+}
+
+/* Drop cap on first paragraph */
+article > p:first-of-type::first-letter,
+article .drop-cap::first-letter {
+  font-size: 4rem;
+  font-weight: 700;
+  float: left;
+  line-height: 0.8;
+  margin: 0.1em 0.08em 0 0;
+  color: var(--black);
+}
+
+/* Lists */
+article ul,
+article ol {
+  margin: 0 0 1.25rem 1.5rem;
+  color: var(--dark-gray);
+}
+
+article li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+/* Blockquote — The New Yorker style pull quote */
+article blockquote {
+  border-left: none;
+  border-top: 2px solid var(--black);
+  border-bottom: 1px solid var(--black);
+  margin: 2rem 0;
+  padding: 1.25rem 0;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--black);
+}
+
+article blockquote p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--black);
+}
+
+article blockquote strong {
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Inline code */
+article code {
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  background: var(--off-white);
+  border: 1px solid var(--light-gray);
+  padding: 0.1em 0.4em;
+  border-radius: 2px;
+  color: var(--dark-gray);
+}
+
+/* Horizontal rule */
+article hr {
+  border: none;
+  border-top: 1px solid var(--light-gray);
+  margin: 2.5rem 0;
+}
+
+/* ============================================
+   SIDEBAR
+   ============================================ */
+.sidebar {
+  padding: 3rem 0 3rem 2rem;
 }
 
 .widget {
-  background-color: var(--card-bg);
-  border: 1px solid var(--border-color);
-  padding: 15px;
-  border-radius: 4px;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.widget:last-child {
+  border-bottom: none;
 }
 
 .widget h3 {
-  font-size: 0.9rem;
-  color: var(--accent-color);
-  margin-bottom: 10px;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 5px;
-}
-
-/* Typography */
-h1, h2, h3 {
-  color: var(--accent-color);
+  color: var(--black);
   margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--black);
 }
 
-h1 { font-size: 1.5rem; }
-h2 { font-size: 1.2rem; border-left: 4px solid var(--secondary-accent); padding-left: 10px; }
+.widget p {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--dark-gray);
+}
 
-a {
-  color: var(--secondary-accent);
+.widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+.widget ul li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--light-gray);
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.widget ul li:last-child {
+  border-bottom: none;
+}
+
+.widget ul li a {
+  color: var(--black);
   text-decoration: none;
+  font-style: italic;
+}
+
+.widget ul li a:hover {
+  text-decoration: underline;
+  color: var(--red);
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+a {
+  color: var(--black);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--red);
 }
 
-.post-meta {
-  font-size: 0.8rem;
-  color: #6b7280;
-  margin-bottom: 20px;
-}
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
 
-/* Markdown Content Styling */
-.content h2 { margin-top: 30px; }
-.content p { margin-bottom: 15px; }
-.content ul { margin-left: 20px; margin-bottom: 15px; }
-.content li { margin-bottom: 5px; }
+  .content {
+    padding: 2rem 0;
+    border-right: none;
+    border-bottom: 1px solid var(--light-gray);
+  }
 
-blockquote {
-  border-left: 2px solid var(--accent-color);
-  padding-left: 15px;
-  margin: 20px 0;
-  font-style: italic;
-  color: #9ca3af;
+  .sidebar {
+    padding: 2rem 0;
+  }
+
+  article h1 {
+    font-size: 1.8rem;
+  }
+
+  .hud-logo a {
+    font-size: 1.6rem;
+  }
+
+  .hud-metrics {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
 }
