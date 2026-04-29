@@ -24,6 +24,12 @@ Append-only record of wiki operations. Sorted chronologically (oldest to newest)
 - **Wiki**: Synthesized pedagogical deep-dives for Phases 1, 2, and 3.
 - **Consistency**: Updated MOCs and README to reflect the final 3-tier architecture.
 
+## [2026-04-29] Style and Deployment Update | Applied New Yorker theme and fixed GitHub Actions.
+- **Style**: Overwrote `00_Meta/src/css/style.css` with the New Yorker style theme.
+- **Standards**: Fixed em dashes to comply with project standards (" - ").
+- **Workflow**: Updated `.github/workflows/deploy.yml` to support building from the `00_Meta` directory.
+- **Validation**: Verified the build locally and pushed to main.
+
 ---
 
 **Backlinks:** [[00_Root_MOC|Root MOC]]
