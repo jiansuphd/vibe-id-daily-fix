@@ -18,7 +18,7 @@ Start with the central hub to explore the wiki:
 ## 🌐 The Daily Pointers Dashboard
 The live site is built with Eleventy and hosted on GitHub Pages. It serves as the front-facing "HUD" for the daily pointers tracked in this repository.
 
-- **URL**: [https://jiansuphd.github.io/dlab_jsu1/](https://jiansuphd.github.io/dlab_jsu1/)
+- **URL**: [https://jiansuphd.github.io/vibe-id-daily/](https://jiansuphd.github.io/vibe-id-daily/)
 - **Vibe**: Modern Tech Dashboard / Terminal.
 
 ---

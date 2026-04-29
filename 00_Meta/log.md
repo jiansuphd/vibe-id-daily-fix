@@ -2,6 +2,8 @@
 
 Append-only record of wiki operations.
 
+## [2026-04-29] Lint and Consistency Check | Updated repository name to vibe-id-daily across config files, converted broken wikilinks to markdown links in 10_Projects_MOC.md, and updated package/lock files.
+
 ## [2026-04-29] Lint and Update | Updated repository URLs to dlab_jsu1, linted vault links, and fixed broken README reference.
 
 ## [2026-04-29] Project Pivot | Realigned focus to "Vibe Coding for IDs".

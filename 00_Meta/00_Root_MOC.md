@@ -2,6 +2,9 @@
 
 Welcome to the central Map of Content for the **Vibe Coding for IDs** repository. This structure is built on the "knowledge compiler" concept.
 
+## 🌐 Quick Links
+- **Live Dashboard:** [https://jiansuphd.github.io/vibe-id-daily/](https://jiansuphd.github.io/vibe-id-daily/)
+
 ## 🗂️ Directories
 - **[[10_Projects_MOC|10_Projects]]**: Raw source materials, snippets, and interactive components.
 - **[[20_Wiki_MOC|20_Wiki]]**: LLM-generated synthesis, indexing, and pedagogical analysis.
@@ -9,7 +12,7 @@ Welcome to the central Map of Content for the **Vibe Coding for IDs** repository
 
 ## 📝 Core Resources
 - **[[Work Plan]]**: The 4-phase roadmap for this repository.
-- **[[Status Update]]**: Current project health and recent activity.
+- **[[
 - **[[log|Maintenance Log]]**: Append-only record of wiki operations.
 - **[[Vibe_Coding_Daily_Log]]**: The master log of daily strategic pointers.
 
