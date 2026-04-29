@@ -7,7 +7,7 @@ title: Dashboard
     {% set latestPost = collections.posts[0] %}
     <article>
       <header>
-        <h1>Latest Data Dump: {{ latestPost.data.title }}</h1>
+        <h1>{{ latestPost.data.title }}</h1>
         <div class="post-meta">
           <time datetime="{{ latestPost.date }}">{{ latestPost.date | dateFilter }}</time>
         </div>
