@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | The Daily Node</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="hud">
+    <div class="hud-logo"><a href="/">Vibe Coding for IDs</a></div>
+    <div class="hud-metrics">
+      <div class="metric">
+        <span class="metric-label">STATUS</span>
+        <span>ONLINE</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label">VERSION</span>
+        <span>2026.04.29</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label">REGION</span>
+        <span>EARTH_01</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="dashboard-grid">
+    {{ content | safe }}
+
+    <aside class="sidebar">
+      <div class="widget">
+        <h3>About</h3>
+        <p>A daily transmission of strategic pointers for Instructional Designers mastering the art of Vibe Coding and systemic automation.</p>
+      </div>
+      <div class="widget">
+        <h3>Archives</h3>
+        <ul>
+          {% for post in collections.posts %}
+            <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>

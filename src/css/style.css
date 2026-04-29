@@ -1,0 +1,149 @@
+:root {
+  --bg-color: #0b0e14;
+  --text-color: #d1d5db;
+  --accent-color: #00f2ff;
+  --secondary-accent: #a6e22e;
+  --border-color: #1f2937;
+  --card-bg: #111827;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-mono);
+  line-height: 1.6;
+  padding-top: 60px; /* Space for HUD */
+}
+
+/* HUD (Heads Up Display) */
+header.hud {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: rgba(11, 14, 20, 0.95);
+  border-bottom: 1px solid var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.hud-logo {
+  font-weight: bold;
+  color: var(--accent-color);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hud-metrics {
+  display: flex;
+  gap: 20px;
+  font-size: 0.8rem;
+  color: var(--secondary-accent);
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+}
+
+.metric-label {
+  color: #6b7280;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+}
+
+/* Layout */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+main.content {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 30px;
+  border-radius: 4px;
+}
+
+aside.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.widget {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.widget h3 {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 5px;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.2rem; border-left: 4px solid var(--secondary-accent); padding-left: 10px; }
+
+a {
+  color: var(--secondary-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.post-meta {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+/* Markdown Content Styling */
+.content h2 { margin-top: 30px; }
+.content p { margin-bottom: 15px; }
+.content ul { margin-left: 20px; margin-bottom: 15px; }
+.content li { margin-bottom: 5px; }
+
+blockquote {
+  border-left: 2px solid var(--accent-color);
+  padding-left: 15px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #9ca3af;
+}
