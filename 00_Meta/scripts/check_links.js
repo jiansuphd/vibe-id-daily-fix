@@ -19,17 +19,19 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
   return arrayOfFiles;
 };
 
-const markdownFiles = getAllFiles(__dirname);
+const rootPath = path.resolve(__dirname, '../../');
+const markdownFiles = getAllFiles(rootPath);
 let hasErrors = false;
 
 // Create a set of all valid basenames (without extension) for [[wikilink]] checking
 const validBasenames = new Set(markdownFiles.map(f => path.basename(f, '.md')));
-const validFiles = new Set(markdownFiles.map(f => path.relative(__dirname, f).replace(/\\/g, '/')));
 
-console.log('Linting Vault Links...');
+console.log('Linting Vault Links starting from:', rootPath);
 
 markdownFiles.forEach(file => {
   const content = fs.readFileSync(file, 'utf-8');
+  
+  const relativeFile = path.relative(rootPath, file);
   
   // Find WikiLinks: [[link]] or [[link|text]]
   const wikiLinkRegex = /\[\[(.*?)(?:\|.*?)?\]\]/g;
@@ -37,9 +39,8 @@ markdownFiles.forEach(file => {
   while ((match = wikiLinkRegex.exec(content)) !== null) {
     const linkTarget = match[1];
     // Simple check: does any file have this basename?
-    // Note: this is a basic check. Obsidian resolves wikilinks by basename.
     if (!validBasenames.has(linkTarget) && !validBasenames.has(path.basename(linkTarget, '.md'))) {
-      console.log(`❌ Broken WikiLink in ${path.relative(__dirname, file)}: [[${linkTarget}]]`);
+      console.log(`❌ Broken WikiLink in ${relativeFile}: [[${linkTarget}]]`);
       hasErrors = true;
     }
   }
@@ -48,11 +49,12 @@ markdownFiles.forEach(file => {
   const mdLinkRegex = /\[.*?\]\((.*?)\)/g;
   while ((match = mdLinkRegex.exec(content)) !== null) {
     const linkPath = match[1].split('#')[0]; // ignore hash fragments
-    if (linkPath.startsWith('http') || linkPath.startsWith('mailto:') || linkPath === '') continue;
+    if (linkPath.startsWith('http') || linkPath.startsWith('mailto:') || linkPath === '' || linkPath.startsWith('//')) continue;
     
+    // Resolve relative to the file it's in
     const absoluteLinkPath = path.resolve(path.dirname(file), linkPath);
     if (!fs.existsSync(absoluteLinkPath)) {
-      console.log(`❌ Broken Markdown Link in ${path.relative(__dirname, file)}: (${linkPath})`);
+      console.log(`❌ Broken Markdown Link in ${relativeFile}: (${linkPath})`);
       hasErrors = true;
     }
   }
@@ -60,4 +62,6 @@ markdownFiles.forEach(file => {
 
 if (!hasErrors) {
   console.log('✅ All links are valid!');
+} else {
+  process.exit(1);
 }
