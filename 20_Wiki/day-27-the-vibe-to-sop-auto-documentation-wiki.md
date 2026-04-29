@@ -1,9 +1,9 @@
 ---
-title: "Day 27: The "Vibe - to - SOP" (Auto - Documentation) - Concept Wiki"
+title: "Day 27: The "Vibe-to-SOP" (Auto-Documentation) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 27: The "Vibe - to - SOP" (Auto - Documentation) - Pedagogical Synthesis
+# Day 27: The "Vibe-to-SOP" (Auto-Documentation) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

@@ -40,6 +40,24 @@ body {
 }
 
 /* ============================================
+   SKIP LINK
+   ============================================ */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--black);
+  color: var(--white);
+  padding: 10px;
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ============================================
    HEADER / MASTHEAD
    ============================================ */
 .hud {

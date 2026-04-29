@@ -28,7 +28,7 @@ A Map of Content for the raw daily VibeID Daily pointers and automated trends.
 - **[[day-24-the-pedagogical-alignment-agent-blooms-auditor|Day 24: The Pedagogical Alignment Agent]]**
 - **[[day-25-the-synthetic-sme-context-injection|Day 25: The Synthetic SME]]**
 - **[[day-26-the-accessibility-unit-test-failure-injection|Day 26: The Accessibility Unit Test]]**
-- **[[day-27-the-vibe-to-sop-auto-documentation|Day 27: The Vibe-to-SOP]]**
+- **[[day-27-the-vibe-to-sop-auto-documentation|Day 27: The "Vibe-to-SOP" (Auto-Documentation)]]**
 - **[[day-28-the-ergonomic-flow-persona|Day 28: The Ergonomic Flow Persona]]**
 - **[[day-29-the-legacy-to-logic-pipeline-syllabus-migration|Day 29: The Legacy-to-Logic Pipeline]]**
 - **[[day-30-the-course-specific-memory-anchor-notebooklm-bridge|Day 30: The Course-Specific Memory Anchor]]**

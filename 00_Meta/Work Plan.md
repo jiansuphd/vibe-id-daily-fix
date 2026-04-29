@@ -216,7 +216,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 - **ID Application:** Ensures your automated audit tools are actually working before running them on production Canvas pages.
 - **Action:** gemini "I have added a hidden accessibility error to this code. Use the AltText_Reviewer skill to identify it."
 
-### Day 27: The "Vibe - to - SOP" (Auto - Documentation)
+### Day 27: The "Vibe-to-SOP" (Auto-Documentation)
 
 - **The Pointer:** Convert a "Successful Vibe" session into a Standard Operating Procedure (SOP) immediately.
 - **The Details:** Use the /path command to save the step - by - step logic of a win as a new skill in 02_Skills.

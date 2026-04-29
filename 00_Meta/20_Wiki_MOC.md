@@ -32,7 +32,7 @@ A pedagogical synthesis of all VibeID Daily pointers, organized by developmental
 - [[day-24-the-pedagogical-alignment-agent-blooms-auditor-wiki|Day 24: The Pedagogical Alignment Agent]]
 - [[day-25-the-synthetic-sme-context-injection-wiki|Day 25: The Synthetic SME]]
 - [[day-26-the-accessibility-unit-test-failure-injection-wiki|Day 26: The Accessibility Unit Test]]
-- [[day-27-the-vibe-to-sop-auto-documentation-wiki|Day 27: The Vibe-to-SOP]]
+- [[day-27-the-vibe-to-sop-auto-documentation-wiki|Day 27: The "Vibe-to-SOP" (Auto-Documentation)]]
 - [[day-28-the-ergonomic-flow-persona-wiki|Day 28: The Ergonomic Flow Persona]]
 - [[day-29-the-legacy-to-logic-pipeline-syllabus-migration-wiki|Day 29: The Legacy-to-Logic Pipeline]]
 - [[day-30-the-course-specific-memory-anchor-notebooklm-bridge-wiki|Day 30: The Course-Specific Memory Anchor]]

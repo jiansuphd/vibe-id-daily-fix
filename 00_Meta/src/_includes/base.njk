@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <header class="hud">
     <div class="hud-logo"><a href="{{ '/' | url }}">VibeID Daily</a></div>
     <div class="hud-metrics">
@@ -31,13 +32,17 @@
     <aside class="sidebar">
       <div class="widget">
         <h3>About</h3>
-        <p>A daily transmission of strategic pointers for Instructional Designers mastering the art of Vibe Coding and systemic automation.</p>
+        <p>The Vibe ID Daily - Tracking the journey from Natural Language to Systemic Automation.</p>
+      </div>
+      <div class="widget">
+        <h3>Repository</h3>
+        <p><a href="https://github.com/jiansuphd/vibe-id-daily">GitHub Repo</a></p>
       </div>
       <div class="widget">
         <h3>Archives</h3>
         <ul>
           {% for post in collections.posts %}
-            <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+            <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
