@@ -90,6 +90,16 @@ body {
   line-height: 1;
 }
 
+.hud-tagline {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--mid-gray);
+  margin-top: 0.5rem;
+  text-transform: none;
+}
+
 .hud-metrics {
   display: flex;
   justify-content: center;
