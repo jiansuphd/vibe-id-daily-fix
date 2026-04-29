@@ -27,12 +27,14 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm install
+        working-directory: 00_Meta
       - name: Build with Eleventy
         run: npm run build
+        working-directory: 00_Meta
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: ./00_Meta/_site
 
   deploy:
     environment:

@@ -1,5 +1,5 @@
 /* ============================================
-   THE VIBE ID DAILY — New Yorker Style
+   THE VIBE ID DAILY - New Yorker Style
    Inspired by newyorker.com design system
    ============================================ */
 
@@ -51,7 +51,7 @@ body {
   z-index: 100;
 }
 
-/* Publication name — top center like The New Yorker */
+/* Publication name - top center like The New Yorker */
 .hud-logo {
   text-align: center;
   padding: 1.2rem 1rem 0.4rem;
@@ -127,7 +127,7 @@ article > header {
   border-bottom: 1px solid var(--light-gray);
 }
 
-/* Issue label — small caps above headline */
+/* Issue label - small caps above headline */
 article > header::before {
   content: "Latest Transmission";
   display: block;
@@ -151,7 +151,7 @@ article h1 {
   margin-bottom: 0.75rem;
 }
 
-/* Post meta — date */
+/* Post meta - date */
 .post-meta {
   font-family: var(--font-sans);
   font-size: 0.7rem;
@@ -172,7 +172,7 @@ article h2 {
   border-top: 1px solid var(--light-gray);
 }
 
-/* First h2 — no top border */
+/* First h2 - no top border */
 article h2:first-of-type {
   border-top: none;
   padding-top: 0;
@@ -209,7 +209,7 @@ article li {
   line-height: 1.7;
 }
 
-/* Blockquote — The New Yorker style pull quote */
+/* Blockquote - The New Yorker style pull quote */
 article blockquote {
   border-left: none;
   border-top: 2px solid var(--black);
