@@ -41,7 +41,8 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 ### Phase 3: Automation & Agentic Workflows (Active)
 **Goal**: Automate the generation of daily pointers and ID-specific audits.
 *   [x] **The "Cyborg" Script**: Created `00_Meta/scripts/cyborg_aggregator.js` to aggregate ID trends.
-*   [ ] **Skill Library**: Build out `00_Meta/skills/` with SOPs (e.g., `AltText_Reviewer.md`, `Syllabus_Migration.md`).
+*   [x] **Skill Library**: Built out `00_Meta/skills/` with initial SOP: `AltText_Reviewer.md`.
+*   [ ] **Skill Library Expansion**: Add `Syllabus_Migration.md` and others.
 *   [ ] **GitHub Actions Orchestration**: Automated daily builds and periodic wiki maintenance lints.
 
 ### Phase 4: Scale & Sustainability

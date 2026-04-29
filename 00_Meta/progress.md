@@ -16,7 +16,8 @@
 
 ## Phase 3: Automation & Agentic Workflows (Active)
 - [x] **The "Cyborg" Script**: Created `scripts/cyborg_aggregator.js` to aggregate ID trends, accessibility news, and pedagogical research.
-- [ ] **Skill Library**: Build out `10_Projects/skills/` with SOPs for "AltText_Reviewer," "Syllabus_Migration," etc.
+- [x] **Skill Library**: Established `00_Meta/skills/` and created `AltText_Reviewer.md` SOP.
+- [ ] **Skill Library Expansion**: Build out remaining SOPs (e.g., "Syllabus_Migration").
 - [ ] **GitHub Actions Orchestration**: Automated daily builds and periodic wiki maintenance lints.
 
 ---

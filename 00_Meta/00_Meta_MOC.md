@@ -12,6 +12,9 @@ Central index for repository configuration, scripts, and automation assets.
 - **[[src/_includes/base.njk|Base Template]]**: Main dashboard layout and branding.
 - **[[src/css/style.css|Dashboard CSS]]**: Modern terminal aesthetic styles.
 
+## 📚 Skill Library (SOPs)
+- **[[skills/AltText_Reviewer|AltText Reviewer]]**: Accessibility audit workflow for images.
+
 ## 🗺️ Project Management
 - **[[Work Plan]]**: Current roadmap and active phase checklist.
 - **[[progress|Progress Log]]**: Detailed history of CLI operations.
