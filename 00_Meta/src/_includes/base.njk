@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} | The Daily Node</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 <body>
   <header class="hud">
-    <div class="hud-logo"><a href="/">Vibe Coding for IDs</a></div>
+    <div class="hud-logo"><a href="{{ '/' | url }}">Vibe Coding for IDs</a></div>
     <div class="hud-metrics">
       <div class="metric">
         <span class="metric-label">STATUS</span>

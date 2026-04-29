@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
   // Passthrough Copy
-  eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("00_Meta/src/css");
 
   // Filters
   eleventyConfig.addFilter("dateFilter", (dateObj) => {
@@ -13,12 +13,13 @@ module.exports = function(eleventyConfig) {
 
   // Collections
   eleventyConfig.addCollection("posts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/posts/*.md").reverse();
+    return collectionApi.getFilteredByGlob("00_Meta/src/posts/*.md").reverse();
   });
 
   return {
+    pathPrefix: "/vibe-id-daily/",
     dir: {
-      input: "src",
+      input: "00_Meta/src",
       output: "_site",
       includes: "_includes"
     }

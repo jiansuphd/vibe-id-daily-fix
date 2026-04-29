@@ -15,7 +15,7 @@ Welcome to the central Map of Content for the **Vibe Coding for IDs** repository
 
 - **[[log|Maintenance Log]]**: Append-only record of wiki operations.
 - **[[Vibe_Coding_Daily_Log]]**: The master log of daily strategic pointers.
-- **[[ID_Personas|ID Persona Anchors]]**: System prompts for Vibe Coding as an ID Manager or Accessibility Auditor.
+- **[[ID_Personas|ID Persona Anchors]]**: System prompts for Vibe Coding as a Senior ID or Accessibility Auditor.
 
 ## 📚 References & Archive
 - **[[GEMINI.md]]**: The AI's "Mission Briefing" and brand standards.
