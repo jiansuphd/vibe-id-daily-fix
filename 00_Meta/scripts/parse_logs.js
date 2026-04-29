@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const logFilePath = path.join(__dirname, '..', '00_Meta', 'Vibe_Coding_Daily_Log.md');
-const issuesDir = path.join(__dirname, '..', '10-Issues');
-const wikiDir = path.join(__dirname, '..', '20_Wiki');
+const logFilePath = path.join(__dirname, '..', 'Vibe_Coding_Daily_Log.md');
+const issuesDir = path.join(__dirname, '..', '..', '10_Issues');
+const wikiDir = path.join(__dirname, '..', '..', '20_Wiki');
 
 // Ensure directories exist
 if (!fs.existsSync(issuesDir)) fs.mkdirSync(issuesDir, { recursive: true });

@@ -1,19 +1,28 @@
 # Maintenance Log
 
-Append-only record of wiki operations.
+Append-only record of wiki operations. Sorted chronologically (oldest to newest).
 
-## [2026-04-29] Lint and Consistency Check | Updated repository name to vibe-id-daily across config files, converted broken wikilinks to markdown links in 10_Projects_MOC.md, and updated package/lock files.
-
-## [2026-04-29] Lint and Update | Updated repository URLs to dlab_jsu1, linted vault links, and fixed broken README reference.
+---
 
 ## [2026-04-29] Project Pivot | Realigned focus to "Vibe Coding for IDs".
 - Overhauled README, .gitignore, and Work Plan.
-- Surgically removed all legacy project source files and documentation (Probability Lab, Alchemy Formula, Banker's Hot Seat, Emoji World Simulator, Evolution of Trust).
+- Surgically removed all legacy project source files and documentation.
 - Synchronized MOCs (Root, Projects, Wiki) to reflect a clean ID-focused state.
 - Created Vibe Coding Intro wiki page.
 - Updated Eleventy dashboard with ID-focused content.
-- Finalized MOC Synchronization (Root, Projects, Wiki) for the ID Terminal.
 - Updated project progress roadmap and status trackers.
+
+## [2026-04-29] Lint and Update | Fixes and URL updates.
+- Updated repository URLs to `dlab_jsu1` (initial rename).
+- Linted vault links and fixed broken README reference.
+
+## [2026-04-29] Structural Reorganization | Finalizing VibeID Daily.
+- **Branding**: Officially selected **VibeID Daily**.
+- **Renaming**: Renamed `10-Issues` to `10_Issues`.
+- **Consolidation**: Moved `src/` and `scripts/` into `00_Meta/`.
+- **Pipeline**: Created `scripts/cyborg_aggregator.js` and updated `scripts/parse_logs.js`.
+- **Wiki**: Synthesized pedagogical deep-dives for Phases 1, 2, and 3.
+- **Consistency**: Updated MOCs and README to reflect the final 3-tier architecture.
 
 ---
 

@@ -1,21 +1,22 @@
-# Vibe Coding for IDs: Daily Strategic Pointers
+# VibeID Daily: Strategic Pointers for Instructional Designers
 
-Welcome to the **Vibe Coding for IDs** repository. This is a dedicated environment for exploring the intersection of Instructional Design (ID) and AI-assisted development (Vibe Coding).
+Welcome to **VibeID Daily**. This repository is a dedicated environment for exploring the intersection of Instructional Design (ID) and AI-assisted development (Vibe Coding).
 
 ## 🚀 Mission
 To provide daily, actionable strategic pointers and logic logs for Instructional Designers transitioning from natural language workflows to systemic automation.
 
 ## 🧠 The Knowledge Compiler Concept
-This repository is maintained as a **compounding, searchable wiki**. 
-- **10_Projects**: Raw source materials, snippets, and interactive components.
-- **20_Wiki**: LLM-generated synthesis, indexing, and pedagogical analysis.
-- **00_Meta**: The "Brain" of the operation—containing roadmaps, status updates, and Maps of Content (MOCs).
+This repository is maintained as a **compounding, searchable wiki**, organized to distinguish between raw inputs and analytical synthesis.
+
+- **10_Issues**: Raw daily pointers and automated aggregations. Each file represents a single "Issue" or "Transmission".
+- **20_Wiki**: LLM-generated pedagogical synthesis and analysis of the daily pointers.
+- **00_Meta**: The "Brain" of the operation. Contains roadmaps, status updates, Maps of Content (MOCs), automation scripts, and the dashboard source (`src/`).
 
 ## 🗺️ Navigation
-Start with the central hub to explore the wiki:
-👉 **[00_Root_MOC.md](00_Meta/00_Root_MOC.md)**
+Start with the central hub to explore the vault:
+👉 **[[00_Root_MOC|00_Root MOC]]**
 
-## 🌐 The Daily Pointers Dashboard
+## 🌐 The VibeID Daily Dashboard
 The live site is built with Eleventy and hosted on GitHub Pages. It serves as the front-facing "HUD" for the daily pointers tracked in this repository.
 
 - **URL**: [https://jiansuphd.github.io/vibe-id-daily/](https://jiansuphd.github.io/vibe-id-daily/)

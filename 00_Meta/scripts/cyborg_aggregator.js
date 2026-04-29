@@ -11,7 +11,7 @@ const FEEDS = [
   { name: 'Faculty Focus', url: 'https://www.facultyfocus.com/feed/' }
 ];
 
-const ISSUES_DIR = path.join(__dirname, '..', '10-Issues');
+const ISSUES_DIR = path.join(__dirname, '..', '..', '10_Issues');
 
 async function aggregateFeeds() {
   console.log('🤖 Cyborg Script Initiated: Scanning for ID Trends, Accessibility, and Pedagogical Research...');
