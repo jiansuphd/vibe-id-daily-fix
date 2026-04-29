@@ -1,5 +1,5 @@
 ---
-title: "Day 27: The "Vibe-to-SOP" (Auto-Documentation) - Concept Wiki"
+title: 'Day 27: The "Vibe-to-SOP" (Auto-Documentation) - Concept Wiki'
 tags: [wiki, concept, instructional-design]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Day 27: The "Vibe-to-SOP" (Auto-Documentation)"
+title: 'Day 27: The "Vibe-to-SOP" (Auto-Documentation)'
 date: 2026-04-26
 tags: [issue, vibe-coding]
 ---
