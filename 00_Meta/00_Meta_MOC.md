@@ -15,6 +15,8 @@ Central index for repository configuration, scripts, and automation assets.
 ## 📚 Skill Library (SOPs)
 - **[[skills/AltText_Reviewer|AltText Reviewer]]**: Accessibility audit workflow for images.
 - **[[skills/Syllabus_Migration|Syllabus Migration]]**: Document-to-modular course transformation.
+- **[[skills/Bloom_Taxonomy_Aligner|Bloom Taxonomy Aligner]]**: Pedagogical depth & objective audit.
+- **[[skills/Synthetic_Student_Simulator|Synthetic Student Simulator]]**: UX testing for course instructions.
 
 ## 🗺️ Project Management
 - **[[Work Plan]]**: Current roadmap and active phase checklist.
