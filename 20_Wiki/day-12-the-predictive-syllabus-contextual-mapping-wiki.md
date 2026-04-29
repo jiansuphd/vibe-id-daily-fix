@@ -1,9 +1,9 @@
 ---
-title: "Day 12: The "Predictive Syllabus" (Contextual Mapping) - Concept Wiki"
+title: "The "Predictive Syllabus" (Contextual Mapping) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 12: The "Predictive Syllabus" (Contextual Mapping) - Pedagogical Synthesis
+# The "Predictive Syllabus" (Contextual Mapping) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

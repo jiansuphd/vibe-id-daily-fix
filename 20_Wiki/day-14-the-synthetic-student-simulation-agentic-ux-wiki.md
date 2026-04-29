@@ -1,9 +1,9 @@
 ---
-title: "Day 14: The "Synthetic Student" Simulation (Agentic UX) - Concept Wiki"
+title: "The "Synthetic Student" Simulation (Agentic UX) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 14: The "Synthetic Student" Simulation (Agentic UX) - Pedagogical Synthesis
+# The "Synthetic Student" Simulation (Agentic UX) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

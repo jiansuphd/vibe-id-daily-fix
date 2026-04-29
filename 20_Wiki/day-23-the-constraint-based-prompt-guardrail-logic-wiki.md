@@ -1,9 +1,9 @@
 ---
-title: "Day 23: The "Constraint - Based Prompt" (Guardrail Logic) - Concept Wiki"
+title: "The "Constraint-Based Prompt" (Guardrail Logic) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 23: The "Constraint - Based Prompt" (Guardrail Logic) - Pedagogical Synthesis
+# The "Constraint-Based Prompt" (Guardrail Logic) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

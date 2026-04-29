@@ -44,26 +44,29 @@ while ((match = entryRegex.exec(content)) !== null) {
   issueDate.setDate(baseDate.getDate() - (30 - dayNum));
   const dateString = issueDate.toISOString().split('T')[0];
 
+  // Calculation for title stripping and hyphenation fix
+  const cleanTitle = titleLine.replace(/^Day \d+: /, '').replace(/ - /g, '-');
+  
   const issueContent = `---
-title: "Day ${dayNum}: ${titleLine}"
+title: "${cleanTitle}"
 date: ${dateString}
 tags: [issue, vibe-coding]
 ---
 
-# Day ${dayNum}: ${titleLine}
+# ${cleanTitle}
 
-${body}
+${body.replace(/ - /g, '-')}
 
 ---
 **Backlink:** [[10_Issues_MOC|Issues MOC]]
 `;
 
   const wikiContent = `---
-title: "Day ${dayNum}: ${titleLine} - Concept Wiki"
+title: "${cleanTitle} - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day ${dayNum}: ${titleLine} - Pedagogical Synthesis
+# ${cleanTitle} - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

@@ -1,9 +1,9 @@
 ---
-title: "Day 25: The "Synthetic SME" (Context Injection) - Concept Wiki"
+title: "The "Synthetic SME" (Context Injection) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 25: The "Synthetic SME" (Context Injection) - Pedagogical Synthesis
+# The "Synthetic SME" (Context Injection) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

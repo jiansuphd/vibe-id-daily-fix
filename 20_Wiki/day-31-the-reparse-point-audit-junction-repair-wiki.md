@@ -1,9 +1,9 @@
 ---
-title: "Day 31: The "Reparse Point" Audit (Junction Repair) - Concept Wiki"
+title: "The "Reparse Point" Audit (Junction Repair) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 31: The "Reparse Point" Audit (Junction Repair) - Pedagogical Synthesis
+# The "Reparse Point" Audit (Junction Repair) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

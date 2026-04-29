@@ -1,9 +1,9 @@
 ---
-title: "Day 4: "Prompt Injection" for Standards - Concept Wiki"
+title: ""Prompt Injection" for Standards - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 4: "Prompt Injection" for Standards - Pedagogical Synthesis
+# "Prompt Injection" for Standards - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

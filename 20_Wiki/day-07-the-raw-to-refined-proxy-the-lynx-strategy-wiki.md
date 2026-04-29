@@ -1,9 +1,9 @@
 ---
-title: "Day 7: The "Raw - to - Refined" Proxy (The Lynx Strategy) - Concept Wiki"
+title: "The "Raw-to-Refined" Proxy (The Lynx Strategy) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 7: The "Raw - to - Refined" Proxy (The Lynx Strategy) - Pedagogical Synthesis
+# The "Raw-to-Refined" Proxy (The Lynx Strategy) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

@@ -1,9 +1,9 @@
 ---
-title: "Day 1: The "Entry Point" Protocol (AGENTS.md / GEMINI.md) - Concept Wiki"
+title: "The "Entry Point" Protocol (AGENTS.md / GEMINI.md) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 1: The "Entry Point" Protocol (AGENTS.md / GEMINI.md) - Pedagogical Synthesis
+# The "Entry Point" Protocol (AGENTS.md / GEMINI.md) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

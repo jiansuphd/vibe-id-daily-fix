@@ -1,9 +1,9 @@
 ---
-title: "Day 8: The "Modular Skill" (Atomic SOPs) - Concept Wiki"
+title: "The "Modular Skill" (Atomic SOPs) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 8: The "Modular Skill" (Atomic SOPs) - Pedagogical Synthesis
+# The "Modular Skill" (Atomic SOPs) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

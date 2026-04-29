@@ -1,9 +1,9 @@
 ---
-title: "Day 24: The "Pedagogical Alignment Agent" (Bloom's Auditor) - Concept Wiki"
+title: "The "Pedagogical Alignment Agent" (Bloom's Auditor) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 24: The "Pedagogical Alignment Agent" (Bloom's Auditor) - Pedagogical Synthesis
+# The "Pedagogical Alignment Agent" (Bloom's Auditor) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

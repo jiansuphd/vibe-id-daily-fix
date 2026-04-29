@@ -1,9 +1,9 @@
 ---
-title: "Day 9: The "Semantic Cross - Check" (Alignment) - Concept Wiki"
+title: "The "Semantic Cross-Check" (Alignment) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 9: The "Semantic Cross - Check" (Alignment) - Pedagogical Synthesis
+# The "Semantic Cross-Check" (Alignment) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

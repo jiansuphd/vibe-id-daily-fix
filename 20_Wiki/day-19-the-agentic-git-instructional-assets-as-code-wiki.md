@@ -1,9 +1,9 @@
 ---
-title: "Day 19: The "Agentic Git" (Instructional Assets as Code) - Concept Wiki"
+title: "The "Agentic Git" (Instructional Assets as Code) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 19: The "Agentic Git" (Instructional Assets as Code) - Pedagogical Synthesis
+# The "Agentic Git" (Instructional Assets as Code) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

@@ -1,9 +1,9 @@
 ---
-title: "Day 11: Prompt Injection for Brand Compliance - Concept Wiki"
+title: "Prompt Injection for Brand Compliance - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 11: Prompt Injection for Brand Compliance - Pedagogical Synthesis
+# Prompt Injection for Brand Compliance - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

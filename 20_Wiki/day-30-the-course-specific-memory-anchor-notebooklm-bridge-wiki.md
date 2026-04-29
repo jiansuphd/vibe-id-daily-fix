@@ -1,9 +1,9 @@
 ---
-title: "Day 30: The "Course - Specific Memory" Anchor (NotebookLM Bridge) - Concept Wiki"
+title: "The "Course-Specific Memory" Anchor (NotebookLM Bridge) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 30: The "Course - Specific Memory" Anchor (NotebookLM Bridge) - Pedagogical Synthesis
+# The "Course-Specific Memory" Anchor (NotebookLM Bridge) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

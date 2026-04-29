@@ -17,7 +17,9 @@
 ## Phase 3: Automation & Agentic Workflows (Active)
 - [x] **The "Cyborg" Script**: Created `scripts/cyborg_aggregator.js` to aggregate ID trends, accessibility news, and pedagogical research.
 - [x] **Skill Library**: Established `00_Meta/skills/` and created `AltText_Reviewer.md` SOP.
-- [x] **Skill Library Expansion**: Built out `Bloom_Taxonomy_Aligner.md` and `Synthetic_Student_Simulator.md` SOPs for pedagogical and UX auditing.
+- [x] **Skill Library Expansion**: Built out `Bloom_Taxonomy_Aligner.md`, `Synthetic_Student_Simulator.md`, and `Prompt_Injection_Auditor.md` SOPs.
+- [x] **UI Refinement (v4.0)**: Replaced high-contrast terminal theme with "Midnight Pro" (Deep Slate/Violet) and simplified transmission titles.
+- [x] **Home Page Feed**: Updated the landing page to show a scrollable feed of the latest 5 transmissions with full content.
 - [x] **GitHub Actions Orchestration**: Automated daily builds at midnight UTC and integrated repo-wide link linting.
 
 ---

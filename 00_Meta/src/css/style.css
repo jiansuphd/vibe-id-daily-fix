@@ -1,10 +1,10 @@
 /* ============================================
-   THE VIBE ID DAILY - Modern Tech Dashboard
-   v3.0 - Terminal Aesthetic / Cyber-Tech
+   THE VIBE ID DAILY - Midnight Pro
+   v4.0 - Sophisticated Tech Aesthetic
    ============================================ */
 
 /* --- Google Fonts --- */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
 
 /* --- Reset & Base --- */
 *, *::before, *::after {
@@ -14,21 +14,22 @@
 }
 
 :root {
-  --bg:          #0b0e14;
-  --panel:       #111827;
-  --panel-light: #1f2937;
-  --text:        #d1d5db;
-  --text-dim:    #9ca3af;
-  --accent:      #00f2ff;       /* Cyber Cyan */
-  --secondary:   #a6e22e;       /* Terminal Green */
-  --danger:      #ff453a;
-  --border:      #1f2937;
-  --glow:        rgba(0, 242, 255, 0.15);
+  --bg:            #020617;     /* Deepest Midnight */
+  --panel:         #0f172a;     /* Slate Blue */
+  --panel-light:   #1e293b;
+  --text:          #e2e8f0;
+  --text-dim:      #94a3b8;
+  --accent:        #8b5cf6;     /* Electric Violet */
+  --accent-light:  #a78bfa;
+  --cyan:          #06b6d4;
+  --border:        #334155;
+  --border-dim:    #1e293b;
+  --glow:          rgba(139, 92, 246, 0.2);
   
-  --font-mono:   'JetBrains Mono', monospace;
-  --font-sans:   'Inter', -apple-system, sans-serif;
+  --font-mono:     'JetBrains Mono', monospace;
+  --font-sans:     'Inter', -apple-system, sans-serif;
   
-  --max-width:   1200px;
+  --max-width:     1200px;
 }
 
 html {
@@ -42,7 +43,6 @@ body {
   color: var(--text);
   font-family: var(--font-sans);
   line-height: 1.6;
-  padding-bottom: 50px;
 }
 
 /* ============================================
@@ -71,61 +71,53 @@ body {
    HEADER / HUD
    ============================================ */
 .hud {
-  background: rgba(11, 14, 20, 0.85);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--accent);
+  background: rgba(2, 6, 23, 0.8);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
 }
 
 .hud-logo {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 1rem 1.5rem;
+  padding: 1.25rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.hide-mobile {
-  display: block;
-}
-
-@media (max-width: 600px) {
-  .hide-mobile {
-    display: none;
-  }
-}
-
 .hud-logo a {
   font-family: var(--font-mono);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--text);
   text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 0 0 10px var(--glow);
+  letter-spacing: 1px;
+}
+
+.hud-logo a span {
+  color: var(--accent);
 }
 
 .hud-tagline {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   color: var(--text-dim);
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .hud-metrics {
-  background: var(--panel);
+  background: rgba(15, 23, 42, 0.5);
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  padding: 0.4rem 1rem;
-  border-top: 1px solid var(--border);
+  gap: 3rem;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid var(--border-dim);
+  border-bottom: 1px solid var(--border-dim);
 }
 
 .metric {
@@ -133,8 +125,9 @@ body {
   gap: 0.5rem;
   align-items: center;
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .metric-label {
@@ -142,8 +135,8 @@ body {
 }
 
 .metric span:not(.metric-label) {
-  color: var(--secondary);
-  font-weight: 700;
+  color: var(--cyan);
+  font-weight: 600;
 }
 
 /* ============================================
@@ -151,62 +144,46 @@ body {
    ============================================ */
 .dashboard-grid {
   max-width: var(--max-width);
-  margin: 2rem auto;
+  margin: 3rem auto;
   display: grid;
   grid-template-columns: 1fr 300px;
-  gap: 2rem;
+  gap: 3rem;
   padding: 0 1.5rem;
 }
 
 /* ============================================
-   CONTENT PANELS
+   CONTENT FEED
    ============================================ */
 .content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 article {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 2.5rem;
   position: relative;
-  overflow: hidden;
-}
-
-/* Accent corner */
-article::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 40px;
-  height: 40px;
-  background: linear-gradient(45deg, transparent 50%, var(--accent) 50%);
 }
 
 article > header {
   margin-bottom: 2rem;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 1.5rem;
 }
 
 article > header::before {
-  content: "TERMINAL_INPUT://";
+  content: "// TRANSMISSION";
   font-family: var(--font-mono);
   font-size: 0.7rem;
-  color: var(--secondary);
-  margin-bottom: 0.5rem;
+  color: var(--accent);
+  letter-spacing: 2px;
+  margin-bottom: 0.75rem;
   display: block;
 }
 
 article h1 {
-  font-family: var(--font-mono);
-  font-size: 2rem;
-  color: var(--accent);
-  line-height: 1.2;
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
 article h1 a {
@@ -214,50 +191,78 @@ article h1 a {
   text-decoration: none;
 }
 
+article h1 a:hover {
+  color: var(--accent-light);
+}
+
 .post-meta {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: var(--text-dim);
   margin-top: 1rem;
-}
-
-/* Typography inside article */
-article h2 {
-  font-family: var(--font-mono);
-  font-size: 1.25rem;
-  color: var(--secondary);
-  margin: 2.5rem 0 1rem;
   display: flex;
+  gap: 1rem;
   align-items: center;
-  gap: 0.75rem;
 }
 
-article h2::before {
-  content: '>';
-  color: var(--accent);
+.post-meta time {
+  background: var(--panel);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
 }
 
-article p {
-  margin-bottom: 1.25rem;
+/* Content Typography */
+.prose {
+  color: var(--text-dim);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.prose h2 {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: var(--cyan);
+  letter-spacing: 2px;
+  margin: 3rem 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-dim);
+}
+
+.prose p {
+  margin-bottom: 1.5rem;
+}
+
+.prose strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.prose blockquote {
+  border-left: 2px solid var(--accent);
+  padding: 1rem 2rem;
+  background: rgba(139, 92, 246, 0.05);
+  margin: 2.5rem 0;
+  font-style: italic;
   color: var(--text);
 }
 
-article blockquote {
-  background: rgba(0, 242, 255, 0.05);
-  border-left: 4px solid var(--accent);
-  margin: 2rem 0;
-  padding: 1.5rem;
-  font-style: italic;
-  color: var(--accent);
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  background: var(--panel);
+  color: var(--cyan);
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-dim);
 }
 
-article code {
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
-  background: var(--panel-light);
-  color: var(--secondary);
-  padding: 0.2rem 0.4rem;
-  border-radius: 3px;
+.prose ul {
+  margin: 0 0 2rem 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.75rem;
 }
 
 /* ============================================
@@ -266,35 +271,32 @@ article code {
 .sidebar {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .widget {
   background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 1.5rem;
+  border: 1px solid var(--border-dim);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: border-color 0.3s ease;
+}
+
+.widget:hover {
+  border-color: var(--border);
 }
 
 .widget h3 {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
+  letter-spacing: 2px;
   color: var(--accent);
-  margin-bottom: 1.25rem;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.widget h3::after {
-  content: '[OK]';
-  color: var(--secondary);
+  margin-bottom: 1.5rem;
 }
 
 .widget p {
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   color: var(--text-dim);
 }
 
@@ -303,45 +305,45 @@ article code {
 }
 
 .widget ul li {
-  margin-bottom: 0.75rem;
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
 }
 
 .widget ul li a {
-  color: var(--text);
+  color: var(--text-dim);
   text-decoration: none;
-  display: flex;
-  gap: 0.5rem;
-}
-
-.widget ul li a::before {
-  content: '·';
-  color: var(--accent);
+  display: block;
+  transition: color 0.2s ease;
 }
 
 .widget ul li a:hover {
-  color: var(--accent);
-  transform: translateX(4px);
-  transition: transform 0.2s ease;
+  color: var(--text);
 }
 
 /* ============================================
-   ARCHIVE
+   ARCHIVE PAGE
    ============================================ */
 .archive-list {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .archive-item {
   background: var(--panel);
-  border: 1px solid var(--border);
-  padding: 1.5rem;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid var(--border-dim);
+  transition: all 0.3s ease;
+}
+
+.archive-item:hover {
+  border-color: var(--accent);
+  background: rgba(139, 92, 246, 0.05);
+  transform: translateY(-2px);
 }
 
 .archive-item time {
@@ -351,24 +353,21 @@ article code {
 }
 
 .archive-item h2 {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
   margin: 0;
-  border: none;
-  padding: 0;
 }
 
 /* ============================================
    GLOBAL LINKS
    ============================================ */
 a {
-  color: var(--secondary);
+  color: var(--cyan);
   text-decoration: none;
-  transition: all 0.2s ease;
 }
 
 a:hover {
-  color: var(--accent);
-  text-shadow: 0 0 8px var(--glow);
+  text-decoration: underline;
 }
 
 /* ============================================
@@ -377,5 +376,10 @@ a:hover {
 @media (max-width: 900px) {
   .dashboard-grid {
     grid-template-columns: 1fr;
+    margin-top: 1rem;
+  }
+  
+  article h1 {
+    font-size: 1.75rem;
   }
 }

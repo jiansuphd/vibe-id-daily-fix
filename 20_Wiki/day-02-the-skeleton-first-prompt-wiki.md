@@ -1,9 +1,9 @@
 ---
-title: "Day 2: The "Skeleton - First" Prompt - Concept Wiki"
+title: "The "Skeleton-First" Prompt - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 2: The "Skeleton - First" Prompt - Pedagogical Synthesis
+# The "Skeleton-First" Prompt - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

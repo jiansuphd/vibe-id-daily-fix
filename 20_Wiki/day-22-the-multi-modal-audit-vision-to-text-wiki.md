@@ -1,9 +1,9 @@
 ---
-title: "Day 22: The "Multi - Modal Audit" (Vision - to - Text) - Concept Wiki"
+title: "The "Multi-Modal Audit" (Vision-to-Text) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 22: The "Multi - Modal Audit" (Vision - to - Text) - Pedagogical Synthesis
+# The "Multi-Modal Audit" (Vision-to-Text) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

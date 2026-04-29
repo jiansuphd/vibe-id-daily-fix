@@ -1,10 +1,10 @@
 ---
-title: "Day 1: The "Entry Point" Protocol (AGENTS.md / GEMINI.md)"
+title: "The "Entry Point" Protocol (AGENTS.md / GEMINI.md)"
 date: 2026-03-31
 tags: [issue, vibe-coding]
 ---
 
-# Day 1: The "Entry Point" Protocol (AGENTS.md / GEMINI.md)
+# The "Entry Point" Protocol (AGENTS.md / GEMINI.md)
 
 - **The Pointer:** Create a GEMINI.md file in your root folder to act as the AI's "Mission Briefing."
 - **The Details:** The CLI automatically searches for this. By placing your ID Persona and UT Brand Standards here, you eliminate "Prompt Drift."

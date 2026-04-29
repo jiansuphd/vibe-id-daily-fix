@@ -1,9 +1,9 @@
 ---
-title: "Day 13: The "Accessibility Regression" Protocol - Concept Wiki"
+title: "The "Accessibility Regression" Protocol - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 13: The "Accessibility Regression" Protocol - Pedagogical Synthesis
+# The "Accessibility Regression" Protocol - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

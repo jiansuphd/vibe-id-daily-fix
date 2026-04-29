@@ -1,9 +1,9 @@
 ---
-title: "Day 16: The "Environment - Aware" Pre - Flight Check - Concept Wiki"
+title: "The "Environment-Aware" Pre-Flight Check - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 16: The "Environment - Aware" Pre - Flight Check - Pedagogical Synthesis
+# The "Environment-Aware" Pre-Flight Check - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

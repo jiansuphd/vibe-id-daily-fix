@@ -1,9 +1,9 @@
 ---
-title: "Day 10: The "Cognitive Load Audit" (Density Check) - Concept Wiki"
+title: "The "Cognitive Load Audit" (Density Check) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 10: The "Cognitive Load Audit" (Density Check) - Pedagogical Synthesis
+# The "Cognitive Load Audit" (Density Check) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

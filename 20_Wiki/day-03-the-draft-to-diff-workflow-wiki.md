@@ -1,9 +1,9 @@
 ---
-title: "Day 3: The "Draft - to - Diff" Workflow - Concept Wiki"
+title: "The "Draft-to-Diff" Workflow - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 3: The "Draft - to - Diff" Workflow - Pedagogical Synthesis
+# The "Draft-to-Diff" Workflow - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

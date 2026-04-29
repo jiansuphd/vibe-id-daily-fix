@@ -1,9 +1,9 @@
 ---
-title: "Day 20: The "Semantic Bridge" (Historical Knowledge Extraction) - Concept Wiki"
+title: "The "Semantic Bridge" (Historical Knowledge Extraction) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 20: The "Semantic Bridge" (Historical Knowledge Extraction) - Pedagogical Synthesis
+# The "Semantic Bridge" (Historical Knowledge Extraction) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

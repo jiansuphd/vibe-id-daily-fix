@@ -1,9 +1,9 @@
 ---
-title: "Day 29: The "Legacy - to - Logic" Pipeline (Syllabus Migration) - Concept Wiki"
+title: "The "Legacy-to-Logic" Pipeline (Syllabus Migration) - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 29: The "Legacy - to - Logic" Pipeline (Syllabus Migration) - Pedagogical Synthesis
+# The "Legacy-to-Logic" Pipeline (Syllabus Migration) - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

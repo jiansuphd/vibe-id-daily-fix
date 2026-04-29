@@ -1,9 +1,9 @@
 ---
-title: "Day 15: The "Automated Indexing" Habit - Concept Wiki"
+title: "The "Automated Indexing" Habit - Concept Wiki"
 tags: [wiki, concept, instructional-design]
 ---
 
-# Day 15: The "Automated Indexing" Habit - Pedagogical Synthesis
+# The "Automated Indexing" Habit - Pedagogical Synthesis
 
 *This is an auto-generated wiki page for the concepts discussed in the daily pointer.*
 

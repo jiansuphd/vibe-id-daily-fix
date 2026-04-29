@@ -9,6 +9,8 @@ layout: base.njk
         <time datetime="{{ date }}">{{ date | dateFilter }}</time>
       </div>
     </header>
-    {{ content | safe }}
+    <div class="prose">
+      {{ content | safe }}
+    </div>
   </article>
 </main>
