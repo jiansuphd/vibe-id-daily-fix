@@ -27,4 +27,4 @@ Use the MCP server to update your local vault's MOC based on the daily pointers 
 - **Validation:** Always verify that the link generated in the external vault is valid.
 
 ---
-**Backlinks:** [Root MOC](../../root_MOC.md) | [Meta MOC](../_meta_MOC.md)
+**Backlinks:** [Root MOC](../../root_MOC.md) | [Meta MOC](../00_meta_MOC.md)

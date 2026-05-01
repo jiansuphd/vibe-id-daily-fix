@@ -36,4 +36,4 @@ Prompt Text: [Prompt]
 - Quarterly audit of the Skill Library using the Prompt_Injection_Auditor workflow.
 
 ---
-**Backlinks:** [Root MOC](../../root_MOC.md) | [Meta MOC](../_meta_MOC.md)
+**Backlinks:** [Root MOC](../../root_MOC.md) | [Meta MOC](../00_meta_MOC.md)

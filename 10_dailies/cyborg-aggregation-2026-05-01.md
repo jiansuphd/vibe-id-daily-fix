@@ -24,7 +24,7 @@ layout: post.njk
 - **Insight:** Deconstructing static syllabi into JSON-based instructional data objects.
 
 ## 🛠️ Machine Action
-- [ ] Cross-reference "Agentic Workflows" with current [Skill Library](../00_meta/_meta_MOC.md).
+- [ ] Cross-reference "Agentic Workflows" with current [Skill Library](../00_meta/00_meta_MOC.md).
 - [ ] Audit latest LMS CSS against WCAG 2.2 focus standards.
 
 ---

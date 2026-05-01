@@ -37,4 +37,4 @@ gemini "Analyze the attached syllabus.
 - Update mapping logic as course Learning Objectives evolve.
 
 ---
-**Backlinks:** [Root MOC](../../root_MOC.md) | [Meta MOC](../_meta_MOC.md)
+**Backlinks:** [Root MOC](../../root_MOC.md) | [Meta MOC](../00_meta_MOC.md)
