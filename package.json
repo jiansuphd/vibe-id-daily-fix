@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
-    "parse": "node 00_meta/scripts/parse_dailies.js",
+    "parse": "node _meta/scripts/parse_dailies.js",
+    "cyborg": "node _meta/scripts/cyborg_aggregator.js",
     "prebuild": "npm run parse"
   },
   "keywords": [

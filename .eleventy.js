@@ -2,7 +2,7 @@ const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
   // Passthrough Copy
-  eleventyConfig.addPassthroughCopy("00_meta/src/css");
+  eleventyConfig.addPassthroughCopy("_meta/src/css");
 
   // Filters
   eleventyConfig.addFilter("readableDate", (dateObj) => {
@@ -26,12 +26,12 @@ module.exports = function(eleventyConfig) {
 
   // Collection: Latest Posts (reversed)
   eleventyConfig.addCollection("posts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("00_meta/src/posts/*.md").reverse();
+    return collectionApi.getFilteredByGlob("_meta/src/posts/*.md").reverse();
   });
 
   return {
     dir: {
-      input: "00_meta/src",
+      input: "_meta/src",
       output: "_site",
       includes: "_includes",
       data: "_data"

@@ -9,8 +9,8 @@ To provide daily, actionable strategic pointers and logic logs for Instructional
 This repository is maintained as a **compounding, searchable wiki**, organized to distinguish between raw inputs and analytical synthesis.
 
 - **10_Issues**: Raw daily pointers and automated aggregations. Each file represents a single "Issue" or "Transmission".
-- **20_Wiki**: LLM-generated pedagogical synthesis and analysis of the daily pointers.
-- **00_Meta**: The "Brain" of the operation. Contains roadmaps, status updates, Maps of Content (MOCs), automation scripts, and the dashboard source (`src/`).
+- **_wiki**: LLM-generated pedagogical synthesis and analysis of the daily pointers.
+- **_meta**: The "Brain" of the operation. Contains roadmaps, status updates, Maps of Content (MOCs), automation scripts, and the dashboard source (`src/`).
 
 ## 🗺️ Navigation
 Start with the central hub to explore the vault:
