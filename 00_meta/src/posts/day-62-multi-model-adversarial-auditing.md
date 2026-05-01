@@ -1,9 +1,9 @@
 ---
-title: "day 62 multi model adversarial auditing"
 layout: post.njk
+title: "Day 62: Multi-Model Adversarial Auditing"
+date: 2026-05-31
+tags: [issue, vibe-coding]
 ---
-
-# Day 62: Multi-Model Adversarial Auditing
 
 - **The Pointer:** Use two different AI models to audit the same course design and synthesize their disagreements into an improvement plan.
 - **The Details:** Model A praises; Model B critiques. Where they disagree is where the real design risk lives. The audit extracts that disagreement as a structured delta and turns it into a revision checklist.

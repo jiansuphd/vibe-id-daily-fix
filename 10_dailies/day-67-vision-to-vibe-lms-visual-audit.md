@@ -1,3 +1,8 @@
+---
+title: "Day 67: Vision-to-Vibe (Layout Audit)"
+date: 2026-06-05
+tags: [issue, vibe-coding]
+---
 # Day 67: Vision-to-Vibe (Layout Audit)
 
 - **The Pointer:** Use a vision-capable AI to audit an LMS course shell screenshot for visual hierarchy, color contrast, and brand compliance.

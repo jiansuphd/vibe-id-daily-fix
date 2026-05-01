@@ -1,3 +1,8 @@
+---
+title: "Day 47: The 'Prompt Versioning' Protocol (Instructional Reliability)"
+date: 2026-05-16
+tags: [issue, vibe-coding]
+---
 # Day 47: The 'Prompt Versioning' Protocol (Instructional Reliability)
 
 - **The Pointer:** Treat prompts like code: version them, test them, and document regressions.

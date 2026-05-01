@@ -1,3 +1,8 @@
+---
+title: "Day 99: The 'Mission Critical' Review"
+date: 2026-07-07
+tags: [issue, vibe-coding]
+---
 # Day 99: The 'Mission Critical' Review
 
 - **The Pointer:** Identify the 5 tools, 3 habits, and 1 mindset shift that were most mission-critical across the 100-day journey.

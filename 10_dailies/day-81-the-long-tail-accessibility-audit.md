@@ -1,3 +1,8 @@
+---
+title: "Day 81: The 'Long-Tail' Accessibility Audit"
+date: 2026-06-19
+tags: [issue, vibe-coding]
+---
 # Day 81: The 'Long-Tail' Accessibility Audit
 
 - **The Pointer:** Audit the 20% of course content that contains 80% of accessibility risk — the edge cases that standard tools miss.

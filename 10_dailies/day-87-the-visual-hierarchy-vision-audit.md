@@ -1,3 +1,8 @@
+---
+title: "Day 87: The 'Visual Hierarchy' Vision Audit"
+date: 2026-06-25
+tags: [issue, vibe-coding]
+---
 # Day 87: The 'Visual Hierarchy' Vision Audit
 
 - **The Pointer:** Submit any course page screenshot to a vision model and receive a visual hierarchy audit with redesign recommendations.

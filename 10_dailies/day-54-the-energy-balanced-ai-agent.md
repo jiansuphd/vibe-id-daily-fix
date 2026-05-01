@@ -1,3 +1,8 @@
+---
+title: "Day 54: The 'Efficiency-Balanced' AI Agent (Logic Balancing)"
+date: 2026-05-23
+tags: [issue, vibe-coding]
+---
 # Day 54: The 'Efficiency-Balanced' AI Agent (Logic Balancing)
 
 - **The Pointer:** Design an agentic workflow that front-loads low-cognitive tasks and protects peak-energy windows for high-value creative work.

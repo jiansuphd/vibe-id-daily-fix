@@ -1,9 +1,9 @@
 ---
-title: "day 93 voice command optimization zsh aliases"
 layout: post.njk
+title: "Day 93: Voice-Command Optimization (Zsh Aliases)"
+date: 2026-07-01
+tags: [issue, vibe-coding]
 ---
-
-# Day 93: Voice-Command Optimization (Zsh Aliases)
 
 - **The Pointer:** Expand the voice command vocabulary by adding 5 new contextual aliases derived from the most-repeated phrases in your weekly work.
 - **The Details:** Voice commands only save effort if they are natural. Track the phrases you say most often while working, then create zsh functions that map those phrases to complex commands.

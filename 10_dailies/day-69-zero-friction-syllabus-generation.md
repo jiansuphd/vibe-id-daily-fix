@@ -1,3 +1,8 @@
+---
+title: "Day 69: Zero-Friction Synthesis"
+date: 2026-06-07
+tags: [issue, vibe-coding]
+---
 # Day 69: Zero-Friction Synthesis
 
 - **The Pointer:** Generate a compliant, complete syllabus from a course blueprint in under 5 minutes using a policy-aware system prompt.

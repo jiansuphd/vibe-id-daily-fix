@@ -1,3 +1,8 @@
+---
+title: "Day 72: Agentic 'Help Desk' Simulation"
+date: 2026-06-10
+tags: [issue, vibe-coding]
+---
 # Day 72: Agentic 'Help Desk' Simulation
 
 - **The Pointer:** Simulate a faculty help desk interaction to pre-build FAQ responses and identify the top 10 support gaps before a course launches.

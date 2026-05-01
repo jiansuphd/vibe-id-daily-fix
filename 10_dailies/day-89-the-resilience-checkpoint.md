@@ -1,3 +1,8 @@
+---
+title: "Day 89: Automation-First Refactoring"
+date: 2026-06-27
+tags: [issue, vibe-coding]
+---
 # Day 89: Automation-First Refactoring
 
 - **The Pointer:** Run a mid-Phase 7 resilience check: are your systems sustainable, or are there fragility points that will break under institutional pressure?

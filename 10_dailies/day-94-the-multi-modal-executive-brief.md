@@ -1,3 +1,8 @@
+---
+title: "Day 94: The 'Multi-Modal' Executive Brief"
+date: 2026-07-02
+tags: [issue, vibe-coding]
+---
 # Day 94: The 'Multi-Modal' Executive Brief
 
 - **The Pointer:** Generate a multi-modal executive brief — text summary, visual timeline, and KPI dashboard — from your vault in one pipeline.

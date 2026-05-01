@@ -1,3 +1,8 @@
+---
+title: "Day 59: The 'Zero-Keystroke' Ideal (Voice-to-Course)"
+date: 2026-05-28
+tags: [issue, vibe-coding]
+---
 # Day 59: The 'Zero-Keystroke' Ideal (Voice-to-Course)
 
 - **The Pointer:** Prototype a fully voice-driven course authoring pipeline: speak → transcribe → structure → export to LMS.

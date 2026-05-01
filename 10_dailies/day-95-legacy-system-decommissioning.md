@@ -1,3 +1,8 @@
+---
+title: "Day 95: Legacy System Decommissioning"
+date: 2026-07-03
+tags: [issue, vibe-coding]
+---
 # Day 95: Legacy System Decommissioning
 
 - **The Pointer:** Formally decommission tools, workflows, and files that have been superseded — creating an archive rather than abandoning them.

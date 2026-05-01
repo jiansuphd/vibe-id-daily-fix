@@ -1,3 +1,8 @@
+---
+title: "Day 61: The 'Self-Healing' Syllabus (Integrity Logic)"
+date: 2026-05-30
+tags: [issue, vibe-coding]
+---
 # Day 61: The 'Self-Healing' Syllabus (Integrity Logic)
 
 - **The Pointer:** Build an agent that detects internal contradictions in a syllabus — mismatched dates, objectives not mapped to assessments, grade weights that do not sum to 100%.

@@ -1,3 +1,8 @@
+---
+title: "Day 50: The 'Half-Century' System Audit"
+date: 2026-05-19
+tags: [issue, vibe-coding]
+---
 # Day 50: The 'Half-Century' System Audit
 
 - **The Pointer:** At the halfway point, audit not just your outputs but your system: tools, habits, personas, and workflows.

@@ -1,9 +1,9 @@
 ---
-title: "day 82 as aware task prioritization"
 layout: post.njk
+title: "Day 82: Energy-Aware Task Prioritization (Dynamic)"
+date: 2026-06-20
+tags: [issue, vibe-coding]
 ---
-
-# Day 82: Energy-Aware Task Prioritization (Dynamic)
 
 - **The Pointer:** An Agent that re-orders your tasks based on your current project bandwidth.
 - **The Details:** Static task lists assume constant capacity. A dynamic system asks about current bandwidth signals and re-ranks accordingly — protecting cognitive work for high-focus periods and deferring it during low-energy windows.

@@ -1,9 +1,9 @@
 ---
-title: "day 84 the agentic peer reviewer sme persona"
 layout: post.njk
+title: "Day 84: The 'Agentic Peer Reviewer' (SME Persona)"
+date: 2026-06-22
+tags: [issue, vibe-coding]
 ---
-
-# Day 84: The 'Agentic Peer Reviewer' (SME Persona)
 
 - **The Pointer:** Instantiate an AI persona trained on a specific SME's published work and have it review your course content as that expert would.
 - **The Details:** A well-prompted SME persona catches discipline-specific errors that a generic AI cannot. The persona reads the SME's papers, then audits your course for content accuracy and disciplinary alignment.

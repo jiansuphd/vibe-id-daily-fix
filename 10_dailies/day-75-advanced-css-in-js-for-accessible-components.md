@@ -1,3 +1,8 @@
+---
+title: "Day 75: Advanced Component Generation"
+date: 2026-06-13
+tags: [issue, vibe-coding]
+---
 # Day 75: Advanced Component Generation
 
 - **The Pointer:** Generate accessible, theme-aware UI components for course shells that pass WCAG AA contrast checks automatically.

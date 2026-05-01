@@ -1,9 +1,9 @@
 ---
-title: "day 64 semantic data migration 2025 to 2026"
 layout: post.njk
+title: "Day 64: Semantic Data Migration (2025 to 2026)"
+date: 2026-06-02
+tags: [issue, vibe-coding]
 ---
-
-# Day 64: Semantic Data Migration (2025 to 2026)
 
 - **The Pointer:** Migrate course content from one academic year to the next using semantic diffing — not search-and-replace.
 - **The Details:** Date-stamped content drifts. An agent that reads the 2025 version and the 2026 context (new policies, new tools, new regulations) generates a semantic diff and a migration plan.

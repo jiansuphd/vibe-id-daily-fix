@@ -1,9 +1,9 @@
 ---
-title: "day 80 the deans briefing generator"
 layout: post.njk
+title: "Day 80: The 'Strategic Briefing' Generator"
+date: 2026-06-18
+tags: [issue, vibe-coding]
 ---
-
-# Day 80: The 'Strategic Briefing' Generator
 
 - **The Pointer:** Auto-generate a one-page executive briefing on course development progress from your vault and project logs.
 - **The Details:** Leadership needs a different view of your work than you need. An agent that reads the progress log, distills the KPIs, and outputs a 250-word executive summary bridges the communication layer.

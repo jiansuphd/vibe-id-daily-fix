@@ -1,3 +1,8 @@
+---
+title: "Day 64: Semantic Data Migration (2025 to 2026)"
+date: 2026-06-02
+tags: [issue, vibe-coding]
+---
 # Day 64: Semantic Data Migration (2025 to 2026)
 
 - **The Pointer:** Migrate course content from one academic year to the next using semantic diffing — not search-and-replace.

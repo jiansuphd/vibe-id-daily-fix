@@ -1,3 +1,8 @@
+---
+title: "Day 80: The 'Strategic Briefing' Generator"
+date: 2026-06-18
+tags: [issue, vibe-coding]
+---
 # Day 80: The 'Strategic Briefing' Generator
 
 - **The Pointer:** Auto-generate a one-page executive briefing on course development progress from your vault and project logs.

@@ -1,3 +1,8 @@
+---
+title: "Day 57: 'Translation Reliability' (EN/ZH Semantic Check)"
+date: 2026-05-26
+tags: [issue, vibe-coding]
+---
 # Day 57: 'Translation Reliability' (EN/ZH Semantic Check)
 
 - **The Pointer:** Verify that English course content translated to Simplified Chinese preserves the original semantic intent — not just literal meaning.

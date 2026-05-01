@@ -1,9 +1,9 @@
 ---
-title: "day 42 the accessibility debt calculator"
 layout: post.njk
+title: "Day 42: The 'Accessibility Debt' Calculator"
+date: 2026-05-11
+tags: [issue, vibe-coding]
 ---
-
-# Day 42: The 'Accessibility Debt' Calculator
 
 - **The Pointer:** Quantify the accessibility gap in a course or program before proposing remediation.
 - **The Details:** Use a structured rubric (WCAG 2.2, Section 508, UDL) to estimate the 'debt' — hours, cost, risk — of every non-conformant element. Makes the business case for upfront accessibility.

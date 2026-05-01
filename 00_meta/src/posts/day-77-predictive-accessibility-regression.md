@@ -1,9 +1,9 @@
 ---
-title: "day 77 predictive accessibility regression"
 layout: post.njk
+title: "Day 77: Predictive Accessibility Regression"
+date: 2026-06-15
+tags: [issue, vibe-coding]
 ---
-
-# Day 77: Predictive Accessibility Regression
 
 - **The Pointer:** Predict which course updates are most likely to introduce accessibility regressions before they are made.
 - **The Details:** Accessibility debt is often introduced through 'innocent' content updates: adding a table, embedding a video, updating a PDF. An agent can flag high-risk edit types before the editor touches the file.

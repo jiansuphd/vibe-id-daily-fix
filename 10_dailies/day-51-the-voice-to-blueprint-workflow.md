@@ -1,3 +1,8 @@
+---
+title: "Day 51: The 'Voice-to-Blueprint' Workflow (Low-Strokes Design)"
+date: 2026-05-20
+tags: [issue, vibe-coding]
+---
 # Day 51: The 'Voice-to-Blueprint' Workflow (Low-Strokes Design)
 
 - **The Pointer:** Dictate a course concept verbally and have an agent transform the spoken transcript into a structured course blueprint.

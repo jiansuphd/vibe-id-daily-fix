@@ -1,3 +1,8 @@
+---
+title: "Day 63: The 'SME Voice' Fine-Tuning"
+date: 2026-06-01
+tags: [issue, vibe-coding]
+---
 # Day 63: The 'SME Voice' Fine-Tuning
 
 - **The Pointer:** Calibrate an AI agent to write in the SME's voice by providing writing samples before content generation.

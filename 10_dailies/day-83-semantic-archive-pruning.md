@@ -1,3 +1,8 @@
+---
+title: "Day 83: Semantic Archive Pruning"
+date: 2026-06-21
+tags: [issue, vibe-coding]
+---
 # Day 83: Semantic Archive Pruning
 
 - **The Pointer:** Prune the vault's archive by semantic similarity — identifying duplicate or near-duplicate entries that dilute the knowledge base.

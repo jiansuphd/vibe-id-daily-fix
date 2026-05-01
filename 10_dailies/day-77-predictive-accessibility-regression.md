@@ -1,3 +1,8 @@
+---
+title: "Day 77: Predictive Accessibility Regression"
+date: 2026-06-15
+tags: [issue, vibe-coding]
+---
 # Day 77: Predictive Accessibility Regression
 
 - **The Pointer:** Predict which course updates are most likely to introduce accessibility regressions before they are made.

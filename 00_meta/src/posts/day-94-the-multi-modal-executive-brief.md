@@ -1,9 +1,9 @@
 ---
-title: "day 94 the multi modal executive brief"
 layout: post.njk
+title: "Day 94: The 'Multi-Modal' Executive Brief"
+date: 2026-07-02
+tags: [issue, vibe-coding]
 ---
-
-# Day 94: The 'Multi-Modal' Executive Brief
 
 - **The Pointer:** Generate a multi-modal executive brief — text summary, visual timeline, and KPI dashboard — from your vault in one pipeline.
 - **The Details:** Executives consume information in multiple modalities. A pipeline that reads your progress log and outputs text + Mermaid timeline + metric table covers all three channels simultaneously.

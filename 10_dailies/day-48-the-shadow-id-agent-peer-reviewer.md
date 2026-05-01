@@ -1,3 +1,8 @@
+---
+title: "Day 48: The 'Shadow ID' Agent (Peer Reviewer)"
+date: 2026-05-17
+tags: [issue, vibe-coding]
+---
 # Day 48: The 'Shadow ID' Agent (Peer Reviewer)
 
 - **The Pointer:** Create a 'shadow' AI agent that acts as a second instructional designer — reviewing your work from a different pedagogical stance.

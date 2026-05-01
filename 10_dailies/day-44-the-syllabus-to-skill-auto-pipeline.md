@@ -1,3 +1,8 @@
+---
+title: "Day 44: The 'Syllabus-to-Skill' Auto-Pipeline"
+date: 2026-05-13
+tags: [issue, vibe-coding]
+---
 # Day 44: The 'Syllabus-to-Skill' Auto-Pipeline
 
 - **The Pointer:** Auto-extract measurable skills from any syllabus and map them to a competency framework.

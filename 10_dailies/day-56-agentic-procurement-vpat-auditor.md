@@ -1,3 +1,8 @@
+---
+title: "Day 56: 'Agentic Procurement' (VPAT Auditor)"
+date: 2026-05-25
+tags: [issue, vibe-coding]
+---
 # Day 56: 'Agentic Procurement' (VPAT Auditor)
 
 - **The Pointer:** Use an agent to parse a vendor VPAT and extract every 'Partially Supports' or 'Does Not Support' row — turning a legal document into a risk matrix.

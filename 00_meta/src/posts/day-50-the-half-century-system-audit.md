@@ -1,9 +1,9 @@
 ---
-title: "day 50 the half century system audit"
 layout: post.njk
+title: "Day 50: The 'Half-Century' System Audit"
+date: 2026-05-19
+tags: [issue, vibe-coding]
 ---
-
-# Day 50: The 'Half-Century' System Audit
 
 - **The Pointer:** At the halfway point, audit not just your outputs but your system: tools, habits, personas, and workflows.
 - **The Details:** Day 50 is a meta-milestone. The audit asks: which tools are load-bearing? Which habits are cargo cult? Which prompts are stale? The output is a pruned, reinforced system for the second half.

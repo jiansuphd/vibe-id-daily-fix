@@ -1,3 +1,8 @@
+---
+title: "Day 52: The 'Compliance Crawler' (Institutional Scrutiny)"
+date: 2026-05-21
+tags: [issue, vibe-coding]
+---
 # Day 52: The 'Compliance Crawler' (Institutional Scrutiny)
 
 - **The Pointer:** Build an agent that crawls a course shell for policy non-compliance: syllabus requirements, grade policies, academic integrity statements.

@@ -1,9 +1,9 @@
 ---
-title: "day 47 the prompt versioning protocol"
 layout: post.njk
+title: "Day 47: The 'Prompt Versioning' Protocol (Instructional Reliability)"
+date: 2026-05-16
+tags: [issue, vibe-coding]
 ---
-
-# Day 47: The 'Prompt Versioning' Protocol (Instructional Reliability)
 
 - **The Pointer:** Treat prompts like code: version them, test them, and document regressions.
 - **The Details:** A prompt that works today may drift when a model is updated. Version your system prompts in git, run them against a fixed test case, and log output changes as 'prompt regressions'.

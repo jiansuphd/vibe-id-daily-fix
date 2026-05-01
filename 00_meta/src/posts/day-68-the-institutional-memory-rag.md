@@ -1,9 +1,9 @@
 ---
-title: "day 68 the institutional memory rag"
 layout: post.njk
+title: "Day 68: The 'Institutional Memory' RAG"
+date: 2026-06-06
+tags: [issue, vibe-coding]
 ---
-
-# Day 68: The 'Institutional Memory' RAG
 
 - **The Pointer:** Build a Retrieval-Augmented Generation index over your entire vault so any prompt can draw on past decisions without manual context injection.
 - **The Details:** RAG turns your vault into a queryable memory. Every decision log, SOP, and skill file becomes a retrievable fact. The agent answers 'what did we decide about X?' from the corpus, not from hallucination.

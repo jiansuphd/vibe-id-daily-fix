@@ -1,3 +1,8 @@
+---
+title: "Day 43: Inter-Departmental Knowledge Graph (Scaling Context)"
+date: 2026-05-12
+tags: [issue, vibe-coding]
+---
 # Day 43: Inter-Departmental Knowledge Graph (Scaling Context)
 
 - **The Pointer:** Map connections between courses, departments, and skills across the institution using an AI-generated knowledge graph.

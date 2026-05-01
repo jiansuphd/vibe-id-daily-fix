@@ -1,3 +1,8 @@
+---
+title: "Day 55: The 'Generative Grading' Rubric-Bot"
+date: 2026-05-24
+tags: [issue, vibe-coding]
+---
 # Day 55: The 'Generative Grading' Rubric-Bot
 
 - **The Pointer:** Generate a detailed, criterion-referenced rubric from a learning objective and assignment description in under 60 seconds.

@@ -1,3 +1,8 @@
+---
+title: "Day 53: The 'Cross-Platform Mirroring' (Canvas-to-Rise)"
+date: 2026-05-22
+tags: [issue, vibe-coding]
+---
 # Day 53: The 'Cross-Platform Mirroring' (Canvas-to-Rise)
 
 - **The Pointer:** Maintain structural parity between a Canvas course shell and a Rise 360 course — using an agent to detect drift.

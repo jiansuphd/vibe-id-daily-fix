@@ -1,3 +1,8 @@
+---
+title: "Day 86: Cross-Contextual Learning ()"
+date: 2026-06-24
+tags: [issue, vibe-coding]
+---
 # Day 86: Cross-Contextual Learning ()
 
 - **The Pointer:** Build cross-contextual prompts that apply accessibility certification (accessibility certification) knowledge to ID practice and vice versa.

@@ -1,3 +1,8 @@
+---
+title: "Day 74: Voice-to-JSON Course Blueprints"
+date: 2026-06-12
+tags: [issue, vibe-coding]
+---
 # Day 74: Voice-to-JSON Course Blueprints
 
 - **The Pointer:** Extend the voice pipeline to produce valid Rise 360 JSON — not just Markdown — enabling direct LMS import from a spoken draft.

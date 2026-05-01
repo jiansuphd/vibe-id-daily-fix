@@ -1,9 +1,9 @@
 ---
-title: "day 92 the keystroke economy review"
 layout: post.njk
+title: "Day 92: The 'Keystroke Economy' Review"
+date: 2026-06-30
+tags: [issue, vibe-coding]
 ---
-
-# Day 92: The 'Keystroke Economy' Review
 
 - **The Pointer:** Run the quarterly review of the keystroke economy: which automations are paying off, which tasks have crept back to manual, and where the next 10x efficiency gain lives.
 - **The Details:** Automation ROI decays if not maintained. New tasks appear, existing automations break, and manual processes re-emerge. The quarterly review resets the baseline and identifies the next highest-value target.

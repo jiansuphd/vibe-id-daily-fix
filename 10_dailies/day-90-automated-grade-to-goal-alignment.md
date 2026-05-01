@@ -1,3 +1,8 @@
+---
+title: "Day 90: Automated Grade-to-Goal Alignment"
+date: 2026-06-28
+tags: [issue, vibe-coding]
+---
 # Day 90: Automated Grade-to-Goal Alignment
 
 - **The Pointer:** Automatically verify that every grade weight in the gradebook aligns to a course goal — with no orphaned assessments.

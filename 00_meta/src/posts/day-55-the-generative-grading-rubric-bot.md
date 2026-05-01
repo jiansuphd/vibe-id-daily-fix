@@ -1,9 +1,9 @@
 ---
-title: "day 55 the generative grading rubric bot"
 layout: post.njk
+title: "Day 55: The 'Generative Grading' Rubric-Bot"
+date: 2026-05-24
+tags: [issue, vibe-coding]
 ---
-
-# Day 55: The 'Generative Grading' Rubric-Bot
 
 - **The Pointer:** Generate a detailed, criterion-referenced rubric from a learning objective and assignment description in under 60 seconds.
 - **The Details:** Rubric design is one of the most time-intensive ID tasks. An agent that generates a 4-level rubric (Exemplary → Unsatisfactory) aligned to a specific objective turns an hour of work into a prompt.

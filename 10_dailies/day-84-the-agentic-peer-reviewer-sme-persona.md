@@ -1,3 +1,8 @@
+---
+title: "Day 84: The 'Agentic Peer Reviewer' (SME Persona)"
+date: 2026-06-22
+tags: [issue, vibe-coding]
+---
 # Day 84: The 'Agentic Peer Reviewer' (SME Persona)
 
 - **The Pointer:** Instantiate an AI persona trained on a specific SME's published work and have it review your course content as that expert would.

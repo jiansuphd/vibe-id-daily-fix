@@ -1,3 +1,8 @@
+---
+title: "Day 73: The 'Rubric Stress-Test'"
+date: 2026-06-11
+tags: [issue, vibe-coding]
+---
 # Day 73: The 'Rubric Stress-Test'
 
 - **The Pointer:** Stress-test a rubric by applying it to three synthetic student submissions — one exemplary, one borderline, one failing — and check for rater inconsistency.

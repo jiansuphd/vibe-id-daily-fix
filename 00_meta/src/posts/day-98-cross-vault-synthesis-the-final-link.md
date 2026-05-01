@@ -1,9 +1,9 @@
 ---
-title: "day 98 cross vault synthesis the final link"
 layout: post.njk
+title: "Day 98: Cross-Vault Synthesis (The Final Link)"
+date: 2026-07-06
+tags: [issue, vibe-coding]
 ---
-
-# Day 98: Cross-Vault Synthesis (The Final Link)
 
 - **The Pointer:** Synthesize insights across all vault sections — dailies, wiki, meta, skills — into a unified knowledge map of your 100-day journey.
 - **The Details:** The vault is a distributed system. A synthesis agent reads across all four sections and draws connections that were invisible in the daily grind — revealing the emergent system you built.

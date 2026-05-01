@@ -1,3 +1,8 @@
+---
+title: "Day 41: The 'Institutional AI Manifesto' (Policy as Code)"
+date: 2026-05-10
+tags: [issue, vibe-coding]
+---
 # Day 41: The 'Institutional AI Manifesto' (Policy as Code)
 
 - **The Pointer:** Treat AI usage policies not as static text, but as 'Guardrail Systems' injected into every prompt.

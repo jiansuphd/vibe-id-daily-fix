@@ -1,3 +1,8 @@
+---
+title: "Day 45: The 'Context-Aware' Scheduling Agent (Workflow Resilience)"
+date: 2026-05-14
+tags: [issue, vibe-coding]
+---
 # Day 45: The 'Context-Aware' Scheduling Agent (Workflow Resilience)
 
 - **The Pointer:** Feed your project energy cycles into the CLI to optimize your high-focus tasks.

@@ -1,3 +1,8 @@
+---
+title: "Day 42: The 'Accessibility Debt' Calculator"
+date: 2026-05-11
+tags: [issue, vibe-coding]
+---
 # Day 42: The 'Accessibility Debt' Calculator
 
 - **The Pointer:** Quantify the accessibility gap in a course or program before proposing remediation.

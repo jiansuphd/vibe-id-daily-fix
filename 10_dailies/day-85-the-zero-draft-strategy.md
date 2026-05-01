@@ -1,3 +1,8 @@
+---
+title: "Day 85: The 'Zero-Draft' Strategy"
+date: 2026-06-23
+tags: [issue, vibe-coding]
+---
 # Day 85: The 'Zero-Draft' Strategy
 
 - **The Pointer:** Use AI to generate the zero draft — a rough, content-complete first pass — that you refine rather than create from scratch.

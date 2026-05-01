@@ -1,9 +1,9 @@
 ---
-title: "day 85 the zero draft strategy"
 layout: post.njk
+title: "Day 85: The 'Zero-Draft' Strategy"
+date: 2026-06-23
+tags: [issue, vibe-coding]
 ---
-
-# Day 85: The 'Zero-Draft' Strategy
 
 - **The Pointer:** Use AI to generate the zero draft — a rough, content-complete first pass — that you refine rather than create from scratch.
 - **The Details:** The blank page is the enemy of progress. A zero draft (intentionally rough, content-complete) eliminates blank-page paralysis and turns authoring into editing — a less cognitively demanding mode.

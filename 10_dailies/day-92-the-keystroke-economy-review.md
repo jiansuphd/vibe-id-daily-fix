@@ -1,3 +1,8 @@
+---
+title: "Day 92: The 'Keystroke Economy' Review"
+date: 2026-06-30
+tags: [issue, vibe-coding]
+---
 # Day 92: The 'Keystroke Economy' Review
 
 - **The Pointer:** Run the quarterly review of the keystroke economy: which automations are paying off, which tasks have crept back to manual, and where the next 10x efficiency gain lives.

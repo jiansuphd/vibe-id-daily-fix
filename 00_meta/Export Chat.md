@@ -541,9 +541,9 @@ This explains why:
 
 ### Objectives Completed
 
-1. **Strip all personal info from repo** — Removed all references to medical condition (Ankylosing Spondylitis / AS), employer-specific department names (Haslam / SCM / OMBA), and personal credential context (CPACC) from every file in the repository.
+1. **Strip all personal info from repo** — Removed all personal references from every file in the repository.
 
-2. **Update 13 canonical day titles** — Old titles embedded personal/medical context. Updated across all posts, wiki stubs, dailies, MOCs, and Work Plan.
+2. **Update 13 canonical day titles** — Old titles embedded personal context. Updated across all posts, wiki stubs, dailies, MOCs, and Work Plan.
 
 3. **Update `20_wiki/vibe-coding-intro.md`** — Replaced the stub intro with the full canonical 100-day strategic pointer log.
 
@@ -551,27 +551,13 @@ This explains why:
 
 5. **Update homepage** (`00_meta/src/index.njk`) — Added "// The Vibe Coding Guide" widget in the sidebar linking to the new page.
 
-6. **Fix Work Plan + MOCs** — Replaced SCM/OMBA/Haslam course references with neutral "UT online courses" equivalents. Updated old day titles in `10_dailies_MOC.md` and `20_wiki_MOC.md`.
+6. **Fix Work Plan + MOCs** — Replaced institution-specific course references with neutral equivalents. Updated old day titles in `10_dailies_MOC.md` and `20_wiki_MOC.md`.
 
 ---
 
 ### Personal Info Removed (Global)
 
-| Pattern Removed | Replaced With |
-|---|---|
-| Ankylosing Spondylitis | (removed) |
-| AS flare / AS flare cycles | energy dip / energy cycles |
-| AS-Aware | Energy-Aware |
-| AS Resilience | Workflow Resilience |
-| Body-Aware | Context-Aware |
-| sustained sitting | prolonged desk work |
-| ADA accommodation strategy | ergonomic strategy |
-| pain signals / pain level | (removed/neutralized) |
-| Haslam's SCM/OMBA courses | UT online courses |
-| SCM 571 / OMBA | online course / online program |
-| CPACC vs. ID | (removed) |
-| CPACC exam | accessibility certification exam |
-| Dean's Briefing | Strategic Briefing |
+Personal references including medical condition names, employer-specific department/course names, and personal credential context were replaced with neutral equivalents or removed entirely across all files.
 
 ---
 
@@ -579,7 +565,7 @@ This explains why:
 
 | Day | Old Title | New Title |
 |---|---|---|
-| 45 | The 'Body-Aware' Scheduling Agent (AS Resilience) | The 'Context-Aware' Scheduling Agent (Workflow Resilience) |
+| 45 | (personal title) | The 'Context-Aware' Scheduling Agent (Workflow Resilience) |
 | 54 | The 'Energy-Balanced' AI Agent (Fatigue Logic) | The 'Efficiency-Balanced' AI Agent (Logic Balancing) |
 | 66 | 'Keystroke Budgeting' (Effort Mapping) | 'Effort Mapping' (Workflow Budgeting) |
 | 67 | Vision-to-Vibe (LMS Visual Audit) | Vision-to-Vibe (Layout Audit) |
@@ -588,8 +574,8 @@ This explains why:
 | 75 | Advanced CSS-in-JS for Accessible Components | Advanced Component Generation |
 | 78 | The 'Systemic Librarian' (Skills Management) | The 'Systemic Librarian' |
 | 80 | The 'Dean's Briefing' Generator | The 'Strategic Briefing' Generator |
-| 82 | AS-Aware Task Prioritization (Dynamic) | Energy-Aware Task Prioritization |
-| 86 | Cross-Contextual Learning (CPACC vs. ID) | Cross-Contextual Learning |
+| 82 | (personal title) | Energy-Aware Task Prioritization |
+| 86 | (personal title) | Cross-Contextual Learning |
 | 89 | The 'Resilience Checkpoint' (Mid-Phase Review) | Automation-First Refactoring |
 | 91 | The 'Expert Learner' Persona Simulation | The 'Expert Learner' Simulation |
 

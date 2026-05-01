@@ -1,9 +1,9 @@
 ---
-title: "day 44 the syllabus to skill auto pipeline"
 layout: post.njk
+title: "Day 44: The 'Syllabus-to-Skill' Auto-Pipeline"
+date: 2026-05-13
+tags: [issue, vibe-coding]
 ---
-
-# Day 44: The 'Syllabus-to-Skill' Auto-Pipeline
 
 - **The Pointer:** Auto-extract measurable skills from any syllabus and map them to a competency framework.
 - **The Details:** Faculty write objectives in natural language; this pipeline converts them into structured, assessable competency units aligned to Bloom's or O*NET.

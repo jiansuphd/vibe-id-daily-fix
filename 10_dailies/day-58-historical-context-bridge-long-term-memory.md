@@ -1,3 +1,8 @@
+---
+title: "Day 58: 'Historical Context' Bridge (Long-Term Memory)"
+date: 2026-05-27
+tags: [issue, vibe-coding]
+---
 # Day 58: 'Historical Context' Bridge (Long-Term Memory)
 
 - **The Pointer:** Inject historical project decisions into a current prompt so the agent reasons with institutional memory, not just the current document.

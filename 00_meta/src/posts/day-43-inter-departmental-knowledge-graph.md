@@ -1,9 +1,9 @@
 ---
-title: "day 43 inter departmental knowledge graph"
 layout: post.njk
+title: "Day 43: Inter-Departmental Knowledge Graph (Scaling Context)"
+date: 2026-05-12
+tags: [issue, vibe-coding]
 ---
-
-# Day 43: Inter-Departmental Knowledge Graph (Scaling Context)
 
 - **The Pointer:** Map connections between courses, departments, and skills across the institution using an AI-generated knowledge graph.
 - **The Details:** When you operate at scale, context collapse kills quality. A graph lets the AI 'see' cross-departmental dependencies and prevent curriculum redundancy or gaps.

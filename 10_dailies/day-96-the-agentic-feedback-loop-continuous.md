@@ -1,3 +1,8 @@
+---
+title: "Day 96: The 'Agentic Feedback Loop' (Continuous)"
+date: 2026-07-04
+tags: [issue, vibe-coding]
+---
 # Day 96: The 'Agentic Feedback Loop' (Continuous)
 
 - **The Pointer:** Establish a continuous, automated feedback loop that ingests student data weekly and proposes micro-improvements without manual prompting.

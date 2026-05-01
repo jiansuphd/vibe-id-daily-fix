@@ -1,3 +1,8 @@
+---
+title: "Day 46: The 'Multi-Persona Focus Group' (Synthetic Stakeholders)"
+date: 2026-05-15
+tags: [issue, vibe-coding]
+---
 # Day 46: The 'Multi-Persona Focus Group' (Synthetic Stakeholders)
 
 - **The Pointer:** Simulate a focus group of synthetic stakeholders to stress-test a course design or policy before real review.

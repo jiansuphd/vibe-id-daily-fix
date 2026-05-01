@@ -1,3 +1,8 @@
+---
+title: "Day 68: The 'Institutional Memory' RAG"
+date: 2026-06-06
+tags: [issue, vibe-coding]
+---
 # Day 68: The 'Institutional Memory' RAG
 
 - **The Pointer:** Build a Retrieval-Augmented Generation index over your entire vault so any prompt can draw on past decisions without manual context injection.

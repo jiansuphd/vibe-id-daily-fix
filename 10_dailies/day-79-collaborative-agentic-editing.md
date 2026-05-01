@@ -1,3 +1,8 @@
+---
+title: "Day 79: Collaborative Agentic Editing"
+date: 2026-06-17
+tags: [issue, vibe-coding]
+---
 # Day 79: Collaborative Agentic Editing
 
 - **The Pointer:** Orchestrate two AI agents in a writer-editor loop: one drafts, one edits, and you approve the delta.

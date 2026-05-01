@@ -1,3 +1,8 @@
+---
+title: "Day 62: Multi-Model Adversarial Auditing"
+date: 2026-05-31
+tags: [issue, vibe-coding]
+---
 # Day 62: Multi-Model Adversarial Auditing
 
 - **The Pointer:** Use two different AI models to audit the same course design and synthesize their disagreements into an improvement plan.

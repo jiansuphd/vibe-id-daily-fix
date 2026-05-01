@@ -1,9 +1,9 @@
 ---
-title: "day 54 the energy balanced ai agent"
 layout: post.njk
+title: "Day 54: The 'Efficiency-Balanced' AI Agent (Logic Balancing)"
+date: 2026-05-23
+tags: [issue, vibe-coding]
 ---
-
-# Day 54: The 'Efficiency-Balanced' AI Agent (Logic Balancing)
 
 - **The Pointer:** Design an agentic workflow that front-loads low-cognitive tasks and protects peak-energy windows for high-value creative work.
 - **The Details:** Not all tasks are equal. An energy-aware agent knows that 'editing alt text' is low-cognitive and should be batched into fatigue windows, while 'designing branching scenarios' requires peak energy.

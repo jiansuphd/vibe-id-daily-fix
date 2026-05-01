@@ -1,3 +1,8 @@
+---
+title: "Day 70: Ethical AI Auditing for Diversity"
+date: 2026-06-08
+tags: [issue, vibe-coding]
+---
 # Day 70: Ethical AI Auditing for Diversity
 
 - **The Pointer:** Run course content through an ethics and bias audit before publishing — checking for representation gaps, stereotyped examples, and exclusionary language.

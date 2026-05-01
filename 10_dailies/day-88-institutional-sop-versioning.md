@@ -1,3 +1,8 @@
+---
+title: "Day 88: Institutional SOP Versioning"
+date: 2026-06-26
+tags: [issue, vibe-coding]
+---
 # Day 88: Institutional SOP Versioning
 
 - **The Pointer:** Apply software versioning principles (SemVer) to institutional SOPs — making policy changes traceable, diff-able, and rollback-able.

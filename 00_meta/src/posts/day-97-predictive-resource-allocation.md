@@ -1,9 +1,9 @@
 ---
-title: "day 97 predictive resource allocation"
 layout: post.njk
+title: "Day 97: Predictive Resource Allocation"
+date: 2026-07-05
+tags: [issue, vibe-coding]
 ---
-
-# Day 97: Predictive Resource Allocation
 
 - **The Pointer:** Use project history to predict the resource requirements of the next course project before scoping begins.
 - **The Details:** Historical velocity data is your best planning tool. An agent that reads your past project logs estimates hours, identifies high-risk phases, and builds a resource forecast — before the kickoff meeting.

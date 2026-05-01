@@ -1,3 +1,8 @@
+---
+title: "Day 66: 'Effort Mapping' (Workflow Budgeting)"
+date: 2026-06-04
+tags: [issue, vibe-coding]
+---
 # Day 66: 'Effort Mapping' (Workflow Budgeting)
 
 - **The Pointer:** Map every recurring ID task to its keystroke cost and identify the top 5 candidates for voice or automation replacement.

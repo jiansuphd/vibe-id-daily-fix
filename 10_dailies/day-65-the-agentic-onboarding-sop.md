@@ -1,3 +1,8 @@
+---
+title: "Day 65: The 'Agentic' Onboarding SOP"
+date: 2026-06-03
+tags: [issue, vibe-coding]
+---
 # Day 65: The 'Agentic' Onboarding SOP
 
 - **The Pointer:** Generate a complete onboarding SOP for a new instructional designer joining your team — using your vault as the source of truth.

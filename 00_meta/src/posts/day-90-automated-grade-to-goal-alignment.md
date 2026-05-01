@@ -1,9 +1,9 @@
 ---
-title: "day 90 automated grade to goal alignment"
 layout: post.njk
+title: "Day 90: Automated Grade-to-Goal Alignment"
+date: 2026-06-28
+tags: [issue, vibe-coding]
 ---
-
-# Day 90: Automated Grade-to-Goal Alignment
 
 - **The Pointer:** Automatically verify that every grade weight in the gradebook aligns to a course goal — with no orphaned assessments.
 - **The Details:** Grade weight is instructional signal. An orphaned assessment (one not tied to a stated goal) sends a confusing signal to learners. The agent reads the gradebook and the objectives and flags every mismatch.

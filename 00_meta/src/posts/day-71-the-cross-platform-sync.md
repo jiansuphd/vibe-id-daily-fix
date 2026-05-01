@@ -1,9 +1,9 @@
 ---
-title: "day 71 the cross platform sync"
 layout: post.njk
+title: "Day 71: The 'Cross-Platform' Sync (Sync-Logic)"
+date: 2026-06-09
+tags: [issue, vibe-coding]
 ---
-
-# Day 71: The 'Cross-Platform' Sync (Sync-Logic)
 
 - **The Pointer:** Detect and resolve content drift between Canvas, Rise, and your Obsidian vault using a three-way sync agent.
 - **The Details:** Content lives in three places and diverges. The sync agent reads all three, identifies the canonical version, and outputs a reconciliation plan with explicit source-of-truth rules.

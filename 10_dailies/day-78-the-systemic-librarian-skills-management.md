@@ -1,3 +1,8 @@
+---
+title: "Day 78: The 'Systemic Librarian'"
+date: 2026-06-16
+tags: [issue, vibe-coding]
+---
 # Day 78: The 'Systemic Librarian'
 
 - **The Pointer:** Audit and prune the 00_meta/skills/ directory — retiring stale skills, merging duplicates, and surfacing underused gems.

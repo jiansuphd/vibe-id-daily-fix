@@ -1,3 +1,8 @@
+---
+title: "Day 91: The 'Expert Learner' Simulation"
+date: 2026-06-29
+tags: [issue, vibe-coding]
+---
 # Day 91: The 'Expert Learner' Simulation
 
 - **The Pointer:** Simulate how a highly engaged, self-directed expert learner would navigate your course — and identify where they would get bored or bottlenecked.

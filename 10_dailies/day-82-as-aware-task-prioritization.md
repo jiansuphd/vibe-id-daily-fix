@@ -1,3 +1,8 @@
+---
+title: "Day 82: Energy-Aware Task Prioritization (Dynamic)"
+date: 2026-06-20
+tags: [issue, vibe-coding]
+---
 # Day 82: Energy-Aware Task Prioritization (Dynamic)
 
 - **The Pointer:** An Agent that re-orders your tasks based on your current project bandwidth.
