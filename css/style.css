@@ -1,0 +1,114 @@
+:root {
+    --bg-color: #1a1b26;
+    --fg-color: #a9b1d6;
+    --accent-color: #bb9af7;
+    --secondary-color: #7dcfff;
+    --border-color: #414868;
+    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    border-bottom: 1px solid var(--border-color);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--font-mono);
+    color: var(--accent-color);
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    border-top: 1px solid var(--border-color);
+    padding: 1rem;
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+h1, h2, h3 {
+    color: var(--accent-color);
+    font-family: var(--font-mono);
+}
+
+a {
+    color: var(--secondary-color);
+}
+
+.post-card {
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.post-card h2 {
+    margin-top: 0;
+}
+
+.post-date {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--accent-color);
+    color: var(--bg-color);
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: var(--font-mono);
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
