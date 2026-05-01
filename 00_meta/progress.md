@@ -22,11 +22,12 @@
 - [x] **Home Page Feed**: Updated the landing page to show a scrollable feed of the latest 5 transmissions with full content.
 - [x] **GitHub Actions Orchestration**: Automated daily builds at midnight UTC and integrated repo-wide link linting.
 
-## Phase 4: Ongoing Maintenance & Refinement
-- [x] Force push to GitHub
-- [x] Fixed links and backlinks in root_MOC.md
-- [x] Converted all Wikilinks to relative Markdown links in 20_wiki/
-- [x] Fixed all specified links to be GitHub friendly
+## Phase 4: Scale & Sustainability (Active)
+- [x] **Vault Standardization**: Converted all Obsidian Wikilinks to standard Markdown links (80+ files).
+- [x] **Infrastructure Rebuild**: Rebuilt Eleventy dashboard from scratch with "Midnight Pro" theme.
+- [x] **Hybrid Architecture**: Config files at root, source files inside `00_meta/src` for a clean vault.
+- [ ] **MCP Integration**: Connect vault to external Model Context Protocol servers.
+- [ ] **Community Loop**: Implement RSS/Email distribution.
 
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
