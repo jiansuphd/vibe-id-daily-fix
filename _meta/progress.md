@@ -29,6 +29,9 @@
 - [x] **Content Distribution**: Implemented automated Atom/RSS feed (`feed.xml`).
 - [x] **Hybrid Architecture**: Config files at root, source files inside `_meta/src` for a clean vault.
 - [x] **Modern Deployment**: Switched to official GitHub Actions deployment to resolve 404s.
+- [x] **Live Site Diagnosis (2026-05-01)**: Identified that GitHub Pages was serving the default Jekyll README instead of the Eleventy build. Root cause: the `peaceiris/actions-gh-pages` publish-to-branch approach was mismatched with the repo's workflow-based Pages source setting.
+- [x] **Workflow Fix**: Replaced `peaceiris/actions-gh-pages@v3` with the official pipeline (`actions/configure-pages`, `actions/upload-pages-artifact`, `actions/deploy-pages`) and updated permissions to `pages: write` + `id-token: write`.
+- [x] **RSS Plugin Fix (2026-05-01)**: The `feat: RSS feed` commit introduced `@11ty/eleventy-plugin-rss@^3.0.0`, which requires Eleventy v3+ but the project targets v2. This caused CI to fail with `Invalid EleventyConfig.addPlugin signature`. Fixed by downgrading the plugin to `^1.2.0` (the v1 series, CJS-compatible with Eleventy v2) and using the default export via `require('@11ty/eleventy-plugin-rss')`.
 
 - [ ] **MCP Integration**: Connect vault to external Model Context Protocol servers.
 - [ ] **Community Loop**: Implement RSS/Email distribution.
