@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [Original Issue](../_dailies/day-02-the-skeleton-first-prompt.md)
+**Reference:** [Original Issue](../10_dailies/day-02-the-skeleton-first-prompt.md)

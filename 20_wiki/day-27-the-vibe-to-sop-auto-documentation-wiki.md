@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [Original Issue](../_dailies/day-27-the-vibe-to-sop-auto-documentation.md)
+**Reference:** [Original Issue](../10_dailies/day-27-the-vibe-to-sop-auto-documentation.md)

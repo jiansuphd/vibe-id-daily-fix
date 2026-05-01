@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [Original Issue](../_dailies/day-09-the-semantic-cross-check-alignment.md)
+**Reference:** [Original Issue](../10_dailies/day-09-the-semantic-cross-check-alignment.md)

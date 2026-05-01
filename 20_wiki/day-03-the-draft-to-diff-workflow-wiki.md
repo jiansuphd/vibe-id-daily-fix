@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [Original Issue](../_dailies/day-03-the-draft-to-diff-workflow.md)
+**Reference:** [Original Issue](../10_dailies/day-03-the-draft-to-diff-workflow.md)

@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [Original Issue](../_dailies/day-22-the-multi-modal-audit-vision-to-text.md)
+**Reference:** [Original Issue](../10_dailies/day-22-the-multi-modal-audit-vision-to-text.md)

@@ -324,6 +324,29 @@ article h1 a:hover { color: var(--accent-light); }
 .widget ul li a:hover { color: var(--text); }
 
 /* ============================================
+   FRONT PAGE TAGLINE
+   ============================================ */
+.page-tagline {
+  max-width: var(--max-width);
+  margin: 1.75rem auto 0.25rem;
+  padding: 0 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.page-tagline-site {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.page-tagline-sep {
+  color: var(--cyan);
+  margin: 0 0.4em;
+}
+
+/* ============================================
    ARCHIVE PAGE
    ============================================ */
 .archive-list {

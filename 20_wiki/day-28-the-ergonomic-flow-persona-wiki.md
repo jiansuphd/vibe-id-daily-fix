@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [Original Issue](../_dailies/day-28-the-ergonomic-flow-persona.md)
+**Reference:** [Original Issue](../10_dailies/day-28-the-ergonomic-flow-persona.md)

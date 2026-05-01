@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [Original Issue](../_dailies/day-16-the-environment-aware-pre-flight-check.md)
+**Reference:** [Original Issue](../10_dailies/day-16-the-environment-aware-pre-flight-check.md)

@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [Original Issue](../_dailies/day-26-the-accessibility-unit-test-failure-injection.md)
+**Reference:** [Original Issue](../10_dailies/day-26-the-accessibility-unit-test-failure-injection.md)
