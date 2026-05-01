@@ -457,6 +457,38 @@ Production deployment initiated by committing and pushing the exact validated ve
 
 ---
 
+## Session 7 — May 1, 2026 (Post-Deploy Visual Sweep)
+
+### Summary
+Performed a quick visual check on the public homepage and a public post page after deployment.
+
+### Verified Live Values
+- Body background: `rgb(11, 18, 32)`
+- Body/prose text: `rgb(214, 222, 232)`
+- Bright headings/emphasis: `rgb(241, 245, 249)`
+- HUD backdrop: `rgba(11, 18, 32, 0.8)`
+
+### Assessment
+- The new theme is visibly calmer than the earlier near-white-on-midnight version.
+- Long-form reading surfaces now feel softer without losing the site's terminal/dashboard identity.
+- Heading contrast still reads cleanly and preserves hierarchy.
+
+### Remaining Notes
+- Mobile screenshots still show a fairly dense reading experience due to large line length and generous heading spacing.
+- No urgent visual regression was observed in the post-deploy sweep.
+
+---
+
+## Session 8 — May 1, 2026 (Commit Wrap-Up)
+
+### Summary
+Confirmed the production theme changes were already shipped earlier, then committed the remaining chat-export update from the post-deploy sweep.
+
+### Outcome
+Repository state was brought fully up to date with the recorded work from this conversation.
+
+---
+
 *Session 2 appended — May 1, 2026*
 
 ---
