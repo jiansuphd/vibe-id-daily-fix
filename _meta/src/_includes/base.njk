@@ -7,19 +7,31 @@
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>VibeID Daily</h1>
-        <nav>
-            <a href="{{ '/' | url }}">Latest</a>
-            <a href="{{ '/archive/' | url }}">Archive</a>
-            <a href="https://github.com/jiansuphd/vibe-id-daily" target="_blank">Repo</a>
-        </nav>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <header class="hud">
+        <div class="hud-logo">
+            <div>
+                <a href="{{ '/' | url }}">VibeID<span>_</span>Daily</a>
+                <div class="hud-tagline">Strategic Pointers for Instructional Designers</div>
+            </div>
+            <nav>
+                <a href="{{ '/' | url }}">Latest</a>
+                <a href="{{ '/archive/' | url }}">Archive</a>
+                <a href="https://github.com/jiansuphd/vibe-id-daily" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </nav>
+        </div>
+        <div class="hud-metrics">
+            <div class="metric"><span class="metric-label">Status:</span><span>ACTIVE</span></div>
+            <div class="metric"><span class="metric-label">Mission:</span><span>Vibe Coding for IDs</span></div>
+            <div class="metric"><span class="metric-label">Phase:</span><span>4 — Scale &amp; Sustain</span></div>
+        </div>
     </header>
 
-    <main>
+    <main id="main-content">
         {{ content | safe }}
     </main>
 

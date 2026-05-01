@@ -3,29 +3,47 @@ layout: base.njk
 title: Latest Transmissions
 ---
 
-<div class="intro">
-    <p>Strategic pointers for Instructional Designers transitioning to agentic workflows.</p>
-</div>
-
-<section class="latest-feed">
-    {% for post in collections.posts | head(5) %}
-    <article class="post-card">
-        <div class="post-date">{{ post.date | readableDate }}</div>
-        <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
-        <div class="post-excerpt">
-            {{ post.templateContent | safe | truncate(300) }}
+<div class="dashboard-grid">
+  <div class="content">
+    {% if collections.posts.length > 0 %}
+      {% for post in collections.posts | head(5) %}
+      <article>
+        <header>
+          <h1><a href="{{ post.url | url }}">{{ post.data.title }}</a></h1>
+          <div class="post-meta">
+            <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+          </div>
+        </header>
+        <div class="prose">
+          {{ post.templateContent | safe }}
         </div>
-        <div class="post-meta" style="margin-top: 1rem;">
-            <a href="{{ post.url | url }}" class="btn">Read Full Transmission</a>
-        </div>
-    </article>
-    {% endfor %}
-</section>
+      </article>
+      {% endfor %}
+    {% else %}
+      <p>No transmissions found. System standby.</p>
+    {% endif %}
+  </div>
 
-<div style="text-align: center; margin-top: 3rem;">
-    <a href="{{ '/archive/' | url }}" style="color: var(--accent-color); font-family: var(--font-mono);">View All Archived Transmissions &rarr;</a>
-</div>
-
-<div style="text-align: center; margin-top: 1.5rem;">
-    <a href="https://github.com/jiansuphd/vibe-id-daily" target="_blank" rel="noopener noreferrer" class="btn">View on GitHub</a>
+  <aside class="sidebar">
+    <div class="widget">
+      <h3>// Navigation</h3>
+      <ul>
+        <li><a href="{{ '/' | url }}">Latest Transmissions</a></li>
+        <li><a href="{{ '/archive/' | url }}">Full Archive</a></li>
+        <li><a href="/feed.xml">RSS Feed</a></li>
+        <li><a href="https://github.com/jiansuphd/vibe-id-daily" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+      </ul>
+    </div>
+    <div class="widget">
+      <h3>// Mission</h3>
+      <p>Daily strategic pointers for Instructional Designers transitioning from natural language workflows to systemic agentic automation.</p>
+    </div>
+    <div class="widget">
+      <h3>// Phase 4 Active</h3>
+      <ul>
+        <li><a href="https://github.com/jiansuphd/vibe-id-daily/blob/main/_meta/progress.md" target="_blank" rel="noopener noreferrer">Progress Log</a></li>
+        <li><a href="https://github.com/jiansuphd/vibe-id-daily/blob/main/_meta/Work%20Plan.md" target="_blank" rel="noopener noreferrer">Work Plan</a></li>
+      </ul>
+    </div>
+  </aside>
 </div>

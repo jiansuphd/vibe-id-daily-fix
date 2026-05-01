@@ -1,16 +1,19 @@
 ---
 layout: base.njk
 ---
-
-<article>
-    <div class="post-date" style="margin-bottom: 0.5rem;">{{ date | readableDate }}</div>
-    <h1>{{ title }}</h1>
-    
-    <div class="post-content">
-        {{ content | safe }}
+<div class="page-grid">
+  <article>
+    <header>
+      <h1>{{ title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+      </div>
+    </header>
+    <div class="prose">
+      {{ content | safe }}
     </div>
-
-    <div style="margin-top: 4rem; border-top: 1px solid var(--border-color); padding-top: 2rem;">
-        <a href="{{ '/' | url }}" style="color: var(--accent-color); font-family: var(--font-mono);">&larr; Back to Latest</a>
+    <div style="margin-top: 3rem;">
+      <a href="{{ '/' | url }}" class="btn">&larr; Back to Latest</a>
     </div>
-</article>
+  </article>
+</div>

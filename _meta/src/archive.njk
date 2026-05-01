@@ -1,16 +1,20 @@
 ---
 layout: base.njk
-title: Archive
+title: Transmission Archive
 permalink: /archive/
 ---
 
-<h1>Transmission Archive</h1>
+<div class="page-grid">
+  <div class="page-header">
+    <h1>Transmission Archive</h1>
+  </div>
 
-<ul style="list-style: none; padding: 0;">
+  <div class="archive-list">
     {% for post in collections.posts %}
-    <li style="margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
-        <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--secondary-color); margin-right: 1rem;">{{ post.date | readableDate }}</span>
-        <a href="{{ post.url | url }}" style="font-weight: bold; text-decoration: none;">{{ post.data.title }}</a>
-    </li>
+    <a href="{{ post.url | url }}" class="archive-item">
+      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      <span class="archive-item-title">{{ post.data.title }}</span>
+    </a>
     {% endfor %}
-</ul>
+  </div>
+</div>
