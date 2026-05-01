@@ -24,6 +24,7 @@ A pedagogical synthesis of all VibeID Daily pointers, organized by developmental
 - [Day 15: The Automated Indexing Habit](day-15-the-automated-indexing-habit-wiki.md)
 - [Day 16: The Environment-Aware Pre-Flight Check](day-16-the-environment-aware-pre-flight-check-wiki.md)
 - [Day 17: The Full-Vault Synthesis](day-17-the-full-vault-synthesis-mcp-integration-wiki.md)
+- [Day 18: Multiple Means of Action & Expression (UDL HOW)](day-18-multiple-means-of-action-and-expression-udl-how-wiki.md)
 - [Day 19: The Agentic Git](day-19-the-agentic-git-instructional-assets-as-code-wiki.md)
 - [Day 20: The Semantic Bridge](day-20-the-semantic-bridge-historical-knowledge-extraction-wiki.md)
 - [Day 21: The Self-Correction Pattern](day-21-the-self-correction-pattern-agentic-reflection-wiki.md)
@@ -37,6 +38,17 @@ A pedagogical synthesis of all VibeID Daily pointers, organized by developmental
 - [Day 29: The Legacy-to-Logic Pipeline](day-29-the-legacy-to-logic-pipeline-syllabus-migration-wiki.md)
 - [Day 30: The Course-Specific Memory Anchor](day-30-the-course-specific-memory-anchor-notebooklm-bridge-wiki.md)
 - [Day 31: The Reparse Point Audit](day-31-the-reparse-point-audit-junction-repair-wiki.md)
+
+## 🎓 Phase 4: Advanced Synthesis (Integration & Scale)
+- [Day 32: The Schema-Driven ID (JSON Architect)](day-32-the-schema-driven-id-json-architect-wiki.md)
+- [Day 33: The Context Pruning Strategy (Token Efficiency)](day-33-the-context-pruning-strategy-token-efficiency-wiki.md)
+- [Day 34: The Pedagogical Shadowing (ARIA Mirroring)](day-34-the-pedagogical-shadowing-aria-mirroring-wiki.md)
+- [Day 35: The Voice-to-Logic Pipeline (Ergonomic Level Up)](day-35-the-voice-to-logic-pipeline-ergonomic-level-up-wiki.md)
+- [Day 36: The Course as API (Concept)](day-36-the-course-as-api-concept-wiki.md)
+- [Day 37: Automated Rubric Calibration (Fairness Audit)](day-37-automated-rubric-calibration-the-fairness-audit-wiki.md)
+- [Day 38: The Cross-Model Consensus (Model Diversity Audit)](day-38-the-cross-model-consensus-model-diversity-audit-wiki.md)
+- [Day 39: Bilingual Sync (ZH/EN Content Mirroring)](day-39-bilingual-sync-zh-en-content-mirroring-wiki.md)
+- [Day 40: The Recursive Workspace (Self-Evolving Manual)](day-40-the-recursive-workspace-self-evolving-manual-wiki.md)
 
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
