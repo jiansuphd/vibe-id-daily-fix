@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "The 'Voice-to-Logic' Pipeline (Ergonomic Level-Up)"
-date: 2026-05-02
+date: 2026-05-04
 tags: [issue, vibe-coding, ergonomics, automation]
 ---
 

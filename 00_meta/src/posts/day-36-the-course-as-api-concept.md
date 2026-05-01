@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "The 'Course-as-API' Concept"
-date: 2026-05-02
+date: 2026-05-05
 tags: [issue, vibe-coding, architecture, automation]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Automated Rubric Calibration (The Fairness Audit)"
-date: 2026-05-03
+date: 2026-05-06
 tags: [issue, vibe-coding, rubric, qa]
 ---
 

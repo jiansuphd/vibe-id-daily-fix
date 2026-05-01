@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "The 'Context-Pruning' Strategy (Token Efficiency)"
-date: 2026-05-01
+date: 2026-05-02
 tags: [issue, vibe-coding, token-efficiency, workflow]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Bilingual Sync (ZH/EN Content Mirroring)"
-date: 2026-05-04
+date: 2026-05-08
 tags: [issue, vibe-coding, bilingual, accessibility, cpacc]
 ---
 

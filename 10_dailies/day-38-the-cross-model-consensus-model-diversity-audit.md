@@ -1,6 +1,6 @@
 ---
 title: "The 'Cross-Model' Consensus (Model Diversity Audit)"
-date: 2026-05-03
+date: 2026-05-07
 tags: [issue, vibe-coding, accessibility, cpacc, multi-model]
 ---
 

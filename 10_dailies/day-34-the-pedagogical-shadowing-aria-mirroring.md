@@ -1,6 +1,6 @@
 ---
 title: "The 'Pedagogical Shadowing' (ARIA-Mirroring)"
-date: 2026-05-01
+date: 2026-05-03
 tags: [issue, vibe-coding, accessibility, aria]
 ---
 

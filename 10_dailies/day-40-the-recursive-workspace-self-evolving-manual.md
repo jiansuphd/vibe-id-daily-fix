@@ -1,6 +1,6 @@
 ---
 title: "The 'Recursive Workspace' (Self-Evolving Manual)"
-date: 2026-05-04
+date: 2026-05-09
 tags: [issue, vibe-coding, documentation, automation]
 ---
 
