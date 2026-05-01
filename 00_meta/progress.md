@@ -41,6 +41,9 @@
 - [x] **Front Page Tagline (2026-05-01)**: Added tagline to `index.njk` — "The Vibe ID Daily — Tracking the journey from Natural Language to Systemic Automation."
 - [x] **Wiki Broken Links Fix (2026-05-01)**: After folder rename, all 31 `20_wiki/*.md` backlinks pointed to `../_dailies/` (old path). Fixed via bulk sed replace to `../10_dailies/`. CI lint now passes cleanly.
 - [x] **Progress Log**: https://github.com/jiansuphd/vibe-id-daily/blob/main/00_meta/progress.md
+- [x] **Article Title Cleanup (2026-05-01)**: Replaced the repetitive full descriptive title inside each article `<h1>` with a clean "Day N" label. Archive and sidebar links still show the full title. Changes: added `dayLabel` filter to `.eleventy.js`; updated `post.njk` to use `Day N` (fallback to `title` for non-day posts); updated `parse_dailies.js` to strip the duplicate `# Heading` from the markdown body during parse.
+- [x] **Source Vault Headings Updated (2026-05-01)**: Bulk-updated all 39 source files in `10_dailies/` so their in-body H1 reads `# Day N` instead of the full descriptive title. Keeps the Obsidian vault clean and consistent with the published site.
+- [x] **Day 18 Created (2026-05-01)**: Added missing `10_dailies/day-18-multiple-means-of-action-and-expression-udl-how.md` — "Multiple Means of Action & Expression (The HOW of Learning)" — dated 2026-04-17 to fill the gap between Day 17 and Day 19. Covers the UDL principle of varied response methods, keyboard navigability, and alternative submission formats. Live: `https://jiansuphd.github.io/vibe-id-daily/posts/day-18-multiple-means-of-action-and-expression-udl-how/`
 
 - [ ] **MCP Integration**: Connect vault to external Model Context Protocol servers.
 - [ ] **Community Loop**: Implement RSS/Email distribution.
