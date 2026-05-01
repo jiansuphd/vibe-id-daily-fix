@@ -23,7 +23,7 @@ metadata:
     <email>{{ metadata.author.email }}</email>
   </author>
   {%- for post in collections.posts | head(10) %}
-  {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
+  {%- set absolutePostUrl = post.url | url | absoluteUrl(metadata.url) %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
