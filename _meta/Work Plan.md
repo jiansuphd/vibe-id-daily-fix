@@ -51,8 +51,8 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 *   [x] **GitHub Actions Orchestration**: Automated daily builds and periodic wiki maintenance lints.
 
-### Phase 4: Scale & Sustainability
-*   [ ] **Cross-Vault Synthesis**: Integrate with MCP servers.
+### Phase 4: Scale & Sustainability (Active)
+*   [ ] **Cross-Vault Synthesis**: (Attempted) Connectivity to external Obsidian vault via MCP is currently unreachable.
 *   [ ] **Community Feedback Loop**: (Optional) RSS/Email distribution.
 
 ---
