@@ -10,8 +10,8 @@ tags:
 
 # 🛠️ VibeID Daily: Implementation Roadmap
 
-> [!info] Status: Phases 1–4 Complete ✅
-> All four phases are verified complete as of 2026-05-01. MCP Integration scaffold delivered: `.gemini/settings.example.json` configured, `GEMINI.md` documented with activation steps. Content runs through Day 40; project continues toward Day 100.
+> [!info] Status: Phases 1–4 Complete ✅ | Phase 5 In Progress
+> All four phases are verified complete as of 2026-05-01. Phase 5 (Days 41–60, Institutional Leadership & AI Governance) is now queued with future-dated posts publishing daily from 2026-05-10 through 2026-05-29. MCP Integration scaffold delivered. Content runs through Day 60; project continues toward Day 100.
 > **Project Horizon**: This project is architected for a 100-day development cycle and ends on Day 100.
 
 ## 🎯 Project Vision
@@ -288,6 +288,27 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ## 📅 Phase 4: Systemic Engineering & Institutional Scaling
 
+### Day 32: The "Schema-Driven" ID (JSON Architect)
+
+- **The Pointer:** Move from writing "Prompt Instructions" to defining "Data Schemas."
+- **The Details:** Instead of asking for a quiz, provide a JSON structure (Schema) and ask the AI to fill it. This ensures the output is 100% compatible with Canvas bulk-upload tools or your own Python scripts.
+- **ID Application:** Define a standard `Module_Schema` that includes keys for `UDL_Alignment` and `Bloom_Level`.
+- **Action:** `gemini "Generate the Week 4 content following this JSON schema: {title, objective_id, content_html, accessibility_notes}."`
+
+### Day 33: The "Context-Pruning" Strategy (Token Efficiency)
+
+- **The Pointer:** Periodically ask the AI to "Summarize and Compress" your long-running chat history into a new `MISSION_UPDATE.md`.
+- **The Details:** As conversations get long, "token noise" increases. Pruning keeps the AI focused on the core logic of your current SCM 571 build without the baggage of older, resolved issues.
+- **ID Application:** Use this to transition between "Course Mapping" and "Page Building" phases.
+- **Action:** `gemini "Summarize our progress on the BZAN 503 prep. Extract all finalized decisions into a concise instruction set for the next session."`
+
+### Day 34: The "Pedagogical Shadowing" (ARIA-Mirroring)
+
+- **The Pointer:** Use the AI to generate the "Invisible Layer" of the course (ARIA labels, hidden transcriptions) as a separate build step.
+- **The Details:** Don't ask for "Accessible HTML" all at once. First, get the content; then, ask the AI to "Shadow" the code with an accessibility layer.
+- **ID Application:** Ensures that complex SCM data visualizations have robust, screen-reader-only descriptions that don't clutter the visual UI.
+- **Action:** `read page.html | gemini "Review this code. Add necessary ARIA roles and labels specifically for a student using a screen magnifier."`
+
 ### Day 35: The "Voice-to-Logic" Pipeline (AS Ergonomic Level-Up)
 
 - **The Pointer:** Use Voice-to-Text to dictate "Vibe Statements" and let the AI convert them into complex CLI commands or Shell Aliases.
@@ -330,15 +351,140 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 - **ID Application:** Ensures your "Agentic Infrastructure" grows with you, preventing "Instructional Debt."
 - **Action:** `gemini "Based on my last 10 days of CLI Logs, suggest 3 updates to my Workspace Technical Manual to better reflect my current workflow."`
 
+## 📅 Phase 5: Institutional Leadership & AI Governance
+
+### Day 41: The "Institutional AI Manifesto" (Policy as Code)
+
+- **The Pointer:** Treat AI usage policies not as static text, but as "Guardrail Systems" injected into every prompt.
+- **The Details:** As a Senior ID Manager, you define the "boundary" for faculty. Convert the UT AI Policy into a system prompt.
+- **Action:** `gemini --system ./04_Policy/UT_AI_Guardrails.md "Review this assignment. Does it provide enough 'Human-in-the-loop' requirements for students?"`
+
+### Day 42: The "Accessibility Debt" Calculator
+
+- **The Pointer:** Use the CLI to estimate the "Correction Hours" needed for legacy courses based on audit results.
+- **The Details:** Move from "fixing" to "planning." Predict how long it will take to get OMBA fully compliant for Summer 2026.
+- **Action:** `gemini "Analyze these 5 course audit reports. Estimate total FTE hours required to fix color contrast and aria-label errors."`
+
+### Day 43: Inter-Departmental Knowledge Graph (Scaling Context)
+
+- **The Pointer:** Use the CLI to find semantic connections between Haslam SCM and AREC (Agricultural and Resource Economics) course materials.
+- **The Details:** Identify where "Sustainability" or "Supply Chain" concepts overlap to reduce redundant design work across the UT System.
+- **Action:** `gemini --files scm_syllabus.pdf, arec_syllabus.pdf "Identify 3 core pedagogical overlaps where shared instructional assets could be utilized."`
+
+### Day 44: The "Syllabus-to-Skill" Auto-Pipeline
+
+- **The Pointer:** Automatically convert a Syllabus's "Course Policies" into a Markdown-based "Agentic Skill."
+- **The Details:** Instead of reading the syllabus, the AI becomes the syllabus.
+- **Action:** `gemini "Extract the Late Policy and Grading Scale from this PDF and save as a Skill file: 02_Skills/Course_Policy_Agent.md."`
+
+### Day 45: The "Body-Aware" Scheduling Agent (AS Resilience)
+
+- **The Pointer:** Feed your personal "Energy Map" (AS fatigue cycles) into the CLI to optimize your high-focus tasks.
+- **The Details:** Schedule the most keystroke-heavy audits for your "Peak Ergonomic" windows (usually post-stretching).
+- **Action:** `gemini "Based on my 04/15 Energy Log, suggest which courses I should audit this morning to minimize physical strain."`
+
+### Day 46: The "Multi-Persona Focus Group" (Synthetic Stakeholders)
+
+- **The Pointer:** Run a course through a focus group of 5 different AI personas (Dean, Student, Employer, Auditor, Faculty).
+- **The Details:** Simulates "Institutional Resistance" and "Student Delight" before the course goes live.
+- **Action:** `gemini "Critique this module from the perspective of an employer looking for 'Market Readiness' in a graduate."`
+
+### Day 47: The "Prompt Versioning" Protocol (Instructional Reliability)
+
+- **The Pointer:** Track your "Vibe Coding" prompts in Git to ensure that the "UDL Audit" you run today is the same as the one in 2027.
+- **The Details:** High-level leadership requires Audit Trails.
+- **Action:** `gemini "Compare current AltText_Reviewer.md with v1.2. Highlight any logic drift in how we handle decorative images."`
+
+### Day 48: The "Shadow ID" Agent (Peer Reviewer)
+
+- **The Pointer:** Create an Agent specifically tasked with being your "Cynical Peer Reviewer."
+- **The Details:** Use the AI to find the "Weakest Link" in your own architecture before it hits the UT Symposium.
+- **Action:** `gemini "Act as a Senior ID with 20 years experience. Find 3 pedagogical flaws in my proposed SCM 571 timeline."`
+
+### Day 49: Data-Driven Feedback Loop (LRS Integration)
+
+- **The Pointer:** Use the CLI to analyze anonymized student interaction data (Learning Record Store) against your design choices.
+- **The Details:** See if students are actually clicking the "Glossary" links you built in Day 17.
+- **Action:** `gemini "Compare student click-rates on Module 1 vs Module 2. Did the new concept map increase engagement time?"`
+
+### Day 50: The "Half-Century" System Audit
+
+- **The Pointer:** Use Day 50 to audit your entire Agentic Infrastructure for "Instructional Debt."
+- **The Details:** Prune outdated Skills and consolidate your command aliases.
+- **Action:** `gemini "Read my 02_Skills folder. Identify 3 redundant skills that can be merged into a single 'Global Auditor' tool."`
+
+### Day 51: The "Voice-to-Blueprint" Workflow (Low-Strokes Design)
+
+- **The Pointer:** Dictate a 5-minute course overview and have the AI generate a full 15-week Canvas Blueprint.
+- **The Details:** The ultimate goal of Ergonomic Flow. Use voice to skip the "Skeleton-First" typing phase.
+- **Action:** `[Upload Audio] | gemini "Transcribe this course vision and output a nested JSON file for a 15-week SCM module structure."`
+
+### Day 52: The "Compliance Crawler" (Institutional Scrutiny)
+
+- **The Pointer:** Run a batch audit across 10+ course HTML folders simultaneously to check for "UT Brand Drift."
+- **The Details:** Ensuring the "Torch Orange" hasn't turned into "Safety Orange" across the entire SCM department.
+- **Action:** `gemini "Search the /OMBA/ directory. Flag any HTML pages using non-standard hex codes for primary headings."`
+
+### Day 53: The "Cross-Platform Mirroring" (Canvas-to-Rise)
+
+- **The Pointer:** Use the CLI to convert Canvas "Page Content" into an Articulate Rise-compatible Markdown format.
+- **The Details:** Speeding up multi-platform course deployments for the DASH team.
+- **Action:** `read canvas_page.html | gemini "Reformat this content for a Rise 360 Vertical Timeline block. Use Markdown list format."`
+
+### Day 54: The "Energy-Balanced" AI Agent (Fatigue Logic)
+
+- **The Pointer:** An Agent that suggests "Automation Shortcuts" based on the current length of your CLI session.
+- **The Details:** If you've been tabbing for 3 hours, the AI suggests taking over the remainder of the task to protect your back/joints.
+- **Action:** `gemini "I've been working for 3 hours. Take the raw SME notes from today's meeting and finalize the BZAN 503 comms log for me."`
+
+### Day 55: The "Generative Grading" Rubric-Bot
+
+- **The Pointer:** Feed the AI your Rubric and a sample student submission to generate "Mastery-Oriented Feedback" drafts.
+- **The Details:** This is NOT for grading, but for Feedback Generation. You provide the "Human-in-the-loop" final polish.
+- **Action:** `gemini --files rubric.md, student_essay.pdf "Draft 3 pieces of constructive feedback focusing on 'Critical Thinking' criteria."`
+
+### Day 56: "Agentic Procurement" (VPAT Auditor)
+
+- **The Pointer:** Use the AI to audit a vendor's VPAT (Accessibility Statement) before the university purchases new software.
+- **The Details:** Protecting UT from "Accessibility Debt" during the procurement phase.
+- **Action:** `gemini "Review this vendor VPAT. Are there any 'Partially Supports' ratings for WCAG 2.1 AA that we should be concerned about?"`
+
+### Day 57: "Translation Reliability" (EN/ZH Semantic Check)
+
+- **The Pointer:** A specialized Agent that checks if your CPACC notes in Chinese retain the legal nuances of the English ADA.
+- **The Details:** High-level bilingual synthesis for professional certification.
+- **Action:** `gemini "Compare my Week 4 ZH and EN notes. Does the term 'Reasonable Accommodation' have the same legal weight in both versions?"`
+
+### Day 58: "Historical Context" Bridge (Long-Term Memory)
+
+- **The Pointer:** Use the CLI to bridge your 99_System/Archive into current "Vibe" sessions to avoid repeating past mistakes.
+- **The Details:** Scaling institutional knowledge from 2024 to 2026.
+- **Action:** `gemini "Based on our 2024 tech status reports, what was the primary issue with MyEducator integration that we should avoid today?"`
+
+### Day 59: The "Zero-Keystroke" Ideal (Voice-to-Course)
+
+- **The Pointer:** Final test of the Ergonomic Strategist. Build an entire module header, content, and quiz using ONLY voice commands.
+- **The Details:** Proving the system works even on high-pain days.
+- **Action:** `[Voice Command] | gemini "Build the 'Sustainability in SCM' page. Use the UT Modern Template. Add 3 knowledge check questions."`
+
+### Day 60: The "Full-Cycle" Systemic Audit
+
+- **The Pointer:** End the 60-day cycle by asking the AI to rewrite your entire Workspace Technical Manual based on these 60 days of logs.
+- **The Details:** The system is now a self-aware, self-documenting "Instructional Exoskeleton."
+- **Action:** `gemini "Synthesize Days 1-60 of my CLI Logs. Update the Workspace Technical Manual to reflect my new role as an Institutional Systemic Engineer."`
+
 ---
 
 ## 🛠️ Persona Anchors
 
 - **Senior ID Manager:** Strategic overview; focuses on UDL, QM Standards, and Term Prep deadlines.
-- **Systemic Engineer:** Focuses on JSON schemas, CLI automation, and cross-platform data flow.
+- **Systemic Engineer:** Focuses on JSON schemas, CLI automation, and institutional governance.
 - **Ergonomic Strategist:** Focuses on "Low-Strokes" workflows and voice-command optimization for AS management.
 
 ---
 
-**Backlink:** [Root MOC](../root_MOC.md)
+## 🔗 Backlinks
+
+- Strategic Context: [Root MOC](../root_MOC.md)
+
 *Last Updated: May 1, 2026*
