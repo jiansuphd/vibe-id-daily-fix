@@ -36,4 +36,4 @@ Read these instructions: [Instruction Text]
 - Update personas every semester based on actual student feedback and demographic data.
 
 ---
-**Backlinks:** [[00_Root_MOC|Root MOC]] | [[00_Meta_MOC|Meta MOC]]
+**Backlinks:** [Root MOC](../../root_MOC.md) | [Meta MOC](../00_meta_MOC.md)

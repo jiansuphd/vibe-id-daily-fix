@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** read updated_page.html | gemini "Check for any new accessibility violations compared to the previous version. Pay special attention to heading levels."
 
 ---
-**Backlink:** [[10_Issues_MOC|Issues MOC]]
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

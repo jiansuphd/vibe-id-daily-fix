@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-21-the-self-correction-pattern-agentic-reflection.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-21-the-self-correction-pattern-agentic-reflection.md)

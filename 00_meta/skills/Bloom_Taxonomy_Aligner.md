@@ -37,4 +37,4 @@ Learning Objective: [LO]
 - Annual review of the SOP to incorporate updated pedagogical research (e.g., "Bloom's Digital Taxonomy").
 
 ---
-**Backlinks:** [[00_Root_MOC|Root MOC]] | [[00_Meta_MOC|Meta MOC]]
+**Backlinks:** [Root MOC](../../root_MOC.md) | [Meta MOC](../00_meta_MOC.md)

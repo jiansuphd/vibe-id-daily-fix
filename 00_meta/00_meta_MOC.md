@@ -3,25 +3,25 @@
 Central index for repository configuration, scripts, and automation assets.
 
 ## 🛠️ Infrastructure & Automation
-- **[[scripts/cyborg_aggregator|Cyborg Aggregator]]**: Daily trend scraping script.
-- **[[scripts/parse_logs|Log Parser]]**: Converts master log to individual issues.
-- **[[scripts/check_links|Link Checker]]**: Validates vault integrity.
+- **[Cyborg Aggregator](scripts/cyborg_aggregator.md) (Missing)**: Daily trend scraping script.
+- **[Log Parser](scripts/parse_logs.md) (Missing)**: Converts master log to individual issues.
+- **[Link Checker](scripts/check_links.md) (Missing)**: Validates vault integrity.
 
 ## 🎨 Dashboard (VibeID Daily)
-- **[[src/index.njk|Dashboard Home]]**: The front-facing HUD source.
-- **[[src/_includes/base.njk|Base Template]]**: Main dashboard layout and branding.
-- **[[src/css/style.css|Dashboard CSS]]**: Modern terminal aesthetic styles.
+- **[Dashboard Home](src/index.njk) (Missing)**: The front-facing HUD source.
+- **[Base Template](src/_includes/base.njk) (Missing)**: Main dashboard layout and branding.
+- **[Dashboard CSS](src/css/style.css) (Missing)**: Modern terminal aesthetic styles.
 
 ## 📚 Skill Library (SOPs)
-- **[[skills/AltText_Reviewer|AltText Reviewer]]**: Accessibility audit workflow for images.
-- **[[skills/Syllabus_Migration|Syllabus Migration]]**: Document-to-modular course transformation.
-- **[[skills/Bloom_Taxonomy_Aligner|Bloom Taxonomy Aligner]]**: Pedagogical depth & objective audit.
-- **[[skills/Synthetic_Student_Simulator|Synthetic Student Simulator]]**: UX testing for course instructions.
+- **[AltText Reviewer](skills/AltText_Reviewer.md)**: Accessibility audit workflow for images.
+- **[Syllabus Migration](skills/Syllabus_Migration.md)**: Document-to-modular course transformation.
+- **[Bloom Taxonomy Aligner](skills/Bloom_Taxonomy_Aligner.md)**: Pedagogical depth & objective audit.
+- **[Synthetic Student Simulator](skills/Synthetic_Student_Simulator.md)**: UX testing for course instructions.
 
 ## 🗺️ Project Management
-- **[[Work Plan]]**: Current roadmap and active phase checklist.
-- **[[progress|Progress Log]]**: Detailed history of CLI operations.
-- **[[log|Maintenance Log]]**: Append-only chronological audit trail.
+- **[Work Plan](Work%20Plan.md)**: Current roadmap and active phase checklist.
+- **[Progress Log](progress.md)**: Detailed history of CLI operations.
+- **[Maintenance Log](log.md)**: Append-only chronological audit trail.
 
 ---
-**Backlinks:** [[00_Root_MOC|Root MOC]]
+**Backlinks:** [Root MOC](../root_MOC.md)

@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** gemini "Check my GitHub repo for open issues related to 'Accessibility' and cross-reference them with my CPACC study notes."
 
 ---
-**Backlink:** [[10_Issues_MOC|Issues MOC]]
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

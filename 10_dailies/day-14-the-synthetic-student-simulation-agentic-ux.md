@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** Prompt: "As a student with Dyslexia, read this Module Overview. Identify the 3 most confusing sentences and re-write them for better readability."
 
 ---
-**Backlink:** [[10_Issues_MOC|Issues MOC]]
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

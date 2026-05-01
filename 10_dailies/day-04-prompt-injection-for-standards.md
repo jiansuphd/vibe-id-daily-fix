@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Inject the official UT Knoxville syllabus template before generating a new draft.
 
 ---
-**Backlink:** [[10_Issues_MOC|Issues MOC]]
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-30-the-course-specific-memory-anchor-notebooklm-bridge.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-30-the-course-specific-memory-anchor-notebooklm-bridge.md)

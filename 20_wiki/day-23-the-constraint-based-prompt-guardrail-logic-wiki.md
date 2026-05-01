@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-23-the-constraint-based-prompt-guardrail-logic.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-23-the-constraint-based-prompt-guardrail-logic.md)

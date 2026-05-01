@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-19-the-agentic-git-instructional-assets-as-code.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-19-the-agentic-git-instructional-assets-as-code.md)

@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-17-the-full-vault-synthesis-mcp-integration.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-17-the-full-vault-synthesis-mcp-integration.md)

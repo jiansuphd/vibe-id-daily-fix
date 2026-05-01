@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-29-the-legacy-to-logic-pipeline-syllabus-migration.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-29-the-legacy-to-logic-pipeline-syllabus-migration.md)

@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** gemini "Update the Master File Index and reorganize the Professional Development section."
 
 ---
-**Backlink:** [[10_Issues_MOC|Issues MOC]]
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-13-the-accessibility-regression-protocol.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-13-the-accessibility-regression-protocol.md)

@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-10-the-cognitive-load-audit-density-check.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-10-the-cognitive-load-audit-density-check.md)

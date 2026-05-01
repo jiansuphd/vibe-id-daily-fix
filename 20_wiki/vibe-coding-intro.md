@@ -13,4 +13,4 @@ Vibe Coding is the practice of using high-level natural language instructions to
 - **The Knowledge Compiler**: Using an AI-maintained wiki to track project evolution.
 
 ---
-**Backlinks:** [[20_Wiki_MOC|Wiki MOC]]
+**Backlinks:** [Wiki MOC](20_wiki_MOC.md)

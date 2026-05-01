@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-14-the-synthetic-student-simulation-agentic-ux.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-14-the-synthetic-student-simulation-agentic-ux.md)

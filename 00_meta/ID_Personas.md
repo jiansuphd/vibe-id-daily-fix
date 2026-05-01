@@ -32,4 +32,4 @@ These personas act as systematic behavioral anchors for "Vibe Coding" interactio
 
 ---
 
-**Backlinks:** [[00_Root_MOC|Root MOC]]
+**Backlinks:** [Root MOC](../root_MOC.md)

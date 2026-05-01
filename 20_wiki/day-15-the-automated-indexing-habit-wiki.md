@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-15-the-automated-indexing-habit.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-15-the-automated-indexing-habit.md)

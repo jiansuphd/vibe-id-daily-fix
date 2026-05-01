@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Suggest a "Low-Friction" design (shorter content) for weeks with massive term papers to prevent burnout.
 
 ---
-**Backlink:** [[10_Issues_MOC|Issues MOC]]
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

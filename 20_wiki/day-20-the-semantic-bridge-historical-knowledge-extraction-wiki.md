@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-20-the-semantic-bridge-historical-knowledge-extraction.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-20-the-semantic-bridge-historical-knowledge-extraction.md)

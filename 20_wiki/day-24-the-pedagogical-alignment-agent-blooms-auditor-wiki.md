@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-24-the-pedagogical-alignment-agent-blooms-auditor.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-24-the-pedagogical-alignment-agent-blooms-auditor.md)

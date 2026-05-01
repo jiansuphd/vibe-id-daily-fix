@@ -76,5 +76,5 @@ This document is intentionally abstract. It describes the idea, not a specific i
 
 
 ---
-**Backlinks:** [[00_Root_MOC|Root MOC]]
+**Backlinks:** [Root MOC](../root_MOC.md)
 

@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-01-the-entry-point-protocol-agentsmd-geminimd.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-01-the-entry-point-protocol-agentsmd-geminimd.md)

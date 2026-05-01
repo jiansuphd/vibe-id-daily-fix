@@ -12,4 +12,4 @@ tags: [issue, vibe-coding]
 - **Action:** gemini "Review this module on the Bullwhip Effect. Act as a Supply Chain PhD and critique the technical depth of the Case Study."
 
 ---
-**Backlink:** [[10_Issues_MOC|Issues MOC]]
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

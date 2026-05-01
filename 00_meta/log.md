@@ -43,4 +43,4 @@ Append-only record of wiki operations. Sorted chronologically (oldest to newest)
 
 ---
 
-**Backlinks:** [[00_Root_MOC|Root MOC]]
+**Backlinks:** [Root MOC](../root_MOC.md)

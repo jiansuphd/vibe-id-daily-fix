@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Ensures courses meet Quality Matters (QM) standards for Alignment.
 
 ---
-**Backlink:** [[10_Issues_MOC|Issues MOC]]
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

@@ -33,5 +33,5 @@ When instructed to **Lint**:
 2. Ensure MOCs accurately reflect the contents of their directories.
 3. Verify that `00_Meta/log.md` is properly formatted.
 ---
-**Backlinks:** [[00_Root_MOC|Root MOC]]
+**Backlinks:** [Root MOC](../root_MOC.md)
 

@@ -12,4 +12,4 @@ tags: [issue, vibe-coding]
 - **Action:** read legacy_page.html | gemini "Strip all inline styles and fixed-width containers. Output the content as a clean JSON object with keys for 'Objectives', 'Content', and 'Tasks'."
 
 ---
-**Backlink:** [[10_Issues_MOC|Issues MOC]]
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

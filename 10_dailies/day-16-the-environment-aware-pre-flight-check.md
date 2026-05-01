@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** "Before generating the React component, list the external libraries, CDN links, and HTML structure required for this to run in a Canvas context."
 
 ---
-**Backlink:** [[10_Issues_MOC|Issues MOC]]
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-05-the-self-documenting-loop.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-05-the-self-documenting-loop.md)

@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-31-the-reparse-point-audit-junction-repair.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-31-the-reparse-point-audit-junction-repair.md)

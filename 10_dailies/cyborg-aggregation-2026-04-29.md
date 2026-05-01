@@ -45,4 +45,4 @@ tags: [aggregation, trends, accessibility]
 
 
 ---
-**Reference:** [[10_Issues_MOC|Issues MOC]]
+**Reference:** [Issues MOC](10_dailies_MOC.md)

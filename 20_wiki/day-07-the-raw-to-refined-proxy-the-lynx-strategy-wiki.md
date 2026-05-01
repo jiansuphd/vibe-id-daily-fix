@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-07-the-raw-to-refined-proxy-the-lynx-strategy.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-07-the-raw-to-refined-proxy-the-lynx-strategy.md)

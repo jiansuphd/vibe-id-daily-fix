@@ -14,4 +14,4 @@ tags: [wiki, concept, instructional-design]
 (To be expanded)
 
 ---
-**Reference:** [[day-11-prompt-injection-for-brand-compliance.md|Original Issue]]
+**Reference:** [Original Issue](../10_dailies/day-11-prompt-injection-for-brand-compliance.md)

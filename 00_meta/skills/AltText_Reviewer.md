@@ -41,4 +41,4 @@ Provide a corrected version if it fails to meet WCAG standards or repeats body t
 - Log common failure patterns in the project wiki.
 
 ---
-**Backlinks:** [[00_Root_MOC|Root MOC]] | [[00_Meta_MOC|Meta MOC]]
+**Backlinks:** [Root MOC](../../root_MOC.md) | [Meta MOC](../00_meta_MOC.md)
