@@ -33,9 +33,13 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
-  // Collection: Latest Posts (reversed)
+  // Collection: Latest Posts (reversed, future-dated posts excluded)
   eleventyConfig.addCollection("posts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("00_meta/src/posts/*.md").reverse();
+    const now = new Date();
+    return collectionApi
+      .getFilteredByGlob("00_meta/src/posts/*.md")
+      .filter(post => post.date <= now)
+      .reverse();
   });
 
   return {
