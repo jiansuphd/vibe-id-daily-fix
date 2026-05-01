@@ -1,0 +1,28 @@
+---
+layout: post.njk
+title: "Day 94: The 'Multi-Modal' Executive Brief"
+date: 2026-07-02
+tags:
+  - post
+  - day-94
+  - phase-7
+  - executive
+  - multi-modal
+  - communication
+---
+
+# Day 94: The 'Multi-Modal' Executive Brief
+
+- **The Pointer:** Generate a multi-modal executive brief — text summary, visual timeline, and KPI dashboard — from your vault in one pipeline.
+- **The Details:** Executives consume information in multiple modalities. A pipeline that reads your progress log and outputs text + Mermaid timeline + metric table covers all three channels simultaneously.
+- **Action:**
+
+```bash
+gemini "Read progress.md. Generate: (1) 200-word text summary, (2) Mermaid Gantt chart of phases completed, (3) KPI table: days completed, posts published, tools deployed, wiki entries."
+```
+
+---
+
+*Phase 7: Endgame & Sustained Resilience*
+
+**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
