@@ -10,7 +10,7 @@ The following renames have occurred:
 - `_wiki/` -> `_wiki/`
 - `_meta/_meta_MOC.md` -> `_meta/_meta_MOC.md`
 - `_dailies/_dailies_MOC.md` -> `_dailies/_dailies_MOC.md`
-- `_wiki/_wiki_MOC.md` -> `_wiki/_wiki_MOC.md`
+- `20_wiki/20_wiki_MOC.md` -> `20_wiki/20_wiki_MOC.md`
 - `root_MOC.md` -> `root_MOC.md`
 
 ## Scope

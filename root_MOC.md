@@ -7,7 +7,7 @@ Welcome to the central Map of Content for **VibeID Daily**. This structure is bu
 
 ## 🗂️ Directories
 - **[10_dailies](10_dailies/_dailies_MOC.md)**: Raw daily pointers and automated trend aggregations.
-- **[20_wiki](20_wiki/_wiki_MOC.md)**: LLM-generated pedagogical synthesis and analysis.
+- **[20_wiki](20_wiki/20_wiki_MOC.md)**: LLM-generated pedagogical synthesis and analysis.
 - **[00_meta](00_meta/_meta_MOC.md)**: Configuration, roadmaps, scripts, and site source.
 
 ## 📝 Core Resources
