@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Multiple Means of Action & Expression (The \'HOW\' of Learning)"
+title: "Multiple Means of Action & Expression (The 'HOW' of Learning)"
 date: 2026-04-17
 tags: [issue, vibe-coding]
 ---
