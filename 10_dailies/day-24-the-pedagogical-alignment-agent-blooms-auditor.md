@@ -3,8 +3,7 @@ title: "The "Pedagogical Alignment Agent" (Bloom's Auditor)"
 date: 2026-04-23
 tags: [issue, vibe-coding]
 ---
-
-# The "Pedagogical Alignment Agent" (Bloom's Auditor)
+# Day 24
 
 - **The Pointer:** Use the AI to audit the "Verbs" in your learning objectives against Bloom's Taxonomy levels.
 - **The Details:** This ensures that your assessments actually match the cognitive level of your objectives.

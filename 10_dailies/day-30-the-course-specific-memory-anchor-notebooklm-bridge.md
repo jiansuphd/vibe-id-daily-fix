@@ -3,8 +3,7 @@ title: "The "Course-Specific Memory" Anchor (NotebookLM Bridge)"
 date: 2026-04-29
 tags: [issue, vibe-coding]
 ---
-
-# The "Course-Specific Memory" Anchor (NotebookLM Bridge)
+# Day 30
 
 - **The Pointer:** Use the new Gemini / NotebookLM integration to keep "Course-Specific Context" persistent across months of development.
 - **The Details:** Instead of re-uploading the same 200-page SCM 571 handbook every session, "Anchor" the chat to a persistent Notebook.

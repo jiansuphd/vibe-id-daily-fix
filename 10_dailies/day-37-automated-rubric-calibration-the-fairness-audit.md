@@ -3,8 +3,7 @@ title: "Automated Rubric Calibration (The Fairness Audit)"
 date: 2026-05-06
 tags: [issue, vibe-coding, rubric, qa]
 ---
-
-# Automated Rubric Calibration (The Fairness Audit)
+# Day 37
 
 - **The Pointer:** Use the CLI to compare a Syllabus, a Rubric, and a Sample Assignment simultaneously.
 - **The Details:** This is "Triangulation." The AI identifies "Rubric Drift" — where the grading criteria don't actually measure the stated learning objective.

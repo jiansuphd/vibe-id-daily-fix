@@ -3,8 +3,7 @@ title: "The "Vibe-to-SOP" (Auto-Documentation)"
 date: 2026-04-26
 tags: [issue, vibe-coding]
 ---
-
-# The "Vibe-to-SOP" (Auto-Documentation)
+# Day 27
 
 - **The Pointer:** Convert a "Successful Vibe" session into a Standard Operating Procedure (SOP) immediately.
 - **The Details:** Use the /path command to save the step-by-step logic of a win as a new skill in 02_Skills.

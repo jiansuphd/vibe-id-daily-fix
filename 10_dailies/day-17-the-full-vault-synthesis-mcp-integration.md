@@ -3,8 +3,7 @@ title: "The "Full-Vault Synthesis" (MCP Integration)"
 date: 2026-04-16
 tags: [issue, vibe-coding]
 ---
-
-# The "Full-Vault Synthesis" (MCP Integration)
+# Day 17
 
 - **The Pointer:** Use the Model Context Protocol (MCP) to bridge your "Second Brain" (Obsidian) directly into your CLI.
 - **The Details:** Connecting your vault via the obsidian-mcp-server eliminates manual copy-pasting. The AI can now semantically search past research.

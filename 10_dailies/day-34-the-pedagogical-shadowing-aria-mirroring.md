@@ -3,8 +3,7 @@ title: "The 'Pedagogical Shadowing' (ARIA-Mirroring)"
 date: 2026-05-03
 tags: [issue, vibe-coding, accessibility, aria]
 ---
-
-# The "Pedagogical Shadowing" (ARIA-Mirroring)
+# Day 34
 
 - **The Pointer:** Use the AI to generate the "Invisible Layer" of the course (ARIA labels, hidden transcriptions) as a separate build step.
 - **The Details:** Don't ask for "Accessible HTML" all at once. First, get the content; then, ask the AI to "Shadow" the code with an accessibility layer.

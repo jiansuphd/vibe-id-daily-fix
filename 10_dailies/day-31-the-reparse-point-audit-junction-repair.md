@@ -3,8 +3,7 @@ title: "The "Reparse Point" Audit (Junction Repair)"
 date: 2026-04-30
 tags: [issue, vibe-coding]
 ---
-
-# The "Reparse Point" Audit (Junction Repair)
+# Day 31
 
 - **The Pointer:** Use the CLI to identify and repair broken Directory Junctions in your configuration folders.
 - **The Details:** In complex multi-drive or cloud-synced environments (OneDrive / Google Drive), symbolic links or junctions can break if the target path shifts. Use `cmd /c dir /al` to expose hidden reparse points that standard file explorers often ignore.

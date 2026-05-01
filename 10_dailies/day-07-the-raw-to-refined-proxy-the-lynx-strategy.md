@@ -3,8 +3,7 @@ title: "The "Raw-to-Refined" Proxy (The Lynx Strategy)"
 date: 2026-04-06
 tags: [issue, vibe-coding]
 ---
-
-# The "Raw-to-Refined" Proxy (The Lynx Strategy)
+# Day 7
 
 - **The Pointer:** Use the CLI to process "ugly" raw data (SME notes, PDF dumps) before designing.
 - **The Details:** Use !lynx -dump [URL] | gemini to strip noise and extract high-signal text.

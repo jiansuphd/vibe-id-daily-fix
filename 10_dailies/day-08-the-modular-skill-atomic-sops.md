@@ -3,8 +3,7 @@ title: "The "Modular Skill" (Atomic SOPs)"
 date: 2026-04-07
 tags: [issue, vibe-coding]
 ---
-
-# The "Modular Skill" (Atomic SOPs)
+# Day 8
 
 - **The Pointer:** Build a 02_Skills folder containing small, task-specific Markdown files.
 - **The Details:** This is "Agentic Infrastructure." Use specialized files like AltText_Reviewer.md to run targeted audits.

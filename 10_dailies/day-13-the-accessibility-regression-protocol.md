@@ -3,8 +3,7 @@ title: "The "Accessibility Regression" Protocol"
 date: 2026-04-12
 tags: [issue, vibe-coding]
 ---
-
-# The "Accessibility Regression" Protocol
+# Day 13
 
 - **The Pointer:** Use the CLI to compare updated files against an "Accessibility Baseline."
 - **The Details:** When you update a file's content, the CLI should re-run your AltText_Reviewer.md and WCAG_Audit skills automatically.

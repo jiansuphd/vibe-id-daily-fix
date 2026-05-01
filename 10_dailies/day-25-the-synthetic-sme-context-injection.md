@@ -3,8 +3,7 @@ title: "The "Synthetic SME" (Context Injection)"
 date: 2026-04-24
 tags: [issue, vibe-coding]
 ---
-
-# The "Synthetic SME" (Context Injection)
+# Day 25
 
 - **The Pointer:** Use a "Shadow SME" persona to review your instructional tone and technical accuracy.
 - **The Details:** Ask the AI to act as a cynical subject matter expert to find gaps in your content logic or pedagogical flow.

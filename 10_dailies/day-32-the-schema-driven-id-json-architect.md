@@ -3,8 +3,7 @@ title: "The 'Schema-Driven' ID (JSON Architect)"
 date: 2026-05-01
 tags: [issue, vibe-coding, json, automation]
 ---
-
-# The "Schema-Driven" ID (JSON Architect)
+# Day 32
 
 - **The Pointer:** Move from writing "Prompt Instructions" to defining "Data Schemas."
 - **The Details:** Instead of asking for a quiz, provide a JSON structure (Schema) and ask the AI to fill it. This ensures the output is 100% compatible with Canvas bulk-upload tools or your own Python scripts.

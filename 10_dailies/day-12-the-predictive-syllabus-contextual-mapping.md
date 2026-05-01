@@ -3,8 +3,7 @@ title: "The "Predictive Syllabus" (Contextual Mapping)"
 date: 2026-04-11
 tags: [issue, vibe-coding]
 ---
-
-# The "Predictive Syllabus" (Contextual Mapping)
+# Day 12
 
 - **The Pointer:** Use the CLI to map out a "Project Timeline" based on a single Syllabus PDF.
 - **The Details:** Process deadlines and weights to predict high-workload weeks.

@@ -3,8 +3,7 @@ title: "The "Self-Correction Pattern" (Agentic Reflection)"
 date: 2026-04-20
 tags: [issue, vibe-coding]
 ---
-
-# The "Self-Correction Pattern" (Agentic Reflection)
+# Day 21
 
 - **The Pointer:** Prompt the AI to audit its own output against a specific constraint before the final reveal.
 - **The Details:** Use a "Thinking" instruction: "First, identify potential accessibility errors in the proposed code. Then, provide the final corrected version."

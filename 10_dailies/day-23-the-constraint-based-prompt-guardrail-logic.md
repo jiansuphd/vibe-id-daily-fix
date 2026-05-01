@@ -3,8 +3,7 @@ title: "The "Constraint-Based Prompt" (Guardrail Logic)"
 date: 2026-04-22
 tags: [issue, vibe-coding]
 ---
-
-# The "Constraint-Based Prompt" (Guardrail Logic)
+# Day 23
 
 - **The Pointer:** Explicitly list what the AI _cannot_ do before defining the task.
 - **The Details:** This is "Negative Prompting." By banning specific bad habits (like using base64 images or inline styles), you force the AI into better architectural patterns.

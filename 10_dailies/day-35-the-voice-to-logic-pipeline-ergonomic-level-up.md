@@ -3,8 +3,7 @@ title: "The 'Voice-to-Logic' Pipeline (Ergonomic Level-Up)"
 date: 2026-05-04
 tags: [issue, vibe-coding, ergonomics, automation]
 ---
-
-# The "Voice-to-Logic" Pipeline (Ergonomic Level-Up)
+# Day 35
 
 - **The Pointer:** Use Voice-to-Text to dictate "Vibe Statements" and let the AI convert them into complex CLI commands or Shell Aliases.
 - **The Details:** On high-fatigue days, stop typing paths. Dictate the intent and ask for the command. Save successful commands as 1-word aliases in your `.zshrc`.
