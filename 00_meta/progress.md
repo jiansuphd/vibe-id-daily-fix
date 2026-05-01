@@ -30,10 +30,4 @@
 - Force push to GitHub - Completed
 - Fixed links and backlinks in root_MOC.md - Completed
 - Converted all Wikilinks to relative Markdown links in 20_wiki/ - Completed
-
-## [2026-05-01] Vault-wide Link Standardization
-- [x] **Redundancy Cleanup**: Deleted `10_dailies/root_MOC.md`.
-- [x] **Root MOC Update**: Converted `root_MOC.md` to standard GitHub Markdown links.
-- [x] **Departmental MOCs**: Updated `00_meta/00_meta_MOC.md` and `20_wiki/20_wiki_MOC.md`.
-- [x] **Full Vault Conversion**: Converted all Obsidian Wikilinks to relative Markdown links in `00_meta/`, `10_dailies/`, and `20_wiki/` (47+ files).
-- [x] **GitHub Compatibility**: Verified all links work within the GitHub file browser interface.
+- Fixed all specified links to be GitHub friendly - Completed

@@ -41,6 +41,13 @@ Append-only record of wiki operations. Sorted chronologically (oldest to newest)
 - **Clarification**: Removed spaces around hyphens for compound words/phrases as per instructions, maintaining " - " for em dashes elsewhere.
 - **Files Affected**: `Work Plan.md`, `day-27-...md`, `day-27-...-wiki.md`, `10_Issues_MOC.md`, `20_Wiki_MOC.md`.
 
+## [2026-05-01] Link Fixes | Corrected all specified links for GitHub compatibility.
+- Fixed links in root_MOC.md for correct file paths.
+- Corrected day numbering inconsistencies and links in 20_wiki/20_wiki_MOC.md.
+- Verified links in 10_dailies/10_dailies_MOC.md are correct.
+- Fixed script file extensions and relative paths for dashboard components in 00_meta/00_meta_MOC.md.
+- Corrected root_MOC linking in README.md.
+
 ---
 
 **Backlinks:** [Root MOC](../root_MOC.md)
