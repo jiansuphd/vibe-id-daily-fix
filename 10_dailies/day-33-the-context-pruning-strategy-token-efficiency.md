@@ -11,4 +11,4 @@ tags: [issue, vibe-coding, token-efficiency, workflow]
 - **Action:** `gemini "Summarize our progress on the BZAN 503 prep. Extract all finalized decisions into a concise instruction set for the next session."`
 
 ---
-**Backlink:** [Dailies MOC](_dailies_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

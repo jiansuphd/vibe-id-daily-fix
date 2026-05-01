@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Ask for a 15-week module map before individual page content.
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

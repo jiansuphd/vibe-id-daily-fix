@@ -11,4 +11,4 @@ tags: [issue, vibe-coding, bilingual, accessibility, cpacc]
 - **Action:** `read cpacc_week4_en.md | gemini "Update the ZH version. Ensure the legal definitions of the ADA are translated for conceptual accuracy, not just word-for-word."`
 
 ---
-**Backlink:** [Dailies MOC](_dailies_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

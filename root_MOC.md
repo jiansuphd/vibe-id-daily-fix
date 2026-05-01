@@ -6,7 +6,7 @@ Welcome to the central Map of Content for **VibeID Daily**. This structure is bu
 - **Live Dashboard:** [https://jiansuphd.github.io/vibe-id-daily/](https://jiansuphd.github.io/vibe-id-daily/)
 
 ## 🗂️ Directories
-- **[10_dailies](10_dailies/_dailies_MOC.md)**: Raw daily pointers and automated trend aggregations.
+- **[10_dailies](10_dailies/10_dailies_MOC.md)**: Raw daily pointers and automated trend aggregations.
 - **[20_wiki](20_wiki/20_wiki_MOC.md)**: LLM-generated pedagogical synthesis and analysis.
 - **[00_meta](00_meta/00_meta_MOC.md)**: Configuration, roadmaps, scripts, and site source.
 

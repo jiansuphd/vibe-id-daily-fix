@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Audit existing Canvas pages without overwriting the Subject Matter Expert's (SME) original text.
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

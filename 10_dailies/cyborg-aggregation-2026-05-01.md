@@ -28,4 +28,4 @@ layout: post.njk
 - [ ] Audit latest LMS CSS against WCAG 2.2 focus standards.
 
 ---
-**Backlinks:** [Root MOC](../root_MOC.md) | [Dailies MOC](_dailies_MOC.md)
+**Backlinks:** [Root MOC](../root_MOC.md) | [Dailies MOC](10_dailies_MOC.md)

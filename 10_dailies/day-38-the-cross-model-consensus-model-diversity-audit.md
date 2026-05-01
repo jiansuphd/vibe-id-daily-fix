@@ -11,4 +11,4 @@ tags: [issue, vibe-coding, accessibility, cpacc, multi-model]
 - **Action:** `gemini-pro audit.html | gemini-flash audit.html "Compare these two outputs. Highlight the differences in accessibility findings."`
 
 ---
-**Backlink:** [Dailies MOC](_dailies_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

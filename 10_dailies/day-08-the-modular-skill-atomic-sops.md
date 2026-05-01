@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Run: /path ./02_Skills/AltText_Reviewer.md then gemini "Run this skill on index.html."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

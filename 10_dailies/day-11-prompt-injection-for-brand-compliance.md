@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Ensures all generated Canvas pages are unified and "on-vibe" with UT Brand Standards.
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

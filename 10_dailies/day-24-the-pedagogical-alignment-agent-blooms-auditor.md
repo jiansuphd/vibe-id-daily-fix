@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** read syllabus.md | gemini "Map these objectives to Bloom's Taxonomy. Flag any objectives that are under-assessed in the current quiz bank."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

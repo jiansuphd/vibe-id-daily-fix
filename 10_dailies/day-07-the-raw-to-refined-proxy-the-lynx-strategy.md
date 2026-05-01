@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Fast-track turning a 50-page PDF into 5 clean Learning Objectives.
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

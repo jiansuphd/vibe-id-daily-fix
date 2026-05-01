@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** gemini "I have added a hidden accessibility error to this code. Use the AltText_Reviewer skill to identify it."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **Action:** gemini "Based on my CPACC study notes and the AREC 342 course map, suggest 3 accessibility improvements for the Module 1 syllabus."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

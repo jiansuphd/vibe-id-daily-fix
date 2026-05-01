@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** gemini "Summarize our workflow for creating this interactive timeline. Format it it as an SOP and save it to 02_Skills/Rise_Timeline_Builder.md."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

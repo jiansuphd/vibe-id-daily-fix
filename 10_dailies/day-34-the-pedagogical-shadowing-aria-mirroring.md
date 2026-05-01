@@ -11,4 +11,4 @@ tags: [issue, vibe-coding, accessibility, aria]
 - **Action:** `read page.html | gemini "Review this code. Add necessary ARIA roles and labels specifically for a student using a screen magnifier."`
 
 ---
-**Backlink:** [Dailies MOC](_dailies_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

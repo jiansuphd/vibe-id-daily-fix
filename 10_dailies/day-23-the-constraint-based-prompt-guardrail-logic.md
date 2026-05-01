@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** gemini "Design a module header. Constraints: No inline CSS, no absolute positioning, must use REM units for font-size."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

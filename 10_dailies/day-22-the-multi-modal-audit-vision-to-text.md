@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** [Upload Screenshot] | gemini "Does this layout follow the UDL principle of Reducing Distractions? Highlight any cluttered areas."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Turns a one-time success (like a complex table build) into a repeatable SOP.
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

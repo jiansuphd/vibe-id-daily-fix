@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** `cmd /c dir /al /s` | gemini "Identify any broken junctions in this directory and suggest the rmdir / mklink /j repair command."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

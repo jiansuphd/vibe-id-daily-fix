@@ -11,4 +11,4 @@ tags: [issue, vibe-coding, ergonomics, automation]
 - **Action:** `gemini "I want to audit all HTML files in this folder for color contrast. Write a one-liner CLI command using my WCAG_Audit skill."`
 
 ---
-**Backlink:** [Dailies MOC](_dailies_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

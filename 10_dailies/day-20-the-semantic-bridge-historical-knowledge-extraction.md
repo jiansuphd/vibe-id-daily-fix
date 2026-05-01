@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **Action:** gemini "Search the 99_System/Archive for previous EdTech Hub presentations and extract the best practices for AI Avatars to use in AREC 342."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

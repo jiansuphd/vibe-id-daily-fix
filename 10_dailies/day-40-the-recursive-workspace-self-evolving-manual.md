@@ -11,4 +11,4 @@ tags: [issue, vibe-coding, documentation, automation]
 - **Action:** `gemini "Based on my last 10 days of CLI Logs, suggest 3 updates to my Workspace Technical Manual to better reflect my current workflow."`
 
 ---
-**Backlink:** [Dailies MOC](_dailies_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

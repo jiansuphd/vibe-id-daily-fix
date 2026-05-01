@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Allow podcast, video, or slide deck submissions instead of just a final paper. The goal is evidence of learning, not tool proficiency.
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

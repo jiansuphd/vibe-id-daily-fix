@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** gemini "Create a custom video player. Before outputting the code, check if it contains any keyboard traps and verify the focus indicator contrast."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

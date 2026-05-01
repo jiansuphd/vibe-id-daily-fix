@@ -11,4 +11,4 @@ tags: [issue, vibe-coding, json, automation]
 - **Action:** `gemini "Generate the Week 4 content following this JSON schema: {title, objective_id, content_html, accessibility_notes}."`
 
 ---
-**Backlink:** [Dailies MOC](_dailies_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** gemini "I have high physical fatigue today. Suggest the most keystroke-efficient way to build this interactive grid."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

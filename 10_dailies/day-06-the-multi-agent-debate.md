@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Pressure-test a module's navigation and cognitive load.
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

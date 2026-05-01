@@ -11,4 +11,4 @@ tags: [issue, vibe-coding]
 - **Action:** [Toggle Notebook: SCM 571 Handbook] | gemini "Based on the BZAN 503 prep notes in this notebook, draft the Week 1 welcome announcement."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

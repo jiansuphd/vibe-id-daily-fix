@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Define your "Voice" (Senior ID) and "Pedagogy" (Bloom's Taxonomy, Quality Matters).
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

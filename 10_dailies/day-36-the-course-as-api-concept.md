@@ -11,4 +11,4 @@ tags: [issue, vibe-coding, architecture, automation]
 - **Action:** `gemini "Read the Master File Index. Identify any modules that lack a 'Real-World Application' case study."`
 
 ---
-**Backlink:** [Dailies MOC](_dailies_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

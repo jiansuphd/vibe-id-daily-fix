@@ -11,4 +11,4 @@ tags: [issue, vibe-coding, rubric, qa]
 - **Action:** `gemini --files syllabus.pdf, rubric.md, assignment.html "Check for alignment. Is the 20% weight on 'Analysis' supported by the instructions?"`
 
 ---
-**Backlink:** [Dailies MOC](_dailies_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

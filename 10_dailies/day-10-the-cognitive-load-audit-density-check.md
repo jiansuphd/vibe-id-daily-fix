@@ -10,4 +10,4 @@ tags: [issue, vibe-coding]
 - **ID Application:** Prompt: "Identify any section exceeding 100 words and suggest a split into a list or accordion."
 
 ---
-**Backlink:** [Issues MOC](_dailies_MOC.md)
+**Backlink:** [Issues MOC](10_dailies_MOC.md)

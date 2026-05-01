@@ -1,0 +1,51 @@
+# Dailies MOC
+
+A Map of Content for the raw daily VibeID Daily pointers and automated trends.
+
+## 🚀 Daily Issues
+- **[Day 01: The Entry Point Protocol](day-01-the-entry-point-protocol-agentsmd-geminimd.md)**
+- **[Day 02: The Skeleton-First Prompt](day-02-the-skeleton-first-prompt.md)**
+- **[Day 03: The Draft-to-Diff Workflow](day-03-the-draft-to-diff-workflow.md)**
+- **[Day 04: Prompt Injection for Standards](day-04-prompt-injection-for-standards.md)**
+- **[Day 05: The Self-Documenting Loop](day-05-the-self-documenting-loop.md)**
+- **[Day 06: The Multi-Agent Debate](day-06-the-multi-agent-debate.md)**
+- **[Day 07: The Raw-to-Refined Proxy](day-07-the-raw-to-refined-proxy-the-lynx-strategy.md)**
+- **[Day 08: The Modular Skill](day-08-the-modular-skill-atomic-sops.md)**
+- **[Day 09: The Semantic Cross-Check](day-09-the-semantic-cross-check-alignment.md)**
+- **[Day 10: The Cognitive Load Audit](day-10-the-cognitive-load-audit-density-check.md)**
+- **[Day 11: Prompt Injection for Brand Compliance](day-11-prompt-injection-for-brand-compliance.md)**
+- **[Day 12: The Predictive Syllabus](day-12-the-predictive-syllabus-contextual-mapping.md)**
+- **[Day 13: The Accessibility Regression Protocol](day-13-the-accessibility-regression-protocol.md)**
+- **[Day 14: The Synthetic Student Simulation](day-14-the-synthetic-student-simulation-agentic-ux.md)**
+- **[Day 15: The Automated Indexing Habit](day-15-the-automated-indexing-habit.md)**
+- **[Day 16: The Environment-Aware Pre-Flight Check](day-16-the-environment-aware-pre-flight-check.md)**
+- **[Day 17: The Full-Vault Synthesis](day-17-the-full-vault-synthesis-mcp-integration.md)**
+- **[Day 19: The Agentic Git](day-19-the-agentic-git-instructional-assets-as-code.md)**
+- **[Day 20: The Semantic Bridge](day-20-the-semantic-bridge-historical-knowledge-extraction.md)**
+- **[Day 21: The Self-Correction Pattern](day-21-the-self-correction-pattern-agentic-reflection.md)**
+- **[Day 22: The Multi-Modal Audit](day-22-the-multi-modal-audit-vision-to-text.md)**
+- **[Day 23: The Constraint-Based Prompt](day-23-the-constraint-based-prompt-guardrail-logic.md)**
+- **[Day 24: The Pedagogical Alignment Agent](day-24-the-pedagogical-alignment-agent-blooms-auditor.md)**
+- **[Day 25: The Synthetic SME](day-25-the-synthetic-sme-context-injection.md)**
+- **[Day 26: The Accessibility Unit Test](day-26-the-accessibility-unit-test-failure-injection.md)**
+- **[Day 27: The "Vibe-to-SOP" (Auto-Documentation)](day-27-the-vibe-to-sop-auto-documentation.md)**
+- **[Day 28: The Ergonomic Flow Persona](day-28-the-ergonomic-flow-persona.md)**
+- **[Day 29: The Legacy-to-Logic Pipeline](day-29-the-legacy-to-logic-pipeline-syllabus-migration.md)**
+- **[Day 30: The Course-Specific Memory Anchor](day-30-the-course-specific-memory-anchor-notebooklm-bridge.md)**
+- **[Day 31: The Reparse Point Audit](day-31-the-reparse-point-audit-junction-repair.md)**
+- **[Day 32: The "Schema-Driven" ID (JSON Architect)](day-32-the-schema-driven-id-json-architect.md)**
+- **[Day 33: The "Context-Pruning" Strategy (Token Efficiency)](day-33-the-context-pruning-strategy-token-efficiency.md)**
+- **[Day 34: The "Pedagogical Shadowing" (ARIA-Mirroring)](day-34-the-pedagogical-shadowing-aria-mirroring.md)**
+- **[Day 35: The "Voice-to-Logic" Pipeline (AS Ergonomic Level-Up)](day-35-the-voice-to-logic-pipeline-ergonomic-level-up.md)**
+- **[Day 36: The "Course-as-API" Concept](day-36-the-course-as-api-concept.md)**
+- **[Day 37: Automated Rubric Calibration (The Fairness Audit)](day-37-automated-rubric-calibration-the-fairness-audit.md)**
+- **[Day 38: The "Cross-Model" Consensus (Model Diversity Audit)](day-38-the-cross-model-consensus-model-diversity-audit.md)**
+- **[Day 39: Bilingual Sync (ZH/EN Content Mirroring)](day-39-bilingual-sync-zh-en-content-mirroring.md)**
+- **[Day 40: The "Recursive Workspace" (Self-Evolving Manual)](day-40-the-recursive-workspace-self-evolving-manual.md)**
+
+## 🤖 Automated Aggregations
+
+*Cyborg trend reports are maintained locally but not published to the site.*
+
+---
+**Backlinks:** [Root MOC](../root_MOC.md)
