@@ -727,3 +727,58 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 `04a31fd` — pushed to `origin/main`
 
 *Addendum appended May 1, 2026.*
+
+---
+
+## Session 3 — Live Site Fixes, Homepage Intro & Sidebar Refinements
+**Date:** May 1, 2026 (GitHub Copilot / Claude Sonnet 4.6)
+
+### Objectives Completed
+
+1. **Fix Days 41–100 showing on live site** — Root cause: 60 source files in `10_dailies/` (Days 41–100) had no front matter at all — they started with a raw `# heading`. Eleventy defaulted all to today's date, bypassing the future-date filter. Injected front matter with sequential future dates (Day 41 = 2026-05-10 → Day 100 = 2026-07-08), then re-ran `parse_dailies.js` to sync to `00_meta/src/posts/`.
+
+2. **Clean personal info from Export Chat.md and progress.md** — Replaced specific references in Session 2 tables and prose with neutral descriptions. Zero matches confirmed post-cleanup.
+
+3. **Add "// Start Here" sidebar widget** — Pinned widget linking directly to Day 1 at the top of the sidebar.
+
+4. **Remove "// The Vibe Coding Guide" widget** — Removed standalone guide widget and "Full 100-Day Guide →" link from sidebar.
+
+5. **Add homepage intro block** — Replaced blank feed start with a full "Introduction to Vibe Coding for IDs" block above the post feed, including Core Principles and Key Workflows sections.
+
+6. **Improve color contrast** — Brightened `--text` (`#e2e8f0` → `#f1f5f9`), `--text-dim` (`#94a3b8` → `#cbd5e1`), and switched `.prose` body text to use `--text` instead of `--text-dim`. Widget paragraph text also brightened.
+
+7. **Sidebar reordering** — Final order: **Start Here → About → Repository → Archives → Subscribe**.
+
+---
+
+### Key Commits (Session 3)
+
+| Commit | Description |
+|---|---|
+| `de68da4` | fix: future-date Days 41-100; clean personal info from Export Chat + progress; add Start Here sidebar widget; bump font sizes |
+| `2d2db20` | fix: remove Vibe Coding Guide widget and full guide link from sidebar |
+| `c4672f9` | feat: add intro block to homepage (Vibe Coding for IDs) |
+| `e2c1f51` | fix: move Start Here widget above Subscribe in sidebar |
+| `35cbf1d` | fix: move Subscribe widget to bottom of sidebar |
+| `942c8fb` | fix: improve color contrast - brighten text and prose body |
+| `e374c64` | fix: move About widget to top of sidebar |
+| `3158bce` | fix: sidebar order Start Here → About → Repository → Archives → Subscribe |
+
+---
+
+### Technical Notes
+
+**Days 41–100 date formula:**
+- Base: Day 32 = `2026-05-01`
+- Formula: `date = 2026-05-01 + (day_number - 32) days`
+- Day 41 = `2026-05-10`, Day 60 = `2026-05-29`, Day 80 = `2026-06-18`, Day 100 = `2026-07-08`
+- Days 33–40 already had dates from a prior session; only Days 41–100 were missing front matter entirely.
+
+**Homepage intro block location:** `00_meta/src/index.njk` — injected as `.intro-block.prose` section above the post feed loop, with `hr.intro-divider` separator. CSS added to `00_meta/src/css/style.css`.
+
+**Color contrast ratios (approx. against `#020617` background):**
+- `--text` `#f1f5f9`: ~14:1
+- `--text-dim` `#cbd5e1`: ~10:1
+- Both exceed WCAG AA (4.5:1) and AAA (7:1) thresholds.
+
+*Session 3 appended — May 1, 2026.*
