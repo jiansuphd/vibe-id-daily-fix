@@ -8,7 +8,7 @@ To provide daily, actionable strategic pointers and logic logs for Instructional
 ## 🧠 The Knowledge Compiler Concept
 This repository is maintained as a **compounding, searchable wiki**, organized to distinguish between raw inputs and analytical synthesis.
 
-- **10_Issues**: Raw daily pointers and automated aggregations. Each file represents a single "Issue" or "Transmission".
+- **_dailies**: Raw daily pointers and automated aggregations. Each file represents a single "Issue" or "Transmission".
 - **_wiki**: LLM-generated pedagogical synthesis and analysis of the daily pointers.
 - **_meta**: The "Brain" of the operation. Contains roadmaps, status updates, Maps of Content (MOCs), automation scripts, and the dashboard source (`src/`).
 
