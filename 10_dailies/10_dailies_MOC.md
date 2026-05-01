@@ -1,4 +1,4 @@
-# Issues MOC
+# Dailies MOC
 
 A Map of Content for the raw daily VibeID Daily pointers and automated trends.
 
