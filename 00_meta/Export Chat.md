@@ -782,3 +782,65 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 - Both exceed WCAG AA (4.5:1) and AAA (7:1) thresholds.
 
 *Session 3 appended — May 1, 2026.*
+
+---
+
+## Session 4 — Privacy-Safe Continuous Chat Log (Active)
+**Date:** May 1, 2026
+**Mode:** Sanitized ongoing updates for this chat
+
+### Live Update Protocol (for this conversation)
+- Append major actions to this file as short, factual deltas.
+- Exclude personal identifiers (personal emails, phone numbers, private keys, API secrets).
+- Keep technical details needed for reproducibility (files, commands, outcomes).
+- Redact user-unique identifiers when not needed for engineering context.
+
+### Session 4 Updates (Current)
+
+#### A) Full Repository Health Sweep
+- Ran `npm run lint` (internal markdown link validation) → pass.
+- Ran `npm run build` (Eleventy full generation) → pass.
+- Audited internal links, backlinks, and external URLs (HTTP checks) → no broken internal/backlink targets detected.
+- Content consistency check on `10_dailies/day-*.md`:
+  - 100 files present (`day-1` through `day-100`)
+  - no missing day numbers
+  - no duplicate day numbers
+  - all files include `date:` front matter
+
+#### B) Privacy Cleanup Applied
+- File updated: `00_meta/src/feed.njk`
+- Change: replaced a personal contact email with neutral non-personal address:
+  - `[redacted-personal-email]` → `noreply@vibe-id-daily.local`
+
+#### C) Link Checker Hardening + CI Optional External Checks
+- File updated: `00_meta/scripts/check_links.js`
+  - Ignores markdown code fences, inline code spans, and HTML comments before link parsing.
+  - Supports optional external URL checks via `CHECK_EXTERNAL_LINKS=true`.
+  - Adds warning mode for common anti-bot/rate-limit statuses (`401/403/405/429`), with strict mode via `STRICT_EXTERNAL_LINKS=true`.
+- File updated: `package.json`
+  - Added script: `lint:external`.
+- File updated: `.github/workflows/deploy.yml`
+  - Added external link lint step for non-push runs (`schedule` and `workflow_dispatch`).
+
+#### D) Verification Results
+- `npm run lint` → pass
+- `npm run lint:external` → pass with warning for one anti-bot endpoint (`403`)
+- `npm run build` → pass
+
+*Session 4 started and appended May 1, 2026. Further updates in this chat will continue here in sanitized form.*
+
+#### E) Publish Automation Verification (Day 33)
+- Verification date: `2026-05-01`
+- Confirmed in `.eleventy.js`: `collections.posts` uses `post.date <= now` (future-dated posts excluded from homepage/archive/feed collections).
+- Confirmed Day 33 frontmatter date in both sources:
+  - `10_dailies/day-33-the-context-pruning-strategy-token-efficiency.md` → `date: 2026-05-02`
+  - `00_meta/src/posts/day-33-the-context-pruning-strategy-token-efficiency.md` → `date: 2026-05-02`
+- Confirmed automation schedule in `.github/workflows/deploy.yml`:
+  - cron: `0 0 * * *` (midnight UTC)
+- Current built outputs (`_site/archive/index.html`, `_site/feed.xml`) include up to Day 32 on `2026-05-01`, which matches the filter behavior.
+- Expected outcome: at/after `2026-05-02 00:00 UTC`, Day 33 is included in collection-driven surfaces on the next deploy run.
+
+#### F) Repository Snapshot Commit
+- User requested committing all in-progress maintenance changes immediately.
+- Scope includes: privacy-safe feed metadata update, link checker hardening, optional external-link lint mode, deploy workflow lint step update, and sanitized chat export updates.
+

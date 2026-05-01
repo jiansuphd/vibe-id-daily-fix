@@ -43,6 +43,10 @@ jobs:
       - name: Vault Linting (Link Check)
         run: npm run lint
 
+      - name: Vault Linting (External Links)
+        if: github.event_name != 'push'
+        run: npm run lint:external
+
       - name: Build Eleventy Site
         run: npm run build
 

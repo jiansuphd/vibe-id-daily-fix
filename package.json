@@ -9,6 +9,7 @@
     "parse": "node 00_meta/scripts/parse_dailies.js",
     "cyborg": "node 00_meta/scripts/cyborg_aggregator.js",
     "lint": "node 00_meta/scripts/check_links.js",
+    "lint:external": "CHECK_EXTERNAL_LINKS=true node 00_meta/scripts/check_links.js",
     "prebuild": "npm run parse"
   },
   "keywords": [
