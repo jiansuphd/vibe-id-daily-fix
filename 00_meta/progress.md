@@ -48,6 +48,7 @@
 
 - [ ] **MCP Integration**: Connect vault to external Model Context Protocol servers.
 - [x] **Community Loop (2026-05-01)**: Implemented RSS/Email distribution. Fixed Atom feed self-link path, added RSS autodiscovery `<link rel="alternate">` to `<head>` on all pages, and added a `// Subscribe` sidebar widget to the homepage with an email subscription form (follow.it) and a fallback RSS reader link. All 8 automated output checks pass.
+- [x] **Phase 4 Audit (2026-05-01)**: Verified all 8 core Phase 4 deliverables complete. (1) Vault Standardization — zero `[[wikilinks]]` remain across `10_dailies/`, `20_wiki/`, `00_meta/`. (2) Infrastructure Rebuild — `00_meta/src/` contains all Eleventy templates; site builds cleanly. (3) Visual Refinement — New Yorker serif style was intentionally superseded by Midnight Pro v4.0 (Inter/sans-serif, `#020617`/`#8b5cf6`/`#06b6d4`); both items are correctly checked off. (4) Content Distribution — `_site/feed.xml` present with 10 entries and correct self-link. (5) Hybrid Architecture — `.eleventy.js` and `package.json` at root; all source in `00_meta/src/`. (6) Modern Deployment — `deploy.yml` uses `actions/configure-pages@v4` → `upload-pages-artifact@v3` → `deploy-pages@v4`; no `peaceiris` reference. (7) Live Site Diagnosis — documented historically; root cause (Jekyll vs. Eleventy Pages source mismatch) resolved. (8) Workflow Fix — official pipeline with `pages: write` + `id-token: write` permissions confirmed active.
 
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
