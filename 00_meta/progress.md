@@ -46,7 +46,7 @@
 - [x] **Day 18 Created (2026-05-01)**: Added missing `10_dailies/day-18-multiple-means-of-action-and-expression-udl-how.md` — "Multiple Means of Action & Expression (The HOW of Learning)" — dated 2026-04-17 to fill the gap between Day 17 and Day 19. Covers the UDL principle of varied response methods, keyboard navigability, and alternative submission formats. Live: `https://jiansuphd.github.io/vibe-id-daily/posts/day-18-multiple-means-of-action-and-expression-udl-how/`
 
 - [ ] **MCP Integration**: Connect vault to external Model Context Protocol servers.
-- [ ] **Community Loop**: Implement RSS/Email distribution.
+- [x] **Community Loop (2026-05-01)**: Implemented RSS/Email distribution. Fixed Atom feed self-link path, added RSS autodiscovery `<link rel="alternate">` to `<head>` on all pages, and added a `// Subscribe` sidebar widget to the homepage with an email subscription form (follow.it) and a fallback RSS reader link. All 8 automated output checks pass.
 
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
