@@ -44,7 +44,7 @@ I no longer measure my value by the number of hours I spend in Canvas or the num
 
 ### 2. Pedagogy as Code
 
-Through this journey, I have turned **UDL**, **WCAG 2.2**, and **Bloom's Taxonomy** into machine-readable logic. By treating my instructional assets as "Instructional Software," I have ensured that the quality of **UT online** courses is persistent, scalable, and independent of manual "re-work."
+Through this journey, I have turned **UDL**, **WCAG 2.2**, and **Bloom's Taxonomy** into machine-readable logic. By treating my instructional assets as "Instructional Software," I have ensured that the quality of UT online courses is persistent, scalable, and independent of manual "re-work."
 
 ### 3. The Ethical Agent
 
