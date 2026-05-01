@@ -12,6 +12,7 @@ tags:
 
 > [!info] Status: Phase 3 - Automation & Agentic Workflows
 > Moving from manual content digitization to automated aggregation and skill-based auditing.
+> **Project Horizon**: This project is architected for a 100-day development cycle and ends on Day 100.
 
 ## 🎯 Project Vision
 Create a front-facing dashboard that aggregates daily strategic "pointers" for Instructional Designers, helping them master agentic workflows, prompt engineering for pedagogy, and automated ID infrastructure.
