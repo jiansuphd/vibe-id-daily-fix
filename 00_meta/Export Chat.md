@@ -227,3 +227,309 @@ eleventyConfig.addCollection("posts", function(collectionApi) {
 ---
 
 *Exported from GitHub Copilot Chat session — May 1, 2026*
+
+---
+
+## Session 2 — May 1, 2026 (Afternoon/Evening)
+
+### Summary
+Layout redesign, content completion (Day 32–40), wiki creation, metadata cleanup, and CI fixes.
+
+---
+
+### 1. CI Lint Failure Fix — Wiki Broken Links
+**Problem:** All deploys were failing since the folder rename (`_dailies→10_dailies`). The `check_links.js` linter found 31 broken links in `20_wiki/*.md` still pointing to `../_dailies/`.
+
+**Fix:** Bulk sed replace across all wiki files:
+```bash
+sed -i 's|../_dailies/|../10_dailies/|g' 20_wiki/*.md
+```
+Also fixed stale link in `10_dailies/cyborg-aggregation-2026-05-01.md`: `../_meta/_meta_MOC.md` → `../00_meta/_meta_MOC.md`
+
+**Result:** `✅ All internal links are valid.`
+
+---
+
+### 2. Front Page Tagline Added
+**File:** `00_meta/src/index.njk`, `00_meta/src/css/style.css`
+
+Added above the content feed:
+> **The Vibe ID Daily** — Tracking the journey from Natural Language to Systemic Automation.
+
+Styled in JetBrains Mono with violet site name and cyan separator.
+
+---
+
+### 3. HUD Metric Removed
+**File:** `00_meta/src/_includes/base.njk`
+
+Removed "Phase: 4 — Scale & Sustain" from the metrics bar per user request.
+
+---
+
+### 4. Layout Redesigned to Match Reference Screenshot (`0429_build.jpg`)
+**Files:** `00_meta/src/css/style.css`, `00_meta/src/_includes/base.njk`, `00_meta/src/index.njk`, `00_meta/src/archive.njk`
+
+**Changes:**
+| Element | Before | After |
+|---|---|---|
+| Logo | `VibeID_Daily` | `VibeID Daily` |
+| Tagline | "Strategic Pointers for IDs" | "Natural Language // Systemic Automation" |
+| Header right | Nav links | `SYS_STATUS ONLINE` |
+| HUD metrics | Status / Mission | LOC EARTH_01 / REL 2026.05.01 / AUTH JSU1 |
+| Sidebar widgets | Navigation + Mission | // About + // Repository + // Archives |
+| Archive layout | `page-grid` (no sidebar) | `dashboard-grid` with sidebar |
+| Content overflow | Horizontal scroll | Fixed with `min-width: 0` on `.content` |
+| Prose font | `1.05rem / 1.7` | `1.1rem / 1.8` |
+| Archive link color | White | Cyan |
+| Dead CSS | ~130 lines of legacy styles | Removed |
+
+---
+
+### 5. Day 32 Wiki File Created
+**File:** `20_wiki/day-32-the-schema-driven-id-json-architect-wiki.md`
+
+Schema table, JSON example, ID framework integration notes, WCAG alignment.
+
+---
+
+### 6. Work Plan.md — Day 32-40 Content Added
+**File:** `00_meta/Work Plan.md`
+
+Appended Phase 3 (Days 32–34) and Phase 4 (Days 35–40) with full pointer content, plus Persona Anchors section.
+
+---
+
+### 7. `_dailies_MOC.md` Updated
+**File:** `10_dailies/_dailies_MOC.md`
+
+Added links for Day 32–40. Replaced cyborg aggregation links with a note that they are maintained locally only.
+
+---
+
+### 8. Wiki Files Day 33-40 Created
+| File | Topic |
+|---|---|
+| `day-33-...-wiki.md` | Context-Pruning / Token Efficiency |
+| `day-34-...-wiki.md` | Pedagogical Shadowing / ARIA-Mirroring |
+| `day-35-...-wiki.md` | Voice-to-Logic Pipeline / Ergonomics |
+| `day-36-...-wiki.md` | Course-as-API Concept |
+| `day-37-...-wiki.md` | Automated Rubric Calibration |
+| `day-38-...-wiki.md` | Cross-Model Consensus |
+| `day-39-...-wiki.md` | Bilingual ZH/EN Sync |
+| `day-40-...-wiki.md` | Recursive Workspace / Self-Evolving Manual |
+
+---
+
+### 9. Duplicate Dates Fixed (Archive Repeating Issue)
+**Problem:** Days 32–40 had duplicate dates (3 posts on May 1, 2 on May 2, etc.), causing the archive to show repeated date entries.
+
+**Fix:** Assigned unique consecutive dates:
+| Day | Date |
+|---|---|
+| 32 | 2026-05-01 |
+| 33 | 2026-05-02 |
+| 34 | 2026-05-03 |
+| 35 | 2026-05-04 |
+| 36 | 2026-05-05 |
+| 37 | 2026-05-06 |
+| 38 | 2026-05-07 |
+| 39 | 2026-05-08 |
+| 40 | 2026-05-09 |
+
+Re-ran `npm run parse` to sync `00_meta/src/posts/`.
+
+---
+
+### 10. Progress Log Updated
+**File:** `00_meta/progress.md`
+
+Added 9 new entries covering all Session 2 work, including direct link to the progress file on GitHub.
+
+---
+
+### Key Commits (Session 2)
+| Commit | Description |
+|---|---|
+| `a5cb52f` | feat: add front-page tagline; fix lint errors in wiki + cyborg files |
+| `ee7b023` | fix: remove Phase metric from HUD bar |
+| `6e6af79` | docs: update progress log; add day-32 wiki |
+| `9c2f234` | feat: redesign layout to match reference; add wiki Day 33-40; update Work Plan & MOC |
+| `fda7306` | fix: unique dates for Day 32-40 (May 1-9) |
+
+---
+
+*Session 2 appended — May 1, 2026*
+
+---
+
+## Session 2 — May 1, 2026 (GitHub Copilot / Claude Sonnet 4.6)
+
+### Overview
+Article heading cleanup, source vault standardization, Day 18 creation, and progress log update.
+
+---
+
+### 1. Article Title — Replace H1 with "Day N"
+**Commits:** `41f1643`
+
+**Problem:** Every article page had a repetitive full descriptive title as its `<h1>` (e.g., "The 'Predictive Syllabus' (Contextual Mapping)") — identical to the archive link text. The user wanted the archive/sidebar links to stay descriptive, but the article itself to simply read "Day 12", "Day 9", etc.
+
+**Changes:**
+
+| File | Change |
+|------|--------|
+| `.eleventy.js` | Added `dayLabel` filter: extracts the number from the file slug (`day-12-...` → `Day 12`) |
+| `00_meta/src/_includes/post.njk` | Article `<h1>` now uses `{{ page.fileSlug \| dayLabel }}`, falling back to `{{ title }}` for non-day posts (cyborg aggregations, etc.) |
+| `00_meta/scripts/parse_dailies.js` | Added regex to strip the duplicate `# Heading` from the markdown body during the parse step, so it doesn't appear twice in rendered output |
+
+**Eleventy filter added:**
+```js
+eleventyConfig.addFilter("dayLabel", (fileSlug) => {
+  const match = fileSlug && fileSlug.match(/^day-0*(\d+)/);
+  return match ? `Day ${parseInt(match[1], 10)}` : null;
+});
+```
+
+**Template change (`post.njk`):**
+```njk
+{% set dayLabel = page.fileSlug | dayLabel %}
+<h1>{{ dayLabel if dayLabel else title }}</h1>
+```
+
+**Verified:** `grep '<h1>' _site/posts/day-12-.../index.html` → `<h1>Day 12</h1>` (single occurrence, no duplicate).
+
+---
+
+### 2. Source Vault Headings — Bulk Update to `# Day N`
+**Commit:** `93fd9db`
+
+**Problem:** The previous session's bash loop used a `grep -oP` lookbehind pattern that failed on the system's grep version — numbers were not captured, leaving headings unchanged.
+
+**Fix:** Replaced with a pure Python script:
+```python
+import re, os, glob
+
+for filepath in sorted(glob.glob("10_dailies/day-*.md")):
+    filename = os.path.basename(filepath)
+    m = re.match(r'day-0*(\d+)-', filename)
+    if not m:
+        continue
+    day_num = int(m.group(1))
+    content = open(filepath).read()
+    parts = content.split('---', 2)
+    if len(parts) < 3:
+        continue
+    body = parts[2]
+    new_body = re.sub(r'^\n*# .+\n', f'\n# Day {day_num}\n', body, count=1)
+    open(filepath, 'w').write(parts[0] + '---' + parts[1] + '---' + new_body)
+```
+
+**Result:** 39 files updated (Day 18 did not yet exist; Day 18 file was created in the next step). All `10_dailies/day-*.md` source files now open in Obsidian with `# Day N` as their body heading.
+
+---
+
+### 3. Day 18 Created — Multiple Means of Action & Expression
+**Commits:** `376fed6` (initial, with YAML error), `4a86eda` (fix)
+
+**File:** `10_dailies/day-18-multiple-means-of-action-and-expression-udl-how.md`
+
+**Date:** 2026-04-17 (fills the gap between Day 17 on 2026-04-16 and Day 19 on 2026-04-18)
+
+**Content:**
+```markdown
+---
+title: "Multiple Means of Action & Expression (The "HOW" of Learning)"
+date: 2026-04-17
+tags: [issue, vibe-coding]
+---
+# Day 18
+
+- **The Pointer:** Focus on how students demonstrate mastery. If a student knows the
+  material but can't use the assessment tool itself, the assessment is invalid.
+- **The Details:** Vary methods for response and navigation. Ensure all interactives
+  are keyboard navigable — a mouse-only drag-and-drop excludes learners with motor disabilities.
+- **ID Application:** Allow podcast, video, or slide deck submissions instead of just a
+  final paper. The goal is evidence of learning, not tool proficiency.
+```
+
+**YAML note:** The title contains inner `"` quotes. The `parse_dailies.js` script converts inner `"` to `'`, so the source file must use literal (not backslash-escaped) inner quotes in the YAML string. Using `\"` causes a `YAMLException: unknown escape sequence` at build time.
+
+**Live URL:** `https://jiansuphd.github.io/vibe-id-daily/posts/day-18-multiple-means-of-action-and-expression-udl-how/`
+
+**Site now serves 43 files** (up from 42).
+
+---
+
+### 4. Progress Log Updated
+**Commit:** `a8b6c02`
+
+Three new entries appended to `00_meta/progress.md`:
+- Article Title Cleanup (Day N heading)
+- Source Vault Headings Updated (bulk Python rename)
+- Day 18 Created
+
+---
+
+## Git Commit Log (Session 2)
+
+| Commit | Description |
+|--------|-------------|
+| `41f1643` | fix: replace article h1 with Day N label, remove duplicate heading |
+| `93fd9db` | fix: update all 10_dailies source files heading to Day N |
+| `376fed6` | feat: add Day 18 - Multiple Means of Action & Expression (UDL HOW) |
+| `4a86eda` | fix: correct YAML escaping in Day 18 title |
+| `a8b6c02` | docs: log Day 18 creation, Day N title cleanup, and vault heading update |
+
+---
+
+*Exported from GitHub Copilot Chat session — May 1, 2026*
+
+---
+
+## Addendum — Live Site Incident Investigation (May 1, 2026)
+
+### User Report
+- "i started over so many times, but the live site don't work. why? fix it"
+
+### Investigation Steps (Captured)
+1. Confirmed repository build/deploy setup:
+  - `package.json` scripts use Eleventy (`build`, `start`, `prebuild` via parse script).
+  - `.eleventy.js` configured with `pathPrefix: "/vibe-id-daily/"`, input `"_meta/src"`, output `"_site"`.
+  - GitHub Actions workflow `.github/workflows/deploy.yml` builds and deploys `_site` with `peaceiris/actions-gh-pages`.
+
+2. Reproduced local production build:
+  - `npm run build` succeeded.
+  - Eleventy wrote expected pages into `_site/`.
+  - Generated HTML contained expected prefixed asset paths, e.g. `/vibe-id-daily/css/style.css`.
+
+3. Checked live production response:
+  - `curl -I -L https://jiansuphd.github.io/vibe-id-daily/` returned `200`.
+  - HTML served was GitHub Pages/Jekyll-rendered README content (not Eleventy output).
+  - Response referenced `/vibe-id-daily/assets/css/style.css?v=b894473...` from default Jekyll theme.
+
+4. Verified Actions status:
+  - Recent `Deploy VibeID Daily` runs reported successful.
+  - Workflow logs showed successful Eleventy build and successful deploy step to `gh-pages` (`publish_dir: ./_site`).
+
+### Root Cause Identified
+Primary mismatch: GitHub Pages appears to be serving the repository source/Jekyll output from `main` instead of the Eleventy deployment target (`gh-pages` or artifact-based Pages deploy).
+
+This explains why:
+- Deploy workflow can succeed,
+- Yet the public site still shows README/Jekyll content instead of `_site` output.
+
+### Immediate Fix Direction (Recorded)
+- Align GitHub Pages settings and deployment mode so the live site source matches Eleventy output:
+  - either set Pages source to `gh-pages` branch root (if using `peaceiris/actions-gh-pages`),
+  - or migrate workflow to official `actions/upload-pages-artifact` + `actions/deploy-pages` and set Pages to GitHub Actions.
+
+### Follow-up User Request in Chat
+- User requested: "record all the above to .../_meta/progress.md"
+- Assistant began recording flow, then user redirected to export chat into this file.
+
+### Notes
+- One verification command to compare remote branch SHAs was started and canceled before completion.
+- No destructive git operations were executed.
+
+*Addendum appended from the same Copilot session on May 1, 2026.*
