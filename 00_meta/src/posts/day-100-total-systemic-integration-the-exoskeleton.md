@@ -1,14 +1,6 @@
 ---
+title: "day 100 total systemic integration the exoskeleton"
 layout: post.njk
-title: "Day 100: Total Systemic Integration (The Exoskeleton)"
-date: 2026-07-08
-tags:
-  - post
-  - day-100
-  - phase-7
-  - integration
-  - synthesis
-  - exoskeleton
 ---
 
 # Day 100: Total Systemic Integration (The Exoskeleton)
@@ -25,4 +17,4 @@ gemini "Generate the final Exoskeleton Manifest: a complete inventory of all too
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

@@ -96,7 +96,7 @@ All internal links pass lint (0 broken links).
 | 42 | 2026-05-11 | The 'Accessibility Debt' Calculator |
 | 43 | 2026-05-12 | Inter-Departmental Knowledge Graph (Scaling Context) |
 | 44 | 2026-05-13 | The 'Syllabus-to-Skill' Auto-Pipeline |
-| 45 | 2026-05-14 | The 'Body-Aware' Scheduling Agent (AS Resilience) |
+| 45 | 2026-05-14 | The 'Context-Aware' Scheduling Agent (Workflow Resilience) |
 | 46 | 2026-05-15 | The 'Multi-Persona Focus Group' (Synthetic Stakeholders) |
 | 47 | 2026-05-16 | The 'Prompt Versioning' Protocol (Instructional Reliability) |
 | 48 | 2026-05-17 | The 'Shadow ID' Agent (Peer Reviewer) |
@@ -105,7 +105,7 @@ All internal links pass lint (0 broken links).
 | 51 | 2026-05-20 | The 'Voice-to-Blueprint' Workflow (Low-Strokes Design) |
 | 52 | 2026-05-21 | The 'Compliance Crawler' (Institutional Scrutiny) |
 | 53 | 2026-05-22 | The 'Cross-Platform Mirroring' (Canvas-to-Rise) |
-| 54 | 2026-05-23 | The 'Energy-Balanced' AI Agent (Fatigue Logic) |
+| 54 | 2026-05-23 | The 'Efficiency-Balanced' AI Agent (Logic Balancing) |
 | 55 | 2026-05-24 | The 'Generative Grading' Rubric-Bot |
 | 56 | 2026-05-25 | 'Agentic Procurement' (VPAT Auditor) |
 | 57 | 2026-05-26 | 'Translation Reliability' (EN/ZH Semantic Check) |
@@ -121,34 +121,34 @@ All internal links pass lint (0 broken links).
 | 63 | 2026-06-01 | The 'SME Voice' Fine-Tuning |
 | 64 | 2026-06-02 | Semantic Data Migration (2025 to 2026) |
 | 65 | 2026-06-03 | The 'Agentic' Onboarding SOP |
-| 66 | 2026-06-04 | 'Keystroke Budgeting' (Effort Mapping) |
-| 67 | 2026-06-05 | Vision-to-Vibe (LMS Visual Audit) |
+| 66 | 2026-06-04 | 'Effort Mapping' (Workflow Budgeting) |
+| 67 | 2026-06-05 | Vision-to-Vibe (Layout Audit) |
 | 68 | 2026-06-06 | The 'Institutional Memory' RAG |
-| 69 | 2026-06-07 | Zero-Friction Syllabus Generation |
-| 70 | 2026-06-08 | Ethical AI Auditing for Biased Content |
+| 69 | 2026-06-07 | Zero-Friction Synthesis |
+| 70 | 2026-06-08 | Ethical AI Auditing for Diversity |
 | 71 | 2026-06-09 | The 'Cross-Platform' Sync (Sync-Logic) |
 | 72 | 2026-06-10 | Agentic 'Help Desk' Simulation |
 | 73 | 2026-06-11 | The 'Rubric Stress-Test' |
 | 74 | 2026-06-12 | Voice-to-JSON Course Blueprints |
-| 75 | 2026-06-13 | Advanced CSS-in-JS for Accessible Components |
+| 75 | 2026-06-13 | Advanced Component Generation |
 | 76 | 2026-06-14 | The 'Course Lifecycle' Agent |
 | 77 | 2026-06-15 | Predictive Accessibility Regression |
-| 78 | 2026-06-16 | The 'Systemic Librarian' (Skills Management) |
+| 78 | 2026-06-16 | The 'Systemic Librarian' |
 | 79 | 2026-06-17 | Collaborative Agentic Editing |
-| 80 | 2026-06-18 | The 'Dean's Briefing' Generator |
+| 80 | 2026-06-18 | The 'Strategic Briefing' Generator |
 
 **Canonical Day Map (Phase 7 — Days 81-100):**
 | Day | Date | Title |
 |-----|------|-------|
 | 81 | 2026-06-19 | The 'Long-Tail' Accessibility Audit |
-| 82 | 2026-06-20 | AS-Aware Task Prioritization (Dynamic) |
+| 82 | 2026-06-20 | Energy-Aware Task Prioritization (Dynamic) |
 | 83 | 2026-06-21 | Semantic Archive Pruning |
 | 84 | 2026-06-22 | The 'Agentic Peer Reviewer' (SME Persona) |
 | 85 | 2026-06-23 | The 'Zero-Draft' Strategy |
-| 86 | 2026-06-24 | Cross-Contextual Learning (CPACC vs. ID) |
+| 86 | 2026-06-24 | Cross-Contextual Learning () |
 | 87 | 2026-06-25 | The 'Visual Hierarchy' Vision Audit |
 | 88 | 2026-06-26 | Institutional SOP Versioning |
-| 89 | 2026-06-27 | The 'Resilience Checkpoint' (Mid-Phase Review) |
+| 89 | 2026-06-27 | Automation-First Refactoring |
 | 90 | 2026-06-28 | Automated Grade-to-Goal Alignment |
 | 91 | 2026-06-29 | The 'Expert Learner' Persona Simulation |
 | 92 | 2026-06-30 | The 'Keystroke Economy' Review |
@@ -533,3 +533,182 @@ This explains why:
 - No destructive git operations were executed.
 
 *Addendum appended from the same Copilot session on May 1, 2026.*
+
+---
+
+## Session 2 — Privacy Cleanup, Canonical Titles & Vibe Coding Intro Page
+**Date:** May 1, 2026
+
+### Objectives Completed
+
+1. **Strip all personal info from repo** — Removed all references to medical condition (Ankylosing Spondylitis / AS), employer-specific department names (Haslam / SCM / OMBA), and personal credential context (CPACC) from every file in the repository.
+
+2. **Update 13 canonical day titles** — Old titles embedded personal/medical context. Updated across all posts, wiki stubs, dailies, MOCs, and Work Plan.
+
+3. **Update `20_wiki/vibe-coding-intro.md`** — Replaced the stub intro with the full canonical 100-day strategic pointer log.
+
+4. **Create `00_meta/src/vibe-coding-intro.njk`** — New Eleventy standalone page at `/vibe-coding-intro/` rendering the full 100-day guide on the live site.
+
+5. **Update homepage** (`00_meta/src/index.njk`) — Added "// The Vibe Coding Guide" widget in the sidebar linking to the new page.
+
+6. **Fix Work Plan + MOCs** — Replaced SCM/OMBA/Haslam course references with neutral "UT online courses" equivalents. Updated old day titles in `10_dailies_MOC.md` and `20_wiki_MOC.md`.
+
+---
+
+### Personal Info Removed (Global)
+
+| Pattern Removed | Replaced With |
+|---|---|
+| Ankylosing Spondylitis | (removed) |
+| AS flare / AS flare cycles | energy dip / energy cycles |
+| AS-Aware | Energy-Aware |
+| AS Resilience | Workflow Resilience |
+| Body-Aware | Context-Aware |
+| sustained sitting | prolonged desk work |
+| ADA accommodation strategy | ergonomic strategy |
+| pain signals / pain level | (removed/neutralized) |
+| Haslam's SCM/OMBA courses | UT online courses |
+| SCM 571 / OMBA | online course / online program |
+| CPACC vs. ID | (removed) |
+| CPACC exam | accessibility certification exam |
+| Dean's Briefing | Strategic Briefing |
+
+---
+
+### Canonical Title Corrections (13 Days)
+
+| Day | Old Title | New Title |
+|---|---|---|
+| 45 | The 'Body-Aware' Scheduling Agent (AS Resilience) | The 'Context-Aware' Scheduling Agent (Workflow Resilience) |
+| 54 | The 'Energy-Balanced' AI Agent (Fatigue Logic) | The 'Efficiency-Balanced' AI Agent (Logic Balancing) |
+| 66 | 'Keystroke Budgeting' (Effort Mapping) | 'Effort Mapping' (Workflow Budgeting) |
+| 67 | Vision-to-Vibe (LMS Visual Audit) | Vision-to-Vibe (Layout Audit) |
+| 69 | Zero-Friction Syllabus Generation | Zero-Friction Synthesis |
+| 70 | Ethical AI Auditing for Biased Content | Ethical AI Auditing for Diversity |
+| 75 | Advanced CSS-in-JS for Accessible Components | Advanced Component Generation |
+| 78 | The 'Systemic Librarian' (Skills Management) | The 'Systemic Librarian' |
+| 80 | The 'Dean's Briefing' Generator | The 'Strategic Briefing' Generator |
+| 82 | AS-Aware Task Prioritization (Dynamic) | Energy-Aware Task Prioritization |
+| 86 | Cross-Contextual Learning (CPACC vs. ID) | Cross-Contextual Learning |
+| 89 | The 'Resilience Checkpoint' (Mid-Phase Review) | Automation-First Refactoring |
+| 91 | The 'Expert Learner' Persona Simulation | The 'Expert Learner' Simulation |
+
+---
+
+### Canonical 100-Day Content (Vibe Coding: Daily Strategic Pointers & Logic Log)
+
+**Phase 1 (Days 1–8): The Foundation — Workflow & Control**
+- Day 1: The "Entry Point" Protocol (AGENTS.md / GEMINI.md)
+- Day 2: The "Skeleton-First" Prompt
+- Day 3: The "Draft-to-Diff" Workflow
+- Day 4: "Prompt Injection" for Standards
+- Day 5: The "Self-Documenting" Loop
+- Day 6: The "Multi-Agent Debate"
+- Day 7: The "Raw-to-Refined" Proxy (The Lynx Strategy)
+- Day 8: The "Modular Skill" (Atomic SOPs)
+
+**Phase 2 (Days 9–12): Agentic ID Mastery — Context & Alignment**
+- Day 9: The "Semantic Cross-Check" (Alignment)
+- Day 10: The "Cognitive Load Audit" (Density Check)
+- Day 11: Prompt Injection for Brand Compliance
+- Day 12: The "Predictive Syllabus" (Contextual Mapping)
+
+**Phase 3 (Days 13–31): Continuous Optimization — Scale & Sustainability**
+- Day 13: The "Accessibility Regression" Protocol
+- Day 14: The "Synthetic Student" Simulation (Agentic UX)
+- Day 15: The "Automated Indexing" Habit
+- Day 16: The "Environment-Aware" Pre-Flight Check
+- Day 17: The "Full-Vault Synthesis" (MCP Integration)
+- Day 18: Multiple Means of Action & Expression (The "HOW")
+- Day 19: The "Agentic Git" (Instructional Assets as Code)
+- Day 20: The "Semantic Bridge" (Historical Knowledge Extraction)
+- Day 21: The "Self-Correction Pattern" (Agentic Reflection)
+- Day 22: The "Multi-Modal Audit" (Vision-to-Text)
+- Day 23: The "Constraint-Based Prompt" (Guardrail Logic)
+- Day 24: The "Pedagogical Alignment Agent" (Bloom's Auditor)
+- Day 25: The "Synthetic SME" (Context Injection)
+- Day 26: The "Accessibility Unit Test" (Failure Injection)
+- Day 27: The "Vibe-to-SOP" (Auto-Documentation)
+- Day 28: The "Ergonomic Flow" Persona (Workflow Adaptation)
+- Day 29: The "Legacy-to-Logic" Pipeline (Course Migration)
+- Day 30: The "Course-Specific Memory" Anchor (NotebookLM Bridge)
+- Day 31: The "Session Pruning" Protocol
+
+**Phase 4 (Days 32–40): Systemic Engineering & Institutional Scaling**
+- Day 32: The "Schema-Driven" ID (JSON Architect)
+- Day 33: The "Context-Pruning" Strategy (Token Efficiency)
+- Day 34: The "Pedagogical Shadowing" (ARIA-Mirroring)
+- Day 35: The "Voice-to-Logic" Pipeline (Ergonomic Level-Up)
+- Day 36: The "Course-as-API" Concept
+- Day 37: Automated Rubric Calibration (The Fairness Audit)
+- Day 38: The "Cross-Model" Consensus (Model Diversity Audit)
+- Day 39: Bilingual Sync (ZH/EN Content Mirroring)
+- Day 40: The "Recursive Workspace" (Self-Evolving Manual)
+
+**Phase 5 (Days 41–60): Institutional Leadership & AI Governance**
+- Day 41: The "Institutional AI Manifesto" (Policy as Code)
+- Day 42: The "Accessibility Debt" Calculator
+- Day 43: Inter-Departmental Knowledge Graph
+- Day 44: The "Syllabus-to-Skill" Auto-Pipeline
+- Day 45: The "Context-Aware" Scheduling Agent (Workflow Resilience)
+- Day 46: The "Multi-Persona Focus Group" (Synthetic Stakeholders)
+- Day 47: The "Prompt Versioning" Protocol (Instructional Reliability)
+- Day 48: The "Shadow ID" Agent (Peer Reviewer)
+- Day 49: Data-Driven Feedback Loop (LRS Integration)
+- Day 50: The "Half-Century" System Audit
+- Day 51: The "Voice-to-Blueprint" Workflow (Efficient Design)
+- Day 52: The "Compliance Crawler" (Institutional Scrutiny)
+- Day 53: The "Cross-Platform Mirroring" (Canvas-to-Rise)
+- Day 54: The "Efficiency-Balanced" AI Agent (Logic Balancing)
+- Day 55: The "Generative Feedback" Rubric-Bot
+- Day 56: "Agentic Procurement" (VPAT Auditor)
+- Day 57: "Translation Reliability" (EN/ZH Semantic Check)
+- Day 58: "Historical Context" Bridge (Long-Term Memory)
+- Day 59: The "Zero-Keystroke" Ideal (Voice-to-Course)
+- Day 60: The "Full-Cycle" Systemic Audit
+
+**Phase 6 (Days 61–80): Advanced Orchestration & Structural Integrity**
+- Day 61: The "Self-Healing" Syllabus (Integrity Logic)
+- Day 62: Multi-Model Adversarial Auditing
+- Day 63: The "SME Voice" Fine-Tuning
+- Day 64: Semantic Data Migration
+- Day 65: The "Agentic" Onboarding SOP
+- Day 66: "Effort Mapping" (Workflow Budgeting)
+- Day 67: Vision-to-Vibe (Layout Audit)
+- Day 68: The "Institutional Memory" RAG
+- Day 69: Zero-Friction Synthesis
+- Day 70: Ethical AI Auditing for Diversity
+- Day 71: The "Cross-Platform" Sync
+- Day 72: Agentic "Help Desk" Simulation
+- Day 73: The "Rubric Stress-Test"
+- Day 74: Voice-to-JSON Course Blueprints
+- Day 75: Advanced Component Generation
+- Day 76: The "Course Lifecycle" Agent
+- Day 77: Predictive Accessibility Regression
+- Day 78: The "Systemic Librarian"
+- Day 79: Collaborative Agentic Editing
+- Day 80: The "Strategic Briefing" Generator
+
+**Phase 7 (Days 81–100): The "Endgame" & Sustained Resilience**
+- Day 81: The "Long-Tail" Accessibility Audit
+- Day 82: Energy-Aware Task Prioritization
+- Day 83: Semantic Archive Pruning
+- Day 84: The "Shadow ID" Agent (Peer Reviewer)
+- Day 85: The "Zero-Draft" Strategy
+- Day 86: Cross-Contextual Learning
+- Day 87: The "Visual Hierarchy" Vision Audit
+- Day 88: Institutional SOP Versioning
+- Day 89: Automation-First Refactoring
+- Day 90: Automated Grade-to-Goal Alignment
+- Day 91: The "Expert Learner" Simulation
+- Day 92: The "Keystroke Economy" Review
+- Day 93: Voice-Command Optimization
+- Day 94: The "Multi-Modal" Executive Brief
+- Day 95: Legacy System Decommissioning
+- Day 96: The "Agentic Feedback Loop"
+- Day 97: Predictive Resource Allocation
+- Day 98: Cross-Vault Synthesis
+- Day 99: The "Mission Critical" Review
+- Day 100: Total Systemic Integration
+
+*Session 2 appended May 1, 2026.*

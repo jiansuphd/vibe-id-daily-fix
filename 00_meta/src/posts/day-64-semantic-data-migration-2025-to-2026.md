@@ -1,14 +1,6 @@
 ---
+title: "day 64 semantic data migration 2025 to 2026"
 layout: post.njk
-title: "Day 64: Semantic Data Migration (2025 to 2026)"
-date: 2026-06-02
-tags:
-  - post
-  - day-64
-  - phase-6
-  - migration
-  - data
-  - semantic
 ---
 
 # Day 64: Semantic Data Migration (2025 to 2026)
@@ -25,4 +17,4 @@ gemini "Compare this 2025 syllabus to current UT policy. Identify every date, to
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

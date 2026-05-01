@@ -28,7 +28,7 @@ Voice-to-Logic converts spoken "Vibe Statements" — natural language intent —
 
 ## ID Application
 
-- Reduces physical cost of systemic engineering for AS (Ankylosing Spondylitis) management
+- Reduces physical cost of systemic engineering through voice-driven workflows
 - Enables full workflow operation on high-fatigue or low-mobility days
 - Converts "energy-expensive" multi-step commands into single-word invocations
 

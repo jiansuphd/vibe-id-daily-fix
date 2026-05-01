@@ -1,14 +1,6 @@
 ---
+title: "day 65 the agentic onboarding sop"
 layout: post.njk
-title: "Day 65: The 'Agentic' Onboarding SOP"
-date: 2026-06-03
-tags:
-  - post
-  - day-65
-  - phase-6
-  - onboarding
-  - sop
-  - automation
 ---
 
 # Day 65: The 'Agentic' Onboarding SOP
@@ -25,4 +17,4 @@ gemini "Read 00_meta/ and generate a new-employee onboarding guide. Include: too
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

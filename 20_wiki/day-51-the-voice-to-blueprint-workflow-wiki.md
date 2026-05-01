@@ -10,7 +10,7 @@ tags:
 
 ## Core Concept
 
-Dictate a course concept verbally and have an agent transform the spoken transcript into a structured course blueprint. For AS management, voice input reduces physical burden. A 3-minute dictation → agent → JSON blueprint → Rise import is a zero-keystroke design pipeline for high-cognitive-load days.
+Dictate a course concept verbally and have an agent transform the spoken transcript into a structured course blueprint. For workflow management, voice input reduces physical burden. A 3-minute dictation → agent → JSON blueprint → Rise import is a zero-keystroke design pipeline for high-cognitive-load days.
 
 ## ID Framework Alignment
 

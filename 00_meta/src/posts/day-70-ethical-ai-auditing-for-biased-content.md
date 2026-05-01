@@ -1,17 +1,9 @@
 ---
+title: "day 70 ethical ai auditing for biased content"
 layout: post.njk
-title: "Day 70: Ethical AI Auditing for Biased Content"
-date: 2026-06-08
-tags:
-  - post
-  - day-70
-  - phase-6
-  - ethics
-  - bias
-  - audit
 ---
 
-# Day 70: Ethical AI Auditing for Biased Content
+# Day 70: Ethical AI Auditing for Diversity
 
 - **The Pointer:** Run course content through an ethics and bias audit before publishing — checking for representation gaps, stereotyped examples, and exclusionary language.
 - **The Details:** AI-generated content inherits training data biases. A structured ethical audit checks example demographics, default assumptions, and exclusionary terminology before learner exposure.
@@ -25,4 +17,4 @@ gemini "Audit this course content for: (1) demographic representation in example
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

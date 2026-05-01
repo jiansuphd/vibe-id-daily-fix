@@ -1,14 +1,6 @@
 ---
+title: "day 62 multi model adversarial auditing"
 layout: post.njk
-title: "Day 62: Multi-Model Adversarial Auditing"
-date: 2026-05-31
-tags:
-  - post
-  - day-62
-  - phase-6
-  - multi-model
-  - adversarial
-  - quality
 ---
 
 # Day 62: Multi-Model Adversarial Auditing
@@ -27,4 +19,4 @@ gemini 'Synthesize these two reviews into a prioritized revision plan.' review_a
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

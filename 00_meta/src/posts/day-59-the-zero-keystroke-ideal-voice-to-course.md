@@ -1,14 +1,6 @@
 ---
+title: "day 59 the zero keystroke ideal voice to course"
 layout: post.njk
-title: "Day 59: The 'Zero-Keystroke' Ideal (Voice-to-Course)"
-date: 2026-05-28
-tags:
-  - post
-  - day-59
-  - phase-5
-  - voice
-  - automation
-  - zero-keystrokes
 ---
 
 # Day 59: The 'Zero-Keystroke' Ideal (Voice-to-Course)
@@ -25,4 +17,4 @@ whisper --model medium audio_draft.mp3 --output_format txt && cat audio_draft.tx
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

@@ -1,14 +1,6 @@
 ---
+title: "day 43 inter departmental knowledge graph"
 layout: post.njk
-title: "Day 43: Inter-Departmental Knowledge Graph (Scaling Context)"
-date: 2026-05-12
-tags:
-  - post
-  - day-43
-  - phase-5
-  - knowledge-graph
-  - mcp
-  - scaling
 ---
 
 # Day 43: Inter-Departmental Knowledge Graph (Scaling Context)
@@ -25,4 +17,4 @@ gemini "Given these syllabi, generate a Mermaid graph showing shared competencie
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

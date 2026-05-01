@@ -1,11 +1,11 @@
-# Day 82: AS-Aware Task Prioritization (Dynamic)
+# Day 82: Energy-Aware Task Prioritization (Dynamic)
 
-- **The Pointer:** Build a dynamic task prioritization system that re-ranks the day's work based on real-time energy and pain signals.
-- **The Details:** Static task lists assume constant capacity. A dynamic system asks about today's AS status at 8 AM and re-ranks accordingly — protecting cognitive work for good days and deferring it on flare days.
+- **The Pointer:** An Agent that re-orders your tasks based on your current project bandwidth.
+- **The Details:** Static task lists assume constant capacity. A dynamic system asks about current bandwidth signals and re-ranks accordingly — protecting cognitive work for high-focus periods and deferring it during low-energy windows.
 - **Action:**
 
 ```bash
-gemini "Today's AS status: fatigue level 7/10, low pain. Today's task list: [list]. Re-rank for a low-energy day. Move all tasks requiring sustained focus to tomorrow."
+gemini "Today's bandwidth: bandwidth: low. Today's task list: [list]. Re-rank for a low-energy day. Move all tasks requiring sustained focus to tomorrow."
 ```
 
 ---

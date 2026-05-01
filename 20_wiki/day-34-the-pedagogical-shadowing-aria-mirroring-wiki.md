@@ -20,7 +20,7 @@ Pedagogical Shadowing separates content generation from accessibility annotation
 
 ## ID Application
 
-- **SCM data visualizations:** Charts and tables get a hidden `<caption>` and `aria-describedby` pointing to a prose summary
+- **data visualizations:** Charts and tables get a hidden `<caption>` and `aria-describedby` pointing to a prose summary
 - **Canvas interactive elements:** Accordions, tabs, and modals get role and keyboard navigation annotations
 - **Screen magnifier optimization:** Focus indicators and region labels added without cluttering the visual layout
 

@@ -1,14 +1,6 @@
 ---
+title: "day 63 the sme voice fine tuning"
 layout: post.njk
-title: "Day 63: The 'SME Voice' Fine-Tuning"
-date: 2026-06-01
-tags:
-  - post
-  - day-63
-  - phase-6
-  - sme
-  - voice
-  - personalization
 ---
 
 # Day 63: The 'SME Voice' Fine-Tuning
@@ -25,4 +17,4 @@ cat ./sme_samples/*.md | gemini --system "You write exactly like the examples pr
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

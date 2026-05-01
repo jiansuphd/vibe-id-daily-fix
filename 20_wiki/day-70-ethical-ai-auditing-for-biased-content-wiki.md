@@ -6,7 +6,7 @@ tags:
   - day-70
 ---
 
-# Day 70: Ethical AI Auditing for Biased Content — Wiki
+# Day 70: Ethical AI Auditing for Diversity — Wiki
 
 ## Core Concept
 
@@ -16,7 +16,7 @@ Run course content through an ethics and bias audit before publishing — checki
 
 | Dimension | Application |
 |-----------|-------------|
-| **Design Principle** | Ethical AI Auditing for Biased Content |
+| **Design Principle** | Ethical AI Auditing for Diversity |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | ethics, bias, audit |
 | **AS Accommodation** | Low-keystroke or voice-driven where possible |

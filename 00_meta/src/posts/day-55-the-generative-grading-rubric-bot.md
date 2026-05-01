@@ -1,14 +1,6 @@
 ---
+title: "day 55 the generative grading rubric bot"
 layout: post.njk
-title: "Day 55: The 'Generative Grading' Rubric-Bot"
-date: 2026-05-24
-tags:
-  - post
-  - day-55
-  - phase-5
-  - assessment
-  - rubric
-  - grading
 ---
 
 # Day 55: The 'Generative Grading' Rubric-Bot
@@ -25,4 +17,4 @@ gemini "Objective: [paste]. Assignment: [paste]. Generate a 4-level rubric with 
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

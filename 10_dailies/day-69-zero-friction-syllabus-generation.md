@@ -1,4 +1,4 @@
-# Day 69: Zero-Friction Syllabus Generation
+# Day 69: Zero-Friction Synthesis
 
 - **The Pointer:** Generate a compliant, complete syllabus from a course blueprint in under 5 minutes using a policy-aware system prompt.
 - **The Details:** The syllabus is a legal document. An agent templated to embed required policy language (academic integrity, ADA, grade appeal) transforms a JSON blueprint into a compliant draft instantly.

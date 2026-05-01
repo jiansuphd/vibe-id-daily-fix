@@ -1,14 +1,6 @@
 ---
+title: "day 92 the keystroke economy review"
 layout: post.njk
-title: "Day 92: The 'Keystroke Economy' Review"
-date: 2026-06-30
-tags:
-  - post
-  - day-92
-  - phase-7
-  - keystroke
-  - ergonomics
-  - review
 ---
 
 # Day 92: The 'Keystroke Economy' Review
@@ -25,4 +17,4 @@ gemini "Review my zsh aliases and workflow scripts. Identify: (1) aliases I have
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

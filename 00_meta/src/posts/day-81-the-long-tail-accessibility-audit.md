@@ -1,14 +1,6 @@
 ---
+title: "day 81 the long tail accessibility audit"
 layout: post.njk
-title: "Day 81: The 'Long-Tail' Accessibility Audit"
-date: 2026-06-19
-tags:
-  - post
-  - day-81
-  - phase-7
-  - accessibility
-  - long-tail
-  - audit
 ---
 
 # Day 81: The 'Long-Tail' Accessibility Audit
@@ -25,4 +17,4 @@ gemini "Here is my axe DevTools report. Identify the violations NOT on this list
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

@@ -1,14 +1,6 @@
 ---
+title: "day 44 the syllabus to skill auto pipeline"
 layout: post.njk
-title: "Day 44: The 'Syllabus-to-Skill' Auto-Pipeline"
-date: 2026-05-13
-tags:
-  - post
-  - day-44
-  - phase-5
-  - syllabus
-  - skills
-  - pipeline
 ---
 
 # Day 44: The 'Syllabus-to-Skill' Auto-Pipeline
@@ -25,4 +17,4 @@ gemini "Extract all learning objectives from this syllabus. Map each to a Bloom'
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

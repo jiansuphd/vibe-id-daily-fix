@@ -1,14 +1,6 @@
 ---
+title: "day 83 semantic archive pruning"
 layout: post.njk
-title: "Day 83: Semantic Archive Pruning"
-date: 2026-06-21
-tags:
-  - post
-  - day-83
-  - phase-7
-  - archive
-  - pruning
-  - knowledge-management
 ---
 
 # Day 83: Semantic Archive Pruning
@@ -25,4 +17,4 @@ gemini "Compare these 5 skill files semantically. Identify which two are ≥80% 
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

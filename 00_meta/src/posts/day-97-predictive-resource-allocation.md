@@ -1,14 +1,6 @@
 ---
+title: "day 97 predictive resource allocation"
 layout: post.njk
-title: "Day 97: Predictive Resource Allocation"
-date: 2026-07-05
-tags:
-  - post
-  - day-97
-  - phase-7
-  - resource-allocation
-  - prediction
-  - planning
 ---
 
 # Day 97: Predictive Resource Allocation
@@ -25,4 +17,4 @@ gemini "Based on my past project logs (00_meta/progress.md), estimate the resour
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

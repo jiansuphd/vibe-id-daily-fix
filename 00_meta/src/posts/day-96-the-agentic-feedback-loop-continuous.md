@@ -1,14 +1,6 @@
 ---
+title: "day 96 the agentic feedback loop continuous"
 layout: post.njk
-title: "Day 96: The 'Agentic Feedback Loop' (Continuous)"
-date: 2026-07-04
-tags:
-  - post
-  - day-96
-  - phase-7
-  - feedback
-  - continuous-improvement
-  - automation
 ---
 
 # Day 96: The 'Agentic Feedback Loop' (Continuous)
@@ -25,4 +17,4 @@ gemini "Weekly xAPI summary: [paste]. Identify the top 3 micro-improvements that
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

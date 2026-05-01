@@ -1,14 +1,6 @@
 ---
+title: "day 53 the cross platform mirroring canvas to rise"
 layout: post.njk
-title: "Day 53: The 'Cross-Platform Mirroring' (Canvas-to-Rise)"
-date: 2026-05-22
-tags:
-  - post
-  - day-53
-  - phase-5
-  - canvas
-  - rise
-  - authoring
 ---
 
 # Day 53: The 'Cross-Platform Mirroring' (Canvas-to-Rise)
@@ -25,4 +17,4 @@ gemini "Here is Canvas module list and Rise module list. Find every structural d
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

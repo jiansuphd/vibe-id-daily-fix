@@ -1,14 +1,6 @@
 ---
+title: "day 61 the self healing syllabus integrity logic"
 layout: post.njk
-title: "Day 61: The 'Self-Healing' Syllabus (Integrity Logic)"
-date: 2026-05-30
-tags:
-  - post
-  - day-61
-  - phase-6
-  - syllabus
-  - integrity
-  - automation
 ---
 
 # Day 61: The 'Self-Healing' Syllabus (Integrity Logic)
@@ -25,4 +17,4 @@ gemini "Analyze this syllabus for internal contradictions: date conflicts, unmap
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

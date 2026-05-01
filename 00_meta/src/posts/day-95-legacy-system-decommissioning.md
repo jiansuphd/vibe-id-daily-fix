@@ -1,14 +1,6 @@
 ---
+title: "day 95 legacy system decommissioning"
 layout: post.njk
-title: "Day 95: Legacy System Decommissioning"
-date: 2026-07-03
-tags:
-  - post
-  - day-95
-  - phase-7
-  - legacy
-  - decommissioning
-  - cleanup
 ---
 
 # Day 95: Legacy System Decommissioning
@@ -25,4 +17,4 @@ gemini "Review the tools and workflows mentioned in Days 1-30 of my daily posts.
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

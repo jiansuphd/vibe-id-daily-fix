@@ -1,14 +1,6 @@
 ---
+title: "day 76 the course lifecycle agent"
 layout: post.njk
-title: "Day 76: The 'Course Lifecycle' Agent"
-date: 2026-06-14
-tags:
-  - post
-  - day-76
-  - phase-6
-  - lifecycle
-  - pipeline
-  - automation
 ---
 
 # Day 76: The 'Course Lifecycle' Agent
@@ -25,4 +17,4 @@ gemini "Given this course status (stage: QA), generate the next 3 action items w
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

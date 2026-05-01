@@ -1,14 +1,6 @@
 ---
+title: "day 60 the full cycle systemic audit"
 layout: post.njk
-title: "Day 60: The 'Full-Cycle' Systemic Audit"
-date: 2026-05-29
-tags:
-  - post
-  - day-60
-  - phase-5
-  - audit
-  - synthesis
-  - phase-5
 ---
 
 # Day 60: The 'Full-Cycle' Systemic Audit
@@ -25,4 +17,4 @@ gemini "Review 00_meta/ and 10_dailies/ for Days 41-60. Output: (1) tools used m
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

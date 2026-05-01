@@ -1,14 +1,6 @@
 ---
+title: "day 56 agentic procurement vpat auditor"
 layout: post.njk
-title: "Day 56: 'Agentic Procurement' (VPAT Auditor)"
-date: 2026-05-25
-tags:
-  - post
-  - day-56
-  - phase-5
-  - vpat
-  - procurement
-  - accessibility
 ---
 
 # Day 56: 'Agentic Procurement' (VPAT Auditor)
@@ -25,4 +17,4 @@ gemini "Parse this VPAT. Extract all rows where conformance is not 'Supports'. F
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

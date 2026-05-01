@@ -1,14 +1,6 @@
 ---
+title: "day 85 the zero draft strategy"
 layout: post.njk
-title: "Day 85: The 'Zero-Draft' Strategy"
-date: 2026-06-23
-tags:
-  - post
-  - day-85
-  - phase-7
-  - draft
-  - writing
-  - workflow
 ---
 
 # Day 85: The 'Zero-Draft' Strategy
@@ -25,4 +17,4 @@ gemini "Generate a zero-draft for Module 5. It should contain all required conte
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

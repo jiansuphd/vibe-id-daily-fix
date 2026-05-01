@@ -1,14 +1,6 @@
 ---
+title: "day 68 the institutional memory rag"
 layout: post.njk
-title: "Day 68: The 'Institutional Memory' RAG"
-date: 2026-06-06
-tags:
-  - post
-  - day-68
-  - phase-6
-  - rag
-  - memory
-  - knowledge-base
 ---
 
 # Day 68: The 'Institutional Memory' RAG
@@ -25,4 +17,4 @@ gemini --rag ./vault/ "What has been our standard approach to branching scenario
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

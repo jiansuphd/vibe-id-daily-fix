@@ -1,14 +1,6 @@
 ---
+title: "day 93 voice command optimization zsh aliases"
 layout: post.njk
-title: "Day 93: Voice-Command Optimization (Zsh Aliases)"
-date: 2026-07-01
-tags:
-  - post
-  - day-93
-  - phase-7
-  - voice
-  - zsh
-  - aliases
 ---
 
 # Day 93: Voice-Command Optimization (Zsh Aliases)
@@ -27,4 +19,4 @@ history | awk '{print $2}' | sort | uniq -c | sort -rn | head -20
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

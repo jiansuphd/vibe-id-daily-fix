@@ -20,12 +20,12 @@ No single AI model catches every issue. The Cross-Model Consensus runs the same 
 | Consensus | Intersection of findings | High-confidence issue list |
 | Delta | Points of disagreement | High-risk areas for manual review |
 
-## CPACC Compliance Application
+## accessibility certification Compliance Application
 
 - Run Flash on all course pages for baseline coverage
 - Run Pro on pages flagged by Flash
 - Cross-reference: any issue found by Pro but missed by Flash = **high-risk, manual review required**
-- Document the consensus output as evidence for CPACC audit trail
+- Document the consensus output as evidence for accessibility certification audit trail
 
 ## Why Two Models?
 

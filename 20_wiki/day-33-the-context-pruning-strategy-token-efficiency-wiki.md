@@ -30,7 +30,7 @@ Long AI conversations accumulate "token noise" — resolved decisions, abandoned
 
 - **Course Mapping → Page Building transition:** Prune after objectives are locked
 - **Rubric design → Assessment creation:** Prune after scoring criteria are finalized
-- **BZAN 503 / SCM 571 phase handoff:** Prevents cross-course contamination
+- **BZAN 503 / online course phase handoff:** Prevents cross-course contamination
 
 ---
 **Reference:** [Original Pointer](../10_dailies/day-33-the-context-pruning-strategy-token-efficiency.md)

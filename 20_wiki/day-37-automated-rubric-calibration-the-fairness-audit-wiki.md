@@ -29,7 +29,7 @@ Sample Assignment    ──┘
 
 ## ID Application
 
-- **Haslam graduate courses:** High-stakes grading requires defensible, consistent rubrics
+- ** graduate courses:** High-stakes grading requires defensible, consistent rubrics
 - **QM Standard 3:** Assessments must measure stated module/course objectives
 - **Cross-instructor calibration:** Adjunct faculty grading consistency audit
 

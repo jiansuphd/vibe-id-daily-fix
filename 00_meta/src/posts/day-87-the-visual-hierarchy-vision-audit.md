@@ -1,14 +1,6 @@
 ---
+title: "day 87 the visual hierarchy vision audit"
 layout: post.njk
-title: "Day 87: The 'Visual Hierarchy' Vision Audit"
-date: 2026-06-25
-tags:
-  - post
-  - day-87
-  - phase-7
-  - vision
-  - visual-hierarchy
-  - audit
 ---
 
 # Day 87: The 'Visual Hierarchy' Vision Audit
@@ -25,4 +17,4 @@ gemini --vision course_page.png "Audit the visual hierarchy of this course page.
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

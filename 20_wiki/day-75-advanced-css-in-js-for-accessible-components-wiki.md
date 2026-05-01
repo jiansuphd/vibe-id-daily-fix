@@ -6,7 +6,7 @@ tags:
   - day-75
 ---
 
-# Day 75: Advanced CSS-in-JS for Accessible Components — Wiki
+# Day 75: Advanced Component Generation — Wiki
 
 ## Core Concept
 
@@ -16,7 +16,7 @@ Generate accessible, theme-aware UI components for course shells that pass WCAG 
 
 | Dimension | Application |
 |-----------|-------------|
-| **Design Principle** | Advanced CSS-in-JS for Accessible Components |
+| **Design Principle** | Advanced Component Generation |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | css, web, accessibility |
 | **AS Accommodation** | Low-keystroke or voice-driven where possible |
@@ -24,7 +24,7 @@ Generate accessible, theme-aware UI components for course shells that pass WCAG 
 ## Agentic CLI Prompt
 
 ```bash
-gemini "Generate a CSS component for a UTA-branded callout box. Requirements: WCAG AA contrast (4.5:1 min), dark-mode variant, no fixed pixel sizes. Include the contrast ratio calculation."
+gemini "Generate a CSS component for a institutionally-branded callout box. Requirements: WCAG AA contrast (4.5:1 min), dark-mode variant, no fixed pixel sizes. Include the contrast ratio calculation."
 ```
 
 ## Key Terms

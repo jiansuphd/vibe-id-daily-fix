@@ -1,14 +1,6 @@
 ---
+title: "day 46 the multi persona focus group"
 layout: post.njk
-title: "Day 46: The 'Multi-Persona Focus Group' (Synthetic Stakeholders)"
-date: 2026-05-15
-tags:
-  - post
-  - day-46
-  - phase-5
-  - personas
-  - stakeholders
-  - simulation
 ---
 
 # Day 46: The 'Multi-Persona Focus Group' (Synthetic Stakeholders)
@@ -25,4 +17,4 @@ gemini "You are four reviewers. React to this course design as: (1) skeptical fa
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

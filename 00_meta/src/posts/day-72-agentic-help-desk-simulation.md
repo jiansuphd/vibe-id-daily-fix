@@ -1,14 +1,6 @@
 ---
+title: "day 72 agentic help desk simulation"
 layout: post.njk
-title: "Day 72: Agentic 'Help Desk' Simulation"
-date: 2026-06-10
-tags:
-  - post
-  - day-72
-  - phase-6
-  - simulation
-  - helpdesk
-  - faculty-support
 ---
 
 # Day 72: Agentic 'Help Desk' Simulation
@@ -25,4 +17,4 @@ gemini "Simulate 10 faculty questions about this Canvas course. For each questio
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

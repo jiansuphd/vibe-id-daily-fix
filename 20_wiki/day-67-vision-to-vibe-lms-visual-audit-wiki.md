@@ -6,7 +6,7 @@ tags:
   - day-67
 ---
 
-# Day 67: Vision-to-Vibe (LMS Visual Audit) — Wiki
+# Day 67: Vision-to-Vibe (Layout Audit) — Wiki
 
 ## Core Concept
 
@@ -24,7 +24,7 @@ Use a vision-capable AI to audit an LMS course shell screenshot for visual hiera
 ## Agentic CLI Prompt
 
 ```bash
-gemini --vision canvas_screenshot.png "Audit this LMS screen for: (1) WCAG AA color contrast, (2) visual hierarchy clarity, (3) UTA brand compliance. Score each 1-5."
+gemini --vision canvas_screenshot.png "Audit this LMS screen for: (1) WCAG AA color contrast, (2) visual hierarchy clarity, (3) institutional brand compliance. Score each 1-5."
 ```
 
 ## Key Terms

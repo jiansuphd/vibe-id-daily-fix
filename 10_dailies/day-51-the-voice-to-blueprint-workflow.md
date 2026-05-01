@@ -1,7 +1,7 @@
 # Day 51: The 'Voice-to-Blueprint' Workflow (Low-Strokes Design)
 
 - **The Pointer:** Dictate a course concept verbally and have an agent transform the spoken transcript into a structured course blueprint.
-- **The Details:** For AS management, voice input reduces physical burden. A 3-minute dictation → agent → JSON blueprint → Rise import is a zero-keystroke design pipeline for high-cognitive-load days.
+- **The Details:** For workflow management, voice input reduces physical burden. A 3-minute dictation → agent → JSON blueprint → Rise import is a zero-keystroke design pipeline for high-cognitive-load days.
 - **Action:**
 
 ```bash

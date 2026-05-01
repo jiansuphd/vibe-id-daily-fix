@@ -1,14 +1,6 @@
 ---
+title: "day 57 translation reliability en zh semantic check"
 layout: post.njk
-title: "Day 57: 'Translation Reliability' (EN/ZH Semantic Check)"
-date: 2026-05-26
-tags:
-  - post
-  - day-57
-  - phase-5
-  - translation
-  - chinese
-  - quality
 ---
 
 # Day 57: 'Translation Reliability' (EN/ZH Semantic Check)
@@ -25,4 +17,4 @@ gemini "Original (EN): [paste]. Translation (ZH): [paste]. Back-translate the Ch
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

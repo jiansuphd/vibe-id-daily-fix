@@ -1,14 +1,6 @@
 ---
+title: "day 90 automated grade to goal alignment"
 layout: post.njk
-title: "Day 90: Automated Grade-to-Goal Alignment"
-date: 2026-06-28
-tags:
-  - post
-  - day-90
-  - phase-7
-  - assessment
-  - alignment
-  - automation
 ---
 
 # Day 90: Automated Grade-to-Goal Alignment
@@ -25,4 +17,4 @@ gemini "Here is the gradebook schema and course objectives. Flag any assessment 
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

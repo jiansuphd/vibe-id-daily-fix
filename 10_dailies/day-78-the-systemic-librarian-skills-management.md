@@ -1,4 +1,4 @@
-# Day 78: The 'Systemic Librarian' (Skills Management)
+# Day 78: The 'Systemic Librarian'
 
 - **The Pointer:** Audit and prune the 00_meta/skills/ directory — retiring stale skills, merging duplicates, and surfacing underused gems.
 - **The Details:** Skills drift. What was useful in Month 1 may be superseded by Month 6. The librarian agent reads all skill files, checks their last-used date, and recommends a retention or archive decision.

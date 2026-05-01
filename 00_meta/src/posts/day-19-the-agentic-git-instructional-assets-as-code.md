@@ -7,6 +7,6 @@ tags: [issue, vibe-coding]
 
 - **The Pointer:** Use the github-mcp-server to manage your instructional assets as versioned repositories.
 - **The Details:** Treat your Canvas HTML snippets and interactives as "Instructional Software." Use the CLI to pull updates and track issues.
-- **Action:** gemini "Check my GitHub repo for open issues related to 'Accessibility' and cross-reference them with my CPACC study notes."
+- **Action:** gemini "Check my GitHub repo for open issues related to 'Accessibility' and cross-reference them with my accessibility certification study notes."
 
 

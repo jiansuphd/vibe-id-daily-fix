@@ -1,14 +1,6 @@
 ---
+title: "day 41 the institutional ai manifesto policy as code"
 layout: post.njk
-title: "Day 41: The 'Institutional AI Manifesto' (Policy as Code)"
-date: 2026-05-10
-tags:
-  - post
-  - day-41
-  - phase-5
-  - policy
-  - governance
-  - uta
 ---
 
 # Day 41: The 'Institutional AI Manifesto' (Policy as Code)
@@ -25,4 +17,4 @@ gemini --system ./04_Policy/UT_AI_Guardrails.md "Review this assignment. Does it
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

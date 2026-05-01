@@ -1,14 +1,6 @@
 ---
+title: "day 73 the rubric stress test"
 layout: post.njk
-title: "Day 73: The 'Rubric Stress-Test'"
-date: 2026-06-11
-tags:
-  - post
-  - day-73
-  - phase-6
-  - rubric
-  - assessment
-  - quality
 ---
 
 # Day 73: The 'Rubric Stress-Test'
@@ -25,4 +17,4 @@ gemini "Apply this rubric to three simulated submissions: [exemplary], [borderli
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

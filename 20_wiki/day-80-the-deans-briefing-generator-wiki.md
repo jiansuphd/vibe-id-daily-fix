@@ -6,7 +6,7 @@ tags:
   - day-80
 ---
 
-# Day 80: The 'Dean's Briefing' Generator — Wiki
+# Day 80: The 'Strategic Briefing' Generator — Wiki
 
 ## Core Concept
 
@@ -16,7 +16,7 @@ Auto-generate a one-page executive briefing on course development progress from 
 
 | Dimension | Application |
 |-----------|-------------|
-| **Design Principle** | The 'Dean's Briefing' Generator |
+| **Design Principle** | The 'Strategic Briefing' Generator |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | executive, briefing, reporting |
 | **AS Accommodation** | Low-keystroke or voice-driven where possible |

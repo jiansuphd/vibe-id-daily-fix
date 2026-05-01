@@ -1,14 +1,6 @@
 ---
+title: "day 50 the half century system audit"
 layout: post.njk
-title: "Day 50: The 'Half-Century' System Audit"
-date: 2026-05-19
-tags:
-  - post
-  - day-50
-  - phase-5
-  - audit
-  - synthesis
-  - milestone
 ---
 
 # Day 50: The 'Half-Century' System Audit
@@ -25,4 +17,4 @@ gemini "Review my 00_meta/ vault. Identify: (1) files not referenced in any MOC,
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

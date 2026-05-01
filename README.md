@@ -40,15 +40,15 @@ On Day 1, I sought a way to use AI to help me build courses. On Day 100, I reali
 
 ### 1. Precision over Effort
 
-I no longer measure my value by the number of hours I spend in Canvas or the number of words I type. I measure it by the **integrity of the schema** and the **accuracy of the audit**. My physical constraints were not a hindrance; they were the "Architectural Constraint" that forced me to build a more efficient, automated system than any "able-bodied" engineer would have bothered to create.
+I no longer measure my value by the number of hours I spend in Canvas or the number of words I type. I measure it by the **integrity of the schema** and the **accuracy of the audit**. My physical constraints  were not a hindrance; they were the "Architectural Constraint" that forced me to build a more efficient, automated system than any "able-bodied" engineer would have bothered to create.
 
 ### 2. Pedagogy as Code
 
-Through this journey, I have turned **UDL**, **WCAG 2.2**, and **Bloom's Taxonomy** into machine-readable logic. By treating my instructional assets as "Instructional Software," I have ensured that the quality of UT online courses is persistent, scalable, and independent of manual "re-work."
+Through this journey, I have turned **UDL**, **WCAG 2.2**, and **Bloom's Taxonomy** into machine-readable logic. By treating my instructional assets as "Instructional Software," I have ensured that the quality of **UT online** courses is persistent, scalable, and independent of manual "re-work."
 
 ### 3. The Ethical Agent
 
-My **CPACC** journey has taught me that accessibility is not a checklist; it is a Lived Experience. My agents now simulate that experience before a single student ever clicks "Start." I have successfully bridged the gap between the "Medical Model" (fixing errors) and the "Social Model" (designing out barriers).
+My **accessibility certification** journey has taught me that accessibility is not a checklist; it is a Lived Experience. My agents now simulate that experience before a single student ever clicks "Start." I have successfully bridged the gap between the "Medical Model" (fixing errors) and the "Social Model" (designing out barriers).
 
 ## Closing "Day 100 Words"
 

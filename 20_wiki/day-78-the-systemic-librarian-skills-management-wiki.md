@@ -6,7 +6,7 @@ tags:
   - day-78
 ---
 
-# Day 78: The 'Systemic Librarian' (Skills Management) — Wiki
+# Day 78: The 'Systemic Librarian' — Wiki
 
 ## Core Concept
 

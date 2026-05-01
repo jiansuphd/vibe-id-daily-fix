@@ -1,14 +1,6 @@
 ---
+title: "day 71 the cross platform sync"
 layout: post.njk
-title: "Day 71: The 'Cross-Platform' Sync (Sync-Logic)"
-date: 2026-06-09
-tags:
-  - post
-  - day-71
-  - phase-6
-  - sync
-  - multi-platform
-  - automation
 ---
 
 # Day 71: The 'Cross-Platform' Sync (Sync-Logic)
@@ -25,4 +17,4 @@ gemini "Compare Module 3 content across: [Canvas export], [Rise JSON], [10_daili
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

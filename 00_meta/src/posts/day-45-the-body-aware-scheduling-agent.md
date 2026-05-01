@@ -1,28 +1,20 @@
 ---
+title: "day 45 the body aware scheduling agent"
 layout: post.njk
-title: "Day 45: The 'Body-Aware' Scheduling Agent (AS Resilience)"
-date: 2026-05-14
-tags:
-  - post
-  - day-45
-  - phase-5
-  - as-resilience
-  - scheduling
-  - ergonomics
 ---
 
-# Day 45: The 'Body-Aware' Scheduling Agent (AS Resilience)
+# Day 45: The 'Context-Aware' Scheduling Agent (Workflow Resilience)
 
-- **The Pointer:** Build a scheduling agent that respects AS (Ankylosing Spondylitis) flare cycles, fatigue windows, and ergonomic constraints.
-- **The Details:** Your condition is a real workplace variable. An agent that models energy levels and blocks high-cognitive tasks during flare windows is not a luxury — it's an ADA accommodation strategy.
+- **The Pointer:** Feed your project energy cycles into the CLI to optimize your high-focus tasks.
+- **The Details:** Your energy patterns are real productivity variables. An agent that models energy levels and schedules high-cognitive tasks for peak performance windows is not a luxury — it's an ergonomic strategy.
 - **Action:**
 
 ```bash
-gemini "Given my AS flare pattern (mornings are low-energy, post-dinner is high-energy), restructure this week's task list. Flag any task requiring >30 min sustained sitting."
+gemini "Given my energy pattern (mornings are low-energy, post-dinner is high-energy), restructure this week's task list. Flag any task requiring >30 min prolonged desk work."
 ```
 
 ---
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

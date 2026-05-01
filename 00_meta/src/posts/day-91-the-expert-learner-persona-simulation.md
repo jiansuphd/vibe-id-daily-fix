@@ -1,17 +1,9 @@
 ---
+title: "day 91 the expert learner persona simulation"
 layout: post.njk
-title: "Day 91: The 'Expert Learner' Persona Simulation"
-date: 2026-06-29
-tags:
-  - post
-  - day-91
-  - phase-7
-  - persona
-  - learner
-  - simulation
 ---
 
-# Day 91: The 'Expert Learner' Persona Simulation
+# Day 91: The 'Expert Learner' Simulation
 
 - **The Pointer:** Simulate how a highly engaged, self-directed expert learner would navigate your course — and identify where they would get bored or bottlenecked.
 - **The Details:** Most course design targets the median learner. The expert learner reveals different failure modes: too much scaffolding, no optional depth, paced too slowly. Design for both ends.
@@ -25,4 +17,4 @@ gemini "You are an expert adult learner who already knows 60% of this content. N
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

@@ -1,14 +1,6 @@
 ---
+title: "day 47 the prompt versioning protocol"
 layout: post.njk
-title: "Day 47: The 'Prompt Versioning' Protocol (Instructional Reliability)"
-date: 2026-05-16
-tags:
-  - post
-  - day-47
-  - phase-5
-  - prompt-engineering
-  - versioning
-  - reliability
 ---
 
 # Day 47: The 'Prompt Versioning' Protocol (Instructional Reliability)
@@ -26,4 +18,4 @@ git diff HEAD~1 HEAD -- prompts/system_grader.md
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

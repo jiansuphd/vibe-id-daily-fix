@@ -31,7 +31,7 @@ Treat each course module as a queryable API endpoint. When course content is str
 
 - Enables systematic QA across an entire course without opening each page manually
 - Supports data-driven course architecture decisions
-- Scales to multi-course programs (BZAN 503, SCM 571) managed from a single index
+- Scales to multi-course programs (BZAN 503, online course) managed from a single index
 
 ---
 **Reference:** [Original Pointer](../10_dailies/day-36-the-course-as-api-concept.md)

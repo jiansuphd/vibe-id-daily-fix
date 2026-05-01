@@ -1,4 +1,4 @@
-# Day 91: The 'Expert Learner' Persona Simulation
+# Day 91: The 'Expert Learner' Simulation
 
 - **The Pointer:** Simulate how a highly engaged, self-directed expert learner would navigate your course — and identify where they would get bored or bottlenecked.
 - **The Details:** Most course design targets the median learner. The expert learner reveals different failure modes: too much scaffolding, no optional depth, paced too slowly. Design for both ends.

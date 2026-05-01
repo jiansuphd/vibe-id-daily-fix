@@ -6,7 +6,7 @@ tags:
   - day-54
 ---
 
-# Day 54: The 'Energy-Balanced' AI Agent (Fatigue Logic) — Wiki
+# Day 54: The 'Efficiency-Balanced' AI Agent (Logic Balancing) — Wiki
 
 ## Core Concept
 
@@ -18,7 +18,7 @@ Design an agentic workflow that front-loads low-cognitive tasks and protects pea
 |-----------|-------------|
 | **Design Principle** | The 'Energy-Balanced' AI Agent |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
-| **Key Skill** | as-resilience, fatigue, workflow |
+| **Key Skill** | workflow-resilience, fatigue, workflow |
 | **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt

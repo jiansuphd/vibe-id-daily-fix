@@ -1,14 +1,6 @@
 ---
+title: "day 84 the agentic peer reviewer sme persona"
 layout: post.njk
-title: "Day 84: The 'Agentic Peer Reviewer' (SME Persona)"
-date: 2026-06-22
-tags:
-  - post
-  - day-84
-  - phase-7
-  - peer-review
-  - sme
-  - persona
 ---
 
 # Day 84: The 'Agentic Peer Reviewer' (SME Persona)
@@ -25,4 +17,4 @@ gemini --system ./personas/sme_dr_chen.md "Review Module 4 content for accuracy 
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

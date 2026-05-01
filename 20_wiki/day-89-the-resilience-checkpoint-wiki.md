@@ -6,7 +6,7 @@ tags:
   - day-89
 ---
 
-# Day 89: The 'Resilience Checkpoint' (Mid-Phase Review) — Wiki
+# Day 89: Automation-First Refactoring — Wiki
 
 ## Core Concept
 
@@ -16,7 +16,7 @@ Run a mid-Phase 7 resilience check: are your systems sustainable, or are there f
 
 | Dimension | Application |
 |-----------|-------------|
-| **Design Principle** | The 'Resilience Checkpoint' |
+| **Design Principle** | The 'Automation-First Refactoring' |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | resilience, review, checkpoint |
 | **AS Accommodation** | Low-keystroke or voice-driven where possible |
@@ -29,7 +29,7 @@ gemini "Review my current workflow systems. Identify any process where: (1) only
 
 ## Key Terms
 
-- **Resilience Checkpoint:** The core technique or system described in this entry.
+- **Automation-First Refactoring:** The core technique or system described in this entry.
 - **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 

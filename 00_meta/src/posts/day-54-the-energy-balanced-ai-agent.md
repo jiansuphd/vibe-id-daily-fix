@@ -1,17 +1,9 @@
 ---
+title: "day 54 the energy balanced ai agent"
 layout: post.njk
-title: "Day 54: The 'Energy-Balanced' AI Agent (Fatigue Logic)"
-date: 2026-05-23
-tags:
-  - post
-  - day-54
-  - phase-5
-  - as-resilience
-  - fatigue
-  - workflow
 ---
 
-# Day 54: The 'Energy-Balanced' AI Agent (Fatigue Logic)
+# Day 54: The 'Efficiency-Balanced' AI Agent (Logic Balancing)
 
 - **The Pointer:** Design an agentic workflow that front-loads low-cognitive tasks and protects peak-energy windows for high-value creative work.
 - **The Details:** Not all tasks are equal. An energy-aware agent knows that 'editing alt text' is low-cognitive and should be batched into fatigue windows, while 'designing branching scenarios' requires peak energy.
@@ -25,4 +17,4 @@ gemini "Today's task list: [list]. My energy peak is 7-9 PM. Classify each task 
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

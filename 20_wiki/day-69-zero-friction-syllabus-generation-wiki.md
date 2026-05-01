@@ -6,7 +6,7 @@ tags:
   - day-69
 ---
 
-# Day 69: Zero-Friction Syllabus Generation — Wiki
+# Day 69: Zero-Friction Synthesis — Wiki
 
 ## Core Concept
 
@@ -16,7 +16,7 @@ Generate a compliant, complete syllabus from a course blueprint in under 5 minut
 
 | Dimension | Application |
 |-----------|-------------|
-| **Design Principle** | Zero-Friction Syllabus Generation |
+| **Design Principle** | Zero-Friction Synthesis |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | syllabus, automation, generation |
 | **AS Accommodation** | Low-keystroke or voice-driven where possible |

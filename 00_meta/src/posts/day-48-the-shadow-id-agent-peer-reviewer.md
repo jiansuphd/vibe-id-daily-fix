@@ -1,14 +1,6 @@
 ---
+title: "day 48 the shadow id agent peer reviewer"
 layout: post.njk
-title: "Day 48: The 'Shadow ID' Agent (Peer Reviewer)"
-date: 2026-05-17
-tags:
-  - post
-  - day-48
-  - phase-5
-  - peer-review
-  - quality-assurance
-  - id
 ---
 
 # Day 48: The 'Shadow ID' Agent (Peer Reviewer)
@@ -25,4 +17,4 @@ gemini --system ./personas/shadow_id.md "Here is my course design rationale. Fin
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

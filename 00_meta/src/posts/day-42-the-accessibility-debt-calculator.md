@@ -1,14 +1,6 @@
 ---
+title: "day 42 the accessibility debt calculator"
 layout: post.njk
-title: "Day 42: The 'Accessibility Debt' Calculator"
-date: 2026-05-11
-tags:
-  - post
-  - day-42
-  - phase-5
-  - accessibility
-  - wcag
-  - audit
 ---
 
 # Day 42: The 'Accessibility Debt' Calculator
@@ -25,4 +17,4 @@ gemini "Analyze this course shell. Output a JSON object with: { wcag_failures: [
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

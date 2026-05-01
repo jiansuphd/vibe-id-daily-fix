@@ -19,7 +19,7 @@ Bilingual Sync goes beyond translation. A "Semantic Mirror" ensures that the **e
 | Conceptual | Educational intent preserved | Bloom's "Evaluate" maps to 评估 (not just 判断) |
 | Cultural | Context resonates for the audience | Legal example uses HK/Taiwan variant if applicable |
 
-## CPACC Review Application
+## accessibility certification Review Application
 
 - ADA and WCAG legal definitions must be translated for **conceptual accuracy**, not literal translation
 - Technical terms (e.g., "keyboard trap," "focus indicator") need standardized ZH equivalents documented in a glossary

@@ -1,14 +1,6 @@
 ---
+title: "day 98 cross vault synthesis the final link"
 layout: post.njk
-title: "Day 98: Cross-Vault Synthesis (The Final Link)"
-date: 2026-07-06
-tags:
-  - post
-  - day-98
-  - phase-7
-  - synthesis
-  - vault
-  - integration
 ---
 
 # Day 98: Cross-Vault Synthesis (The Final Link)
@@ -25,4 +17,4 @@ gemini "Read all sections of the vault. Generate a knowledge map: which daily po
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

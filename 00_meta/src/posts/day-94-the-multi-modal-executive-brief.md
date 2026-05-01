@@ -1,14 +1,6 @@
 ---
+title: "day 94 the multi modal executive brief"
 layout: post.njk
-title: "Day 94: The 'Multi-Modal' Executive Brief"
-date: 2026-07-02
-tags:
-  - post
-  - day-94
-  - phase-7
-  - executive
-  - multi-modal
-  - communication
 ---
 
 # Day 94: The 'Multi-Modal' Executive Brief
@@ -25,4 +17,4 @@ gemini "Read progress.md. Generate: (1) 200-word text summary, (2) Mermaid Gantt
 
 *Phase 7: Endgame & Sustained Resilience*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

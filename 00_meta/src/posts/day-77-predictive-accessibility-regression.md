@@ -1,14 +1,6 @@
 ---
+title: "day 77 predictive accessibility regression"
 layout: post.njk
-title: "Day 77: Predictive Accessibility Regression"
-date: 2026-06-15
-tags:
-  - post
-  - day-77
-  - phase-6
-  - accessibility
-  - prediction
-  - regression
 ---
 
 # Day 77: Predictive Accessibility Regression
@@ -25,4 +17,4 @@ gemini "I am about to make these changes to Module 2: [list]. Predict the access
 
 *Phase 6: Advanced Orchestration & Scaling*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

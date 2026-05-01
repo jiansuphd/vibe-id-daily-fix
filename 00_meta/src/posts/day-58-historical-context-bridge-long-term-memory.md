@@ -1,14 +1,6 @@
 ---
+title: "day 58 historical context bridge long term memory"
 layout: post.njk
-title: "Day 58: 'Historical Context' Bridge (Long-Term Memory)"
-date: 2026-05-27
-tags:
-  - post
-  - day-58
-  - phase-5
-  - memory
-  - rag
-  - context
 ---
 
 # Day 58: 'Historical Context' Bridge (Long-Term Memory)
@@ -25,4 +17,4 @@ cat ./00_meta/project_decisions.md | gemini "Given this decision history, what i
 
 *Phase 5: Institutional Leadership & AI Governance*
 
-**Backlinks:** [Daily MOC](../../10_dailies/_dailies_MOC.md) | [Root MOC](../../root_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)

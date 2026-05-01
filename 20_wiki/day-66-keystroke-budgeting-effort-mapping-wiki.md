@@ -6,7 +6,7 @@ tags:
   - day-66
 ---
 
-# Day 66: 'Keystroke Budgeting' (Effort Mapping) — Wiki
+# Day 66: 'Effort Mapping' (Workflow Budgeting) — Wiki
 
 ## Core Concept
 
@@ -16,7 +16,7 @@ Map every recurring ID task to its keystroke cost and identify the top 5 candida
 
 | Dimension | Application |
 |-----------|-------------|
-| **Design Principle** | 'Keystroke Budgeting' |
+| **Design Principle** | 'Effort Mapping' |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | ergonomics, keystroke, optimization |
 | **AS Accommodation** | Low-keystroke or voice-driven where possible |
@@ -29,7 +29,7 @@ gemini "Here is my daily task list with keystroke estimates. Rank by burden-to-v
 
 ## Key Terms
 
-- **Keystroke Budgeting:** The core technique or system described in this entry.
+- **Effort Mapping:** The core technique or system described in this entry.
 - **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
