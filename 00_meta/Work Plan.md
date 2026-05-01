@@ -17,9 +17,9 @@ tags:
 Create a front-facing dashboard that aggregates daily strategic "pointers" for Instructional Designers, helping them master agentic workflows, prompt engineering for pedagogy, and automated ID infrastructure.
 
 ## 🚦 System Health
-- **Build**: Passing (Local Eleventy build successful).
-- **Wiki**: Synthesis of Phases 1-3 complete.
-- **Deployment**: GitHub Actions configured.
+- **Build**: Passing (New Eleventy infrastructure verified).
+- **Wiki**: Standardized Markdown links (GitHub-compatible) verified.
+- **Deployment**: Ready for GitHub Actions sync.
 
 ## 🗺️ Detailed Work Plan
 
@@ -40,9 +40,10 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Phase 3: Automation & Agentic Workflows (Active)
 **Goal**: Automate the generation of daily pointers and ID-specific audits.
-*   [x] **The "Cyborg" Script**: Created `00_Meta/scripts/cyborg_aggregator.js` to aggregate ID trends.
-*   [x] **Skill Library**: Built out `00_Meta/skills/` with SOPs: `AltText_Reviewer.md`, `Syllabus_Migration.md`, `Bloom_Taxonomy_Aligner.md`, `Synthetic_Student_Simulator.md`, `Prompt_Injection_Auditor.md`.
-*   [x] **UI Refinement (v4.0)**: Transitioned to "Midnight Pro" aesthetic and simplified transmission titles.
+*   [x] **Framework Setup**: Rebuilt Eleventy infrastructure from scratch with a "Midnight Pro" (Deep Slate/Violet) aesthetic.
+*   [x] **The "Parser" Script**: Created `00_meta/scripts/parse_dailies.js` to synchronize vault content to the dashboard.
+*   [ ] **The "Cyborg" Script**: Re-implement `scripts/cyborg_aggregator.js` to aggregate ID trends.
+*   [x] **Skill Library**: Built out `00_meta/skills/` with SOPs: `AltText_Reviewer.md`, `Syllabus_Migration.md`, `Bloom_Taxonomy_Aligner.md`, `Synthetic_Student_Simulator.md`, `Prompt_Injection_Auditor.md`.
 *   [x] **GitHub Actions Orchestration**: Automated daily builds and periodic wiki maintenance lints.
 
 ### Phase 4: Scale & Sustainability

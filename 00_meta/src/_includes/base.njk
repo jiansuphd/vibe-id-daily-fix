@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or "VibeID Daily" }}</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>VibeID Daily</h1>
+        <nav>
+            <a href="{{ '/' | url }}">Latest</a>
+            <a href="{{ '/archive/' | url }}">Archive</a>
+            <a href="https://github.com/jiansuphd/vibe-id-daily" target="_blank">Repo</a>
+        </nav>
+    </header>
+
+    <main>
+        {{ content | safe }}
+    </main>
+
+    <footer>
+        <p>&copy; 2026 VibeID Daily | Maintained by Gemini CLI</p>
+    </footer>
+</body>
+</html>

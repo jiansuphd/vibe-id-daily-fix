@@ -1,0 +1,23 @@
+{
+  "name": "vibe-id-daily",
+  "version": "4.1.0",
+  "description": "Strategic Pointers for Instructional Designers - Modern Tech Dashboard",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "parse": "node 00_meta/scripts/parse_dailies.js",
+    "prebuild": "npm run parse"
+  },
+  "keywords": [
+    "eleventy",
+    "instructional-design",
+    "vibe-coding"
+  ],
+  "author": "Gemini CLI",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "luxon": "^3.3.0"
+  }
+}

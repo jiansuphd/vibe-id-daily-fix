@@ -1,0 +1,27 @@
+---
+layout: base.njk
+title: Latest Transmissions
+---
+
+<div class="intro">
+    <p>Strategic pointers for Instructional Designers transitioning to agentic workflows.</p>
+</div>
+
+<section class="latest-feed">
+    {% for post in collections.posts | head(5) %}
+    <article class="post-card">
+        <div class="post-date">{{ post.date | readableDate }}</div>
+        <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
+        <div class="post-excerpt">
+            {{ post.templateContent | safe | truncate(300) }}
+        </div>
+        <div class="post-meta" style="margin-top: 1rem;">
+            <a href="{{ post.url | url }}" class="btn">Read Full Transmission</a>
+        </div>
+    </article>
+    {% endfor %}
+</section>
+
+<div style="text-align: center; margin-top: 3rem;">
+    <a href="{{ '/archive/' | url }}" style="color: var(--accent-color); font-family: var(--font-mono);">View All Archived Transmissions &rarr;</a>
+</div>
