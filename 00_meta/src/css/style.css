@@ -12,10 +12,11 @@
 }
 
 :root {
-  --bg:            #020617;
+  --bg:            #0b1220;
   --panel:         #0f172a;
   --panel-light:   #1e293b;
   --text:          #f1f5f9;
+  --text-soft:     #d6dee8;
   --text-dim:      #cbd5e1;
   --accent:        #8b5cf6;
   --accent-light:  #a78bfa;
@@ -39,7 +40,7 @@ html {
 
 body {
   background-color: var(--bg);
-  color: var(--text);
+  color: var(--text-soft);
   font-family: var(--font-sans);
   line-height: 1.7;
   min-height: 100vh;
@@ -71,7 +72,7 @@ body {
    HEADER / HUD
    ============================================ */
 .hud {
-  background: rgba(2, 6, 23, 0.8);
+  background: rgba(11, 18, 32, 0.8);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
   position: sticky;
@@ -239,7 +240,7 @@ article h1 a:hover { color: var(--accent-light); }
    PROSE / BODY CONTENT
    ============================================ */
 .prose {
-  color: var(--text);
+  color: var(--text-soft);
   font-size: 1.15rem;
   line-height: 2.0;
   max-width: 70ch;
@@ -272,7 +273,7 @@ article h1 a:hover { color: var(--accent-light); }
   background: rgba(139, 92, 246, 0.05);
   margin: 2.5rem 0;
   font-style: italic;
-  color: var(--text);
+  color: var(--text-soft);
 }
 
 .prose code {
@@ -301,7 +302,11 @@ article h1 a:hover { color: var(--accent-light); }
 }
 
 .prose ul, .prose ol { margin: 0 0 2rem 1.5rem; }
-.prose li { margin-bottom: 0.9rem; font-size: 1.1rem; }
+.prose li {
+  margin-bottom: 0.9rem;
+  font-size: 1.1rem;
+  color: var(--text-soft);
+}
 
 .prose a { color: var(--cyan); }
 .prose a:hover { color: var(--accent-light); }
@@ -334,7 +339,7 @@ article h1 a:hover { color: var(--accent-light); }
   margin-bottom: 1.5rem;
 }
 
-.widget p { font-size: 0.9rem; color: var(--text); }
+.widget p { font-size: 0.9rem; color: var(--text-soft); }
 
 .widget ul { list-style: none; }
 .widget ul li { margin-bottom: 1rem; font-size: 0.9rem; }

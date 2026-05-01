@@ -359,6 +359,104 @@ Added 9 new entries covering all Session 2 work, including direct link to the pr
 
 ---
 
+## Session 3 — May 1, 2026 (Visual Audit)
+
+### Summary
+Reviewed the live site for readability and contrast, with focus on the perceived glare from bright body text on a very dark background.
+
+### Findings
+- The current theme uses near-white primary text on a near-black background, which creates a strong high-contrast look.
+- The effect is visually sharp for headings and interface labels, but reads as somewhat harsh for long-form paragraph text.
+- The issue is stylistic rather than a rendering bug; the CSS explicitly sets both the dark background and the bright text values.
+
+### Relevant Theme Source
+- `00_meta/src/css/style.css`
+- Primary variables identified: `--bg`, `--text`, `--text-dim`
+- Primary selectors identified: `body`, `.prose`, `.widget p`, `.prose strong`, `.page-header h1`
+
+### Recommendation
+- Keep bright text for headings, labels, and emphasized UI elements.
+- Introduce a softer body-copy tone for paragraph text and long-form prose.
+- Optionally lift the background slightly toward a dark blue-gray to reduce perceived glare without losing the current aesthetic.
+
+### Proposed Minimal CSS Direction
+- Add a dedicated body-text variable separate from the brightest heading color.
+- Apply the softer tone to `body`, `.prose`, list items, and widget paragraphs.
+- Preserve current brighter values for headings and strong emphasis.
+
+### Outcome
+Recommended a restrained typography contrast pass rather than leaving the current body copy unchanged.
+
+---
+
+## Session 4 — May 1, 2026 (Softened CSS Pass)
+
+### Summary
+Applied a minimal theme adjustment to reduce glare in long-form reading surfaces while preserving the site's brighter heading and accent treatment.
+
+### CSS Change
+- Added a new `--text-soft` variable in `00_meta/src/css/style.css`
+- Applied the softer tone to `body`, `.prose`, `.prose blockquote`, `.prose li`, and `.widget p`
+- Left headings and emphasis on the brighter `--text` value
+
+### Validation
+- Rebuilt the Eleventy site successfully with `npm run build`
+- Served the local build with Eleventy at `http://localhost:8080/vibe-id-daily/`
+- Compared computed colors between production and local preview
+
+### Measured Before / After
+- Production body/prose text: `rgb(241, 245, 249)`
+- Local softened body/prose text: `rgb(214, 222, 232)`
+- Heading color remained: `rgb(241, 245, 249)`
+
+### Outcome
+Created a restrained alternative that softens paragraph glare without flattening the visual hierarchy.
+
+---
+
+## Session 5 — May 1, 2026 (Blue-Gray Background Pass)
+
+### Summary
+Lifted the global site background slightly from a near-black midnight tone to a dark blue-gray to reduce perceived contrast while keeping the same overall mood.
+
+### CSS Change
+- Updated `--bg` in `00_meta/src/css/style.css` from `#020617` to `#0b1220`
+- Aligned the sticky HUD backdrop from `rgba(2, 6, 23, 0.8)` to `rgba(11, 18, 32, 0.8)`
+
+### Validation
+- Rebuilt the Eleventy site successfully with `npm run build`
+- Verified the local preview against production using computed browser styles
+
+### Measured Before / After
+- Production body background: `rgb(2, 6, 23)`
+- Local adjusted body background: `rgb(11, 18, 32)`
+- Local adjusted body text remained: `rgb(214, 222, 232)`
+
+### Outcome
+Created a softer canvas that reduces glare without changing the site's structure or accent system.
+
+---
+
+## Session 6 — May 1, 2026 (Production Ship)
+
+### Summary
+Prepared and shipped the validated softened theme variant to production.
+
+### Release Scope
+- Long-form body copy softened with a dedicated text tone
+- Global background lifted from near-black to dark blue-gray
+- Sticky HUD backdrop aligned with the updated background tone
+
+### Validation
+- `npm run build` completed successfully
+- `npm run lint` completed successfully
+- Deployment path confirmed via `.github/workflows/deploy.yml` on push to `main`
+
+### Outcome
+Production deployment initiated by committing and pushing the exact validated version to the main branch.
+
+---
+
 *Session 2 appended — May 1, 2026*
 
 ---
