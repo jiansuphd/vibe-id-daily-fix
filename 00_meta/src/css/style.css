@@ -15,8 +15,8 @@
   --bg:            #020617;
   --panel:         #0f172a;
   --panel-light:   #1e293b;
-  --text:          #e2e8f0;
-  --text-dim:      #94a3b8;
+  --text:          #f1f5f9;
+  --text-dim:      #cbd5e1;
   --accent:        #8b5cf6;
   --accent-light:  #a78bfa;
   --cyan:          #06b6d4;
@@ -239,7 +239,7 @@ article h1 a:hover { color: var(--accent-light); }
    PROSE / BODY CONTENT
    ============================================ */
 .prose {
-  color: var(--text-dim);
+  color: var(--text);
   font-size: 1.15rem;
   line-height: 2.0;
   max-width: 70ch;
@@ -334,7 +334,7 @@ article h1 a:hover { color: var(--accent-light); }
   margin-bottom: 1.5rem;
 }
 
-.widget p { font-size: 0.9rem; color: var(--text-dim); }
+.widget p { font-size: 0.9rem; color: var(--text); }
 
 .widget ul { list-style: none; }
 .widget ul li { margin-bottom: 1rem; font-size: 0.9rem; }
