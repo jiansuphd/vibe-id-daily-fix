@@ -66,6 +66,14 @@ title: Latest Transmissions
         <li><a href="/vibe-id-daily/feed.xml">RSS Feed</a></li>
       </ul>
     </div>
+    <div class="widget">
+      <h3>// Archives</h3>
+      <ul>
+        {% for post in collections.posts | reverse | head(8) %}
+        <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
     <div class="widget subscribe-widget">
       <h3>// Subscribe</h3>
       <p>Get new transmissions via email or RSS reader.</p>
@@ -81,14 +89,6 @@ title: Latest Transmissions
         </div>
         <p class="subscribe-alt">Or copy the <a href="/vibe-id-daily/feed.xml">RSS feed URL</a> into your reader.</p>
       </form>
-    </div>
-    <div class="widget">
-      <h3>// Archives</h3>
-      <ul>
-        {% for post in collections.posts | reverse | head(8) %}
-        <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
-        {% endfor %}
-      </ul>
     </div>
   </aside>
 </div>
