@@ -8,6 +8,7 @@
     "start": "npx @11ty/eleventy --serve",
     "parse": "node _meta/scripts/parse_dailies.js",
     "cyborg": "node _meta/scripts/cyborg_aggregator.js",
+    "lint": "node _meta/scripts/check_links.js",
     "prebuild": "npm run parse"
   },
   "keywords": [

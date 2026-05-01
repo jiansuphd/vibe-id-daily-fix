@@ -43,8 +43,10 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 *   [x] **Infrastructure Refactor**: Transitioned to user-preferred directory naming (`_meta`, `_dailies`, `_wiki`).
 *   [x] **Framework Setup**: Rebuilt Eleventy infrastructure from scratch with a "Midnight Pro" (Deep Slate/Violet) aesthetic.
 *   [x] **The "Parser" Script**: Created `_meta/scripts/parse_dailies.js` to synchronize vault content to the dashboard.
-*   [x] **The "Cyborg" Script**: Re-implemented `_meta/scripts/cyborg_aggregator.js` (v2.0) to aggregate ID trends.
-*   [x] **Skill Library**: Built out `_meta/skills/` with SOPs: `AltText_Reviewer.md`, `Syllabus_Migration.md`, `Bloom_Taxonomy_Aligner.md`, `Synthetic_Student_Simulator.md`, `Prompt_Injection_Auditor.md`.
+*   [x] **The "Cyborg" Script**: Re-implemented `_meta/scripts/cyborg_aggregator.js` (v2.0) with corrected link logic.
+*   [x] **Skill Library**: Built out `_meta/skills/` with SOPs: `AltText_Reviewer.md`, `Syllabus_Migration.md`, `Bloom_Taxonomy_Aligner.md`, `Synthetic_Student_Simulator.md`, `Prompt_Injection_Auditor.md`, `MCP_Knowledge_Bridge.md`.
+*   [x] **Vault Integrity**: Re-implemented `_meta/scripts/check_links.js` to ensure 100% valid cross-references.
+*   [x] **Deployment Fix**: Added `.github/workflows/deploy.yml` to automate pushes to GitHub Pages.
 
 *   [x] **GitHub Actions Orchestration**: Automated daily builds and periodic wiki maintenance lints.
 
