@@ -33,6 +33,7 @@ Thumbs.db
 
 # Gemini / AI
 .gemini/
+!.gemini/settings.example.json
 .geminiignore
 MEMORY.md
 *.tmp

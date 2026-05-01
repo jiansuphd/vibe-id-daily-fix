@@ -41,6 +41,24 @@ When instructed to **Lint**:
 1. Check for contradictions, stale claims, orphan pages, or missing cross-references.
 2. Ensure MOCs accurately reflect the contents of their directories.
 3. Verify that `_meta/log.md` is properly formatted.
+
+## 🌉 MCP Integration (Obsidian Bridge)
+
+The Gemini CLI is configured to connect to a local Obsidian vault via the Model Context Protocol.
+Config file: `.gemini/settings.json` (mcpServers → obsidian).
+
+**To activate:**
+1. Install the [Obsidian Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api) plugin in your Obsidian app.
+2. In the plugin settings, enable HTTPS and copy your API key.
+3. Replace `REPLACE_WITH_YOUR_LOCAL_REST_API_KEY` in `.gemini/settings.json` with your actual key.
+4. Start `gemini` CLI — the `obsidian` MCP server will be available automatically.
+
+**Usage prompts:**
+- `"Use the Obsidian MCP server to search for 'UDL implementation gaps' in my local research vault."`
+- `"Use the Obsidian MCP server to append a link to [VibeID Daily Day 32] in my local 'ID Trends' MOC."`
+
+⚠️ **Security:** Never commit your real API key. The placeholder in `.gemini/settings.json` is intentional.
+
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
 
