@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const srcDir = path.join(__dirname, '../../_dailies');
+const srcDir = path.join(__dirname, '../../10_dailies');
 const destDir = path.join(__dirname, '../src/posts');
 
 // Ensure destination exists

@@ -8,7 +8,7 @@ const { DateTime } = require('luxon');
  * Generates a daily transmission file in _dailies/
  */
 
-const OUTPUT_DIR = path.join(__dirname, '../../_dailies');
+const OUTPUT_DIR = path.join(__dirname, '../../10_dailies');
 const DATE_STR = DateTime.now().toFormat('yyyy-LL-dd');
 const FILE_NAME = `cyborg-aggregation-${DATE_STR}.md`;
 const FILE_PATH = path.join(OUTPUT_DIR, FILE_NAME);
