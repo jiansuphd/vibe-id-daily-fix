@@ -20,6 +20,7 @@ A Map of Content for the raw daily VibeID Daily pointers and automated trends.
 - **[Day 15: The Automated Indexing Habit](day-15-the-automated-indexing-habit.md)**
 - **[Day 16: The Environment-Aware Pre-Flight Check](day-16-the-environment-aware-pre-flight-check.md)**
 - **[Day 17: The Full-Vault Synthesis](day-17-the-full-vault-synthesis-mcp-integration.md)**
+- **[Day 18: Multiple Means of Action & Expression (UDL HOW)](day-18-multiple-means-of-action-and-expression-udl-how.md)**
 - **[Day 19: The Agentic Git](day-19-the-agentic-git-instructional-assets-as-code.md)**
 - **[Day 20: The Semantic Bridge](day-20-the-semantic-bridge-historical-knowledge-extraction.md)**
 - **[Day 21: The Self-Correction Pattern](day-21-the-self-correction-pattern-agentic-reflection.md)**
@@ -42,6 +43,75 @@ A Map of Content for the raw daily VibeID Daily pointers and automated trends.
 - **[Day 38: The "Cross-Model" Consensus (Model Diversity Audit)](day-38-the-cross-model-consensus-model-diversity-audit.md)**
 - **[Day 39: Bilingual Sync (ZH/EN Content Mirroring)](day-39-bilingual-sync-zh-en-content-mirroring.md)**
 - **[Day 40: The "Recursive Workspace" (Self-Evolving Manual)](day-40-the-recursive-workspace-self-evolving-manual.md)**
+
+## 🎓 Phase 5: Institutional Leadership & AI Governance
+
+- **[Day 41: The 'Institutional AI Manifesto' (Policy as Code)](day-41-the-institutional-ai-manifesto-policy-as-code.md)**
+- **[Day 42: The 'Accessibility Debt' Calculator](day-42-the-accessibility-debt-calculator.md)**
+- **[Day 43: Inter-Departmental Knowledge Graph (Scaling Context)](day-43-inter-departmental-knowledge-graph.md)**
+- **[Day 44: The 'Syllabus-to-Skill' Auto-Pipeline](day-44-the-syllabus-to-skill-auto-pipeline.md)**
+- **[Day 45: The 'Body-Aware' Scheduling Agent (AS Resilience)](day-45-the-body-aware-scheduling-agent.md)**
+- **[Day 46: The 'Multi-Persona Focus Group' (Synthetic Stakeholders)](day-46-the-multi-persona-focus-group.md)**
+- **[Day 47: The 'Prompt Versioning' Protocol (Instructional Reliability)](day-47-the-prompt-versioning-protocol.md)**
+- **[Day 48: The 'Shadow ID' Agent (Peer Reviewer)](day-48-the-shadow-id-agent-peer-reviewer.md)**
+- **[Day 49: Data-Driven Feedback Loop (LRS Integration)](day-49-data-driven-feedback-loop-lrs-integration.md)**
+- **[Day 50: The 'Half-Century' System Audit](day-50-the-half-century-system-audit.md)**
+- **[Day 51: The 'Voice-to-Blueprint' Workflow (Low-Strokes Design)](day-51-the-voice-to-blueprint-workflow.md)**
+- **[Day 52: The 'Compliance Crawler' (Institutional Scrutiny)](day-52-the-compliance-crawler.md)**
+- **[Day 53: The 'Cross-Platform Mirroring' (Canvas-to-Rise)](day-53-the-cross-platform-mirroring-canvas-to-rise.md)**
+- **[Day 54: The 'Energy-Balanced' AI Agent (Fatigue Logic)](day-54-the-energy-balanced-ai-agent.md)**
+- **[Day 55: The 'Generative Grading' Rubric-Bot](day-55-the-generative-grading-rubric-bot.md)**
+- **[Day 56: 'Agentic Procurement' (VPAT Auditor)](day-56-agentic-procurement-vpat-auditor.md)**
+- **[Day 57: 'Translation Reliability' (EN/ZH Semantic Check)](day-57-translation-reliability-en-zh-semantic-check.md)**
+- **[Day 58: 'Historical Context' Bridge (Long-Term Memory)](day-58-historical-context-bridge-long-term-memory.md)**
+- **[Day 59: The 'Zero-Keystroke' Ideal (Voice-to-Course)](day-59-the-zero-keystroke-ideal-voice-to-course.md)**
+- **[Day 60: The 'Full-Cycle' Systemic Audit](day-60-the-full-cycle-systemic-audit.md)**
+
+## 🎓 Phase 6: Advanced Orchestration & Scaling
+
+- **[Day 61: The 'Self-Healing' Syllabus (Integrity Logic)](day-61-the-self-healing-syllabus-integrity-logic.md)**
+- **[Day 62: Multi-Model Adversarial Auditing](day-62-multi-model-adversarial-auditing.md)**
+- **[Day 63: The 'SME Voice' Fine-Tuning](day-63-the-sme-voice-fine-tuning.md)**
+- **[Day 64: Semantic Data Migration (2025 to 2026)](day-64-semantic-data-migration-2025-to-2026.md)**
+- **[Day 65: The 'Agentic' Onboarding SOP](day-65-the-agentic-onboarding-sop.md)**
+- **[Day 66: 'Keystroke Budgeting' (Effort Mapping)](day-66-keystroke-budgeting-effort-mapping.md)**
+- **[Day 67: Vision-to-Vibe (LMS Visual Audit)](day-67-vision-to-vibe-lms-visual-audit.md)**
+- **[Day 68: The 'Institutional Memory' RAG](day-68-the-institutional-memory-rag.md)**
+- **[Day 69: Zero-Friction Syllabus Generation](day-69-zero-friction-syllabus-generation.md)**
+- **[Day 70: Ethical AI Auditing for Biased Content](day-70-ethical-ai-auditing-for-biased-content.md)**
+- **[Day 71: The 'Cross-Platform' Sync (Sync-Logic)](day-71-the-cross-platform-sync.md)**
+- **[Day 72: Agentic 'Help Desk' Simulation](day-72-agentic-help-desk-simulation.md)**
+- **[Day 73: The 'Rubric Stress-Test'](day-73-the-rubric-stress-test.md)**
+- **[Day 74: Voice-to-JSON Course Blueprints](day-74-voice-to-json-course-blueprints.md)**
+- **[Day 75: Advanced CSS-in-JS for Accessible Components](day-75-advanced-css-in-js-for-accessible-components.md)**
+- **[Day 76: The 'Course Lifecycle' Agent](day-76-the-course-lifecycle-agent.md)**
+- **[Day 77: Predictive Accessibility Regression](day-77-predictive-accessibility-regression.md)**
+- **[Day 78: The 'Systemic Librarian' (Skills Management)](day-78-the-systemic-librarian-skills-management.md)**
+- **[Day 79: Collaborative Agentic Editing](day-79-collaborative-agentic-editing.md)**
+- **[Day 80: The 'Dean's Briefing' Generator](day-80-the-deans-briefing-generator.md)**
+
+## 🎓 Phase 7: Endgame & Sustained Resilience
+
+- **[Day 81: The 'Long-Tail' Accessibility Audit](day-81-the-long-tail-accessibility-audit.md)**
+- **[Day 82: AS-Aware Task Prioritization (Dynamic)](day-82-as-aware-task-prioritization.md)**
+- **[Day 83: Semantic Archive Pruning](day-83-semantic-archive-pruning.md)**
+- **[Day 84: The 'Agentic Peer Reviewer' (SME Persona)](day-84-the-agentic-peer-reviewer-sme-persona.md)**
+- **[Day 85: The 'Zero-Draft' Strategy](day-85-the-zero-draft-strategy.md)**
+- **[Day 86: Cross-Contextual Learning (CPACC vs. ID)](day-86-cross-contextual-learning-cpacc-vs-id.md)**
+- **[Day 87: The 'Visual Hierarchy' Vision Audit](day-87-the-visual-hierarchy-vision-audit.md)**
+- **[Day 88: Institutional SOP Versioning](day-88-institutional-sop-versioning.md)**
+- **[Day 89: The 'Resilience Checkpoint' (Mid-Phase Review)](day-89-the-resilience-checkpoint.md)**
+- **[Day 90: Automated Grade-to-Goal Alignment](day-90-automated-grade-to-goal-alignment.md)**
+- **[Day 91: The 'Expert Learner' Persona Simulation](day-91-the-expert-learner-persona-simulation.md)**
+- **[Day 92: The 'Keystroke Economy' Review](day-92-the-keystroke-economy-review.md)**
+- **[Day 93: Voice-Command Optimization (Zsh Aliases)](day-93-voice-command-optimization-zsh-aliases.md)**
+- **[Day 94: The 'Multi-Modal' Executive Brief](day-94-the-multi-modal-executive-brief.md)**
+- **[Day 95: Legacy System Decommissioning](day-95-legacy-system-decommissioning.md)**
+- **[Day 96: The 'Agentic Feedback Loop' (Continuous)](day-96-the-agentic-feedback-loop-continuous.md)**
+- **[Day 97: Predictive Resource Allocation](day-97-predictive-resource-allocation.md)**
+- **[Day 98: Cross-Vault Synthesis (The Final Link)](day-98-cross-vault-synthesis-the-final-link.md)**
+- **[Day 99: The 'Mission Critical' Review](day-99-the-mission-critical-review.md)**
+- **[Day 100: Total Systemic Integration (The Exoskeleton)](day-100-total-systemic-integration-the-exoskeleton.md)**
 
 ## 🤖 Automated Aggregations
 
