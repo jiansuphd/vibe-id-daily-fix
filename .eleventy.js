@@ -17,6 +17,11 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
 
+  eleventyConfig.addFilter("dayLabel", (fileSlug) => {
+    const match = fileSlug && fileSlug.match(/^day-0*(\d+)/);
+    return match ? `Day ${parseInt(match[1], 10)}` : null;
+  });
+
   eleventyConfig.addFilter("head", (array, n) => {
     if(!Array.isArray(array) || array.length === 0) {
       return [];

@@ -5,8 +5,6 @@ date: 2026-04-20
 tags: [issue, vibe-coding]
 ---
 
-# The "Self-Correction Pattern" (Agentic Reflection)
-
 - **The Pointer:** Prompt the AI to audit its own output against a specific constraint before the final reveal.
 - **The Details:** Use a "Thinking" instruction: "First, identify potential accessibility errors in the proposed code. Then, provide the final corrected version."
 - **ID Application:** Ensures interactive H5P or Rise-like components are checked for keyboard accessibility _during_ the generation process.
