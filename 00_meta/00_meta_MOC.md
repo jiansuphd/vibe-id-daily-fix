@@ -3,14 +3,14 @@
 Central index for repository configuration, scripts, and automation assets.
 
 ## 🛠️ Infrastructure & Automation
-- **[Cyborg Aggregator](scripts/cyborg_aggregator.md) (Missing)**: Daily trend scraping script.
-- **[Log Parser](scripts/parse_logs.md) (Missing)**: Converts master log to individual issues.
-- **[Link Checker](scripts/check_links.md) (Missing)**: Validates vault integrity.
+- **[Cyborg Aggregator](scripts/cyborg_aggregator.js)**: Daily trend scraping script.
+- **[Log Parser](scripts/parse_logs.js)**: Converts master log to individual issues.
+- **[Link Checker](scripts/check_links.js)**: Validates vault integrity.
 
 ## 🎨 Dashboard (VibeID Daily)
-- **[Dashboard Home](src/index.njk) (Missing)**: The front-facing HUD source.
-- **[Base Template](src/_includes/base.njk) (Missing)**: Main dashboard layout and branding.
-- **[Dashboard CSS](src/css/style.css) (Missing)**: Modern terminal aesthetic styles.
+- **[Dashboard Home](../../src/index.njk)**: The front-facing HUD source.
+- **[Base Template](../../src/_includes/base.njk)**: Main dashboard layout and branding.
+- **[Dashboard CSS](../../src/css/style.css)**: Modern terminal aesthetic styles.
 
 ## 📚 Skill Library (SOPs)
 - **[AltText Reviewer](skills/AltText_Reviewer.md)**: Accessibility audit workflow for images.

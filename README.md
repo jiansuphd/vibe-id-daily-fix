@@ -14,7 +14,7 @@ This repository is maintained as a **compounding, searchable wiki**, organized t
 
 ## 🗺️ Navigation
 Start with the central hub to explore the vault:
-👉 **[Root MOC](00_root_MOC.md)**
+👉 **[Root MOC](root_MOC.md)**
 
 ## 🌐 The VibeID Daily Dashboard
 The live site is built with Eleventy and hosted on GitHub Pages. It serves as the front-facing "HUD" for the daily pointers tracked in this repository.
