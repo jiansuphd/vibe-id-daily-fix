@@ -33,10 +33,19 @@ A Map of Content for the raw daily VibeID Daily pointers and automated trends.
 - **[Day 29: The Legacy-to-Logic Pipeline](day-29-the-legacy-to-logic-pipeline-syllabus-migration.md)**
 - **[Day 30: The Course-Specific Memory Anchor](day-30-the-course-specific-memory-anchor-notebooklm-bridge.md)**
 - **[Day 31: The Reparse Point Audit](day-31-the-reparse-point-audit-junction-repair.md)**
+- **[Day 32: The "Schema-Driven" ID (JSON Architect)](day-32-the-schema-driven-id-json-architect.md)**
+- **[Day 33: The "Context-Pruning" Strategy (Token Efficiency)](day-33-the-context-pruning-strategy-token-efficiency.md)**
+- **[Day 34: The "Pedagogical Shadowing" (ARIA-Mirroring)](day-34-the-pedagogical-shadowing-aria-mirroring.md)**
+- **[Day 35: The "Voice-to-Logic" Pipeline (AS Ergonomic Level-Up)](day-35-the-voice-to-logic-pipeline-ergonomic-level-up.md)**
+- **[Day 36: The "Course-as-API" Concept](day-36-the-course-as-api-concept.md)**
+- **[Day 37: Automated Rubric Calibration (The Fairness Audit)](day-37-automated-rubric-calibration-the-fairness-audit.md)**
+- **[Day 38: The "Cross-Model" Consensus (Model Diversity Audit)](day-38-the-cross-model-consensus-model-diversity-audit.md)**
+- **[Day 39: Bilingual Sync (ZH/EN Content Mirroring)](day-39-bilingual-sync-zh-en-content-mirroring.md)**
+- **[Day 40: The "Recursive Workspace" (Self-Evolving Manual)](day-40-the-recursive-workspace-self-evolving-manual.md)**
 
 ## 🤖 Automated Aggregations
-- **[Cyborg Report: 2026-05-01](cyborg-aggregation-2026-05-01.md)**: Daily ID & Accessibility trend scan.
-- **[Cyborg Report: 2026-04-29](cyborg-aggregation-2026-04-29.md)**: Daily ID & Accessibility trend scan.
+
+*Cyborg trend reports are maintained locally but not published to the site.*
 
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)

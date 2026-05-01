@@ -3,12 +3,6 @@ layout: base.njk
 title: Latest Transmissions
 ---
 
-<div class="page-tagline">
-  <span class="page-tagline-site">The Vibe ID Daily</span>
-  <span class="page-tagline-sep">—</span>
-  Tracking the journey from Natural Language to Systemic Automation.
-</div>
-
 <div class="dashboard-grid">
   <div class="content">
     {% if collections.posts.length > 0 %}
@@ -32,17 +26,24 @@ title: Latest Transmissions
 
   <aside class="sidebar">
     <div class="widget">
-      <h3>// Navigation</h3>
+      <h3>// About</h3>
+      <p>The Vibe ID Daily &mdash; Tracking the journey from Natural Language to Systemic Automation.</p>
+    </div>
+    <div class="widget">
+      <h3>// Repository</h3>
       <ul>
-        <li><a href="{{ '/' | url }}">Latest Transmissions</a></li>
-        <li><a href="{{ '/archive/' | url }}">Full Archive</a></li>
-        <li><a href="/feed.xml">RSS Feed</a></li>
         <li><a href="https://github.com/jiansuphd/vibe-id-daily" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+        <li><a href="{{ '/archive/' | url }}">Full Archive</a></li>
+        <li><a href="/vibe-id-daily/feed.xml">RSS Feed</a></li>
       </ul>
     </div>
     <div class="widget">
-      <h3>// Mission</h3>
-      <p>Daily strategic pointers for Instructional Designers transitioning from natural language workflows to systemic agentic automation.</p>
+      <h3>// Archives</h3>
+      <ul>
+        {% for post in collections.posts | reverse | head(8) %}
+        <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+        {% endfor %}
+      </ul>
     </div>
   </aside>
 </div>

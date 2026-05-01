@@ -4,17 +4,40 @@ title: Transmission Archive
 permalink: /archive/
 ---
 
-<div class="page-grid">
-  <div class="page-header">
-    <h1>Transmission Archive</h1>
+<div class="dashboard-grid">
+  <div class="content">
+    <div class="page-header">
+      <h1>The Transmission Archive</h1>
+      <p class="page-subtitle">A chronological history of strategic pointers for the Vibe ID.</p>
+    </div>
+    <div class="archive-list">
+      {% for post in collections.posts | reverse %}
+      <a href="{{ post.url | url }}" class="archive-item">
+        <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+        <span class="archive-item-title">{{ post.data.title }}</span>
+      </a>
+      {% endfor %}
+    </div>
   </div>
-
-  <div class="archive-list">
-    {% for post in collections.posts %}
-    <a href="{{ post.url | url }}" class="archive-item">
-      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-      <span class="archive-item-title">{{ post.data.title }}</span>
-    </a>
-    {% endfor %}
-  </div>
+  <aside class="sidebar">
+    <div class="widget">
+      <h3>// About</h3>
+      <p>The Vibe ID Daily &mdash; Tracking the journey from Natural Language to Systemic Automation.</p>
+    </div>
+    <div class="widget">
+      <h3>// Repository</h3>
+      <ul>
+        <li><a href="https://github.com/jiansuphd/vibe-id-daily" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+        <li><a href="/vibe-id-daily/feed.xml">RSS Feed</a></li>
+      </ul>
+    </div>
+    <div class="widget">
+      <h3>// Recent</h3>
+      <ul>
+        {% for post in collections.posts | reverse | head(6) %}
+        <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </aside>
 </div>
