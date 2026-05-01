@@ -12,7 +12,7 @@ if (!fs.existsSync(destDir)) {
 const files = fs.readdirSync(srcDir);
 
 files.forEach(file => {
-    if (file.endsWith('.md') && file !== '10_dailies_MOC.md') {
+    if (file.match(/^day-\d+-.+\.md$/)) {
         const filePath = path.join(srcDir, file);
         let content = fs.readFileSync(filePath, 'utf8');
 
