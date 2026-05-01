@@ -25,7 +25,11 @@
 ## Phase 4: Scale & Sustainability (Active)
 - [x] **Vault Standardization**: Converted all Obsidian Wikilinks to standard Markdown links (80+ files).
 - [x] **Infrastructure Rebuild**: Rebuilt Eleventy dashboard from scratch with "Midnight Pro" theme.
+- [x] **Visual Refinement**: Polished UI with "New Yorker" editorial style (Serif headers, high-fidelity contrast).
+- [x] **Content Distribution**: Implemented automated Atom/RSS feed (`feed.xml`).
 - [x] **Hybrid Architecture**: Config files at root, source files inside `_meta/src` for a clean vault.
+- [x] **Modern Deployment**: Switched to official GitHub Actions deployment to resolve 404s.
+
 - [ ] **MCP Integration**: Connect vault to external Model Context Protocol servers.
 - [ ] **Community Loop**: Implement RSS/Email distribution.
 
