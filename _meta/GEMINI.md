@@ -2,6 +2,15 @@
 
 This repository is maintained using the "knowledge compiler" concept. The Gemini CLI acts as the maintainer of a persistent, compounding wiki that documents the contents of this repository.
 
+## 🏁 Project Horizon
+- **Limit**: This project is architected for a **100-day development cycle**.
+- **End Date**: Operations will conclude on **Day 100**.
+
+## ⚙️ Automated Workflows
+1. **Daily Build**: Automated midnight UTC deployment to GitHub Pages.
+2. **Periodic Linting**: Integrated link checking and vault integrity validation during every build.
+3. **Cyborg Aggregation**: Automated daily trend scraping and report generation (11:30 PM UTC).
+
 ## Architecture
 
 1. **_meta**: Repository configuration, schemas, and ignored progress/logs.
