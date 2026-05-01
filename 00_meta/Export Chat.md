@@ -712,3 +712,32 @@ This explains why:
 - Day 100: Total Systemic Integration
 
 *Session 2 appended May 1, 2026.*
+
+---
+
+## Session 2 — Addendum: Future-Date Fix & Live Site Correction
+**Date:** May 1, 2026 (later in session)
+
+### Problem Identified
+After the Session 2 commit, the live site at `https://jiansuphd.github.io/vibe-id-daily/archive/` was showing all posts up to Day 99. Root cause: Days 33–100 had no `date:` field in their front matter, so Eleventy assigned the file creation date (today, 2026-05-01) to all of them. The future-date filter (`post.date <= now`) passed all posts since all dates equaled today.
+
+### Fix Applied
+Wrote a Python script to inject sequential future dates into all Day 33–100 post front matter:
+- Day 33 → `2026-05-02`
+- Day 34 → `2026-05-03`
+- …
+- Day 100 → `2026-07-08`
+
+Formula: `date = 2026-05-01 + (day_number - 32) days`
+
+### Publishing Schedule (confirmed)
+One new post goes live automatically each day at midnight UTC via the `deploy.yml` cron job (`0 0 * * *`). No manual action required. Today (May 1) only Days 1–32 are visible.
+
+### Chat & Progress Log Updated
+- `00_meta/Export Chat.md` — Session 2 content + this addendum appended
+- `00_meta/progress.md` — 4 new entries added covering: privacy cleanup (119 files), 13 canonical title corrections, Vibe Coding Intro page launch, and future-date schedule fix
+
+### Final Commit
+`04a31fd` — pushed to `origin/main`
+
+*Addendum appended May 1, 2026.*
