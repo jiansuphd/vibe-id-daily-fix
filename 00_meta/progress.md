@@ -76,10 +76,11 @@
 - [x] **Blue-Gray Canvas Pass (2026-05-01)**: Lifted the global background from `#020617` to `#0b1220` and aligned the sticky HUD backdrop to `rgba(11, 18, 32, 0.8)`. Result: calmer overall contrast without changing layout or accent colors. Verified on the live site after deploy.
 - [x] **Production Deploy + Post-Deploy Sweep (2026-05-01)**: Shipped the softened theme to GitHub Pages via `main`; deploy workflow completed successfully. Post-deploy browser check confirmed live values on homepage and post pages: body background `rgb(11, 18, 32)`, body/prose text `rgb(214, 222, 232)`, bright headings `rgb(241, 245, 249)`, HUD backdrop `rgba(11, 18, 32, 0.8)`. No urgent visual regressions observed.
 
----
-**Backlinks:** [Root MOC](../root_MOC.md)
 - [x] **Homepage Intro Block Added (2026-05-02)**: Added "Introduction to Vibe Coding for IDs" block to `index.njk` above the post feed. Includes Core Principles and Key Workflows. Styled with `.intro-block.prose` and `hr.intro-divider`. Commit: `c4672f9`.
 - [x] **Sidebar Reordered (2026-05-02)**: Final sidebar order: Start Here → About → Repository → Archives → Subscribe. Multiple commits: `e2c1f51`, `35cbf1d`, `e374c64`, `3158bce`.
 - [x] **Color Contrast Improved (2026-05-02)**: Brightened `--text` to `#f1f5f9`, `--text-dim` to `#cbd5e1`. Added `--text-soft` for reading surfaces. Canvas lifted from `#020617` to `#0b1220`. Commits: `942c8fb`, `a626b06`.
 - [x] **Mobile Responsive Layout Fixed (2026-05-02)**: Added `600px` breakpoint to `style.css` — intro heading scales down, prose stays within screen, subscribe form stacks vertically, HUD metrics wrap. Commit: `9059101`.
 - [x] **Day 33 Automation Verified (2026-05-02)**: Confirmed cron deploy fired at midnight UTC and Day 33 went live automatically. Pipeline working end-to-end through Day 100 (2026-07-08).
+
+---
+**Backlinks:** [Root MOC](../root_MOC.md)
