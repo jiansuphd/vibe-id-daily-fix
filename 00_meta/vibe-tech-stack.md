@@ -18,7 +18,7 @@ Nunjucks is a templating engine for JavaScript. It acts as the "glue" between ra
 
 ## 2. CSS (21.1%) — The Aesthetic
 
-This is where the "ID Terminal" look lives.
+This is where the Vibe ID Daily look lives.
 
 - High-contrast purples, neon cyans, and dark backgrounds
 - CSS custom properties (`--accent`, `--cyan`, `--text`) for consistent theming
