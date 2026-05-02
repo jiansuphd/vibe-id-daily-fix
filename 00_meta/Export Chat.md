@@ -1027,3 +1027,50 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 | `9059101` | fix: mobile responsive layout - breakpoints for 600px |
 
 *Session 3 addendum appended — May 2, 2026.*
+
+---
+
+## Session 3 — Continuation (May 2, 2026)
+
+### Work Completed
+
+1. **`vibe-tech-stack.md` created** (`00_meta/vibe-tech-stack.md`) — New reference document covering the four layers of the Vibe ID Daily tech stack:
+   - Nunjucks (51.7%) — Blueprint / templating engine
+   - CSS (21.1%) — Aesthetic / responsive design
+   - JavaScript (19.3%) — Interaction / Eleventy filters and parse scripts
+   - Python (7.9%) — Automation / batch scripts and date sequencing
+   - Includes a Nunjucks HUD template example and Vibe Coding use cases.
+
+2. **Backlinks moved to bottom** in `log.md` and `progress.md` — Consistent footer placement across all `00_meta` files.
+
+3. **`progress.md` entries reordered** — May 2 entries were appended after the backlinks; moved above them so backlinks remain last.
+
+### Key Commits
+
+| Commit | Description |
+|---|---|
+| `a1db546` | fix: move backlinks to bottom of progress.md |
+| `569cecd` | fix: move backlinks to bottom of log.md |
+| `9b03238` | docs: add vibe-tech-stack.md to 00_meta |
+| `310ce62` | docs: update CSS section description in vibe-tech-stack.md |
+
+*Continuation appended — May 2, 2026.*
+
+---
+
+## Session 3 — Q&A (May 2, 2026)
+
+### 10_dailies vs 20_wiki — Key Differences
+
+| Dimension | `10_dailies/` | `20_wiki/` |
+|---|---|---|
+| Purpose | Daily post — published to live site | Reference wiki — Obsidian knowledge base only |
+| Format | Short: Pointer + Details + ID Application | Longer synthesis: framework integration, implementation notes |
+| Front matter | Has `date:` — controls publish schedule | No `date:` — never published |
+| Tags | `[issue, vibe-coding]` | `[wiki, concept, instructional-design]` |
+| Filename | `day-01-....md` | `day-01-...-wiki.md` (`-wiki` suffix) |
+| Published? | Yes — via `parse_dailies.js` → `00_meta/src/posts/` | No — stays in Obsidian vault |
+
+**Summary:** `10_dailies` = the public-facing daily post (the "vibe"). `20_wiki` = the private reference layer that expands each concept with framework analysis, WCAG/Bloom's alignment, and implementation notes.
+
+*Q&A appended — May 2, 2026.*
