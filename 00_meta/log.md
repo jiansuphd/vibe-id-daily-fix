@@ -56,8 +56,6 @@ Append-only record of wiki operations. Sorted chronologically (oldest to newest)
 
 ---
 
-**Backlinks:** [Root MOC](../root_MOC.md)
-
 ## [2026-05-02] Mobile Responsive Fix | Added 600px breakpoint to style.css.
 - Scaled down `.intro-block h1`, `article h1`, and `.prose` font sizes on narrow screens.
 - Added `overflow-wrap: break-word` to prose; `flex-wrap: wrap` to HUD metrics.
@@ -67,3 +65,7 @@ Append-only record of wiki operations. Sorted chronologically (oldest to newest)
 ## [2026-05-02] Day 33 Automation Confirmed | Cron deploy fired at midnight UTC.
 - Day 33 went live at `/posts/day-33-the-context-pruning-strategy-token-efficiency/` with no manual action.
 - Future-date pipeline confirmed working through Day 100 (2026-07-08).
+
+---
+
+**Backlinks:** [Root MOC](../root_MOC.md)
