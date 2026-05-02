@@ -489,6 +489,21 @@ Repository state was brought fully up to date with the recorded work from this c
 
 ---
 
+## Session 9 — May 1, 2026 (00_meta Logging Update)
+
+### Summary
+Recorded this chat's work into the repository logging files under `00_meta`.
+
+### Files Updated
+- `00_meta/Export Chat.md`
+- `00_meta/progress.md`
+- `00_meta/log.md`
+
+### Outcome
+The theme audit, contrast-softening implementation, production deploy, and post-deploy visual sweep are now reflected across the repo's chat export, progress log, and maintenance log.
+
+---
+
 *Session 2 appended — May 1, 2026*
 
 ---
@@ -974,3 +989,41 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 - User requested committing all in-progress maintenance changes immediately.
 - Scope includes: privacy-safe feed metadata update, link checker hardening, optional external-link lint mode, deploy workflow lint step update, and sanitized chat export updates.
 
+
+---
+
+## Session 3 Addendum — Mobile Fix, Contrast Softening & Day 33 Automation Verified
+**Date:** May 2, 2026 (GitHub Copilot / Claude Sonnet 4.6)
+
+### Work Completed
+
+1. **Day 33 publish automation verified** — At midnight UTC on 2026-05-02, the GitHub Actions cron job (`deploy.yml`) fired and Day 33 went live automatically at `/posts/day-33-the-context-pruning-strategy-token-efficiency/`. No manual action required. Confirms the future-date pipeline is working end-to-end.
+
+2. **Mobile responsive layout fixed** — Added a `600px` breakpoint to `style.css` addressing text overflow observed on mobile:
+   - `.intro-block h1`: `font-size: 1rem`, `letter-spacing: 1px`
+   - `article h1`: `font-size: 1.4rem`
+   - `.prose`: `font-size: 1rem`, `line-height: 1.8`, `max-width: 100%`, `overflow-wrap: break-word`
+   - `.hud-metrics`: `flex-wrap: wrap`
+   - `.subscribe-row`: stacks vertically
+   - `.dashboard-grid`: `padding: 0 0.75rem`
+   - Viewport meta tag was already present in `base.njk` — no change needed.
+
+3. **Contrast softening pass** — Added `--text-soft: rgb(214, 222, 232)` variable; applied to `body`, `.prose`, `.prose li`, `.prose blockquote`, `.widget p`. Headings and strong emphasis remain bright (`--text: #f1f5f9`). Canvas lifted from `#020617` to `#0b1220`. HUD backdrop aligned to `rgba(11, 18, 32, 0.8)`.
+
+4. **Sidebar final order locked** — `Start Here → About → Repository → Archives → Subscribe`.
+
+5. **Homepage intro block added** — "Introduction to Vibe Coding for IDs" section renders above the post feed with Core Principles and Key Workflows. Styled as `.intro-block.prose` with `hr.intro-divider` separator.
+
+### Key Commits (Session 3 Addendum)
+
+| Commit | Description |
+|---|---|
+| `de68da4` | fix: future-date Days 41-100; clean Export Chat + progress; Start Here widget; font bump |
+| `2d2db20` | fix: remove Vibe Coding Guide widget from sidebar |
+| `c4672f9` | feat: add intro block to homepage |
+| `942c8fb` | fix: improve color contrast |
+| `3158bce` | fix: sidebar order Start Here → About → Repository → Archives → Subscribe |
+| `a626b06` | style: soften site contrast for production |
+| `9059101` | fix: mobile responsive layout - breakpoints for 600px |
+
+*Session 3 addendum appended — May 2, 2026.*
