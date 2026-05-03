@@ -86,5 +86,72 @@
 - [x] **Post Prev/Next Navigation (2026-05-03)**: Added directional nav to all post pages. `postsChron` collection (oldest-first) powers `getPreviousCollectionItem` / `getNextCollectionItem` filters. Day 1 shows Next → only; Day 100 shows ← Previous + "Full Archive →". CSS: `.post-nav` panel cards with purple accent label, cyan title, hover glow, mobile-stacking at 600px. Commit: `11dcc01`.
 - [x] **Design Audit CSS (2026-05-03)**: Implemented three improvements from design review: (1) Styled dark scrollbars — webkit + Firefox `scrollbar-color`, eliminates white scrollbar immersion break. (2) Subtle terminal background grid — 48px repeating linear-gradient at 4% purple opacity on `body`. (3) Fluid type on intro heading — `clamp(0.95rem, 2.5vw + 0.5rem, 1.3rem)` replaces fixed size for smooth viewport scaling. Items already complete: CSS variables (all in `:root`), mobile breakpoints, color contrast.
 
+- [x] **Privacy & Redundancy Audit (2026-05-03)**: Thorough repo-wide lint. Removed `AS Accommodation` health ref from 60 wiki files; `cpacc` from tags in day-38, day-39; renamed day-86 files (removed `cpacc-vs-id`); fixed `UTA` → "ID professional"; `SCM` → "specialized domain"; `UT Knoxville` → "institutional syllabus template"; `uta` key skill → "compliance". Removed duplicate Day 60 post and stale `superpowers/` directory. Lint and build pass clean. Commit: `a1f39c3`.
+
+---
+
+## Ops Log
+
+*Append-only chronological record of vault operations. Supplements the phase checklist above with day-by-day operational detail.*
+
+### [2026-04-29] Project Pivot | Realigned focus to "Vibe Coding for IDs".
+- Overhauled README, .gitignore, and Work Plan.
+- Surgically removed all legacy project source files and documentation.
+- Synchronized MOCs (Root, Projects, Wiki) to reflect a clean ID-focused state.
+- Created Vibe Coding Intro wiki page. Updated Eleventy dashboard and progress roadmap.
+
+### [2026-04-29] Lint and Update | Fixes and URL updates.
+- Updated repository URLs to `dlab_jsu1` (initial rename). Linted vault links and fixed broken README reference.
+
+### [2026-04-29] Structural Reorganization | Finalizing VibeID Daily.
+- **Branding**: Officially selected **VibeID Daily**.
+- **Renaming**: Renamed `10-Issues` to `10_Issues`.
+- **Consolidation**: Moved `src/` and `scripts/` into `_meta/`.
+- **Pipeline**: Created `scripts/cyborg_aggregator.js` and updated `scripts/parse_logs.js`.
+- **Wiki**: Synthesized pedagogical deep-dives for Phases 1, 2, and 3.
+- **Consistency**: Updated MOCs and README to reflect the final 3-tier architecture.
+
+### [2026-04-29] Style and Deployment Update | Applied New Yorker theme and fixed GitHub Actions.
+- **Style**: Overwrote `_meta/src/css/style.css` with the New Yorker style theme.
+- **Standards**: Fixed em dashes to comply with project standards (" - ").
+- **Workflow**: Updated `.github/workflows/deploy.yml` to support building from the `_meta` directory.
+- **Validation**: Verified the build locally and pushed to main.
+
+### [2026-04-29] Automation Orchestration | Configured daily builds and wiki linting.
+- **CI/CD**: Added a `lint` job to `.github/workflows/deploy.yml` that runs before every build.
+- **Automation**: Scheduled daily builds at midnight UTC.
+- **Linting**: Improved `_meta/scripts/check_links.js` for repository-wide link validation.
+- **Scripts**: Integrated linting into `package.json` for easier local and CI execution.
+
+### [2026-04-29] Dash Usage Fix | Corrected "Day 27" formatting.
+- Fixed dash usage for "Day 27" across 5 files. Removed spaces around hyphens for compound words while maintaining " - " for em dashes.
+
+### [2026-05-01] Link Fixes | Corrected all specified links for GitHub compatibility.
+- Fixed links in root_MOC.md, _wiki_MOC.md, _dailies_MOC.md, _meta_MOC.md, README.md.
+
+### [2026-05-01] Theme Contrast Pass | Softened reading surfaces and shipped to production.
+- Added `--text-soft` variable; applied to body, prose, blockquotes, widget paragraphs.
+- Lifted canvas from `#020617` → `#0b1220` and aligned HUD backdrop.
+
+### [2026-05-02] Mobile Responsive Fix | Added 600px breakpoint to style.css.
+- Scaled `.intro-block h1`, `article h1`, `.prose` for narrow screens.
+- Added `overflow-wrap: break-word`; subscribe form stacks vertically; HUD metrics wrap.
+
+### [2026-05-02] Day 33 Automation Confirmed | Cron deploy fired at midnight UTC.
+- Day 33 went live with no manual action. Future-date pipeline confirmed through Day 100.
+
+### [2026-05-03] Post Prev/Next Navigation | Added prev/next nav to all post pages.
+- `postsChron` collection + `getPreviousCollectionItem` / `getNextCollectionItem` filters.
+- Day 1: Next → only. Day 100: ← Previous + "Full Archive →". Mobile-stacks at 600px. Commit: `11dcc01`.
+
+### [2026-05-03] Design Audit Implementation | Three CSS refinements applied.
+- Styled dark scrollbars (webkit + Firefox). Subtle 48px terminal background grid. Fluid type on intro heading via `clamp()`.
+
+### [2026-05-03] Q&A | Post nav behavior on daily publish cycles confirmed.
+- Eleventy rebuilds all pages on each cron run. `postsChron` re-evaluates `post.date <= now` at build time. Nav updates automatically — no stale HTML, no manual changes needed.
+
+### [2026-05-03] Privacy & Redundancy Audit | 80 files cleaned, 261 lines removed.
+- Removed AS Accommodation health refs, cpacc tags, UTA/SCM/UT Knoxville institution refs. Renamed day-86 files. Deleted duplicate Day 60 and stale `superpowers/` directory. Lint and build pass clean.
+
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)

@@ -22,7 +22,7 @@ Central index for repository configuration, scripts, and automation assets.
 ## 🗺️ Project Management
 - **[Work Plan](Work%20Plan.md)**: Current roadmap and active phase checklist.
 - **[Progress Log](progress.md)**: Detailed history of CLI operations.
-- **[Maintenance Log](log.md)**: Append-only chronological audit trail.
+- **[Progress & Ops Log](progress.md)**: Phase checklist and append-only chronological ops log.
 
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)

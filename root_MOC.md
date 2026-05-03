@@ -12,7 +12,7 @@ Welcome to the central Map of Content for **VibeID Daily**. This structure is bu
 
 ## 📝 Core Resources
 - **[Work Plan](00_meta/Work%20Plan.md)**: The 4-phase roadmap for this repository.
-- **[Maintenance Log](00_meta/log.md)**: Append-only chronological record of vault operations.
+- **[Progress & Ops Log](00_meta/progress.md)**: Phase checklist and append-only chronological ops log.
 - **[ID_Persona_Anchors](00_meta/ID_Personas.md)**: System prompts for Vibe Coding as a Senior ID or Accessibility Auditor.
 - **[Project Progress Log](00_meta/progress.md)**: High-level status checklist.
 
