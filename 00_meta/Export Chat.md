@@ -1247,16 +1247,7 @@ Em dash normalization had split compound words in `Work Plan.md`. Fixed:
 #### 8. Full Personal Data Removal - All Files
 **Commit:** `0e3c459`
 
-27 files cleaned. All remaining personal refs neutralized:
-
-| Category | Removed / Replaced |
-|---|---|
-| Health | `physical fatigue/constraints`, `back/joints`, `Joint Stiffness`, `AS fatigue cycles`, `high-pain days`, `post-stretching`, `able-bodied` |
-| Medical framing | `Medical Model` / `Social Model`, `Lived Experience`, `Protect the Spine` |
-| Certification (personal) | `accessibility certification study notes`, `cpacc_week4_en.md`, personal cert journey language |
-| Medical abbreviation | `(AS Ergonomic Level-Up)` → `(Ergonomic Level-Up)` |
-| Title | All remaining persona title references updated |
-| Institution | `UT online courses` → `online courses` |
+27 files cleaned. Personal health content, medical framing, personal certification context, and persona title refs removed across all files.
 
 ### Key Commits (Session 5)
 
