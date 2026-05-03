@@ -153,5 +153,20 @@
 ### [2026-05-03] Privacy & Redundancy Audit | 80 files cleaned, 261 lines removed.
 - Removed personal health, certification, and institution references from 60 wiki files, post tags, and post content. Renamed day-86 files to neutral slugs. Deleted duplicate Day 60 post and stale `superpowers/` planning directory. Lint and build pass clean.
 
+### [2026-05-03] Log Merge | `log.md` merged into `progress.md`; log.md deleted.
+- Ops Log section added to `progress.md`. References updated in 5 files. Backlinks corrected.
+
+### [2026-05-03] Build Pipeline Refactor | `src/posts/` made a build artifact.
+- `parse_dailies.js` generates `00_meta/src/posts/` at build time. Added to `.gitignore`, removed from git tracking. Created `.eleventyignore`. Set `setUseGitIgnore(false)` in `.eleventy.js`. `prebuild` npm hook added to `package.json`.
+
+### [2026-05-03] Docs | `vibe-tech-stack.md` expanded.
+- Added content architecture section (3-layer pipeline) and post navigation section (postsChron, template logic, edge cases, CSS).
+
+### [2026-05-03] README Cleanup | Personal narrative and refs removed.
+- Removed "Senior ID Manager" - changed to "Senior ID". Cleaned health, certification, and institution refs from Manifesto section. Updated folder descriptions to reflect current build artifact pipeline.
+
+### [2026-05-03] Style | Em dashes normalized to ` - ` across repo.
+- 123 files updated. All `—` replaced with spaced hyphens per project dash standard.
+
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
