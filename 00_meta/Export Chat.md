@@ -1165,3 +1165,24 @@ Scales smoothly from mobile (≈0.95rem at 320px) to desktop (1.3rem at ~800px).
 | *(pending)* | style: design audit — scrollbars, bg grid, fluid type; update all logs |
 
 *Session 4 appended — May 3, 2026.*
+
+---
+
+## Session 4 — Q&A (May 3, 2026)
+
+### Post Nav Behavior on Daily Publish Cycles
+
+**Question:** What happens to the prev/next nav buttons on Day 34 when Day 35 goes live? Is there a better workflow?
+
+**Answer:** Fully automatic — no workflow changes needed.
+
+| Time | Day 34 nav state |
+|---|---|
+| May 3 (now) | ← Day 33 \| Full Archive → |
+| May 4 midnight UTC | ← Day 33 \| Next → Day 35 |
+
+**Why it works:** Eleventy rebuilds all 100+ pages from scratch on every cron run. `postsChron` uses `post.date <= now` evaluated at build time — Day 35 (dated 2026-05-04) enters the collection the moment the midnight rebuild fires. `getNextCollectionItem` on Day 34 then resolves to Day 35 and the HTML is regenerated. There is no per-page cache to go stale.
+
+**Day 35 filename confirmed:** `day-35-the-voice-to-logic-pipeline-ergonomic-level-up.md` — `date: 2026-05-04`.
+
+*Q&A appended — May 3, 2026.*

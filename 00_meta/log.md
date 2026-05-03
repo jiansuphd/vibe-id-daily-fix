@@ -79,6 +79,10 @@ Append-only record of wiki operations. Sorted chronologically (oldest to newest)
 - **Fluid type for intro heading**: Replaced fixed `1.3rem` on `.intro-block h1` with `clamp(0.95rem, 2.5vw + 0.5rem, 1.3rem)`. Scales smoothly across viewport widths; 600px override now only adjusts `letter-spacing`.
 - Items already confirmed done: CSS variables (all in `:root`), mobile breakpoints, color contrast. No changes needed for those.
 
+## [2026-05-03] Q&A | Post nav behavior on daily publish cycles confirmed.
+- Question: what happens to the prev/next nav on Day 34 when Day 35 goes live?
+- Answer: fully automatic — Eleventy rebuilds all 100+ pages on each cron run. `postsChron` re-evaluates `post.date <= now` at build time. Day 34's nav updates from "Full Archive →" to "Next → Day 35" the moment the May 4 cron fires. No manual changes needed, no stale HTML.
+
 ---
 
 **Backlinks:** [Root MOC](../root_MOC.md)
