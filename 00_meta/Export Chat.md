@@ -1186,3 +1186,95 @@ Scales smoothly from mobile (≈0.95rem at 320px) to desktop (1.3rem at ~800px).
 **Day 35 filename confirmed:** `day-35-the-voice-to-logic-pipeline-ergonomic-level-up.md` - `date: 2026-05-04`.
 
 *Q&A appended - May 3, 2026.*
+
+---
+
+## Session 5 - Privacy Audit, Dash Style, Compound Fixes & Log Merge
+**Date:** May 3, 2026 (GitHub Copilot / Claude Sonnet 4.6)
+
+### Work Completed
+
+#### 1. Privacy & Redundancy Audit (Session 4 continuation)
+**Commit:** `a1f39c3`
+
+80 files cleaned, 261 lines removed. Scope:
+- Personal health refs removed from 60 wiki files, post tags, and post body text
+- `cpacc` tags removed from day-38 and day-39
+- Institution-specific refs neutralized
+- Day 86 renamed from `cpacc-vs-id` slug to neutral slug; 3 files updated, internal links repaired
+- Duplicate Day 60 file deleted
+- Stale `superpowers/` planning directory deleted
+
+#### 2. Log Merge - `log.md` → `progress.md`
+**Commit:** `45b7052`
+
+`log.md` deleted. All content merged into `progress.md` as a new `## Ops Log` section. 5 files updated to remove references to `log.md` and point to `progress.md`. Backlinks corrected.
+
+#### 3. Build Pipeline Refactor - `src/posts/` as Build Artifact
+**Commit:** `f0cffbe`
+
+`00_meta/src/posts/` is now a build artifact - not tracked in git:
+- `git rm --cached` on all `src/posts/*.md`
+- `00_meta/src/posts/` added to `.gitignore`
+- `.eleventyignore` created (excludes `10_dailies/`, `20_wiki/`, `00_meta/scripts/`, etc. so Eleventy only reads from `src/posts/`)
+- `setUseGitIgnore(false)` added to `.eleventy.js` so generated posts are not skipped
+- `prebuild` npm hook wired to `npm run parse` in `package.json`
+
+#### 4. `vibe-tech-stack.md` Expanded
+**Commits:** `ae27233`, `000f4ed`
+
+Two new sections added:
+- **Content Architecture** - 3-layer pipeline (`10_dailies/` → `parse_dailies.js` → `src/posts/` → Eleventy → `_site/`)
+- **Post Navigation** - `postsChron` collection, template logic, edge cases, CSS component
+
+#### 5. README Cleanup
+**Commit:** (part of `36a75a1`)
+
+- "Senior ID Manager" → "Senior ID"
+- Personal health refs removed from Day 100 Manifesto section
+- Institution ref (`UT online`) removed
+- Folder descriptions updated to reflect build artifact pipeline
+
+#### 6. Em Dash Normalization - Repo-Wide
+**Commit:** `36a75a1`
+
+123 files updated. All `—` (em dash) replaced with ` - ` (spaced hyphen) per project dash standard.
+
+#### 7. Compound-Word Hyphen Repair
+**Commits:** `1edf371`, `ed72170`
+
+Em dash normalization had split compound words in `Work Plan.md`. Fixed:
+- `Draft-to-Diff`, `Raw-to-Refined`, `Legacy-to-Logic`, `Vision-to-Text`, `Multi-Agent`, `Multi-Modal`, `Skeleton-First`, `Zero-Shot`, `Pre-Flight`, `Self-Documenting`, `Documentation-as-Code`, `obsidian-mcp-server`, and 35+ additional compounds
+
+#### 8. Full Personal Data Removal - All Files
+**Commit:** `0e3c459`
+
+27 files cleaned. All remaining personal refs neutralized:
+
+| Category | Removed / Replaced |
+|---|---|
+| Health | `physical fatigue/constraints`, `back/joints`, `Joint Stiffness`, `AS fatigue cycles`, `high-pain days`, `post-stretching`, `able-bodied` |
+| Medical framing | `Medical Model` / `Social Model`, `Lived Experience`, `Protect the Spine` |
+| Certification (personal) | `accessibility certification study notes`, `cpacc_week4_en.md`, personal cert journey language |
+| Medical abbreviation | `(AS Ergonomic Level-Up)` → `(Ergonomic Level-Up)` |
+| Title | All remaining `Senior ID Manager` → `Senior ID` |
+| Institution | `UT online courses` → `online courses` |
+
+### Key Commits (Session 5)
+
+| Commit | Description |
+|---|---|
+| `a1f39c3` | privacy: audit 80 files - health, cert, institution refs; rename day-86; delete duplicate day-60, superpowers/ |
+| `d315656` | privacy: clean personal data from progress.md audit entries |
+| `2351e60` | fix: remove redundant parenthetical in day-86 files |
+| `45b7052` | docs: merge log.md into progress.md; delete log.md; update 5 references |
+| `f0cffbe` | build: make src/posts a build artifact; add .eleventyignore; setUseGitIgnore(false) |
+| `ae27233` | docs: add content architecture section to vibe-tech-stack.md |
+| `000f4ed` | docs: add post navigation section to vibe-tech-stack.md |
+| `36a75a1` | style: replace em dashes with spaced hyphens throughout repo; Senior ID Manager → Senior ID |
+| `1edf371` | fix: restore compound word hyphens broken by em dash normalization (Draft-to-Diff, Multi-Agent, etc.) |
+| `ed72170` | fix: restore all broken compound-word hyphens in Work Plan.md; remove Manager title and age ref |
+| `0e3c459` | privacy: remove all personal health, certification, and title refs across 27 files |
+| `c2441f9` | docs: update ops log - session 5 entries |
+
+*Session 5 appended - May 3, 2026.*
