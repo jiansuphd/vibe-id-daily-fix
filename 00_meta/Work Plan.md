@@ -73,51 +73,51 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 - **The Details:** The CLI automatically searches for this. By placing your ID Persona and UT Brand Standards here, you eliminate "Prompt Drift."
 - **ID Application:** Define your "Voice" (Senior ID) and "Pedagogy" (Bloom's Taxonomy, Quality Matters).
 
-### Day 2: The "Skeleton - First" Prompt
+### Day 2: The "Skeleton-First" Prompt
 
 - **The Pointer:** Demand a project architecture or a "Plan" before any code is generated.
 - **The Details:** Use the /plan command or prompt for a "File Tree." This forces the AI to check its logic against your GEMINI.md first.
-- **ID Application:** Ask for a 15 - week module map before individual page content.
+- **ID Application:** Ask for a 15-week module map before individual page content.
 
 ### Day 3: The "Draft-to-Diff" Workflow
 
 - **The Pointer:** Request changes in "Diff" (Difference) format to keep total control of your files.
-- **The Details:** Avoid total rewrites that lose academic tone. A "Diff" fixes specific items like aria - labels or CSS classes.
+- **The Details:** Avoid total rewrites that lose academic tone. A "Diff" fixes specific items like aria-labels or CSS classes.
 - **ID Application:** Audit existing Canvas pages without overwriting the Subject Matter Expert's (SME) original text.
 
 ### Day 4: "Prompt Injection" for Standards
 
 - **The Pointer:** Use the @ symbol or /path to feed the AI specific reference documents.
-- **The Details:** This is "Zero - Shot Learning." Provide the "Answer Key" (Brand Guide, Syllabus Template) so the AI doesn't guess.
+- **The Details:** This is "Zero-Shot Learning." Provide the "Answer Key" (Brand Guide, Syllabus Template) so the AI doesn't guess.
 - **ID Application:** Inject the official institutional syllabus template before generating a new draft.
 
-### Day 5: The "Self - Documenting" Loop
+### Day 5: The "Self-Documenting" Loop
 
 - **The Pointer:** End every session by asking the AI to summarize its successful steps.
-- **The Details:** The CLI is session - based. Ask it to format findings into a "Skill" for your library.
+- **The Details:** The CLI is session-based. Ask it to format findings into a "Skill" for your library.
 - **ID Application:** Turns a one - time success (like a complex table build) into a repeatable SOP.
 
 ### Day 6: The "Multi-Agent Debate"
 
-- **The Pointer:** Simulate a "Committee Review" by asking the AI to role - play 3 specific personas.
+- **The Pointer:** Simulate a "Committee Review" by asking the AI to role-play 3 specific personas.
 - **The Details:** This triggers "Latent Perspective." The AI critiques its own work as a Student, Auditor, and SME.
 - **ID Application:** Pressure - test a module's navigation and cognitive load.
 
 ### Day 7: The "Raw-to-Refined" Proxy (The Lynx Strategy)
 
 - **The Pointer:** Use the CLI to process "ugly" raw data (SME notes, PDF dumps) before designing.
-- **The Details:** Use !lynx -dump [URL] | gemini to strip noise and extract high - signal text.
-- **ID Application:** Fast - track turning a 50 - page PDF into 5 clean Learning Objectives.
+- **The Details:** Use !lynx -dump [URL] | gemini to strip noise and extract high-signal text.
+- **ID Application:** Fast-track turning a 50-page PDF into 5 clean Learning Objectives.
 
 ### Day 8: The "Modular Skill" (Atomic SOPs)
 
-- **The Pointer:** Build a 02_Skills folder containing small, task - specific Markdown files.
+- **The Pointer:** Build a 02_Skills folder containing small, task-specific Markdown files.
 - **The Details:** This is "Agentic Infrastructure." Use specialized files like AltText_Reviewer.md to run targeted audits.
 - **ID Application:** Run: /path ./02_Skills/AltText_Reviewer.md then gemini "Run this skill on index.html."
 
 ## 📅 Phase 2: Agentic ID Mastery (Context & Alignment)
 
-### Day 9: The "Semantic Cross - Check" (Alignment)
+### Day 9: The "Semantic Cross-Check" (Alignment)
 
 - **The Pointer:** Use the CLI to verify alignment between Assessments and Learning Objectives.
 - **The Details:** Feed the AI your Quiz and Objectives to find "Orphaned Objectives" (taught but not tested).
@@ -133,52 +133,52 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 - **The Pointer:** Feed the AI your CSS "Global Stylesheet" before asking for HTML design.
 - **The Details:** Forces the AI to use local UT hex codes (Torch Orange, Smokey Grey) instead of generic Bootstrap colors.
-- **ID Application:** Ensures all generated Canvas pages are unified and "on - vibe" with UT Brand Standards.
+- **ID Application:** Ensures all generated Canvas pages are unified and "on-vibe" with UT Brand Standards.
 
 ### Day 12: The "Predictive Syllabus" (Contextual Mapping)
 
 - **The Pointer:** Use the CLI to map out a "Project Timeline" based on a single Syllabus PDF.
 - **The Details:** Process deadlines and weights to predict high - workload weeks.
-- **ID Application:** Suggest a "Low - Friction" design (shorter content) for weeks with massive term papers to prevent burnout.
+- **ID Application:** Suggest a "Low-Friction" design (shorter content) for weeks with massive term papers to prevent burnout.
 
 ## 📅 Phase 3: Continuous Optimization (Scale & Sustainability)
 
 ### Day 13: The "Accessibility Regression" Protocol
 
 - **The Pointer:** Use the CLI to compare updated files against an "Accessibility Baseline."
-- **The Details:** When you update a file's content, the CLI should re - run your AltText_Reviewer.md and WCAG_Audit skills automatically.
+- **The Details:** When you update a file's content, the CLI should re-run your AltText_Reviewer.md and WCAG_Audit skills automatically.
 - **Action:** read updated_page.html | gemini "Check for any new accessibility violations compared to the previous version. Pay special attention to heading levels."
 
 ### Day 14: The "Synthetic Student" Simulation (Agentic UX)
 
-- **The Pointer:** Use specific disability profiles as "Agentic Personas" to stress - test course navigation.
-- **The Details:** Create personas (e.g., "Student with low - vision using a screen magnifier") and ask the AI to "navigate" your course structure.
+- **The Pointer:** Use specific disability profiles as "Agentic Personas" to stress-test course navigation.
+- **The Details:** Create personas (e.g., "Student with low-vision using a screen magnifier") and ask the AI to "navigate" your course structure.
 - **ID Application:** Pressure - test a module's navigation and cognitive load.
-- **Action:** Prompt: "As a student with Dyslexia, read this Module Overview. Identify the 3 most confusing sentences and re - write them for better readability."
+- **Action:** Prompt: "As a student with Dyslexia, read this Module Overview. Identify the 3 most confusing sentences and re-write them for better readability."
 
 ### Day 15: The "Automated Indexing" Habit
 
-- **The Pointer:** Use the CLI to auto - update your master_file_index.md after every major architectural change.
-- **The Details:** Treat your Index as "Documentation - as - Code." Never manually update it; describe the changes to the CLI and let it maintain the directory.
+- **The Pointer:** Use the CLI to auto-update your master_file_index.md after every major architectural change.
+- **The Details:** Treat your Index as "Documentation-as-Code." Never manually update it; describe the changes to the CLI and let it maintain the directory.
 - **Action:** gemini "Update the Master File Index and reorganize the Professional Development section."
 
-### Day 16: The "Environment - Aware" Pre - Flight Check
+### Day 16: The "Environment-Aware" Pre-Flight Check
 
 - **The Pointer:** Force the Agent to define its "Environmental Assumptions" before outputting a line of code.
 - **The Details:** Catch missing CDNs, incorrect root IDs, or CSS conflicts by asking for an "Assumptions List" first.
 - **Action:** "Before generating the React component, list the external libraries, CDN links, and HTML structure required for this to run in a Canvas context."
 
-### Day 17: The "Full - Vault Synthesis" (MCP Integration)
+### Day 17: The "Full-Vault Synthesis" (MCP Integration)
 
 - **The Pointer:** Use the Model Context Protocol (MCP) to bridge your "Second Brain" (Obsidian) directly into your CLI.
-- **The Details:** Connecting your vault via the obsidian - mcp - server eliminates manual copy - pasting. The AI can now semantically search past research.
+- **The Details:** Connecting your vault via the obsidian-mcp-server eliminates manual copy - pasting. The AI can now semantically search past research.
 - **Action:** gemini "Based on my accessibility certification study notes and the AREC 342 course map, suggest 3 accessibility improvements for the Module 1 syllabus."
 
 ### Day 19: The "Agentic Git" (Instructional Assets as Code)
 
-- **The Pointer:** Use the github - mcp - server to manage your instructional assets as versioned repositories.
+- **The Pointer:** Use the github-mcp-server to manage your instructional assets as versioned repositories.
 - **The Details:** Treat your Canvas HTML snippets and interactives as "Instructional Software." Use the CLI to pull updates and track issues.
-- **Action:** gemini "Check my GitHub repo for open issues related to 'Accessibility' and cross - reference them with my accessibility certification study notes."
+- **Action:** gemini "Check my GitHub repo for open issues related to 'Accessibility' and cross-reference them with my accessibility certification study notes."
 
 ### Day 20: The "Semantic Bridge" (Historical Knowledge Extraction)
 
@@ -186,25 +186,25 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 - **The Details:** Your Archive is a goldmine. Use the AI to find "how we solved this in 2025" and bridge those successes into your new course builds.
 - **Action:** gemini "Search the 99_System/Archive for previous EdTech Hub presentations and extract the best practices for AI Avatars to use in AREC 342."
 
-### Day 21: The "Self - Correction Pattern" (Agentic Reflection)
+### Day 21: The "Self-Correction Pattern" (Agentic Reflection)
 
 - **The Pointer:** Prompt the AI to audit its own output against a specific constraint before the final reveal.
 - **The Details:** Use a "Thinking" instruction: "First, identify potential accessibility errors in the proposed code. Then, provide the final corrected version."
-- **ID Application:** Ensures interactive H5P or Rise - like components are checked for keyboard accessibility _during_ the generation process.
+- **ID Application:** Ensures interactive H5P or Rise-like components are checked for keyboard accessibility _during_ the generation process.
 - **Action:** gemini "Create a custom video player. Before outputting the code, check if it contains any keyboard traps and verify the focus indicator contrast."
 
 ### Day 22: The "Multi-Modal Audit" (Vision-to-Text)
 
 - **The Pointer:** Use Gemini's vision capabilities to audit visual "Brand Alignment" and "Visual Weight."
 - **The Details:** Upload a screenshot of a Canvas page and ask the AI to "Describe the visual hierarchy and identify any color contrast violations based on the UT Brand Guide."
-- **ID Application:** Bridges the gap between "it looks good" and "it is accessible / on - brand" for non - technical stakeholders.
+- **ID Application:** Bridges the gap between "it looks good" and "it is accessible / on-brand" for non - technical stakeholders.
 - **Action:** [Upload Screenshot] | gemini "Does this layout follow the UDL principle of Reducing Distractions? Highlight any cluttered areas."
 
-### Day 23: The "Constraint - Based Prompt" (Guardrail Logic)
+### Day 23: The "Constraint-Based Prompt" (Guardrail Logic)
 
 - **The Pointer:** Explicitly list what the AI _cannot_ do before defining the task.
 - **The Details:** This is "Negative Prompting." By banning specific bad habits (like using base64 images or inline styles), you force the AI into better architectural patterns.
-- **ID Application:** Prevents the AI from generating "fixed - width" containers that break Reflow standards.
+- **ID Application:** Prevents the AI from generating "fixed-width" containers that break Reflow standards.
 - **Action:** gemini "Design a module header. Constraints: No inline CSS, no absolute positioning, must use REM units for font - size."
 
 ### Day 24: The "Pedagogical Alignment Agent" (Bloom's Auditor)
@@ -231,36 +231,36 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 ### Day 27: The "Vibe-to-SOP" (Auto-Documentation)
 
 - **The Pointer:** Convert a "Successful Vibe" session into a Standard Operating Procedure (SOP) immediately.
-- **The Details:** Use the /path command to save the step - by - step logic of a win as a new skill in 02_Skills.
+- **The Details:** Use the /path command to save the step-by-step logic of a win as a new skill in 02_Skills.
 - **ID Application:** Turns a one - off interactive build into a repeatable template for the rest of the Digital Learning team.
 - **Action:** gemini "Summarize our workflow for creating this interactive timeline. Format it it as an SOP and save it to 02_Skills/Rise_Timeline_Builder.md."
 
 ### Day 28: The "Ergonomic Flow" Persona 
 
-- **The Pointer:** Instruct the AI to suggest "Low - Strokes" alternatives for complex tasks when physical fatigue is present.
+- **The Pointer:** Instruct the AI to suggest "Low-Strokes" alternatives for complex tasks when physical fatigue is present.
 - **The Details:** This is "Energy Mapping." By disclosing your physical constraints, the AI can pivot from "Code this from scratch" to "Find a library / utility that handles 90% of the work."
 - **ID Application:** Focus on systemic efficiency. Instead of custom CSS, use pre - built Tailwind classes to minimize typing.
-- **Action:** gemini "I have high physical fatigue today. Suggest the most keystroke - efficient way to build this interactive grid."
+- **Action:** gemini "I have high physical fatigue today. Suggest the most keystroke-efficient way to build this interactive grid."
 
 ### Day 29: The "Legacy-to-Logic" Pipeline (Syllabus Migration)
 
 - **The Pointer:** Use the CLI to strip formatting from old (2024 / 2025) courses and convert them into structured JSON "Skeletons" for 2026.
-- **The Details:** This is "Technical Debt Management." By removing "baked - in" styles from old Canvas pages, you create a clean slate for modern, accessible UT templates.
+- **The Details:** This is "Technical Debt Management." By removing "baked-in" styles from old Canvas pages, you create a clean slate for modern, accessible UT templates.
 - **ID Application:** Mass - converts legacy UT courses into a standardized data format.
-- **Action:** read legacy_page.html | gemini "Strip all inline styles and fixed - width containers. Output the content as a clean JSON object with keys for 'Objectives', 'Content', and 'Tasks'."
+- **Action:** read legacy_page.html | gemini "Strip all inline styles and fixed-width containers. Output the content as a clean JSON object with keys for 'Objectives', 'Content', and 'Tasks'."
 
-### Day 30: The "Course - Specific Memory" Anchor (NotebookLM Bridge)
+### Day 30: The "Course-Specific Memory" Anchor (NotebookLM Bridge)
 
-- **The Pointer:** Use the new Gemini / NotebookLM integration to keep "Course - Specific Context" persistent across months of development.
-- **The Details:** Instead of re - uploading the same 200 - page the course handbook every session, "Anchor" the chat to a persistent Notebook.
+- **The Pointer:** Use the new Gemini / NotebookLM integration to keep "Course-Specific Context" persistent across months of development.
+- **The Details:** Instead of re-uploading the same 200 - page the course handbook every session, "Anchor" the chat to a persistent Notebook.
 - **ID Application:** Ensures every "Vibe" session for a specific course is grounded in the _exact_ SME voice and project history of that course.
 - **Action:** [Toggle Notebook: online course Handbook] | gemini "Based on the course prep notes in this notebook, draft the Week 1 welcome announcement."
 
 ### Day 31: The "Reparse Point" Audit (Junction Repair)
 
 - **The Pointer:** Use the CLI to identify and repair broken Directory Junctions in your configuration folders.
-- **The Details:** In complex multi - drive or cloud - synced environments (OneDrive / Google Drive), symbolic links or junctions can break if the target path shifts. Use `cmd /c dir /al` to expose hidden reparse points that standard file explorers often ignore.
-- **ID Application:** Rapidly fix Obsidian vaults or local development environments that "fail to load" due to missing plugin paths without needing to re - install or lose data.
+- **The Details:** In complex multi-drive or cloud-synced environments (OneDrive / Google Drive), symbolic links or junctions can break if the target path shifts. Use `cmd /c dir /al` to expose hidden reparse points that standard file explorers often ignore.
+- **ID Application:** Rapidly fix Obsidian vaults or local development environments that "fail to load" due to missing plugin paths without needing to re-install or lose data.
 - **Action:** `cmd /c dir /al /s` | gemini "Identify any broken junctions in this directory and suggest the rmdir / mklink /j repair command."
 
 ## 📅 Phase 3: Continuous Optimization (Scale & Sustainability)
@@ -356,7 +356,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 ### Day 41: The "Institutional AI Manifesto" (Policy as Code)
 
 - **The Pointer:** Treat AI usage policies not as static text, but as "Guardrail Systems" injected into every prompt.
-- **The Details:** As a Senior ID Manager, you define the "boundary" for faculty. Convert the UT AI Policy into a system prompt.
+- **The Details:** As a Senior ID, you define the "boundary" for faculty. Convert the UT AI Policy into a system prompt.
 - **Action:** `gemini --system ./04_Policy/UT_AI_Guardrails.md "Review this assignment. Does it provide enough 'Human-in-the-loop' requirements for students?"`
 
 ### Day 42: The "Accessibility Debt" Calculator
@@ -664,7 +664,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Day 99: The "Mission Critical" Review
 
-- **The Pointer:** Audit your GEMINI.md one last time. Does it still reflect your 47-year-old Senior ID Manager persona accurately?
+- **The Pointer:** Audit your GEMINI.md one last time. Does it still reflect your Senior ID persona accurately?
 - **Action:** `gemini "Review my Mission Briefing. Based on my Year 1 growth, suggest 3 'Elite' refinements for my persona."`
 
 ### Day 100: Total Systemic Integration (The Exoskeleton)
@@ -677,7 +677,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ## 🛠️ Persona Anchors
 
-- **Senior ID Manager:** Strategic overview; focuses on UDL, QM Standards, and Term Prep deadlines.
+- **Senior ID:** Strategic overview; focuses on UDL, QM Standards, and Term Prep deadlines.
 - **Systemic Engineer:** Focuses on JSON schemas, CLI automation, and institutional governance.
 - **Ergonomic Strategist:** Focuses on "Low-Strokes" workflows and voice-command optimization for workflow management.
 
