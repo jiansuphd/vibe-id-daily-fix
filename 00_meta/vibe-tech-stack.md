@@ -133,6 +133,102 @@ The value is defined once — every page that extends `base.njk` inherits it aut
 
 ---
 
+## Post Navigation: Previous, Next, Back to Latest
+
+Every post page has a nav block at the bottom with directional links. Here's exactly how it works.
+
+### The Collection
+
+In `.eleventy.js`, a second collection called `postsChron` is registered alongside the main `posts` collection:
+
+```js
+// Default 'posts' collection — newest first (for homepage feed)
+eleventyConfig.addCollection("posts", function(collectionApi) {
+  const now = new Date();
+  return collectionApi
+    .getFilteredByGlob("00_meta/src/posts/*.md")
+    .filter(post => post.date <= now)
+    .reverse();
+});
+
+// postsChron — oldest first (for prev/next nav)
+eleventyConfig.addCollection("postsChron", function(collectionApi) {
+  const now = new Date();
+  return collectionApi
+    .getFilteredByGlob("00_meta/src/posts/*.md")
+    .filter(post => post.date <= now);
+});
+```
+
+`posts` is reversed for the homepage feed. `postsChron` is in chronological order so that "previous" means the older post and "next" means the newer post.
+
+### The Template Logic
+
+In `00_meta/src/_includes/post.njk`, built-in Eleventy filters resolve the neighbors:
+
+```njk
+{% set prevPost = collections.postsChron | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.postsChron | getNextCollectionItem(page) %}
+
+<nav class="post-nav" aria-label="Post navigation">
+  <div class="post-nav-inner">
+    <div class="post-nav-prev">
+      {% if prevPost %}
+        <a href="{{ prevPost.url | url }}" class="post-nav-btn">
+          <span class="post-nav-label">← Previous</span>
+          <span class="post-nav-title">{{ prevPost.data.title }}</span>
+        </a>
+      {% endif %}
+    </div>
+    <div class="post-nav-next">
+      {% if nextPost %}
+        <a href="{{ nextPost.url | url }}" class="post-nav-btn post-nav-btn--right">
+          <span class="post-nav-label">Next →</span>
+          <span class="post-nav-title">{{ nextPost.data.title }}</span>
+        </a>
+      {% else %}
+        <a href="{{ '/archive/' | url }}" class="post-nav-btn post-nav-btn--right">
+          <span class="post-nav-label">End of Series</span>
+          <span class="post-nav-title">Full Archive →</span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</nav>
+
+<div style="margin-top: 1.5rem;">
+  <a href="{{ '/' | url }}" class="btn">&larr; Back to Latest</a>
+</div>
+```
+
+### Edge Case Behavior
+
+| Post | Left slot | Right slot |
+|---|---|---|
+| Day 1 (no previous) | Empty | Next → Day 2 |
+| Middle days | ← Previous | Next → |
+| Last live post (no next yet) | ← Previous | Full Archive → |
+| Day 100 (series complete) | ← Previous | Full Archive → |
+
+"Full Archive →" appears whenever `nextPost` is null — either because the series is finished or because the next post is future-gated and not yet in the collection.
+
+### Why It Updates Automatically
+
+`postsChron` filters by `post.date <= now` at build time. When a new day unlocks at midnight UTC, the GitHub Actions cron job rebuilds all 100+ pages. Every post's nav is regenerated — no stale HTML, no manual changes. Day 34's "Full Archive →" becomes "Next → Day 35" the moment Day 35's date passes.
+
+### The CSS
+
+Navigation styles live in `00_meta/src/css/style.css` under the `POST NAVIGATION` block:
+
+- `.post-nav` — top border separator, `3rem` top margin
+- `.post-nav-inner` — flexbox row, `space-between`
+- `.post-nav-btn` — dark panel card (`var(--panel)`), purple accent border on hover (`var(--glow)`)
+- `.post-nav-label` — monospace, uppercase, `var(--accent)` color (purple)
+- `.post-nav-title` — `var(--cyan)` color
+- `@media (max-width: 600px)` — stacks vertically, both buttons left-aligned
+
+---
+
 *Last Updated: May 3, 2026*
 
 **Backlinks:** [Root MOC](../root_MOC.md)
