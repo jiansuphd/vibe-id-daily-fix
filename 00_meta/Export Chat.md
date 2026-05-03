@@ -1228,7 +1228,7 @@ Two new sections added:
 #### 5. README Cleanup
 **Commit:** (part of `36a75a1`)
 
-- "Senior ID Manager" → "Senior ID"
+- Persona title updated to "Senior ID"
 - Personal health refs removed from Day 100 Manifesto section
 - Institution ref (`UT online`) removed
 - Folder descriptions updated to reflect build artifact pipeline
@@ -1255,7 +1255,7 @@ Em dash normalization had split compound words in `Work Plan.md`. Fixed:
 | Medical framing | `Medical Model` / `Social Model`, `Lived Experience`, `Protect the Spine` |
 | Certification (personal) | `accessibility certification study notes`, `cpacc_week4_en.md`, personal cert journey language |
 | Medical abbreviation | `(AS Ergonomic Level-Up)` → `(Ergonomic Level-Up)` |
-| Title | All remaining `Senior ID Manager` → `Senior ID` |
+| Title | All remaining persona title references updated |
 | Institution | `UT online courses` → `online courses` |
 
 ### Key Commits (Session 5)
@@ -1269,9 +1269,9 @@ Em dash normalization had split compound words in `Work Plan.md`. Fixed:
 | `f0cffbe` | build: make src/posts a build artifact; add .eleventyignore; setUseGitIgnore(false) |
 | `ae27233` | docs: add content architecture section to vibe-tech-stack.md |
 | `000f4ed` | docs: add post navigation section to vibe-tech-stack.md |
-| `36a75a1` | style: replace em dashes with spaced hyphens throughout repo; Senior ID Manager → Senior ID |
+| `36a75a1` | style: replace em dashes with spaced hyphens throughout repo; persona title updated |
 | `1edf371` | fix: restore compound word hyphens broken by em dash normalization (Draft-to-Diff, Multi-Agent, etc.) |
-| `ed72170` | fix: restore all broken compound-word hyphens in Work Plan.md; remove Manager title and age ref |
+| `ed72170` | fix: restore all broken compound-word hyphens in Work Plan.md; remove persona title and age ref |
 | `0e3c459` | privacy: remove all personal health, certification, and title refs across 27 files |
 | `c2441f9` | docs: update ops log - session 5 entries |
 
