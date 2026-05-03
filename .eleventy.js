@@ -42,6 +42,14 @@ module.exports = function(eleventyConfig) {
       .reverse();
   });
 
+  // Collection: Chronological posts (oldest first) — used for prev/next nav
+  eleventyConfig.addCollection("postsChron", function(collectionApi) {
+    const now = new Date();
+    return collectionApi
+      .getFilteredByGlob("00_meta/src/posts/*.md")
+      .filter(post => post.date <= now);
+  });
+
   return {
     dir: {
       input: "00_meta/src",

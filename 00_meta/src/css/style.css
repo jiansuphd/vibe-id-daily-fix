@@ -535,6 +535,72 @@ a:hover { text-decoration: underline; }
 }
 
 /* ============================================
+   POST NAVIGATION
+   ============================================ */
+.post-nav {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+.post-nav-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.post-nav-prev,
+.post-nav-next {
+  flex: 1;
+  display: flex;
+}
+.post-nav-next {
+  justify-content: flex-end;
+}
+.post-nav-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem 1.25rem;
+  background: var(--panel);
+  border: 1px solid var(--border-dim);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  max-width: 100%;
+  width: fit-content;
+}
+.post-nav-btn:hover {
+  border-color: var(--accent);
+  background: var(--glow);
+  text-decoration: none;
+}
+.post-nav-btn--right {
+  text-align: right;
+}
+.post-nav-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.post-nav-title {
+  font-size: 0.9rem;
+  color: var(--cyan);
+}
+@media (max-width: 600px) {
+  .post-nav-inner {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .post-nav-next {
+    justify-content: flex-start;
+  }
+  .post-nav-btn--right {
+    text-align: left;
+  }
+}
+
+/* ============================================
    FOOTER
    ============================================ */
 footer {
