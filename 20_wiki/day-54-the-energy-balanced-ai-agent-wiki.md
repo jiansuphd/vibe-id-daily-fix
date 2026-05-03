@@ -19,7 +19,6 @@ Design an agentic workflow that front-loads low-cognitive tasks and protects pea
 | **Design Principle** | The 'Energy-Balanced' AI Agent |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | workflow-resilience, fatigue, workflow |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

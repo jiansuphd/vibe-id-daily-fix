@@ -19,7 +19,6 @@ Stress-test a rubric by applying it to three synthetic student submissions — o
 | **Design Principle** | The 'Rubric Stress-Test' |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | rubric, assessment, quality |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

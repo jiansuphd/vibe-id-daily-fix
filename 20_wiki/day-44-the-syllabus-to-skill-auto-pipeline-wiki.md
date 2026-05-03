@@ -19,7 +19,6 @@ Auto-extract measurable skills from any syllabus and map them to a competency fr
 | **Design Principle** | The 'Syllabus-to-Skill' Auto-Pipeline |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | syllabus, skills, pipeline |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

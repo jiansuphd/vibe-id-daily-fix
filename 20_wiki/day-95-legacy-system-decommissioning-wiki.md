@@ -19,7 +19,6 @@ Formally decommission tools, workflows, and files that have been superseded — 
 | **Design Principle** | Legacy System Decommissioning |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | legacy, decommissioning, cleanup |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

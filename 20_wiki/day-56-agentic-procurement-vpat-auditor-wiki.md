@@ -19,7 +19,6 @@ Use an agent to parse a vendor VPAT and extract every 'Partially Supports' or 'D
 | **Design Principle** | 'Agentic Procurement' |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | vpat, procurement, accessibility |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

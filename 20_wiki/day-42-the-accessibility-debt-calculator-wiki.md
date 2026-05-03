@@ -19,7 +19,6 @@ Quantify the accessibility gap in a course or program before proposing remediati
 | **Design Principle** | The 'Accessibility Debt' Calculator |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | accessibility, wcag, audit |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

@@ -19,7 +19,6 @@ Synthesize insights across all vault sections â€” dailies, wiki, meta, skills â€
 | **Design Principle** | Cross-Vault Synthesis |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | synthesis, vault, integration |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

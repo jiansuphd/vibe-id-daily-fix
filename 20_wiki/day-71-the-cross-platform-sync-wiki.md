@@ -19,7 +19,6 @@ Detect and resolve content drift between Canvas, Rise, and your Obsidian vault u
 | **Design Principle** | The 'Cross-Platform' Sync |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | sync, multi-platform, automation |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

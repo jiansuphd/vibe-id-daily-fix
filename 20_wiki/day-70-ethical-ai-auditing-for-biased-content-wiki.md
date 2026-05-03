@@ -19,7 +19,6 @@ Run course content through an ethics and bias audit before publishing — checki
 | **Design Principle** | Ethical AI Auditing for Diversity |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | ethics, bias, audit |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

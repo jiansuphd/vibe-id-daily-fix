@@ -19,7 +19,6 @@ Identify the 5 tools, 3 habits, and 1 mindset shift that were most mission-criti
 | **Design Principle** | The 'Mission Critical' Review |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | review, mission-critical, endgame |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

@@ -19,7 +19,6 @@ Establish a continuous, automated feedback loop that ingests student data weekly
 | **Design Principle** | The 'Agentic Feedback Loop' |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | feedback, continuous-improvement, automation |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

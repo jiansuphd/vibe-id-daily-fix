@@ -103,7 +103,7 @@ A pedagogical synthesis of all VibeID Daily pointers, organized by developmental
 - [Day 83: Semantic Archive Pruning](day-83-semantic-archive-pruning-wiki.md)
 - [Day 84: The 'Agentic Peer Reviewer' (SME Persona)](day-84-the-agentic-peer-reviewer-sme-persona-wiki.md)
 - [Day 85: The 'Zero-Draft' Strategy](day-85-the-zero-draft-strategy-wiki.md)
-- [Day 86: Cross-Contextual Learning ()](day-86-cross-contextual-learning-cpacc-vs-id-wiki.md)
+- [Day 86: Cross-Contextual Learning](day-86-cross-contextual-learning-wiki.md)
 - [Day 87: The 'Visual Hierarchy' Vision Audit](day-87-the-visual-hierarchy-vision-audit-wiki.md)
 - [Day 88: Institutional SOP Versioning](day-88-institutional-sop-versioning-wiki.md)
 - [Day 89: Automation-First Refactoring](day-89-the-resilience-checkpoint-wiki.md)

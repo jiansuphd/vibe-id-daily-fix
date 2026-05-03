@@ -1,6 +1,6 @@
 ---
 title: "Bilingual Sync (ZH/EN Content Mirroring) - Concept Wiki"
-tags: [wiki, concept, instructional-design, bilingual, accessibility, cpacc]
+tags: [wiki, concept, instructional-design, bilingual, accessibility]
 ---
 
 # Bilingual Sync (ZH/EN Content Mirroring) - Pedagogical Synthesis

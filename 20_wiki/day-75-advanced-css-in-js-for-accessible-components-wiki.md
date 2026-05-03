@@ -19,7 +19,6 @@ Generate accessible, theme-aware UI components for course shells that pass WCAG 
 | **Design Principle** | Advanced Component Generation |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | css, web, accessibility |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

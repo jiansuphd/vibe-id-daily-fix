@@ -19,7 +19,6 @@ Day 100 is the commissioning day of the full exoskeleton — a complete, documen
 | **Design Principle** | Total Systemic Integration |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | integration, synthesis, exoskeleton |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

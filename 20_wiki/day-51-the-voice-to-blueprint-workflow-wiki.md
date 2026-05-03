@@ -19,7 +19,6 @@ Dictate a course concept verbally and have an agent transform the spoken transcr
 | **Design Principle** | The 'Voice-to-Blueprint' Workflow |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | voice, low-strokes, blueprint |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

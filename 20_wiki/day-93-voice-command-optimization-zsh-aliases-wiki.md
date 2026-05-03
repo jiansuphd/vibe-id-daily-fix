@@ -19,7 +19,6 @@ Expand the voice command vocabulary by adding 5 new contextual aliases derived f
 | **Design Principle** | Voice-Command Optimization |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | voice, zsh, aliases |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

@@ -19,7 +19,6 @@ Audit and prune the 00_meta/skills/ directory — retiring stale skills, merging
 | **Design Principle** | The 'Systemic Librarian' |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | skills, knowledge-management, vault |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

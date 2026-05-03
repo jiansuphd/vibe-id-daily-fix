@@ -19,7 +19,6 @@ Inject historical project decisions into a current prompt so the agent reasons w
 | **Design Principle** | 'Historical Context' Bridge |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | memory, rag, context |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

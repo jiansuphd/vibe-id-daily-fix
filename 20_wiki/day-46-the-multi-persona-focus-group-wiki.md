@@ -19,7 +19,6 @@ Simulate a focus group of synthetic stakeholders to stress-test a course design 
 | **Design Principle** | The 'Multi-Persona Focus Group' |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | personas, stakeholders, simulation |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

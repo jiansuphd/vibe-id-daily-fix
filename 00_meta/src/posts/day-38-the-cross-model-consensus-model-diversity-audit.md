@@ -2,7 +2,7 @@
 layout: post.njk
 title: "The 'Cross-Model' Consensus (Model Diversity Audit)"
 date: 2026-05-07
-tags: [issue, vibe-coding, accessibility, cpacc, multi-model]
+tags: [issue, vibe-coding, accessibility, multi-model]
 ---
 
 - **The Pointer:** Use the CLI to run the same audit through two different models (e.g., Flash for speed, Pro for depth) and ask for a "Conflict Report."

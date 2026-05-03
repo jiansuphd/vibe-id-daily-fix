@@ -19,7 +19,6 @@ Maintain structural parity between a Canvas course shell and a Rise 360 course â
 | **Design Principle** | The 'Cross-Platform Mirroring' |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | canvas, rise, authoring |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

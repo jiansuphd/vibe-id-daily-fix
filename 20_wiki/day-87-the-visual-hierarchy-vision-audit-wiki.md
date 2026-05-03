@@ -19,7 +19,6 @@ Submit any course page screenshot to a vision model and receive a visual hierarc
 | **Design Principle** | The 'Visual Hierarchy' Vision Audit |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | vision, visual-hierarchy, audit |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

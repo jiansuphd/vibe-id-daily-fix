@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Bilingual Sync (ZH/EN Content Mirroring)"
 date: 2026-05-08
-tags: [issue, vibe-coding, bilingual, accessibility, cpacc]
+tags: [issue, vibe-coding, bilingual, accessibility]
 ---
 
 - **The Pointer:** Use the AI to maintain a "Semantic Mirror" between your English and Chinese study materials/course content.

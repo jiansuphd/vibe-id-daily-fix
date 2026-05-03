@@ -6,7 +6,7 @@ tags:
   - day-86
 ---
 
-# Day 86: Cross-Contextual Learning () — Wiki
+# Day 86: Cross-Contextual Learning — Wiki
 
 ## Core Concept
 
@@ -18,13 +18,12 @@ Build cross-contextual prompts that apply accessibility certification (accessibi
 |-----------|-------------|
 | **Design Principle** | Cross-Contextual Learning |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
-| **Key Skill** | cpacc, id, cross-contextual |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
+| **Key Skill** | accessibility-cert, id, cross-contextual |
 
 ## Agentic CLI Prompt
 
 ```bash
-gemini "I am studying for an accessibility certification. How does [accessibility certification concept] apply to my current Canvas course design work? Give a concrete example from my context as an ID at UTA."
+gemini "I am studying for an accessibility certification. How does [accessibility certification concept] apply to my current Canvas course design work? Give a concrete example from my context as an ID professional."
 ```
 
 ## Key Terms
@@ -37,4 +36,4 @@ gemini "I am studying for an accessibility certification. How does [accessibilit
 
 - [20 Wiki MOC](20_wiki_MOC.md)
 - [Root MOC](../root_MOC.md)
-- [Source Daily](../10_dailies/day-86-cross-contextual-learning-cpacc-vs-id.md)
+- [Source Daily](../10_dailies/day-86-cross-contextual-learning.md)

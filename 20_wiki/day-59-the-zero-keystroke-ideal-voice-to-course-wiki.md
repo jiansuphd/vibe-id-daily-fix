@@ -19,7 +19,6 @@ Prototype a fully voice-driven course authoring pipeline: speak â†’ transcribe â
 | **Design Principle** | The 'Zero-Keystroke' Ideal |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | voice, automation, zero-keystrokes |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

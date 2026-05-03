@@ -19,7 +19,6 @@ Apply software versioning principles (SemVer) to institutional SOPs — making p
 | **Design Principle** | Institutional SOP Versioning |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | sop, versioning, governance |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

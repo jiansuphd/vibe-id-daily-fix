@@ -19,7 +19,6 @@ Simulate how a highly engaged, self-directed expert learner would navigate your 
 | **Design Principle** | The 'Expert Learner' Simulation |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | persona, learner, simulation |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

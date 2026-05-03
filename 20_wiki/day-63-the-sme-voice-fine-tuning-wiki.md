@@ -19,7 +19,6 @@ Calibrate an AI agent to write in the SME's voice by providing writing samples b
 | **Design Principle** | The 'SME Voice' Fine-Tuning |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | sme, voice, personalization |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

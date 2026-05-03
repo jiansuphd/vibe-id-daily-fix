@@ -19,7 +19,6 @@ Build an agent that crawls a course shell for policy non-compliance: syllabus re
 | **Design Principle** | The 'Compliance Crawler' |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | compliance, policy, audit |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

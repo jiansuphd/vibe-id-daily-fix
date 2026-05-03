@@ -19,7 +19,6 @@ Verify that English course content translated to Simplified Chinese preserves th
 | **Design Principle** | 'Translation Reliability' |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | translation, chinese, quality |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

@@ -19,7 +19,6 @@ Use project history to predict the resource requirements of the next course proj
 | **Design Principle** | Predictive Resource Allocation |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | resource-allocation, prediction, planning |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

@@ -19,7 +19,6 @@ Generate a detailed, criterion-referenced rubric from a learning objective and a
 | **Design Principle** | The 'Generative Grading' Rubric-Bot |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | assessment, rubric, grading |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

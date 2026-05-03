@@ -19,7 +19,6 @@ Build a dynamic task prioritization system that re-ranks the day's work based on
 | **Design Principle** | Energy-Aware Task Prioritization |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | workflow-resilience, prioritization, dynamic |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

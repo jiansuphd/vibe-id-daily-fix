@@ -1,7 +1,7 @@
 ---
 title: "Bilingual Sync (ZH/EN Content Mirroring)"
 date: 2026-05-08
-tags: [issue, vibe-coding, bilingual, accessibility, cpacc]
+tags: [issue, vibe-coding, bilingual, accessibility]
 ---
 # Day 39
 

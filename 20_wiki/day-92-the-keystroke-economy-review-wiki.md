@@ -19,7 +19,6 @@ Run the quarterly review of the keystroke economy: which automations are paying 
 | **Design Principle** | The 'Keystroke Economy' Review |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | keystroke, ergonomics, review |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

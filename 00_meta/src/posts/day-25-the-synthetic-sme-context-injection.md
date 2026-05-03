@@ -7,7 +7,7 @@ tags: [issue, vibe-coding]
 
 - **The Pointer:** Use a "Shadow SME" persona to review your instructional tone and technical accuracy.
 - **The Details:** Ask the AI to act as a cynical subject matter expert to find gaps in your content logic or pedagogical flow.
-- **ID Application:** Identifies where a Finance or SCM concept might be over-simplified for a graduate-level audience.
+- **ID Application:** Identifies where a specialized domain concept might be over-simplified for a graduate-level audience.
 - **Action:** gemini "Review this module on the Bullwhip Effect. Act as a Supply Chain PhD and critique the technical depth of the Case Study."
 
 

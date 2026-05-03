@@ -19,7 +19,6 @@ Predict which course updates are most likely to introduce accessibility regressi
 | **Design Principle** | Predictive Accessibility Regression |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | accessibility, prediction, regression |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

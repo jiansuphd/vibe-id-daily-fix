@@ -89,7 +89,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 - **The Pointer:** Use the @ symbol or /path to feed the AI specific reference documents.
 - **The Details:** This is "Zero - Shot Learning." Provide the "Answer Key" (Brand Guide, Syllabus Template) so the AI doesn't guess.
-- **ID Application:** Inject the official UT Knoxville syllabus template before generating a new draft.
+- **ID Application:** Inject the official institutional syllabus template before generating a new draft.
 
 ### Day 5: The "Self - Documenting" Loop
 
@@ -218,7 +218,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 - **The Pointer:** Use a "Shadow SME" persona to review your instructional tone and technical accuracy.
 - **The Details:** Ask the AI to act as a cynical subject matter expert to find gaps in your content logic or pedagogical flow.
-- **ID Application:** Identifies where a Finance or SCM concept might be over - simplified for a graduate - level audience.
+- **ID Application:** Identifies where a specialized domain concept might be over - simplified for a graduate - level audience.
 - **Action:** gemini "Review this module on the Bullwhip Effect. Act as a Supply Chain PhD and critique the technical depth of the Case Study."
 
 ### Day 26: The "Accessibility Unit Test" (Failure Injection)
@@ -602,7 +602,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 - **The Pointer:** Use the CLI to generate 5 different "Vibes" for a single lesson title. Select the winner and discard the rest.
 - **Action:** `gemini "Provide 5 different pedagogical approaches for a lesson on 'Blockchain in Logistics'. Use UDL as a base."`
 
-### Day 86: Cross-Contextual Learning ()
+### Day 86: Cross-Contextual Learning
 
 - **The Pointer:** Use the AI to find 3 ways your accessibility certification study notes directly contradict or improve your current  SOPs.
 - **Action:** `gemini "Compare my accessibility certification 'Visual Disabilities' notes with our 'Canvas Template' SOP. Find the gaps."`

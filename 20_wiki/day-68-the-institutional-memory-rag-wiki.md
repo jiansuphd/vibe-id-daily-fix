@@ -19,7 +19,6 @@ Build a Retrieval-Augmented Generation index over your entire vault so any promp
 | **Design Principle** | The 'Institutional Memory' RAG |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | rag, memory, knowledge-base |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

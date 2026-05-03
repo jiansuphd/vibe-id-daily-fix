@@ -19,7 +19,6 @@ Use two different AI models to audit the same course design and synthesize their
 | **Design Principle** | Multi-Model Adversarial Auditing |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | multi-model, adversarial, quality |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

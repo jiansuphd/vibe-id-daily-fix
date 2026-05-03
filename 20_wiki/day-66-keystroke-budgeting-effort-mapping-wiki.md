@@ -19,7 +19,6 @@ Map every recurring ID task to its keystroke cost and identify the top 5 candida
 | **Design Principle** | 'Effort Mapping' |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | ergonomics, keystroke, optimization |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

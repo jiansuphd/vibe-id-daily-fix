@@ -19,7 +19,6 @@ Generate a multi-modal executive brief — text summary, visual timeline, and KP
 | **Design Principle** | The 'Multi-Modal' Executive Brief |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | executive, multi-modal, communication |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

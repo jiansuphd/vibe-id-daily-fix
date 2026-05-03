@@ -19,7 +19,6 @@ Auto-generate a one-page executive briefing on course development progress from 
 | **Design Principle** | The 'Strategic Briefing' Generator |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | executive, briefing, reporting |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

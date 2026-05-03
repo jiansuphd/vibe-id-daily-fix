@@ -19,7 +19,6 @@ Migrate course content from one academic year to the next using semantic diffing
 | **Design Principle** | Semantic Data Migration |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | migration, data, semantic |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

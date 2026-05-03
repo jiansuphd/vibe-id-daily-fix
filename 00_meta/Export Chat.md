@@ -145,7 +145,7 @@ All internal links pass lint (0 broken links).
 | 83 | 2026-06-21 | Semantic Archive Pruning |
 | 84 | 2026-06-22 | The 'Agentic Peer Reviewer' (SME Persona) |
 | 85 | 2026-06-23 | The 'Zero-Draft' Strategy |
-| 86 | 2026-06-24 | Cross-Contextual Learning () |
+| 86 | 2026-06-24 | Cross-Contextual Learning |
 | 87 | 2026-06-25 | The 'Visual Hierarchy' Vision Audit |
 | 88 | 2026-06-26 | Institutional SOP Versioning |
 | 89 | 2026-06-27 | Automation-First Refactoring |

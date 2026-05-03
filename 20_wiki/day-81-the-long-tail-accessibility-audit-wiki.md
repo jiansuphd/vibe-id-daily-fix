@@ -19,7 +19,6 @@ Audit the 20% of course content that contains 80% of accessibility risk — the 
 | **Design Principle** | The 'Long-Tail' Accessibility Audit |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | accessibility, long-tail, audit |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

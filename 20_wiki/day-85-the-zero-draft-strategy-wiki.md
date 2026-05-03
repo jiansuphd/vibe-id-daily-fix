@@ -19,7 +19,6 @@ Use AI to generate the zero draft — a rough, content-complete first pass — t
 | **Design Principle** | The 'Zero-Draft' Strategy |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | draft, writing, workflow |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

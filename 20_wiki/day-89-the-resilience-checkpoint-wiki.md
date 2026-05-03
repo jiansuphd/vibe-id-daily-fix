@@ -19,7 +19,6 @@ Run a mid-Phase 7 resilience check: are your systems sustainable, or are there f
 | **Design Principle** | The 'Automation-First Refactoring' |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | resilience, review, checkpoint |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

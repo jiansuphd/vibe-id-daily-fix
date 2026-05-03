@@ -19,7 +19,6 @@ Automatically verify that every grade weight in the gradebook aligns to a course
 | **Design Principle** | Automated Grade-to-Goal Alignment |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | assessment, alignment, automation |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

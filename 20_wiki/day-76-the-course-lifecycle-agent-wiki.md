@@ -19,7 +19,6 @@ Automate the complete course lifecycle: from blueprint to build to QA to launch 
 | **Design Principle** | The 'Course Lifecycle' Agent |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | lifecycle, pipeline, automation |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

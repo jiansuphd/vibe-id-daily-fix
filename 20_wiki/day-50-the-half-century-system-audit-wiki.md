@@ -19,7 +19,6 @@ At the halfway point, audit not just your outputs but your system: tools, habits
 | **Design Principle** | The 'Half-Century' System Audit |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | audit, synthesis, milestone |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

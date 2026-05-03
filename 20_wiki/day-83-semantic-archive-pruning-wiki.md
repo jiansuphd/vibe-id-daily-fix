@@ -19,7 +19,6 @@ Prune the vault's archive by semantic similarity — identifying duplicate or ne
 | **Design Principle** | Semantic Archive Pruning |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | archive, pruning, knowledge-management |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

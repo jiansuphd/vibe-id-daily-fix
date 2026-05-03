@@ -19,7 +19,6 @@ Treat prompts like code: version them, test them, and document regressions. A pr
 | **Design Principle** | The 'Prompt Versioning' Protocol |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | prompt-engineering, versioning, reliability |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

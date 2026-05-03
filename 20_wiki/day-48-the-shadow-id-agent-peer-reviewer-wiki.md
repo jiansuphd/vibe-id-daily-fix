@@ -19,7 +19,6 @@ Create a 'shadow' AI agent that acts as a second instructional designer — revi
 | **Design Principle** | The 'Shadow ID' Agent |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | peer-review, quality-assurance, id |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

@@ -19,7 +19,6 @@ Extend the voice pipeline to produce valid Rise 360 JSON â€” not just Markdown â
 | **Design Principle** | Voice-to-JSON Course Blueprints |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | voice, json, blueprint |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

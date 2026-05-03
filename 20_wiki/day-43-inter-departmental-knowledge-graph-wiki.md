@@ -19,7 +19,6 @@ Map connections between courses, departments, and skills across the institution 
 | **Design Principle** | Inter-Departmental Knowledge Graph |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | knowledge-graph, mcp, scaling |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

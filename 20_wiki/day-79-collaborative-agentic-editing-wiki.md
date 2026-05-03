@@ -19,7 +19,6 @@ Orchestrate two AI agents in a writer-editor loop: one drafts, one edits, and yo
 | **Design Principle** | Collaborative Agentic Editing |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | collaboration, editing, multi-agent |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

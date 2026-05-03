@@ -18,8 +18,7 @@ Treat AI usage policies not as static text, but as 'Guardrail Systems' injected 
 |-----------|-------------|
 | **Design Principle** | The 'Institutional AI Manifesto' |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
-| **Key Skill** | policy, governance, uta |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
+| **Key Skill** | policy, governance, compliance |
 
 ## Agentic CLI Prompt
 

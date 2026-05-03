@@ -19,7 +19,6 @@ Run a full diagnostic on the entire Phase 5 system: policy, accessibility, knowl
 | **Design Principle** | The 'Full-Cycle' Systemic Audit |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | audit, synthesis, phase-5 |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

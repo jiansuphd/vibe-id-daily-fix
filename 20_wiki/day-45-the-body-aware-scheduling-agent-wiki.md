@@ -19,7 +19,6 @@ Feed your project energy cycles into the CLI to optimize your high-focus tasks. 
 | **Design Principle** | The 'Context-Aware' Scheduling Agent |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | workflow-resilience, scheduling, ergonomics |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

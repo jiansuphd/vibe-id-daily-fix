@@ -19,7 +19,6 @@ Instantiate an AI persona trained on a specific SME's published work and have it
 | **Design Principle** | The 'Agentic Peer Reviewer' |
 | **Phase** | Phase 7: Endgame & Sustained Resilience |
 | **Key Skill** | peer-review, sme, persona |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

@@ -19,7 +19,6 @@ Generate a complete onboarding SOP for a new instructional designer joining your
 | **Design Principle** | The 'Agentic' Onboarding SOP |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | onboarding, sop, automation |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

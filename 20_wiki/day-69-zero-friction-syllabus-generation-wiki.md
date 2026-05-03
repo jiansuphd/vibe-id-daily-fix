@@ -19,7 +19,6 @@ Generate a compliant, complete syllabus from a course blueprint in under 5 minut
 | **Design Principle** | Zero-Friction Synthesis |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | syllabus, automation, generation |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

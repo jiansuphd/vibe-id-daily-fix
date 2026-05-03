@@ -19,7 +19,6 @@ Build an agent that detects internal contradictions in a syllabus — mismatched
 | **Design Principle** | The 'Self-Healing' Syllabus |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | syllabus, integrity, automation |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

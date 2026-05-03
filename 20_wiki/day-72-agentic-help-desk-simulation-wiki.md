@@ -19,7 +19,6 @@ Simulate a faculty help desk interaction to pre-build FAQ responses and identify
 | **Design Principle** | Agentic 'Help Desk' Simulation |
 | **Phase** | Phase 6: Advanced Orchestration & Scaling |
 | **Key Skill** | simulation, helpdesk, faculty-support |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 

@@ -19,7 +19,6 @@ Connect course completion data from an LRS (Learning Record Store) back into the
 | **Design Principle** | Data-Driven Feedback Loop |
 | **Phase** | Phase 5: Institutional Leadership & AI Governance |
 | **Key Skill** | lrs, xapi, data |
-| **AS Accommodation** | Low-keystroke or voice-driven where possible |
 
 ## Agentic CLI Prompt
 
