@@ -79,7 +79,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 - **The Details:** Use the /plan command or prompt for a "File Tree." This forces the AI to check its logic against your GEMINI.md first.
 - **ID Application:** Ask for a 15 - week module map before individual page content.
 
-### Day 3: The "Draft - to - Diff" Workflow
+### Day 3: The "Draft-to-Diff" Workflow
 
 - **The Pointer:** Request changes in "Diff" (Difference) format to keep total control of your files.
 - **The Details:** Avoid total rewrites that lose academic tone. A "Diff" fixes specific items like aria - labels or CSS classes.
@@ -97,13 +97,13 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 - **The Details:** The CLI is session - based. Ask it to format findings into a "Skill" for your library.
 - **ID Application:** Turns a one - time success (like a complex table build) into a repeatable SOP.
 
-### Day 6: The "Multi - Agent Debate"
+### Day 6: The "Multi-Agent Debate"
 
 - **The Pointer:** Simulate a "Committee Review" by asking the AI to role - play 3 specific personas.
 - **The Details:** This triggers "Latent Perspective." The AI critiques its own work as a Student, Auditor, and SME.
 - **ID Application:** Pressure - test a module's navigation and cognitive load.
 
-### Day 7: The "Raw - to - Refined" Proxy (The Lynx Strategy)
+### Day 7: The "Raw-to-Refined" Proxy (The Lynx Strategy)
 
 - **The Pointer:** Use the CLI to process "ugly" raw data (SME notes, PDF dumps) before designing.
 - **The Details:** Use !lynx -dump [URL] | gemini to strip noise and extract high - signal text.
@@ -193,7 +193,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 - **ID Application:** Ensures interactive H5P or Rise - like components are checked for keyboard accessibility _during_ the generation process.
 - **Action:** gemini "Create a custom video player. Before outputting the code, check if it contains any keyboard traps and verify the focus indicator contrast."
 
-### Day 22: The "Multi - Modal Audit" (Vision - to - Text)
+### Day 22: The "Multi-Modal Audit" (Vision-to-Text)
 
 - **The Pointer:** Use Gemini's vision capabilities to audit visual "Brand Alignment" and "Visual Weight."
 - **The Details:** Upload a screenshot of a Canvas page and ask the AI to "Describe the visual hierarchy and identify any color contrast violations based on the UT Brand Guide."
@@ -242,7 +242,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 - **ID Application:** Focus on systemic efficiency. Instead of custom CSS, use pre - built Tailwind classes to minimize typing.
 - **Action:** gemini "I have high physical fatigue today. Suggest the most keystroke - efficient way to build this interactive grid."
 
-### Day 29: The "Legacy - to - Logic" Pipeline (Syllabus Migration)
+### Day 29: The "Legacy-to-Logic" Pipeline (Syllabus Migration)
 
 - **The Pointer:** Use the CLI to strip formatting from old (2024 / 2025) courses and convert them into structured JSON "Skeletons" for 2026.
 - **The Details:** This is "Technical Debt Management." By removing "baked - in" styles from old Canvas pages, you create a clean slate for modern, accessible UT templates.
