@@ -6,11 +6,11 @@ tags:
   - day-97
 ---
 
-# Day 97: Predictive Resource Allocation — Wiki
+# Day 97: Predictive Resource Allocation - Wiki
 
 ## Core Concept
 
-Use project history to predict the resource requirements of the next course project before scoping begins. Historical velocity data is your best planning tool. An agent that reads your past project logs estimates hours, identifies high-risk phases, and builds a resource forecast — before the kickoff meeting.
+Use project history to predict the resource requirements of the next course project before scoping begins. Historical velocity data is your best planning tool. An agent that reads your past project logs estimates hours, identifies high-risk phases, and builds a resource forecast - before the kickoff meeting.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Based on my past project logs (00_meta/progress.md), estimate the resour
 ## Key Terms
 
 - **Predictive:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

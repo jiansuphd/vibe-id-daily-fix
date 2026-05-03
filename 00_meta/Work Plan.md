@@ -18,12 +18,12 @@ tags:
 Create a front-facing dashboard that aggregates daily strategic "pointers" for Instructional Designers, helping them master agentic workflows, prompt engineering for pedagogy, and automated ID infrastructure.
 
 ## 🚦 System Health
-- **Build**: ✅ Passing — Eleventy v2 + RSS plugin v1.2.0, 40 posts, clean `npm run build`.
+- **Build**: ✅ Passing - Eleventy v2 + RSS plugin v1.2.0, 40 posts, clean `npm run build`.
 - **Wiki**: ✅ 40 deep-dive pages, all links use `../10_dailies/`, zero wikilinks, lint passes.
 - **Deployment**: ✅ Live on GitHub Pages via official `configure-pages` → `upload-pages-artifact` → `deploy-pages` pipeline.
 - **RSS/Email**: ✅ Atom feed at `/vibe-id-daily/feed.xml`, autodiscovery in `<head>`, subscribe widget on homepage.
 - **MOC Naming**: ✅ All MOCs renamed to numeric prefix convention (`00_meta_MOC.md`, `10_dailies_MOC.md`, `20_wiki_MOC.md`).
-- **MCP Integration**: ✅ Scaffold complete — `.gemini/settings.example.json` + `GEMINI.md` docs delivered (2026-05-01).
+- **MCP Integration**: ✅ Scaffold complete - `.gemini/settings.example.json` + `GEMINI.md` docs delivered (2026-05-01).
 
 ## 🗺️ Detailed Work Plan
 

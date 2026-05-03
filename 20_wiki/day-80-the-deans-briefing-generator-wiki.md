@@ -6,7 +6,7 @@ tags:
   - day-80
 ---
 
-# Day 80: The 'Strategic Briefing' Generator — Wiki
+# Day 80: The 'Strategic Briefing' Generator - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Read 00_meta/progress.md and 00_meta/Work\ Plan.md. Generate a 250-word 
 ## Key Terms
 
 - **Dean:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

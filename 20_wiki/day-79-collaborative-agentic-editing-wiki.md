@@ -6,11 +6,11 @@ tags:
   - day-79
 ---
 
-# Day 79: Collaborative Agentic Editing — Wiki
+# Day 79: Collaborative Agentic Editing - Wiki
 
 ## Core Concept
 
-Orchestrate two AI agents in a writer-editor loop: one drafts, one edits, and you approve the delta. The bottleneck in AI-assisted writing is quality assurance. A writer-editor loop reduces your role to approval rather than generation — you only intervene at the disagreement points.
+Orchestrate two AI agents in a writer-editor loop: one drafts, one edits, and you approve the delta. The bottleneck in AI-assisted writing is quality assurance. A writer-editor loop reduces your role to approval rather than generation - you only intervene at the disagreement points.
 
 ## ID Framework Alignment
 
@@ -31,7 +31,7 @@ diff draft.md edited.md
 ## Key Terms
 
 - **Collaborative:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

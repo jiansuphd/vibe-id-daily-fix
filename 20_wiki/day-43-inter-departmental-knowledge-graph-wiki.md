@@ -6,7 +6,7 @@ tags:
   - day-43
 ---
 
-# Day 43: Inter-Departmental Knowledge Graph (Scaling Context) — Wiki
+# Day 43: Inter-Departmental Knowledge Graph (Scaling Context) - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Given these syllabi, generate a Mermaid graph showing shared competencie
 ## Key Terms
 
 - **Inter-Departmental:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

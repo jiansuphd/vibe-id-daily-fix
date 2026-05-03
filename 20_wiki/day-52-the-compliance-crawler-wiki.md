@@ -6,7 +6,7 @@ tags:
   - day-52
 ---
 
-# Day 52: The 'Compliance Crawler' (Institutional Scrutiny) — Wiki
+# Day 52: The 'Compliance Crawler' (Institutional Scrutiny) - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini --system ./04_Policy/UTA_Syllabus_Requirements.md "Audit this syllabus. L
 ## Key Terms
 
 - **Compliance Crawler:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

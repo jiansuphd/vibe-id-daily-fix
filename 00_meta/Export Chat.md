@@ -1,4 +1,4 @@
-# Chat Export — VibeID Daily Session
+# Chat Export - VibeID Daily Session
 **Date:** May 1, 2026
 **Codespace:** jiansuphd/vibe-id-daily
 **Branch:** main
@@ -16,7 +16,7 @@ Long maintenance and content session covering RSS debugging, follow.it subscript
 ### 1. RSS Feed Entry URL Fix
 **Commit:** `d91314e`
 
-**Problem:** follow.it reported "feed not found." Root cause: `feed.njk` used `post.url | absoluteUrl(metadata.url)` — but `post.url` does not include the Eleventy `pathPrefix` (`/vibe-id-daily/`), so all 10 entry `<link>` tags resolved to `https://jiansuphd.github.io/posts/...` (404s).
+**Problem:** follow.it reported "feed not found." Root cause: `feed.njk` used `post.url | absoluteUrl(metadata.url)` - but `post.url` does not include the Eleventy `pathPrefix` (`/vibe-id-daily/`), so all 10 entry `<link>` tags resolved to `https://jiansuphd.github.io/posts/...` (404s).
 
 **Fix:** Applied the `| url` filter first:
 ```njk
@@ -29,7 +29,7 @@ post.url | url | absoluteUrl(metadata.url)
 
 ---
 
-### 2. follow.it Subscription Setup — URL & Verification
+### 2. follow.it Subscription Setup - URL & Verification
 **Commits:** `b84e031`, `16452b0`
 
 - Updated form action URL in `00_meta/src/index.njk` and `00_meta/src/archive.njk` from stale pre-registration URL to new endpoint:
@@ -48,14 +48,14 @@ post.url | url | absoluteUrl(metadata.url)
 
 **File:** `.eleventy.js`
 
-Added filter to `posts` collection so future-dated posts are hidden until midnight UTC on their publish date — zero manual intervention needed:
+Added filter to `posts` collection so future-dated posts are hidden until midnight UTC on their publish date - zero manual intervention needed:
 ```js
 .filter(post => post.date <= now)
 ```
 
 ---
 
-### 4. Days 41-60 Initial Stubs (Wrong Content — Later Replaced)
+### 4. Days 41-60 Initial Stubs (Wrong Content - Later Replaced)
 **Commit:** `c84cc3b`
 
 Batch-created 20 placeholder files with generic topics ("The Spaced Repetition Engine", "Rubric-as-Prompt", etc.). Dates: Day 41 = 2026-05-10 through Day 60 = 2026-05-29. These were replaced in the next step.
@@ -74,7 +74,7 @@ Status banner updated to: `Phases 1–4 Complete ✅ | Phases 5–7 Queued (Days
 
 ---
 
-### 6. Canonical Days 41-100 — Full Content Build
+### 6. Canonical Days 41-100 - Full Content Build
 **Commit:** `4910bba`
 
 **Scope:** 220 files affected
@@ -89,7 +89,7 @@ Status banner updated to: `Phases 1–4 Complete ✅ | Phases 5–7 Queued (Days
 
 All internal links pass lint (0 broken links).
 
-**Canonical Day Map (Phase 5 — Days 41-60):**
+**Canonical Day Map (Phase 5 - Days 41-60):**
 | Day | Date | Title |
 |-----|------|-------|
 | 41 | 2026-05-10 | The 'Institutional AI Manifesto' (Policy as Code) |
@@ -113,7 +113,7 @@ All internal links pass lint (0 broken links).
 | 59 | 2026-05-28 | The 'Zero-Keystroke' Ideal (Voice-to-Course) |
 | 60 | 2026-05-29 | The 'Full-Cycle' Systemic Audit |
 
-**Canonical Day Map (Phase 6 — Days 61-80):**
+**Canonical Day Map (Phase 6 - Days 61-80):**
 | Day | Date | Title |
 |-----|------|-------|
 | 61 | 2026-05-30 | The 'Self-Healing' Syllabus (Integrity Logic) |
@@ -137,7 +137,7 @@ All internal links pass lint (0 broken links).
 | 79 | 2026-06-17 | Collaborative Agentic Editing |
 | 80 | 2026-06-18 | The 'Strategic Briefing' Generator |
 
-**Canonical Day Map (Phase 7 — Days 81-100):**
+**Canonical Day Map (Phase 7 - Days 81-100):**
 | Day | Date | Title |
 |-----|------|-------|
 | 81 | 2026-06-19 | The 'Long-Tail' Accessibility Audit |
@@ -185,7 +185,7 @@ All internal links pass lint (0 broken links).
 | `d781847` | docs(workplan): add Phase 5 (Days 41-60) Institutional Leadership & AI Governance |
 | `1eee564` | docs(workplan): add Phase 6 (Days 61-80) and Phase 7 (Days 81-100) |
 | `dfd29a6` | docs(wiki): extend wiki MOC to Day 40; add Day 18 wiki stub |
-| `4910bba` | feat(content): canonical Days 41-100 posts, wikis, MOC — Phase 5/6/7 complete |
+| `4910bba` | feat(content): canonical Days 41-100 posts, wikis, MOC - Phase 5/6/7 complete |
 | `64c6a2c` | docs: update wiki MOC, dailies MOC (Days 41-100), and README Day-100 Manifesto |
 
 ---
@@ -226,18 +226,18 @@ eleventyConfig.addCollection("posts", function(collectionApi) {
 
 ---
 
-*Exported from GitHub Copilot Chat session — May 1, 2026*
+*Exported from GitHub Copilot Chat session - May 1, 2026*
 
 ---
 
-## Session 2 — May 1, 2026 (Afternoon/Evening)
+## Session 2 - May 1, 2026 (Afternoon/Evening)
 
 ### Summary
 Layout redesign, content completion (Day 32–40), wiki creation, metadata cleanup, and CI fixes.
 
 ---
 
-### 1. CI Lint Failure Fix — Wiki Broken Links
+### 1. CI Lint Failure Fix - Wiki Broken Links
 **Problem:** All deploys were failing since the folder rename (`_dailies→10_dailies`). The `check_links.js` linter found 31 broken links in `20_wiki/*.md` still pointing to `../_dailies/`.
 
 **Fix:** Bulk sed replace across all wiki files:
@@ -254,7 +254,7 @@ Also fixed stale link in `10_dailies/cyborg-aggregation-2026-05-01.md`: `../_met
 **File:** `00_meta/src/index.njk`, `00_meta/src/css/style.css`
 
 Added above the content feed:
-> **The Vibe ID Daily** — Tracking the journey from Natural Language to Systemic Automation.
+> **The Vibe ID Daily** - Tracking the journey from Natural Language to Systemic Automation.
 
 Styled in JetBrains Mono with violet site name and cyan separator.
 
@@ -263,7 +263,7 @@ Styled in JetBrains Mono with violet site name and cyan separator.
 ### 3. HUD Metric Removed
 **File:** `00_meta/src/_includes/base.njk`
 
-Removed "Phase: 4 — Scale & Sustain" from the metrics bar per user request.
+Removed "Phase: 4 - Scale & Sustain" from the metrics bar per user request.
 
 ---
 
@@ -293,7 +293,7 @@ Schema table, JSON example, ID framework integration notes, WCAG alignment.
 
 ---
 
-### 6. Work Plan.md — Day 32-40 Content Added
+### 6. Work Plan.md - Day 32-40 Content Added
 **File:** `00_meta/Work Plan.md`
 
 Appended Phase 3 (Days 32–34) and Phase 4 (Days 35–40) with full pointer content, plus Persona Anchors section.
@@ -359,7 +359,7 @@ Added 9 new entries covering all Session 2 work, including direct link to the pr
 
 ---
 
-## Session 3 — May 1, 2026 (Visual Audit)
+## Session 3 - May 1, 2026 (Visual Audit)
 
 ### Summary
 Reviewed the live site for readability and contrast, with focus on the perceived glare from bright body text on a very dark background.
@@ -389,7 +389,7 @@ Recommended a restrained typography contrast pass rather than leaving the curren
 
 ---
 
-## Session 4 — May 1, 2026 (Softened CSS Pass)
+## Session 4 - May 1, 2026 (Softened CSS Pass)
 
 ### Summary
 Applied a minimal theme adjustment to reduce glare in long-form reading surfaces while preserving the site's brighter heading and accent treatment.
@@ -414,7 +414,7 @@ Created a restrained alternative that softens paragraph glare without flattening
 
 ---
 
-## Session 5 — May 1, 2026 (Blue-Gray Background Pass)
+## Session 5 - May 1, 2026 (Blue-Gray Background Pass)
 
 ### Summary
 Lifted the global site background slightly from a near-black midnight tone to a dark blue-gray to reduce perceived contrast while keeping the same overall mood.
@@ -437,7 +437,7 @@ Created a softer canvas that reduces glare without changing the site's structure
 
 ---
 
-## Session 6 — May 1, 2026 (Production Ship)
+## Session 6 - May 1, 2026 (Production Ship)
 
 ### Summary
 Prepared and shipped the validated softened theme variant to production.
@@ -457,7 +457,7 @@ Production deployment initiated by committing and pushing the exact validated ve
 
 ---
 
-## Session 7 — May 1, 2026 (Post-Deploy Visual Sweep)
+## Session 7 - May 1, 2026 (Post-Deploy Visual Sweep)
 
 ### Summary
 Performed a quick visual check on the public homepage and a public post page after deployment.
@@ -479,7 +479,7 @@ Performed a quick visual check on the public homepage and a public post page aft
 
 ---
 
-## Session 8 — May 1, 2026 (Commit Wrap-Up)
+## Session 8 - May 1, 2026 (Commit Wrap-Up)
 
 ### Summary
 Confirmed the production theme changes were already shipped earlier, then committed the remaining chat-export update from the post-deploy sweep.
@@ -489,7 +489,7 @@ Repository state was brought fully up to date with the recorded work from this c
 
 ---
 
-## Session 9 — May 1, 2026 (00_meta Logging Update)
+## Session 9 - May 1, 2026 (00_meta Logging Update)
 
 ### Summary
 Recorded this chat's work into the repository logging files under `00_meta`.
@@ -504,21 +504,21 @@ The theme audit, contrast-softening implementation, production deploy, and post-
 
 ---
 
-*Session 2 appended — May 1, 2026*
+*Session 2 appended - May 1, 2026*
 
 ---
 
-## Session 2 — May 1, 2026 (GitHub Copilot / Claude Sonnet 4.6)
+## Session 2 - May 1, 2026 (GitHub Copilot / Claude Sonnet 4.6)
 
 ### Overview
 Article heading cleanup, source vault standardization, Day 18 creation, and progress log update.
 
 ---
 
-### 1. Article Title — Replace H1 with "Day N"
+### 1. Article Title - Replace H1 with "Day N"
 **Commits:** `41f1643`
 
-**Problem:** Every article page had a repetitive full descriptive title as its `<h1>` (e.g., "The 'Predictive Syllabus' (Contextual Mapping)") — identical to the archive link text. The user wanted the archive/sidebar links to stay descriptive, but the article itself to simply read "Day 12", "Day 9", etc.
+**Problem:** Every article page had a repetitive full descriptive title as its `<h1>` (e.g., "The 'Predictive Syllabus' (Contextual Mapping)") - identical to the archive link text. The user wanted the archive/sidebar links to stay descriptive, but the article itself to simply read "Day 12", "Day 9", etc.
 
 **Changes:**
 
@@ -546,10 +546,10 @@ eleventyConfig.addFilter("dayLabel", (fileSlug) => {
 
 ---
 
-### 2. Source Vault Headings — Bulk Update to `# Day N`
+### 2. Source Vault Headings - Bulk Update to `# Day N`
 **Commit:** `93fd9db`
 
-**Problem:** The previous session's bash loop used a `grep -oP` lookbehind pattern that failed on the system's grep version — numbers were not captured, leaving headings unchanged.
+**Problem:** The previous session's bash loop used a `grep -oP` lookbehind pattern that failed on the system's grep version - numbers were not captured, leaving headings unchanged.
 
 **Fix:** Replaced with a pure Python script:
 ```python
@@ -574,7 +574,7 @@ for filepath in sorted(glob.glob("10_dailies/day-*.md")):
 
 ---
 
-### 3. Day 18 Created — Multiple Means of Action & Expression
+### 3. Day 18 Created - Multiple Means of Action & Expression
 **Commits:** `376fed6` (initial, with YAML error), `4a86eda` (fix)
 
 **File:** `10_dailies/day-18-multiple-means-of-action-and-expression-udl-how.md`
@@ -593,7 +593,7 @@ tags: [issue, vibe-coding]
 - **The Pointer:** Focus on how students demonstrate mastery. If a student knows the
   material but can't use the assessment tool itself, the assessment is invalid.
 - **The Details:** Vary methods for response and navigation. Ensure all interactives
-  are keyboard navigable — a mouse-only drag-and-drop excludes learners with motor disabilities.
+  are keyboard navigable - a mouse-only drag-and-drop excludes learners with motor disabilities.
 - **ID Application:** Allow podcast, video, or slide deck submissions instead of just a
   final paper. The goal is evidence of learning, not tool proficiency.
 ```
@@ -628,11 +628,11 @@ Three new entries appended to `00_meta/progress.md`:
 
 ---
 
-*Exported from GitHub Copilot Chat session — May 1, 2026*
+*Exported from GitHub Copilot Chat session - May 1, 2026*
 
 ---
 
-## Addendum — Live Site Incident Investigation (May 1, 2026)
+## Addendum - Live Site Incident Investigation (May 1, 2026)
 
 ### User Report
 - "i started over so many times, but the live site don't work. why? fix it"
@@ -681,22 +681,22 @@ This explains why:
 
 ---
 
-## Session 2 — Privacy Cleanup, Canonical Titles & Vibe Coding Intro Page
+## Session 2 - Privacy Cleanup, Canonical Titles & Vibe Coding Intro Page
 **Date:** May 1, 2026
 
 ### Objectives Completed
 
-1. **Strip all personal info from repo** — Removed all personal references from every file in the repository.
+1. **Strip all personal info from repo** - Removed all personal references from every file in the repository.
 
-2. **Update 13 canonical day titles** — Old titles embedded personal context. Updated across all posts, wiki stubs, dailies, MOCs, and Work Plan.
+2. **Update 13 canonical day titles** - Old titles embedded personal context. Updated across all posts, wiki stubs, dailies, MOCs, and Work Plan.
 
-3. **Update `20_wiki/vibe-coding-intro.md`** — Replaced the stub intro with the full canonical 100-day strategic pointer log.
+3. **Update `20_wiki/vibe-coding-intro.md`** - Replaced the stub intro with the full canonical 100-day strategic pointer log.
 
-4. **Create `00_meta/src/vibe-coding-intro.njk`** — New Eleventy standalone page at `/vibe-coding-intro/` rendering the full 100-day guide on the live site.
+4. **Create `00_meta/src/vibe-coding-intro.njk`** - New Eleventy standalone page at `/vibe-coding-intro/` rendering the full 100-day guide on the live site.
 
-5. **Update homepage** (`00_meta/src/index.njk`) — Added "// The Vibe Coding Guide" widget in the sidebar linking to the new page.
+5. **Update homepage** (`00_meta/src/index.njk`) - Added "// The Vibe Coding Guide" widget in the sidebar linking to the new page.
 
-6. **Fix Work Plan + MOCs** — Replaced institution-specific course references with neutral equivalents. Updated old day titles in `10_dailies_MOC.md` and `20_wiki_MOC.md`.
+6. **Fix Work Plan + MOCs** - Replaced institution-specific course references with neutral equivalents. Updated old day titles in `10_dailies_MOC.md` and `20_wiki_MOC.md`.
 
 ---
 
@@ -728,7 +728,7 @@ Personal references including medical condition names, employer-specific departm
 
 ### Canonical 100-Day Content (Vibe Coding: Daily Strategic Pointers & Logic Log)
 
-**Phase 1 (Days 1–8): The Foundation — Workflow & Control**
+**Phase 1 (Days 1–8): The Foundation - Workflow & Control**
 - Day 1: The "Entry Point" Protocol (AGENTS.md / GEMINI.md)
 - Day 2: The "Skeleton-First" Prompt
 - Day 3: The "Draft-to-Diff" Workflow
@@ -738,13 +738,13 @@ Personal references including medical condition names, employer-specific departm
 - Day 7: The "Raw-to-Refined" Proxy (The Lynx Strategy)
 - Day 8: The "Modular Skill" (Atomic SOPs)
 
-**Phase 2 (Days 9–12): Agentic ID Mastery — Context & Alignment**
+**Phase 2 (Days 9–12): Agentic ID Mastery - Context & Alignment**
 - Day 9: The "Semantic Cross-Check" (Alignment)
 - Day 10: The "Cognitive Load Audit" (Density Check)
 - Day 11: Prompt Injection for Brand Compliance
 - Day 12: The "Predictive Syllabus" (Contextual Mapping)
 
-**Phase 3 (Days 13–31): Continuous Optimization — Scale & Sustainability**
+**Phase 3 (Days 13–31): Continuous Optimization - Scale & Sustainability**
 - Day 13: The "Accessibility Regression" Protocol
 - Day 14: The "Synthetic Student" Simulation (Agentic UX)
 - Day 15: The "Automated Indexing" Habit
@@ -846,7 +846,7 @@ Personal references including medical condition names, employer-specific departm
 
 ---
 
-## Session 2 — Addendum: Future-Date Fix & Live Site Correction
+## Session 2 - Addendum: Future-Date Fix & Live Site Correction
 **Date:** May 1, 2026 (later in session)
 
 ### Problem Identified
@@ -865,34 +865,34 @@ Formula: `date = 2026-05-01 + (day_number - 32) days`
 One new post goes live automatically each day at midnight UTC via the `deploy.yml` cron job (`0 0 * * *`). No manual action required. Today (May 1) only Days 1–32 are visible.
 
 ### Chat & Progress Log Updated
-- `00_meta/Export Chat.md` — Session 2 content + this addendum appended
-- `00_meta/progress.md` — 4 new entries added covering: privacy cleanup (119 files), 13 canonical title corrections, Vibe Coding Intro page launch, and future-date schedule fix
+- `00_meta/Export Chat.md` - Session 2 content + this addendum appended
+- `00_meta/progress.md` - 4 new entries added covering: privacy cleanup (119 files), 13 canonical title corrections, Vibe Coding Intro page launch, and future-date schedule fix
 
 ### Final Commit
-`04a31fd` — pushed to `origin/main`
+`04a31fd` - pushed to `origin/main`
 
 *Addendum appended May 1, 2026.*
 
 ---
 
-## Session 3 — Live Site Fixes, Homepage Intro & Sidebar Refinements
+## Session 3 - Live Site Fixes, Homepage Intro & Sidebar Refinements
 **Date:** May 1, 2026 (GitHub Copilot / Claude Sonnet 4.6)
 
 ### Objectives Completed
 
-1. **Fix Days 41–100 showing on live site** — Root cause: 60 source files in `10_dailies/` (Days 41–100) had no front matter at all — they started with a raw `# heading`. Eleventy defaulted all to today's date, bypassing the future-date filter. Injected front matter with sequential future dates (Day 41 = 2026-05-10 → Day 100 = 2026-07-08), then re-ran `parse_dailies.js` to sync to `00_meta/src/posts/`.
+1. **Fix Days 41–100 showing on live site** - Root cause: 60 source files in `10_dailies/` (Days 41–100) had no front matter at all - they started with a raw `# heading`. Eleventy defaulted all to today's date, bypassing the future-date filter. Injected front matter with sequential future dates (Day 41 = 2026-05-10 → Day 100 = 2026-07-08), then re-ran `parse_dailies.js` to sync to `00_meta/src/posts/`.
 
-2. **Clean personal info from Export Chat.md and progress.md** — Replaced specific references in Session 2 tables and prose with neutral descriptions. Zero matches confirmed post-cleanup.
+2. **Clean personal info from Export Chat.md and progress.md** - Replaced specific references in Session 2 tables and prose with neutral descriptions. Zero matches confirmed post-cleanup.
 
-3. **Add "// Start Here" sidebar widget** — Pinned widget linking directly to Day 1 at the top of the sidebar.
+3. **Add "// Start Here" sidebar widget** - Pinned widget linking directly to Day 1 at the top of the sidebar.
 
-4. **Remove "// The Vibe Coding Guide" widget** — Removed standalone guide widget and "Full 100-Day Guide →" link from sidebar.
+4. **Remove "// The Vibe Coding Guide" widget** - Removed standalone guide widget and "Full 100-Day Guide →" link from sidebar.
 
-5. **Add homepage intro block** — Replaced blank feed start with a full "Introduction to Vibe Coding for IDs" block above the post feed, including Core Principles and Key Workflows sections.
+5. **Add homepage intro block** - Replaced blank feed start with a full "Introduction to Vibe Coding for IDs" block above the post feed, including Core Principles and Key Workflows sections.
 
-6. **Improve color contrast** — Brightened `--text` (`#e2e8f0` → `#f1f5f9`), `--text-dim` (`#94a3b8` → `#cbd5e1`), and switched `.prose` body text to use `--text` instead of `--text-dim`. Widget paragraph text also brightened.
+6. **Improve color contrast** - Brightened `--text` (`#e2e8f0` → `#f1f5f9`), `--text-dim` (`#94a3b8` → `#cbd5e1`), and switched `.prose` body text to use `--text` instead of `--text-dim`. Widget paragraph text also brightened.
 
-7. **Sidebar reordering** — Final order: **Start Here → About → Repository → Archives → Subscribe**.
+7. **Sidebar reordering** - Final order: **Start Here → About → Repository → Archives → Subscribe**.
 
 ---
 
@@ -919,18 +919,18 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 - Day 41 = `2026-05-10`, Day 60 = `2026-05-29`, Day 80 = `2026-06-18`, Day 100 = `2026-07-08`
 - Days 33–40 already had dates from a prior session; only Days 41–100 were missing front matter entirely.
 
-**Homepage intro block location:** `00_meta/src/index.njk` — injected as `.intro-block.prose` section above the post feed loop, with `hr.intro-divider` separator. CSS added to `00_meta/src/css/style.css`.
+**Homepage intro block location:** `00_meta/src/index.njk` - injected as `.intro-block.prose` section above the post feed loop, with `hr.intro-divider` separator. CSS added to `00_meta/src/css/style.css`.
 
 **Color contrast ratios (approx. against `#020617` background):**
 - `--text` `#f1f5f9`: ~14:1
 - `--text-dim` `#cbd5e1`: ~10:1
 - Both exceed WCAG AA (4.5:1) and AAA (7:1) thresholds.
 
-*Session 3 appended — May 1, 2026.*
+*Session 3 appended - May 1, 2026.*
 
 ---
 
-## Session 4 — Privacy-Safe Continuous Chat Log (Active)
+## Session 4 - Privacy-Safe Continuous Chat Log (Active)
 **Date:** May 1, 2026
 **Mode:** Sanitized ongoing updates for this chat
 
@@ -992,27 +992,27 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 
 ---
 
-## Session 3 Addendum — Mobile Fix, Contrast Softening & Day 33 Automation Verified
+## Session 3 Addendum - Mobile Fix, Contrast Softening & Day 33 Automation Verified
 **Date:** May 2, 2026 (GitHub Copilot / Claude Sonnet 4.6)
 
 ### Work Completed
 
-1. **Day 33 publish automation verified** — At midnight UTC on 2026-05-02, the GitHub Actions cron job (`deploy.yml`) fired and Day 33 went live automatically at `/posts/day-33-the-context-pruning-strategy-token-efficiency/`. No manual action required. Confirms the future-date pipeline is working end-to-end.
+1. **Day 33 publish automation verified** - At midnight UTC on 2026-05-02, the GitHub Actions cron job (`deploy.yml`) fired and Day 33 went live automatically at `/posts/day-33-the-context-pruning-strategy-token-efficiency/`. No manual action required. Confirms the future-date pipeline is working end-to-end.
 
-2. **Mobile responsive layout fixed** — Added a `600px` breakpoint to `style.css` addressing text overflow observed on mobile:
+2. **Mobile responsive layout fixed** - Added a `600px` breakpoint to `style.css` addressing text overflow observed on mobile:
    - `.intro-block h1`: `font-size: 1rem`, `letter-spacing: 1px`
    - `article h1`: `font-size: 1.4rem`
    - `.prose`: `font-size: 1rem`, `line-height: 1.8`, `max-width: 100%`, `overflow-wrap: break-word`
    - `.hud-metrics`: `flex-wrap: wrap`
    - `.subscribe-row`: stacks vertically
    - `.dashboard-grid`: `padding: 0 0.75rem`
-   - Viewport meta tag was already present in `base.njk` — no change needed.
+   - Viewport meta tag was already present in `base.njk` - no change needed.
 
-3. **Contrast softening pass** — Added `--text-soft: rgb(214, 222, 232)` variable; applied to `body`, `.prose`, `.prose li`, `.prose blockquote`, `.widget p`. Headings and strong emphasis remain bright (`--text: #f1f5f9`). Canvas lifted from `#020617` to `#0b1220`. HUD backdrop aligned to `rgba(11, 18, 32, 0.8)`.
+3. **Contrast softening pass** - Added `--text-soft: rgb(214, 222, 232)` variable; applied to `body`, `.prose`, `.prose li`, `.prose blockquote`, `.widget p`. Headings and strong emphasis remain bright (`--text: #f1f5f9`). Canvas lifted from `#020617` to `#0b1220`. HUD backdrop aligned to `rgba(11, 18, 32, 0.8)`.
 
-4. **Sidebar final order locked** — `Start Here → About → Repository → Archives → Subscribe`.
+4. **Sidebar final order locked** - `Start Here → About → Repository → Archives → Subscribe`.
 
-5. **Homepage intro block added** — "Introduction to Vibe Coding for IDs" section renders above the post feed with Core Principles and Key Workflows. Styled as `.intro-block.prose` with `hr.intro-divider` separator.
+5. **Homepage intro block added** - "Introduction to Vibe Coding for IDs" section renders above the post feed with Core Principles and Key Workflows. Styled as `.intro-block.prose` with `hr.intro-divider` separator.
 
 ### Key Commits (Session 3 Addendum)
 
@@ -1026,24 +1026,24 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 | `a626b06` | style: soften site contrast for production |
 | `9059101` | fix: mobile responsive layout - breakpoints for 600px |
 
-*Session 3 addendum appended — May 2, 2026.*
+*Session 3 addendum appended - May 2, 2026.*
 
 ---
 
-## Session 3 — Continuation (May 2, 2026)
+## Session 3 - Continuation (May 2, 2026)
 
 ### Work Completed
 
-1. **`vibe-tech-stack.md` created** (`00_meta/vibe-tech-stack.md`) — New reference document covering the four layers of the Vibe ID Daily tech stack:
-   - Nunjucks (51.7%) — Blueprint / templating engine
-   - CSS (21.1%) — Aesthetic / responsive design
-   - JavaScript (19.3%) — Interaction / Eleventy filters and parse scripts
-   - Python (7.9%) — Automation / batch scripts and date sequencing
+1. **`vibe-tech-stack.md` created** (`00_meta/vibe-tech-stack.md`) - New reference document covering the four layers of the Vibe ID Daily tech stack:
+   - Nunjucks (51.7%) - Blueprint / templating engine
+   - CSS (21.1%) - Aesthetic / responsive design
+   - JavaScript (19.3%) - Interaction / Eleventy filters and parse scripts
+   - Python (7.9%) - Automation / batch scripts and date sequencing
    - Includes a Nunjucks HUD template example and Vibe Coding use cases.
 
-2. **Backlinks moved to bottom** in `log.md` and `progress.md` — Consistent footer placement across all `00_meta` files.
+2. **Backlinks moved to bottom** in `log.md` and `progress.md` - Consistent footer placement across all `00_meta` files.
 
-3. **`progress.md` entries reordered** — May 2 entries were appended after the backlinks; moved above them so backlinks remain last.
+3. **`progress.md` entries reordered** - May 2 entries were appended after the backlinks; moved above them so backlinks remain last.
 
 ### Key Commits
 
@@ -1054,30 +1054,30 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 | `9b03238` | docs: add vibe-tech-stack.md to 00_meta |
 | `310ce62` | docs: update CSS section description in vibe-tech-stack.md |
 
-*Continuation appended — May 2, 2026.*
+*Continuation appended - May 2, 2026.*
 
 ---
 
-## Session 3 — Q&A (May 2, 2026)
+## Session 3 - Q&A (May 2, 2026)
 
-### 10_dailies vs 20_wiki — Key Differences
+### 10_dailies vs 20_wiki - Key Differences
 
 | Dimension | `10_dailies/` | `20_wiki/` |
 |---|---|---|
-| Purpose | Daily post — published to live site | Reference wiki — Obsidian knowledge base only |
+| Purpose | Daily post - published to live site | Reference wiki - Obsidian knowledge base only |
 | Format | Short: Pointer + Details + ID Application | Longer synthesis: framework integration, implementation notes |
-| Front matter | Has `date:` — controls publish schedule | No `date:` — never published |
+| Front matter | Has `date:` - controls publish schedule | No `date:` - never published |
 | Tags | `[issue, vibe-coding]` | `[wiki, concept, instructional-design]` |
 | Filename | `day-01-....md` | `day-01-...-wiki.md` (`-wiki` suffix) |
-| Published? | Yes — via `parse_dailies.js` → `00_meta/src/posts/` | No — stays in Obsidian vault |
+| Published? | Yes - via `parse_dailies.js` → `00_meta/src/posts/` | No - stays in Obsidian vault |
 
 **Summary:** `10_dailies` = the public-facing daily post (the "vibe"). `20_wiki` = the private reference layer that expands each concept with framework analysis, WCAG/Bloom's alignment, and implementation notes.
 
-*Q&A appended — May 2, 2026.*
+*Q&A appended - May 2, 2026.*
 
 ---
 
-## Session 4 — Post Navigation & Design Audit
+## Session 4 - Post Navigation & Design Audit
 **Date:** May 3, 2026 (GitHub Copilot / Claude Sonnet 4.6)
 
 ### Work Completed
@@ -1087,7 +1087,7 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 
 Three files modified and shipped:
 
-- **`.eleventy.js`** — Added `postsChron` collection: chronological order (oldest-first), same future-date filter as `posts`:
+- **`.eleventy.js`** - Added `postsChron` collection: chronological order (oldest-first), same future-date filter as `posts`:
   ```js
   eleventyConfig.addCollection("postsChron", function(collectionApi) {
     const now = new Date();
@@ -1097,24 +1097,24 @@ Three files modified and shipped:
   });
   ```
 
-- **`00_meta/src/_includes/post.njk`** — Added nav block above "Back to Latest":
+- **`00_meta/src/_includes/post.njk`** - Added nav block above "Back to Latest":
   - `getPreviousCollectionItem(page)` / `getNextCollectionItem(page)` on `postsChron`
   - Day 1 (no prev): empty left, Next → right
   - Day 100 (no next): ← Previous left, "Full Archive →" right
 
-- **`00_meta/src/css/style.css`** — `.post-nav` component: dark panel cards, purple accent labels, cyan titles, hover glow (`var(--glow)`), mobile stacking at 600px.
+- **`00_meta/src/css/style.css`** - `.post-nav` component: dark panel cards, purple accent labels, cyan titles, hover glow (`var(--glow)`), mobile stacking at 600px.
 
 ---
 
 #### 2. Design Audit Implementation
 **Commit:** (bundled with log update)
 
-**Source audit:** "Design Audit: Vibe ID Daily Aesthetic" — May 2, 2026
+**Source audit:** "Design Audit: Vibe ID Daily Aesthetic" - May 2, 2026
 
 Items already confirmed done (no changes needed):
-- CSS variables — all colors defined in `:root` (`--accent: #8b5cf6`, `--cyan: #06b6d4`, etc.)
-- Mobile breakpoints — 600px and 900px already in `style.css`
-- Color contrast — `--text: #f1f5f9`, `--text-dim: #cbd5e1`, `--text-soft` applied
+- CSS variables - all colors defined in `:root` (`--accent: #8b5cf6`, `--cyan: #06b6d4`, etc.)
+- Mobile breakpoints - 600px and 900px already in `style.css`
+- Color contrast - `--text: #f1f5f9`, `--text-dim: #cbd5e1`, `--text-soft` applied
 
 Items implemented:
 
@@ -1143,9 +1143,9 @@ background-image:
   linear-gradient(90deg, rgba(139, 92, 246, 0.04) 1px, transparent 1px);
 background-size: 48px 48px;
 ```
-4% purple opacity at 48px intervals — adds terminal texture without competing with content.
+4% purple opacity at 48px intervals - adds terminal texture without competing with content.
 
-**C. Fluid Type — Intro Heading**
+**C. Fluid Type - Intro Heading**
 
 Replaced fixed size with CSS `clamp()`:
 ```css
@@ -1162,27 +1162,27 @@ Scales smoothly from mobile (≈0.95rem at 320px) to desktop (1.3rem at ~800px).
 | Commit | Description |
 |---|---|
 | `11dcc01` | feat: add prev/next post navigation to post pages |
-| *(pending)* | style: design audit — scrollbars, bg grid, fluid type; update all logs |
+| *(pending)* | style: design audit - scrollbars, bg grid, fluid type; update all logs |
 
-*Session 4 appended — May 3, 2026.*
+*Session 4 appended - May 3, 2026.*
 
 ---
 
-## Session 4 — Q&A (May 3, 2026)
+## Session 4 - Q&A (May 3, 2026)
 
 ### Post Nav Behavior on Daily Publish Cycles
 
 **Question:** What happens to the prev/next nav buttons on Day 34 when Day 35 goes live? Is there a better workflow?
 
-**Answer:** Fully automatic — no workflow changes needed.
+**Answer:** Fully automatic - no workflow changes needed.
 
 | Time | Day 34 nav state |
 |---|---|
 | May 3 (now) | ← Day 33 \| Full Archive → |
 | May 4 midnight UTC | ← Day 33 \| Next → Day 35 |
 
-**Why it works:** Eleventy rebuilds all 100+ pages from scratch on every cron run. `postsChron` uses `post.date <= now` evaluated at build time — Day 35 (dated 2026-05-04) enters the collection the moment the midnight rebuild fires. `getNextCollectionItem` on Day 34 then resolves to Day 35 and the HTML is regenerated. There is no per-page cache to go stale.
+**Why it works:** Eleventy rebuilds all 100+ pages from scratch on every cron run. `postsChron` uses `post.date <= now` evaluated at build time - Day 35 (dated 2026-05-04) enters the collection the moment the midnight rebuild fires. `getNextCollectionItem` on Day 34 then resolves to Day 35 and the HTML is regenerated. There is no per-page cache to go stale.
 
-**Day 35 filename confirmed:** `day-35-the-voice-to-logic-pipeline-ergonomic-level-up.md` — `date: 2026-05-04`.
+**Day 35 filename confirmed:** `day-35-the-voice-to-logic-pipeline-ergonomic-level-up.md` - `date: 2026-05-04`.
 
-*Q&A appended — May 3, 2026.*
+*Q&A appended - May 3, 2026.*

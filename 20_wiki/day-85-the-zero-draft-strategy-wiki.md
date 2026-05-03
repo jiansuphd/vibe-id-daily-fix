@@ -6,11 +6,11 @@ tags:
   - day-85
 ---
 
-# Day 85: The 'Zero-Draft' Strategy — Wiki
+# Day 85: The 'Zero-Draft' Strategy - Wiki
 
 ## Core Concept
 
-Use AI to generate the zero draft — a rough, content-complete first pass — that you refine rather than create from scratch. The blank page is the enemy of progress. A zero draft (intentionally rough, content-complete) eliminates blank-page paralysis and turns authoring into editing — a less cognitively demanding mode.
+Use AI to generate the zero draft - a rough, content-complete first pass - that you refine rather than create from scratch. The blank page is the enemy of progress. A zero draft (intentionally rough, content-complete) eliminates blank-page paralysis and turns authoring into editing - a less cognitively demanding mode.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Generate a zero-draft for Module 5. It should contain all required conte
 ## Key Terms
 
 - **Zero-Draft:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

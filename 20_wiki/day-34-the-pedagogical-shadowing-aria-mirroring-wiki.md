@@ -15,8 +15,8 @@ Pedagogical Shadowing separates content generation from accessibility annotation
 
 | Pass | Prompt Goal | Output |
 |---|---|---|
-| Pass 1 — Content | Generate semantic HTML structure | `<section>`, `<h2>`, `<ul>` with content |
-| Pass 2 — Shadow | Add ARIA layer to existing code | `aria-label`, `role`, `aria-describedby`, `<span class="sr-only">` |
+| Pass 1 - Content | Generate semantic HTML structure | `<section>`, `<h2>`, `<ul>` with content |
+| Pass 2 - Shadow | Add ARIA layer to existing code | `aria-label`, `role`, `aria-describedby`, `<span class="sr-only">` |
 
 ## ID Application
 
@@ -26,9 +26,9 @@ Pedagogical Shadowing separates content generation from accessibility annotation
 
 ## WCAG 2.2 Alignment
 
-- **1.3.1 Info and Relationships** — Structure conveyed via ARIA when CSS-only
-- **4.1.2 Name, Role, Value** — Every interactive element has a programmatic name
-- **2.4.6 Headings and Labels** — Descriptive ARIA labels for complex components
+- **1.3.1 Info and Relationships** - Structure conveyed via ARIA when CSS-only
+- **4.1.2 Name, Role, Value** - Every interactive element has a programmatic name
+- **2.4.6 Headings and Labels** - Descriptive ARIA labels for complex components
 
 ---
 **Reference:** [Original Pointer](../10_dailies/day-34-the-pedagogical-shadowing-aria-mirroring.md)

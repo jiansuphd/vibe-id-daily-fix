@@ -30,11 +30,11 @@ The live site is built with Eleventy and hosted on GitHub Pages. It serves as th
 
 **Status:** Systemic Integration Achieved
 
-**Persona:** Senior ID Manager | Systemic Engineer | Ergonomic Strategist
+**Persona:** Senior ID | Systemic Engineer | Ergonomic Strategist
 
 ## The Core Realization
 
-On Day 1, I sought a way to use AI to help me build courses. On Day 100, I realized that the AI is not a "builder"—it is an extension of my **Instructional Intent**.
+On Day 1, I sought a way to use AI to help me build courses. On Day 100, I realized that the AI is not a "builder" - it is an extension of my **Instructional Intent**.
 
 ## The Three Pillars of the 100-Day Evolution
 

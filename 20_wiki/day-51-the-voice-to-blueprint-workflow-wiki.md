@@ -6,7 +6,7 @@ tags:
   - day-51
 ---
 
-# Day 51: The 'Voice-to-Blueprint' Workflow (Low-Strokes Design) — Wiki
+# Day 51: The 'Voice-to-Blueprint' Workflow (Low-Strokes Design) - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Transcript: [paste Whisper output]. Convert to a course blueprint: title
 ## Key Terms
 
 - **Voice-to-Blueprint:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

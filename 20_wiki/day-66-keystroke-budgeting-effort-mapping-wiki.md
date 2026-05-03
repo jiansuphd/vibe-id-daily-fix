@@ -6,11 +6,11 @@ tags:
   - day-66
 ---
 
-# Day 66: 'Effort Mapping' (Workflow Budgeting) — Wiki
+# Day 66: 'Effort Mapping' (Workflow Budgeting) - Wiki
 
 ## Core Concept
 
-Map every recurring ID task to its keystroke cost and identify the top 5 candidates for voice or automation replacement. Every keystroke is a physiological cost for AS. A systematic audit of daily tasks — measured by click/keystroke count — reveals where automation ROI is highest.
+Map every recurring ID task to its keystroke cost and identify the top 5 candidates for voice or automation replacement. Every keystroke is a physiological cost for AS. A systematic audit of daily tasks - measured by click/keystroke count - reveals where automation ROI is highest.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Here is my daily task list with keystroke estimates. Rank by burden-to-v
 ## Key Terms
 
 - **Effort Mapping:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

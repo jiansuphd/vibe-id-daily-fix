@@ -9,7 +9,7 @@ tags: [wiki, concept, instructional-design, bilingual, accessibility]
 
 ## Core Concept
 
-Bilingual Sync goes beyond translation. A "Semantic Mirror" ensures that the **educational intent**, **cultural context**, and **legal accuracy** of content are identical across both language versions — not just the words.
+Bilingual Sync goes beyond translation. A "Semantic Mirror" ensures that the **educational intent**, **cultural context**, and **legal accuracy** of content are identical across both language versions - not just the words.
 
 ## Three Levels of Bilingual Fidelity
 
@@ -29,7 +29,7 @@ Bilingual Sync goes beyond translation. A "Semantic Mirror" ensures that the **e
 
 1. EN version is the canonical source
 2. After any EN edit, run the sync prompt to update ZH
-3. Flag any section where cultural context differs — add an editor's note rather than forcing equivalence
+3. Flag any section where cultural context differs - add an editor's note rather than forcing equivalence
 
 ---
 **Reference:** [Original Pointer](../10_dailies/day-39-bilingual-sync-zh-en-content-mirroring.md)

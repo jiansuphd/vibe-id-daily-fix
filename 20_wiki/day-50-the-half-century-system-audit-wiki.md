@@ -6,7 +6,7 @@ tags:
   - day-50
 ---
 
-# Day 50: The 'Half-Century' System Audit — Wiki
+# Day 50: The 'Half-Century' System Audit - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Review my 00_meta/ vault. Identify: (1) files not referenced in any MOC,
 ## Key Terms
 
 - **Half-Century:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

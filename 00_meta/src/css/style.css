@@ -36,12 +36,12 @@ html {
   -webkit-font-smoothing: antialiased;
   background-color: var(--bg);
   overflow-x: hidden;
-  /* Dark scrollbar — Firefox */
+  /* Dark scrollbar - Firefox */
   scrollbar-color: var(--accent) var(--panel);
   scrollbar-width: thin;
 }
 
-/* Dark scrollbar — Webkit */
+/* Dark scrollbar - Webkit */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;

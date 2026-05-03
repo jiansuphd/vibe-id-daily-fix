@@ -9,7 +9,7 @@ tags: [wiki, concept, instructional-design, assessment, quality-assurance]
 
 ## Core Concept
 
-"Rubric Drift" occurs when a rubric's grading criteria no longer directly measure the stated learning objective. The Fairness Audit uses triangulation — simultaneously feeding the Syllabus, Rubric, and a Sample Assignment to the AI — to expose misalignments before students are graded.
+"Rubric Drift" occurs when a rubric's grading criteria no longer directly measure the stated learning objective. The Fairness Audit uses triangulation - simultaneously feeding the Syllabus, Rubric, and a Sample Assignment to the AI - to expose misalignments before students are graded.
 
 ## The Triangulation Model
 

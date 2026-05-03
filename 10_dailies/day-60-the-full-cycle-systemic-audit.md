@@ -6,7 +6,7 @@ tags: [issue, vibe-coding]
 # Day 60: The 'Full-Cycle' Systemic Audit
 
 - **The Pointer:** Run a full diagnostic on the entire Phase 5 system: policy, accessibility, knowledge management, and workflow ergonomics.
-- **The Details:** Phase 5 ends with an institutionally-aware audit that checks whether your AI systems are compliant, sustainable, and aligned to your actual governance context — not just productive.
+- **The Details:** Phase 5 ends with an institutionally-aware audit that checks whether your AI systems are compliant, sustainable, and aligned to your actual governance context - not just productive.
 - **Action:**
 
 ```bash

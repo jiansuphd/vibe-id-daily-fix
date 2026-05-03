@@ -6,11 +6,11 @@ tags:
   - day-67
 ---
 
-# Day 67: Vision-to-Vibe (Layout Audit) — Wiki
+# Day 67: Vision-to-Vibe (Layout Audit) - Wiki
 
 ## Core Concept
 
-Use a vision-capable AI to audit an LMS course shell screenshot for visual hierarchy, color contrast, and brand compliance. Post a screenshot of the Canvas course homepage and let the agent assess it as a visual designer would — flagging broken hierarchy, low-contrast text, and inconsistent iconography.
+Use a vision-capable AI to audit an LMS course shell screenshot for visual hierarchy, color contrast, and brand compliance. Post a screenshot of the Canvas course homepage and let the agent assess it as a visual designer would - flagging broken hierarchy, low-contrast text, and inconsistent iconography.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini --vision canvas_screenshot.png "Audit this LMS screen for: (1) WCAG AA co
 ## Key Terms
 
 - **Vision-to-Vibe:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

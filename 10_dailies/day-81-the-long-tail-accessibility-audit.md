@@ -5,7 +5,7 @@ tags: [issue, vibe-coding]
 ---
 # Day 81: The 'Long-Tail' Accessibility Audit
 
-- **The Pointer:** Audit the 20% of course content that contains 80% of accessibility risk — the edge cases that standard tools miss.
+- **The Pointer:** Audit the 20% of course content that contains 80% of accessibility risk - the edge cases that standard tools miss.
 - **The Details:** Automated tools catch obvious violations. The long tail is PDFs with untagged figures, videos with auto-captions only, and interactive elements without keyboard focus indicators. This audit targets them.
 - **Action:**
 

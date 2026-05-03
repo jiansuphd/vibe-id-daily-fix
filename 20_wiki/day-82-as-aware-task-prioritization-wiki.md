@@ -6,11 +6,11 @@ tags:
   - day-82
 ---
 
-# Day 82: Energy-Aware Task Prioritization (Dynamic) — Wiki
+# Day 82: Energy-Aware Task Prioritization (Dynamic) - Wiki
 
 ## Core Concept
 
-Build a dynamic task prioritization system that re-ranks the day's work based on real-time bandwidth signals. Static task lists assume constant capacity. A dynamic system re-ranks based on current energy levels — protecting cognitive work for high-focus periods and deferring it during low-energy windows.
+Build a dynamic task prioritization system that re-ranks the day's work based on real-time bandwidth signals. Static task lists assume constant capacity. A dynamic system re-ranks based on current energy levels - protecting cognitive work for high-focus periods and deferring it during low-energy windows.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Today's bandwidth: bandwidth: low. Today's task list: [list]. Re-rank fo
 ## Key Terms
 
 - **Energy-Aware:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

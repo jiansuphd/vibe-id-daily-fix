@@ -6,7 +6,7 @@ tags:
   - day-55
 ---
 
-# Day 55: The 'Generative Grading' Rubric-Bot — Wiki
+# Day 55: The 'Generative Grading' Rubric-Bot - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Objective: [paste]. Assignment: [paste]. Generate a 4-level rubric with 
 ## Key Terms
 
 - **Generative Grading:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

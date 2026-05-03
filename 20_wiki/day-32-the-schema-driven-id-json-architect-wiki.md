@@ -30,7 +30,7 @@ Schema-Driven Design shifts the ID's role from **prompt author** to **data archi
   "objective_id": "OBJ-4.2-APPLY",
   "content_html": "<p>...</p>",
   "accessibility_notes": "All images include alt text; heading hierarchy maintained.",
-  "UDL_Alignment": "Representation — Multiple Means",
+  "UDL_Alignment": "Representation - Multiple Means",
   "Bloom_Level": "Apply"
 }
 ```
@@ -39,9 +39,9 @@ Schema-Driven Design shifts the ID's role from **prompt author** to **data archi
 
 ## Why This Matters
 
-- Eliminates prompt drift — the schema enforces consistent output structure every time
-- Enables downstream automation — Python scripts and Canvas APIs can parse the output directly
-- Creates audit trails — every AI-generated object is tied to an objective ID and Bloom level
+- Eliminates prompt drift - the schema enforces consistent output structure every time
+- Enables downstream automation - Python scripts and Canvas APIs can parse the output directly
+- Creates audit trails - every AI-generated object is tied to an objective ID and Bloom level
 
 ---
 **Reference:** [Original Pointer](../10_dailies/day-32-the-schema-driven-id-json-architect.md)

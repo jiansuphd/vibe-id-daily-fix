@@ -6,7 +6,7 @@ tags:
   - day-62
 ---
 
-# Day 62: Multi-Model Adversarial Auditing — Wiki
+# Day 62: Multi-Model Adversarial Auditing - Wiki
 
 ## Core Concept
 
@@ -31,7 +31,7 @@ gemini 'Synthesize these two reviews into a prioritized revision plan.' review_a
 ## Key Terms
 
 - **Multi-Model:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

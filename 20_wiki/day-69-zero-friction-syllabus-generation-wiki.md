@@ -6,7 +6,7 @@ tags:
   - day-69
 ---
 
-# Day 69: Zero-Friction Synthesis — Wiki
+# Day 69: Zero-Friction Synthesis - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini --system ./04_Policy/UTA_Syllabus_Template.md "Generate a full syllabus f
 ## Key Terms
 
 - **Zero-Friction:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

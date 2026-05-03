@@ -6,7 +6,7 @@ tags:
   - day-46
 ---
 
-# Day 46: The 'Multi-Persona Focus Group' (Synthetic Stakeholders) — Wiki
+# Day 46: The 'Multi-Persona Focus Group' (Synthetic Stakeholders) - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "You are four reviewers. React to this course design as: (1) skeptical fa
 ## Key Terms
 
 - **Multi-Persona Focus Group:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

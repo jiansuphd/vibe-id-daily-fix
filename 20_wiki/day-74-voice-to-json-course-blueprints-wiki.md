@@ -6,11 +6,11 @@ tags:
   - day-74
 ---
 
-# Day 74: Voice-to-JSON Course Blueprints — Wiki
+# Day 74: Voice-to-JSON Course Blueprints - Wiki
 
 ## Core Concept
 
-Extend the voice pipeline to produce valid Rise 360 JSON — not just Markdown — enabling direct LMS import from a spoken draft. Markdown is an intermediate format. A pipeline that goes voice → structured JSON → Rise import eliminates the re-typing step entirely and closes the low-strokes loop.
+Extend the voice pipeline to produce valid Rise 360 JSON - not just Markdown - enabling direct LMS import from a spoken draft. Markdown is an intermediate format. A pipeline that goes voice → structured JSON → Rise import eliminates the re-typing step entirely and closes the low-strokes loop.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ whisper audio.mp3 | gemini 'Convert this transcript to valid Rise 360 lesson JSO
 ## Key Terms
 
 - **Voice-to-JSON:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

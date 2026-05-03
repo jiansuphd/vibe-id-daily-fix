@@ -33,7 +33,7 @@ files.forEach(file => {
                     frontmatter = frontmatter.replace('---', '---\nlayout: post.njk');
                 }
 
-                // Strip leading H1 heading from body — it duplicates the title shown in the template
+                // Strip leading H1 heading from body - it duplicates the title shown in the template
                 body = body.replace(/^\n*(# [^\n]+\n)/, '\n');
 
                 content = frontmatter + body;

@@ -9,7 +9,7 @@ tags: [wiki, concept, instructional-design, udl, accessibility]
 
 ## Core Concept
 
-**Multiple Means of Action & Expression** is the third UDL principle — the "HOW of learning." Where Representation asks *how content is delivered* and Engagement asks *why learners are motivated*, Action & Expression asks: **how do learners demonstrate what they know?**
+**Multiple Means of Action & Expression** is the third UDL principle - the "HOW of learning." Where Representation asks *how content is delivered* and Engagement asks *why learners are motivated*, Action & Expression asks: **how do learners demonstrate what they know?**
 
 The key ID insight: if there is only one way to submit or respond, you have already excluded learners with motor, language, or executive function differences.
 
@@ -29,9 +29,9 @@ Use the Gemini CLI to audit any existing course for single-modality response req
 
 ## Key Terms
 
-- **Action & Expression** — The UDL principle governing how learners respond and demonstrate knowledge
-- **Keyboard navigability** — Ensuring all interactive elements are operable without a mouse (WCAG 2.1 SC 2.1.1)
-- **Alternative submission formats** — Offering equivalent paths (text, audio, video) to demonstrate the same learning objective
+- **Action & Expression** - The UDL principle governing how learners respond and demonstrate knowledge
+- **Keyboard navigability** - Ensuring all interactive elements are operable without a mouse (WCAG 2.1 SC 2.1.1)
+- **Alternative submission formats** - Offering equivalent paths (text, audio, video) to demonstrate the same learning objective
 
 ---
 **Reference:** [Original Daily](../10_dailies/day-18-multiple-means-of-action-and-expression-udl-how.md)

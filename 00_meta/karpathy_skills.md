@@ -31,10 +31,10 @@ Four principles in one file that directly address these issues:
 
 LLMs often pick an interpretation silently and run with it. This principle forces explicit reasoning:
 
-- **State assumptions explicitly** — If uncertain, ask rather than guess
-- **Present multiple interpretations** — Don't pick silently when ambiguity exists
-- **Push back when warranted** — If a simpler approach exists, say so
-- **Stop when confused** — Name what's unclear and ask for clarification
+- **State assumptions explicitly** - If uncertain, ask rather than guess
+- **Present multiple interpretations** - Don't pick silently when ambiguity exists
+- **Push back when warranted** - If a simpler approach exists, say so
+- **Stop when confused** - Name what's unclear and ask for clarification
 
 ### 2\. Simplicity First
 
@@ -59,7 +59,7 @@ When editing existing code:
 - Don't "improve" adjacent code, comments, or formatting
 - Don't refactor things that aren't broken
 - Match existing style, even if you'd do it differently
-- If you notice unrelated dead code, mention it — don't delete it
+- If you notice unrelated dead code, mention it - don't delete it
 
 When your changes create orphans:
 
@@ -135,10 +135,10 @@ The "Goal-Driven Execution" principle captures this: transform imperative instru
 
 These guidelines are working if you see:
 
-- **Fewer unnecessary changes in diffs** — Only requested changes appear
-- **Fewer rewrites due to overcomplication** — Code is simple the first time
-- **Clarifying questions come before implementation** — Not after mistakes
-- **Clean, minimal PRs** — No drive-by refactoring or "improvements"
+- **Fewer unnecessary changes in diffs** - Only requested changes appear
+- **Fewer rewrites due to overcomplication** - Code is simple the first time
+- **Clarifying questions come before implementation** - Not after mistakes
+- **Clean, minimal PRs** - No drive-by refactoring or "improvements"
 
 ## Customization
 
@@ -156,7 +156,7 @@ For project-specific rules, add sections like:
 
 ## Tradeoff Note
 
-These guidelines bias toward **caution over speed**. For trivial tasks (simple typo fixes, obvious one-liners), use judgment — not every change needs the full rigor.
+These guidelines bias toward **caution over speed**. For trivial tasks (simple typo fixes, obvious one-liners), use judgment - not every change needs the full rigor.
 
 The goal is reducing costly mistakes on non-trivial work, not slowing down simple tasks.
 

@@ -6,11 +6,11 @@ tags:
   - day-49
 ---
 
-# Day 49: Data-Driven Feedback Loop (LRS Integration) — Wiki
+# Day 49: Data-Driven Feedback Loop (LRS Integration) - Wiki
 
 ## Core Concept
 
-Connect course completion data from an LRS (Learning Record Store) back into the design cycle as a continuous feedback signal. xAPI statements are structured learning events. An agent can query the LRS, identify drop-off patterns, and generate a redesign brief — closing the loop between analytics and authoring.
+Connect course completion data from an LRS (Learning Record Store) back into the design cycle as a continuous feedback signal. xAPI statements are structured learning events. An agent can query the LRS, identify drop-off patterns, and generate a redesign brief - closing the loop between analytics and authoring.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Here are xAPI statements from Module 3. Identify where learners disengag
 ## Key Terms
 
 - **Data-Driven:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

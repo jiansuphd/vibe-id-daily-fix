@@ -6,11 +6,11 @@ tags:
   - day-73
 ---
 
-# Day 73: The 'Rubric Stress-Test' — Wiki
+# Day 73: The 'Rubric Stress-Test' - Wiki
 
 ## Core Concept
 
-Stress-test a rubric by applying it to three synthetic student submissions — one exemplary, one borderline, one failing — and check for rater inconsistency. Rubrics break at the edges. The stress test reveals where criteria language is ambiguous (two raters would score differently) and forces clarification before the first real submission.
+Stress-test a rubric by applying it to three synthetic student submissions - one exemplary, one borderline, one failing - and check for rater inconsistency. Rubrics break at the edges. The stress test reveals where criteria language is ambiguous (two raters would score differently) and forces clarification before the first real submission.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Apply this rubric to three simulated submissions: [exemplary], [borderli
 ## Key Terms
 
 - **Rubric Stress-Test:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

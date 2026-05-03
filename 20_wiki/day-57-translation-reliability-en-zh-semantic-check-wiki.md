@@ -6,11 +6,11 @@ tags:
   - day-57
 ---
 
-# Day 57: 'Translation Reliability' (EN/ZH Semantic Check) — Wiki
+# Day 57: 'Translation Reliability' (EN/ZH Semantic Check) - Wiki
 
 ## Core Concept
 
-Verify that English course content translated to Simplified Chinese preserves the original semantic intent — not just literal meaning. Direct translation misses educational register. An agent does a back-translation check and flags any sentence where the Chinese concept differs from the English instructional intent.
+Verify that English course content translated to Simplified Chinese preserves the original semantic intent - not just literal meaning. Direct translation misses educational register. An agent does a back-translation check and flags any sentence where the Chinese concept differs from the English instructional intent.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Original (EN): [paste]. Translation (ZH): [paste]. Back-translate the Ch
 ## Key Terms
 
 - **Translation Reliability:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

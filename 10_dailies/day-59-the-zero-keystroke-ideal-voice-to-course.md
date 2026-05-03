@@ -6,7 +6,7 @@ tags: [issue, vibe-coding]
 # Day 59: The 'Zero-Keystroke' Ideal (Voice-to-Course)
 
 - **The Pointer:** Prototype a fully voice-driven course authoring pipeline: speak → transcribe → structure → export to LMS.
-- **The Details:** The zero-keystroke ideal is not a luxury — it is an accessibility standard for yourself. If a pipeline requires typing, it can be replaced. Whisper → Gemini → Rise API is the target stack.
+- **The Details:** The zero-keystroke ideal is not a luxury - it is an accessibility standard for yourself. If a pipeline requires typing, it can be replaced. Whisper → Gemini → Rise API is the target stack.
 - **Action:**
 
 ```bash

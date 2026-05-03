@@ -6,11 +6,11 @@ tags:
   - day-78
 ---
 
-# Day 78: The 'Systemic Librarian' — Wiki
+# Day 78: The 'Systemic Librarian' - Wiki
 
 ## Core Concept
 
-Audit and prune the 00_meta/skills/ directory — retiring stale skills, merging duplicates, and surfacing underused gems. Skills drift. What was useful in Month 1 may be superseded by Month 6. The librarian agent reads all skill files, checks their last-used date, and recommends a retention or archive decision.
+Audit and prune the 00_meta/skills/ directory - retiring stale skills, merging duplicates, and surfacing underused gems. Skills drift. What was useful in Month 1 may be superseded by Month 6. The librarian agent reads all skill files, checks their last-used date, and recommends a retention or archive decision.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Read all files in 00_meta/skills/. For each skill: (1) identify if it ov
 ## Key Terms
 
 - **Systemic Librarian:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

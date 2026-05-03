@@ -6,7 +6,7 @@ tags: [issue, vibe-coding]
 # Day 67: Vision-to-Vibe (Layout Audit)
 
 - **The Pointer:** Use a vision-capable AI to audit an LMS course shell screenshot for visual hierarchy, color contrast, and brand compliance.
-- **The Details:** Post a screenshot of the Canvas course homepage and let the agent assess it as a visual designer would — flagging broken hierarchy, low-contrast text, and inconsistent iconography.
+- **The Details:** Post a screenshot of the Canvas course homepage and let the agent assess it as a visual designer would - flagging broken hierarchy, low-contrast text, and inconsistent iconography.
 - **Action:**
 
 ```bash

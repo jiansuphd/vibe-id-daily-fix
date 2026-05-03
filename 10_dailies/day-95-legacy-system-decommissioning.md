@@ -5,7 +5,7 @@ tags: [issue, vibe-coding]
 ---
 # Day 95: Legacy System Decommissioning
 
-- **The Pointer:** Formally decommission tools, workflows, and files that have been superseded — creating an archive rather than abandoning them.
+- **The Pointer:** Formally decommission tools, workflows, and files that have been superseded - creating an archive rather than abandoning them.
 - **The Details:** Legacy systems create cognitive debt. Formal decommissioning (archive + deprecation notice + migration note) is cleaner than abandonment and preserves the institutional memory of why they existed.
 - **Action:**
 

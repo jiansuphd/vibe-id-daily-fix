@@ -6,11 +6,11 @@ tags:
   - day-61
 ---
 
-# Day 61: The 'Self-Healing' Syllabus (Integrity Logic) — Wiki
+# Day 61: The 'Self-Healing' Syllabus (Integrity Logic) - Wiki
 
 ## Core Concept
 
-Build an agent that detects internal contradictions in a syllabus — mismatched dates, objectives not mapped to assessments, grade weights that do not sum to 100%. A syllabus contradiction is a student grievance waiting to happen. The agent reads the document holistically and flags every logical inconsistency before the course goes live.
+Build an agent that detects internal contradictions in a syllabus - mismatched dates, objectives not mapped to assessments, grade weights that do not sum to 100%. A syllabus contradiction is a student grievance waiting to happen. The agent reads the document holistically and flags every logical inconsistency before the course goes live.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Analyze this syllabus for internal contradictions: date conflicts, unmap
 ## Key Terms
 
 - **Self-Healing:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

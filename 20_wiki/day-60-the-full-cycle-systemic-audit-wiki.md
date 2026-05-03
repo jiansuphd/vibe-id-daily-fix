@@ -6,11 +6,11 @@ tags:
   - day-60
 ---
 
-# Day 60: The 'Full-Cycle' Systemic Audit — Wiki
+# Day 60: The 'Full-Cycle' Systemic Audit - Wiki
 
 ## Core Concept
 
-Run a full diagnostic on the entire Phase 5 system: policy, accessibility, knowledge management, and workflow ergonomics. Phase 5 ends with an institutionally-aware audit that checks whether your AI systems are compliant, sustainable, and aligned to your actual governance context — not just productive.
+Run a full diagnostic on the entire Phase 5 system: policy, accessibility, knowledge management, and workflow ergonomics. Phase 5 ends with an institutionally-aware audit that checks whether your AI systems are compliant, sustainable, and aligned to your actual governance context - not just productive.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Review 00_meta/ and 10_dailies/ for Days 41-60. Output: (1) tools used m
 ## Key Terms
 
 - **Full-Cycle:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

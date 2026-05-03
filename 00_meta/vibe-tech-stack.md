@@ -4,19 +4,19 @@ Based on the repository language breakdown, this project follows a high-efficien
 
 ---
 
-## 1. Nunjucks (51.7%) — The Blueprint
+## 1. Nunjucks (51.7%) - The Blueprint
 
 Nunjucks is a templating engine for JavaScript. It acts as the "glue" between raw data (Markdown files) and the final website.
 
 **Why the high percentage?** Layouts, components (like the LOC/REL/AUTH HUD bar), and page structures are all written in `.njk` files.
 
-**Key Feature:** Template inheritance. The header and footer are defined once in `base.njk` — every other page extends it.
+**Key Feature:** Template inheritance. The header and footer are defined once in `base.njk` - every other page extends it.
 
 **Vibe Coding Use Case:** Nunjucks shortcodes allow a simple tag like `{% vibePointer "Day 1" %}` to automatically expand into a complex, styled HTML block.
 
 ---
 
-## 2. CSS (21.1%) — The Aesthetic
+## 2. CSS (21.1%) - The Aesthetic
 
 This is where the Vibe ID Daily look lives.
 
@@ -27,18 +27,18 @@ This is where the Vibe ID Daily look lives.
 
 ---
 
-## 3. JavaScript (19.3%) — The Interaction
+## 3. JavaScript (19.3%) - The Interaction
 
 Runtime behavior for the static HTML.
 
 - Eleventy filters and collections defined in `.eleventy.js`
 - Future-date filter (`post.date <= now`) gates daily post publishing
-- `parse_dailies.js` — syncs source vault files to Eleventy post format
+- `parse_dailies.js` - syncs source vault files to Eleventy post format
 - Link checker scripts in `scripts/`
 
 ---
 
-## 4. Python (7.9%) — The Automation
+## 4. Python (7.9%) - The Automation
 
 The "compiler" layer of the Knowledge Compiler.
 
@@ -61,16 +61,16 @@ The content system has three distinct layers. Understanding how they relate prev
 (private reference layer)
 ```
 
-### `10_dailies/` — Source of Truth
+### `10_dailies/` - Source of Truth
 
 The vault-native daily post files. Written in Obsidian-compatible Markdown.
 
-- **You edit these.** Commit here, push once — done.
+- **You edit these.** Commit here, push once - done.
 - Obsidian-style formatting: `# Day N` H1 heading, `**Backlink:**` footer line, smart quotes in titles
 - Front matter has `date:` for scheduling and `tags:` but no `layout:`
 - **Git-tracked.** This is the canonical record.
 
-### `00_meta/src/posts/` — Build Artifact
+### `00_meta/src/posts/` - Build Artifact
 
 Generated automatically by `parse_dailies.js` as part of every build. **Never edit these directly** and **not committed to git.**
 
@@ -80,15 +80,15 @@ Transformations applied during parse:
 - `**Backlink:**` footer line stripped
 - Smart quotes in titles converted to straight quotes (YAML compatibility)
 
-Because `npm run parse` is wired as a `prebuild` hook in `package.json`, this folder is always regenerated before Eleventy runs — locally and in CI.
+Because `npm run parse` is wired as a `prebuild` hook in `package.json`, this folder is always regenerated before Eleventy runs - locally and in CI.
 
-### `20_wiki/` — Private Reference Layer
+### `20_wiki/` - Private Reference Layer
 
 Separate files entirely. Never published to the live site. Obsidian knowledge base only.
 
 - Filename pattern: `day-NN-...-wiki.md` (`-wiki` suffix distinguishes from dailies)
 - Longer synthesis format: framework tables, WCAG/Bloom's alignment, agentic CLI prompts
-- No `date:` front matter — Eleventy never picks these up
+- No `date:` front matter - Eleventy never picks these up
 - **Git-tracked.** Permanent vault reference.
 
 ### Why This Structure?
@@ -106,7 +106,7 @@ Separate files entirely. Never published to the live site. Obsidian knowledge ba
 
 ## Vibe Coding with Nunjucks
 
-When adding a new section to the site, you edit a Nunjucks template — not raw HTML.
+When adding a new section to the site, you edit a Nunjucks template - not raw HTML.
 
 **Example: The HUD Info Bar**
 
@@ -129,7 +129,7 @@ To change `LOC EARTH_01` site-wide, you edit one `.njk` file:
 </div>
 ```
 
-The value is defined once — every page that extends `base.njk` inherits it automatically.
+The value is defined once - every page that extends `base.njk` inherits it automatically.
 
 ---
 
@@ -142,7 +142,7 @@ Every post page has a nav block at the bottom with directional links. Here's exa
 In `.eleventy.js`, a second collection called `postsChron` is registered alongside the main `posts` collection:
 
 ```js
-// Default 'posts' collection — newest first (for homepage feed)
+// Default 'posts' collection - newest first (for homepage feed)
 eleventyConfig.addCollection("posts", function(collectionApi) {
   const now = new Date();
   return collectionApi
@@ -151,7 +151,7 @@ eleventyConfig.addCollection("posts", function(collectionApi) {
     .reverse();
 });
 
-// postsChron — oldest first (for prev/next nav)
+// postsChron - oldest first (for prev/next nav)
 eleventyConfig.addCollection("postsChron", function(collectionApi) {
   const now = new Date();
   return collectionApi
@@ -210,22 +210,22 @@ In `00_meta/src/_includes/post.njk`, built-in Eleventy filters resolve the neigh
 | Last live post (no next yet) | ← Previous | Full Archive → |
 | Day 100 (series complete) | ← Previous | Full Archive → |
 
-"Full Archive →" appears whenever `nextPost` is null — either because the series is finished or because the next post is future-gated and not yet in the collection.
+"Full Archive →" appears whenever `nextPost` is null - either because the series is finished or because the next post is future-gated and not yet in the collection.
 
 ### Why It Updates Automatically
 
-`postsChron` filters by `post.date <= now` at build time. When a new day unlocks at midnight UTC, the GitHub Actions cron job rebuilds all 100+ pages. Every post's nav is regenerated — no stale HTML, no manual changes. Day 34's "Full Archive →" becomes "Next → Day 35" the moment Day 35's date passes.
+`postsChron` filters by `post.date <= now` at build time. When a new day unlocks at midnight UTC, the GitHub Actions cron job rebuilds all 100+ pages. Every post's nav is regenerated - no stale HTML, no manual changes. Day 34's "Full Archive →" becomes "Next → Day 35" the moment Day 35's date passes.
 
 ### The CSS
 
 Navigation styles live in `00_meta/src/css/style.css` under the `POST NAVIGATION` block:
 
-- `.post-nav` — top border separator, `3rem` top margin
-- `.post-nav-inner` — flexbox row, `space-between`
-- `.post-nav-btn` — dark panel card (`var(--panel)`), purple accent border on hover (`var(--glow)`)
-- `.post-nav-label` — monospace, uppercase, `var(--accent)` color (purple)
-- `.post-nav-title` — `var(--cyan)` color
-- `@media (max-width: 600px)` — stacks vertically, both buttons left-aligned
+- `.post-nav` - top border separator, `3rem` top margin
+- `.post-nav-inner` - flexbox row, `space-between`
+- `.post-nav-btn` - dark panel card (`var(--panel)`), purple accent border on hover (`var(--glow)`)
+- `.post-nav-label` - monospace, uppercase, `var(--accent)` color (purple)
+- `.post-nav-title` - `var(--cyan)` color
+- `@media (max-width: 600px)` - stacks vertically, both buttons left-aligned
 
 ---
 

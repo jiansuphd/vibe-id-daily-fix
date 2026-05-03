@@ -25,7 +25,7 @@ Treat each course module as a queryable API endpoint. When course content is str
 
 - *"What is the average cognitive load score of Module 3 vs Module 5?"*
 - *"Identify any modules missing a Real-World Application case study."*
-- *"List all pages where Bloom Level is 'Remember' — these are candidates for redesign."*
+- *"List all pages where Bloom Level is 'Remember' - these are candidates for redesign."*
 
 ## ID Application
 

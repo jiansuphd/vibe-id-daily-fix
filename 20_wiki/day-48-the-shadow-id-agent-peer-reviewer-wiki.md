@@ -6,11 +6,11 @@ tags:
   - day-48
 ---
 
-# Day 48: The 'Shadow ID' Agent (Peer Reviewer) — Wiki
+# Day 48: The 'Shadow ID' Agent (Peer Reviewer) - Wiki
 
 ## Core Concept
 
-Create a 'shadow' AI agent that acts as a second instructional designer — reviewing your work from a different pedagogical stance. Every ID decision has trade-offs. The shadow agent is prompted to 'disagree professionally' — it finds the course design choice you didn't consider and articulates the pedagogical risk.
+Create a 'shadow' AI agent that acts as a second instructional designer - reviewing your work from a different pedagogical stance. Every ID decision has trade-offs. The shadow agent is prompted to 'disagree professionally' - it finds the course design choice you didn't consider and articulates the pedagogical risk.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini --system ./personas/shadow_id.md "Here is my course design rationale. Fin
 ## Key Terms
 
 - **Shadow ID:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

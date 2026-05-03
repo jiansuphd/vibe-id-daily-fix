@@ -6,7 +6,7 @@ tags:
   - day-47
 ---
 
-# Day 47: The 'Prompt Versioning' Protocol (Instructional Reliability) — Wiki
+# Day 47: The 'Prompt Versioning' Protocol (Instructional Reliability) - Wiki
 
 ## Core Concept
 
@@ -30,7 +30,7 @@ git diff HEAD~1 HEAD -- prompts/system_grader.md
 ## Key Terms
 
 - **Prompt Versioning:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

@@ -9,7 +9,7 @@ tags: [wiki, concept, accessibility, ai-strategy, compliance]
 
 ## Core Concept
 
-No single AI model catches every issue. The Cross-Model Consensus runs the same audit through two models with different strengths — one optimized for speed (Flash), one for depth (Pro) — then compares outputs to produce a high-confidence "Conflict Report." Discrepancies flag the highest-risk areas.
+No single AI model catches every issue. The Cross-Model Consensus runs the same audit through two models with different strengths - one optimized for speed (Flash), one for depth (Pro) - then compares outputs to produce a high-confidence "Conflict Report." Discrepancies flag the highest-risk areas.
 
 ## Model Pairing Strategy
 

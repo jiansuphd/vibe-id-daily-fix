@@ -6,11 +6,11 @@ tags:
   - day-64
 ---
 
-# Day 64: Semantic Data Migration (2025 to 2026) — Wiki
+# Day 64: Semantic Data Migration (2025 to 2026) - Wiki
 
 ## Core Concept
 
-Migrate course content from one academic year to the next using semantic diffing — not search-and-replace. Date-stamped content drifts. An agent that reads the 2025 version and the 2026 context (new policies, new tools, new regulations) generates a semantic diff and a migration plan.
+Migrate course content from one academic year to the next using semantic diffing - not search-and-replace. Date-stamped content drifts. An agent that reads the 2025 version and the 2026 context (new policies, new tools, new regulations) generates a semantic diff and a migration plan.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Compare this 2025 syllabus to current UT policy. Identify every date, to
 ## Key Terms
 
 - **Semantic:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

@@ -6,7 +6,7 @@ tags: [issue, vibe-coding]
 # Day 45: The 'Context-Aware' Scheduling Agent (Workflow Resilience)
 
 - **The Pointer:** Feed your project energy cycles into the CLI to optimize your high-focus tasks.
-- **The Details:** Your energy patterns are real productivity variables. An agent that models energy levels and schedules high-cognitive tasks for peak performance windows is not a luxury — it's an ergonomic strategy.
+- **The Details:** Your energy patterns are real productivity variables. An agent that models energy levels and schedules high-cognitive tasks for peak performance windows is not a luxury - it's an ergonomic strategy.
 - **Action:**
 
 ```bash

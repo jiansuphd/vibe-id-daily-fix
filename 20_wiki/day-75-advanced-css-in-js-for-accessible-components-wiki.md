@@ -6,7 +6,7 @@ tags:
   - day-75
 ---
 
-# Day 75: Advanced Component Generation — Wiki
+# Day 75: Advanced Component Generation - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Generate a CSS component for a institutionally-branded callout box. Requ
 ## Key Terms
 
 - **Advanced:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

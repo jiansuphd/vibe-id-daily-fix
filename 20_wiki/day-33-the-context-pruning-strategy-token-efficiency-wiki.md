@@ -9,7 +9,7 @@ tags: [wiki, concept, instructional-design, prompt-engineering, automation]
 
 ## Core Concept
 
-Long AI conversations accumulate "token noise" — resolved decisions, abandoned drafts, and outdated context that dilutes the model's focus. Context-Pruning is the deliberate act of compressing session history into a clean `MISSION_UPDATE.md` before starting a new phase of work.
+Long AI conversations accumulate "token noise" - resolved decisions, abandoned drafts, and outdated context that dilutes the model's focus. Context-Pruning is the deliberate act of compressing session history into a clean `MISSION_UPDATE.md` before starting a new phase of work.
 
 ## Why It Matters for IDs
 

@@ -6,7 +6,7 @@ tags:
   - day-77
 ---
 
-# Day 77: Predictive Accessibility Regression — Wiki
+# Day 77: Predictive Accessibility Regression - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "I am about to make these changes to Module 2: [list]. Predict the access
 ## Key Terms
 
 - **Predictive:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

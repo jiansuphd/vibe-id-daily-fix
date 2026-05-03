@@ -6,11 +6,11 @@ tags:
   - day-83
 ---
 
-# Day 83: Semantic Archive Pruning — Wiki
+# Day 83: Semantic Archive Pruning - Wiki
 
 ## Core Concept
 
-Prune the vault's archive by semantic similarity — identifying duplicate or near-duplicate entries that dilute the knowledge base. Vaults bloat. Semantic pruning uses embedding similarity to find notes that say the same thing in different words, then merges them into a canonical entry with backlinks to the originals.
+Prune the vault's archive by semantic similarity - identifying duplicate or near-duplicate entries that dilute the knowledge base. Vaults bloat. Semantic pruning uses embedding similarity to find notes that say the same thing in different words, then merges them into a canonical entry with backlinks to the originals.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Compare these 5 skill files semantically. Identify which two are ≥80% 
 ## Key Terms
 
 - **Semantic:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

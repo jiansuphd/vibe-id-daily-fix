@@ -6,7 +6,7 @@ tags:
   - day-84
 ---
 
-# Day 84: The 'Agentic Peer Reviewer' (SME Persona) — Wiki
+# Day 84: The 'Agentic Peer Reviewer' (SME Persona) - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini --system ./personas/sme_dr_chen.md "Review Module 4 content for accuracy 
 ## Key Terms
 
 - **Agentic Peer Reviewer:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

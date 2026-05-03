@@ -6,7 +6,7 @@ tags:
   - day-93
 ---
 
-# Day 93: Voice-Command Optimization (Zsh Aliases) — Wiki
+# Day 93: Voice-Command Optimization (Zsh Aliases) - Wiki
 
 ## Core Concept
 
@@ -31,7 +31,7 @@ history | awk '{print $2}' | sort | uniq -c | sort -rn | head -20
 ## Key Terms
 
 - **Voice-Command:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

@@ -6,11 +6,11 @@ tags:
   - day-59
 ---
 
-# Day 59: The 'Zero-Keystroke' Ideal (Voice-to-Course) — Wiki
+# Day 59: The 'Zero-Keystroke' Ideal (Voice-to-Course) - Wiki
 
 ## Core Concept
 
-Prototype a fully voice-driven course authoring pipeline: speak → transcribe → structure → export to LMS. The zero-keystroke ideal is not a luxury — it is an accessibility standard for yourself. If a pipeline requires typing, it can be replaced. Whisper → Gemini → Rise API is the target stack.
+Prototype a fully voice-driven course authoring pipeline: speak → transcribe → structure → export to LMS. The zero-keystroke ideal is not a luxury - it is an accessibility standard for yourself. If a pipeline requires typing, it can be replaced. Whisper → Gemini → Rise API is the target stack.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ whisper --model medium audio_draft.mp3 --output_format txt && cat audio_draft.tx
 ## Key Terms
 
 - **Zero-Keystroke:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

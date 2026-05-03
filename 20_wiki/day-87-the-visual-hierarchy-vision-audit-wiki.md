@@ -6,7 +6,7 @@ tags:
   - day-87
 ---
 
-# Day 87: The 'Visual Hierarchy' Vision Audit — Wiki
+# Day 87: The 'Visual Hierarchy' Vision Audit - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini --vision course_page.png "Audit the visual hierarchy of this course page.
 ## Key Terms
 
 - **Visual Hierarchy:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

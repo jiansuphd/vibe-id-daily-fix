@@ -6,11 +6,11 @@ tags:
   - day-98
 ---
 
-# Day 98: Cross-Vault Synthesis (The Final Link) — Wiki
+# Day 98: Cross-Vault Synthesis (The Final Link) - Wiki
 
 ## Core Concept
 
-Synthesize insights across all vault sections — dailies, wiki, meta, skills — into a unified knowledge map of your 100-day journey. The vault is a distributed system. A synthesis agent reads across all four sections and draws connections that were invisible in the daily grind — revealing the emergent system you built.
+Synthesize insights across all vault sections - dailies, wiki, meta, skills - into a unified knowledge map of your 100-day journey. The vault is a distributed system. A synthesis agent reads across all four sections and draws connections that were invisible in the daily grind - revealing the emergent system you built.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Read all sections of the vault. Generate a knowledge map: which daily po
 ## Key Terms
 
 - **Cross-Vault:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

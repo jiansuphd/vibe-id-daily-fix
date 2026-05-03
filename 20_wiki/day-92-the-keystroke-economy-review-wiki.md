@@ -6,7 +6,7 @@ tags:
   - day-92
 ---
 
-# Day 92: The 'Keystroke Economy' Review — Wiki
+# Day 92: The 'Keystroke Economy' Review - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Review my zsh aliases and workflow scripts. Identify: (1) aliases I have
 ## Key Terms
 
 - **Keystroke Economy:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

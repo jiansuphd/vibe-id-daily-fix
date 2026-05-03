@@ -6,7 +6,7 @@ tags:
   - day-44
 ---
 
-# Day 44: The 'Syllabus-to-Skill' Auto-Pipeline — Wiki
+# Day 44: The 'Syllabus-to-Skill' Auto-Pipeline - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Extract all learning objectives from this syllabus. Map each to a Bloom'
 ## Key Terms
 
 - **Syllabus-to-Skill:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

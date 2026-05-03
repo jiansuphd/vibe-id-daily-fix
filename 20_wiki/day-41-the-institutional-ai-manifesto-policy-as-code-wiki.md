@@ -6,7 +6,7 @@ tags:
   - day-41
 ---
 
-# Day 41: The 'Institutional AI Manifesto' (Policy as Code) — Wiki
+# Day 41: The 'Institutional AI Manifesto' (Policy as Code) - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini --system ./04_Policy/UT_AI_Guardrails.md "Review this assignment. Does it
 ## Key Terms
 
 - **Institutional AI Manifesto:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

@@ -46,7 +46,7 @@ module.exports = function(eleventyConfig) {
       .reverse();
   });
 
-  // Collection: Chronological posts (oldest first) — used for prev/next nav
+  // Collection: Chronological posts (oldest first) - used for prev/next nav
   eleventyConfig.addCollection("postsChron", function(collectionApi) {
     const now = new Date();
     return collectionApi

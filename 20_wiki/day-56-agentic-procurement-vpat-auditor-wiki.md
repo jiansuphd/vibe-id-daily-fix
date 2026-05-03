@@ -6,11 +6,11 @@ tags:
   - day-56
 ---
 
-# Day 56: 'Agentic Procurement' (VPAT Auditor) — Wiki
+# Day 56: 'Agentic Procurement' (VPAT Auditor) - Wiki
 
 ## Core Concept
 
-Use an agent to parse a vendor VPAT and extract every 'Partially Supports' or 'Does Not Support' row — turning a legal document into a risk matrix. VPATs are dense. Procurement teams skip them. An agent that reads the VPAT and outputs a structured risk table with recommended mitigations makes accessibility a procurement gate, not an afterthought.
+Use an agent to parse a vendor VPAT and extract every 'Partially Supports' or 'Does Not Support' row - turning a legal document into a risk matrix. VPATs are dense. Procurement teams skip them. An agent that reads the VPAT and outputs a structured risk table with recommended mitigations makes accessibility a procurement gate, not an afterthought.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Parse this VPAT. Extract all rows where conformance is not 'Supports'. F
 ## Key Terms
 
 - **Agentic Procurement:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

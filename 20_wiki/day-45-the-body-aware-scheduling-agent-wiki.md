@@ -6,7 +6,7 @@ tags:
   - day-45
 ---
 
-# Day 45: The 'Context-Aware' Scheduling Agent (Workflow Resilience) — Wiki
+# Day 45: The 'Context-Aware' Scheduling Agent (Workflow Resilience) - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Given my energy pattern (mornings are low-energy, post-dinner is high-en
 ## Key Terms
 
 - **Context-Aware:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

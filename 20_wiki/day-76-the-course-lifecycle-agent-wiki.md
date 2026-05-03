@@ -6,11 +6,11 @@ tags:
   - day-76
 ---
 
-# Day 76: The 'Course Lifecycle' Agent — Wiki
+# Day 76: The 'Course Lifecycle' Agent - Wiki
 
 ## Core Concept
 
-Automate the complete course lifecycle: from blueprint to build to QA to launch to retirement — with agent-assisted handoffs at each gate. The lifecycle has predictable gates: design review, accessibility check, faculty sign-off, launch, mid-semester check, end-of-semester archive. An agent manages the checklist and escalations.
+Automate the complete course lifecycle: from blueprint to build to QA to launch to retirement - with agent-assisted handoffs at each gate. The lifecycle has predictable gates: design review, accessibility check, faculty sign-off, launch, mid-semester check, end-of-semester archive. An agent manages the checklist and escalations.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Given this course status (stage: QA), generate the next 3 action items w
 ## Key Terms
 
 - **Course Lifecycle:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

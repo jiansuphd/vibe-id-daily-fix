@@ -6,11 +6,11 @@ tags:
   - day-42
 ---
 
-# Day 42: The 'Accessibility Debt' Calculator — Wiki
+# Day 42: The 'Accessibility Debt' Calculator - Wiki
 
 ## Core Concept
 
-Quantify the accessibility gap in a course or program before proposing remediation. Use a structured rubric (WCAG 2.2, Section 508, UDL) to estimate the 'debt' — hours, cost, risk — of every non-conformant element. Makes the business case for upfront accessibility.
+Quantify the accessibility gap in a course or program before proposing remediation. Use a structured rubric (WCAG 2.2, Section 508, UDL) to estimate the 'debt' - hours, cost, risk - of every non-conformant element. Makes the business case for upfront accessibility.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Analyze this course shell. Output a JSON object with: { wcag_failures: [
 ## Key Terms
 
 - **Accessibility Debt:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

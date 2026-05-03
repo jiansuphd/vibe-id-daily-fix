@@ -6,11 +6,11 @@ tags:
   - day-99
 ---
 
-# Day 99: The 'Mission Critical' Review — Wiki
+# Day 99: The 'Mission Critical' Review - Wiki
 
 ## Core Concept
 
-Identify the 5 tools, 3 habits, and 1 mindset shift that were most mission-critical across the 100-day journey. Retrospectives often list everything. The mission-critical review forces prioritization: what would you keep if you could only keep 20%? That 20% is your durable system — a full update of your exoskeleton.
+Identify the 5 tools, 3 habits, and 1 mindset shift that were most mission-critical across the 100-day journey. Retrospectives often list everything. The mission-critical review forces prioritization: what would you keep if you could only keep 20%? That 20% is your durable system - a full update of your exoskeleton.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Review all 99 daily posts. What are the 5 tools that appeared most often
 ## Key Terms
 
 - **Mission Critical:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

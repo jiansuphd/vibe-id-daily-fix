@@ -6,7 +6,7 @@ tags: [issue, vibe-coding]
 # Day 96: The 'Agentic Feedback Loop' (Continuous)
 
 - **The Pointer:** Establish a continuous, automated feedback loop that ingests student data weekly and proposes micro-improvements without manual prompting.
-- **The Details:** One-time course reviews are waterfall. A continuous feedback loop — weekly xAPI data → agent analysis → suggestion queue → designer approval — is the agile model for course improvement.
+- **The Details:** One-time course reviews are waterfall. A continuous feedback loop - weekly xAPI data → agent analysis → suggestion queue → designer approval - is the agile model for course improvement.
 - **Action:**
 
 ```bash

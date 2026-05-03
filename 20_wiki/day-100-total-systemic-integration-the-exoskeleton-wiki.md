@@ -6,11 +6,11 @@ tags:
   - day-100
 ---
 
-# Day 100: Total Systemic Integration (The Exoskeleton) — Wiki
+# Day 100: Total Systemic Integration (The Exoskeleton) - Wiki
 
 ## Core Concept
 
-Day 100 is the commissioning day of the full exoskeleton — a complete, documented, integrated system that extends your cognitive and physical capacity indefinitely. The exoskeleton is not a metaphor. It is: your vault (cognitive extension), your voice pipeline (physical extension), your agentic workflows (executive function extension), and your wiki (memory extension). Today you document the whole.
+Day 100 is the commissioning day of the full exoskeleton - a complete, documented, integrated system that extends your cognitive and physical capacity indefinitely. The exoskeleton is not a metaphor. It is: your vault (cognitive extension), your voice pipeline (physical extension), your agentic workflows (executive function extension), and your wiki (memory extension). Today you document the whole.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Generate the final Exoskeleton Manifest: a complete inventory of all too
 ## Key Terms
 
 - **Total:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

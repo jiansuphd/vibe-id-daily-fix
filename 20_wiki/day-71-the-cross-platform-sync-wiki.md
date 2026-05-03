@@ -6,7 +6,7 @@ tags:
   - day-71
 ---
 
-# Day 71: The 'Cross-Platform' Sync (Sync-Logic) — Wiki
+# Day 71: The 'Cross-Platform' Sync (Sync-Logic) - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Compare Module 3 content across: [Canvas export], [Rise JSON], [10_daili
 ## Key Terms
 
 - **Cross-Platform:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

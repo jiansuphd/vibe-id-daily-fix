@@ -53,7 +53,7 @@ Config file: `.gemini/settings.json` (mcpServers → obsidian).
 3. Copy `settings.example.json` to `.gemini/settings.json`.
 4. Replace `REPLACE_WITH_YOUR_LOCAL_REST_API_KEY` with your actual key.
 5. **Critical**: Ensure `OBSIDIAN_BASE_URL` matches your plugin settings (e.g., `https://127.0.0.1:27124`) and `OBSIDIAN_VERIFY_SSL` is set to `"false"`.
-6. Start `gemini` CLI — the `obsidian` MCP server will be available automatically.
+6. Start `gemini` CLI - the `obsidian` MCP server will be available automatically.
 
 **Usage prompts:**
 - `"Use the Obsidian MCP server to search for 'UDL implementation gaps' in my local research vault."`

@@ -6,11 +6,11 @@ tags:
   - day-70
 ---
 
-# Day 70: Ethical AI Auditing for Diversity — Wiki
+# Day 70: Ethical AI Auditing for Diversity - Wiki
 
 ## Core Concept
 
-Run course content through an ethics and bias audit before publishing — checking for representation gaps, stereotyped examples, and exclusionary language. AI-generated content inherits training data biases. A structured ethical audit checks example demographics, default assumptions, and exclusionary terminology before learner exposure.
+Run course content through an ethics and bias audit before publishing - checking for representation gaps, stereotyped examples, and exclusionary language. AI-generated content inherits training data biases. A structured ethical audit checks example demographics, default assumptions, and exclusionary terminology before learner exposure.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Audit this course content for: (1) demographic representation in example
 ## Key Terms
 
 - **Ethical:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

@@ -6,7 +6,7 @@ tags:
   - day-54
 ---
 
-# Day 54: The 'Efficiency-Balanced' AI Agent (Logic Balancing) — Wiki
+# Day 54: The 'Efficiency-Balanced' AI Agent (Logic Balancing) - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Today's task list: [list]. My energy peak is 7-9 PM. Classify each task 
 ## Key Terms
 
 - **Energy-Balanced:** The core technique or system described in this entry.
-- **Phase 5:** Institutional Leadership & AI Governance — the overarching theme of Days 101–100.
+- **Phase 5:** Institutional Leadership & AI Governance - the overarching theme of Days 101–100.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

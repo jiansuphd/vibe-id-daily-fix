@@ -6,7 +6,7 @@ tags:
   - day-68
 ---
 
-# Day 68: The 'Institutional Memory' RAG — Wiki
+# Day 68: The 'Institutional Memory' RAG - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini --rag ./vault/ "What has been our standard approach to branching scenario
 ## Key Terms
 
 - **Institutional Memory:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

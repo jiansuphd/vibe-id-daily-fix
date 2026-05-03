@@ -6,11 +6,11 @@ tags:
   - day-90
 ---
 
-# Day 90: Automated Grade-to-Goal Alignment — Wiki
+# Day 90: Automated Grade-to-Goal Alignment - Wiki
 
 ## Core Concept
 
-Automatically verify that every grade weight in the gradebook aligns to a course goal — with no orphaned assessments. Grade weight is instructional signal. An orphaned assessment (one not tied to a stated goal) sends a confusing signal to learners. The agent reads the gradebook and the objectives and flags every mismatch.
+Automatically verify that every grade weight in the gradebook aligns to a course goal - with no orphaned assessments. Grade weight is instructional signal. An orphaned assessment (one not tied to a stated goal) sends a confusing signal to learners. The agent reads the gradebook and the objectives and flags every mismatch.
 
 ## ID Framework Alignment
 
@@ -29,7 +29,7 @@ gemini "Here is the gradebook schema and course objectives. Flag any assessment 
 ## Key Terms
 
 - **Automated:** The core technique or system described in this entry.
-- **Phase 7:** Endgame & Sustained Resilience — the overarching theme of Days 141–140.
+- **Phase 7:** Endgame & Sustained Resilience - the overarching theme of Days 141–140.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

@@ -6,7 +6,7 @@ tags:
   - day-72
 ---
 
-# Day 72: Agentic 'Help Desk' Simulation — Wiki
+# Day 72: Agentic 'Help Desk' Simulation - Wiki
 
 ## Core Concept
 
@@ -29,7 +29,7 @@ gemini "Simulate 10 faculty questions about this Canvas course. For each questio
 ## Key Terms
 
 - **Help Desk:** The core technique or system described in this entry.
-- **Phase 6:** Advanced Orchestration & Scaling — the overarching theme of Days 121–120.
+- **Phase 6:** Advanced Orchestration & Scaling - the overarching theme of Days 121–120.
 - **Pointer:** The strategic framing that makes this technique generalizable beyond its immediate application.
 
 ## Backlinks

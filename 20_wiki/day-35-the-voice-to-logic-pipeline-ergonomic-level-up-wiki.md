@@ -9,7 +9,7 @@ tags: [wiki, concept, ergonomics, automation, cli]
 
 ## Core Concept
 
-Voice-to-Logic converts spoken "Vibe Statements" — natural language intent — into precise CLI commands or shell aliases. This dramatically reduces keystrokes on high-fatigue days while maintaining full systemic capability.
+Voice-to-Logic converts spoken "Vibe Statements" - natural language intent - into precise CLI commands or shell aliases. This dramatically reduces keystrokes on high-fatigue days while maintaining full systemic capability.
 
 ## Workflow
 

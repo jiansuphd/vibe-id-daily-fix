@@ -5,7 +5,7 @@ tags: [issue, vibe-coding]
 ---
 # Day 53: The 'Cross-Platform Mirroring' (Canvas-to-Rise)
 
-- **The Pointer:** Maintain structural parity between a Canvas course shell and a Rise 360 course — using an agent to detect drift.
+- **The Pointer:** Maintain structural parity between a Canvas course shell and a Rise 360 course - using an agent to detect drift.
 - **The Details:** When two systems hold the same content, they drift. The agent compares module titles, objective lists, and media references, flagging every divergence as a 'mirror break'.
 - **Action:**
 
