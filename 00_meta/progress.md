@@ -163,7 +163,7 @@
 - Added content architecture section (3-layer pipeline) and post navigation section (postsChron, template logic, edge cases, CSS).
 
 ### [2026-05-03] README Cleanup | Personal narrative and refs removed.
-- Removed "Senior ID Manager" - changed to "Senior ID". Cleaned health, certification, and institution refs from Manifesto section. Updated folder descriptions to reflect current build artifact pipeline.
+- Removed "Senior ID" - changed to "Senior ID". Cleaned health, certification, and institution refs from Manifesto section. Updated folder descriptions to reflect current build artifact pipeline.
 
 ### [2026-05-03] Style | Em dashes normalized to ` - ` across repo.
 - 123 files updated. All `—` replaced with spaced hyphens per project dash standard.

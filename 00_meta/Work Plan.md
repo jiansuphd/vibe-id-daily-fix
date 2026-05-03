@@ -172,13 +172,13 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 - **The Pointer:** Use the Model Context Protocol (MCP) to bridge your "Second Brain" (Obsidian) directly into your CLI.
 - **The Details:** Connecting your vault via the obsidian-mcp-server eliminates manual copy - pasting. The AI can now semantically search past research.
-- **Action:** gemini "Based on my accessibility certification study notes and the AREC 342 course map, suggest 3 accessibility improvements for the Module 1 syllabus."
+- **Action:** gemini "Based on my accessibility standards notes and the AREC 342 course map, suggest 3 accessibility improvements for the Module 1 syllabus."
 
 ### Day 19: The "Agentic Git" (Instructional Assets as Code)
 
 - **The Pointer:** Use the github-mcp-server to manage your instructional assets as versioned repositories.
 - **The Details:** Treat your Canvas HTML snippets and interactives as "Instructional Software." Use the CLI to pull updates and track issues.
-- **Action:** gemini "Check my GitHub repo for open issues related to 'Accessibility' and cross-reference them with my accessibility certification study notes."
+- **Action:** gemini "Check my GitHub repo for open issues related to 'Accessibility' and cross-reference them with my accessibility standards notes."
 
 ### Day 20: The "Semantic Bridge" (Historical Knowledge Extraction)
 
@@ -237,10 +237,10 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Day 28: The "Ergonomic Flow" Persona 
 
-- **The Pointer:** Instruct the AI to suggest "Low-Strokes" alternatives for complex tasks when physical fatigue is present.
-- **The Details:** This is "Energy Mapping." By disclosing your physical constraints, the AI can pivot from "Code this from scratch" to "Find a library / utility that handles 90% of the work."
+- **The Pointer:** Instruct the AI to suggest "Low-Strokes" alternatives for complex tasks when high workload is present.
+- **The Details:** This is "Energy Mapping." By disclosing your workflow constraints, the AI can pivot from "Code this from scratch" to "Find a library / utility that handles 90% of the work."
 - **ID Application:** Focus on systemic efficiency. Instead of custom CSS, use pre - built Tailwind classes to minimize typing.
-- **Action:** gemini "I have high physical fatigue today. Suggest the most keystroke-efficient way to build this interactive grid."
+- **Action:** gemini "I have high workload today. Suggest the most keystroke-efficient way to build this interactive grid."
 
 ### Day 29: The "Legacy-to-Logic" Pipeline (Syllabus Migration)
 
@@ -309,10 +309,10 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 - **ID Application:** Ensures that complex course data visualizations have robust, screen-reader-only descriptions that don't clutter the visual UI.
 - **Action:** `read page.html | gemini "Review this code. Add necessary ARIA roles and labels specifically for a student using a screen magnifier."`
 
-### Day 35: The "Voice-to-Logic" Pipeline (AS Ergonomic Level-Up)
+### Day 35: The "Voice-to-Logic" Pipeline (Ergonomic Level-Up)
 
 - **The Pointer:** Use Voice-to-Text to dictate "Vibe Statements" and let the AI convert them into complex CLI commands or Shell Aliases.
-- **The Details:** On high-fatigue days, stop typing paths. Dictate the intent and ask for the command. Save successful commands as 1-word aliases in your `.zshrc`.
+- **The Details:** On high-workload days, stop typing paths. Dictate the intent and ask for the command. Save successful commands as 1-word aliases in your `.zshrc`.
 - **ID Application:** Reduces the physical cost of "Systemic Engineering."
 - **Action:** `gemini "I want to audit all HTML files in this folder for color contrast. Write a one-liner CLI command using my WCAG_Audit skill."`
 
@@ -334,15 +334,15 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 - **The Pointer:** Use the CLI to run the same audit through two different models (e.g., Flash for speed, Pro for depth) and ask for a "Conflict Report."
 - **The Details:** If Flash says it's accessible but Pro finds a keyboard trap, you've identified a high-risk area.
-- **ID Application:** Essential for high-stakes accessibility certification compliance work.
+- **ID Application:** Essential for high-stakes accessibility compliance work.
 - **Action:** `gemini-pro audit.html | gemini-flash audit.html "Compare these two outputs. Highlight the differences in accessibility findings."`
 
 ### Day 39: Bilingual Sync (ZH/EN Content Mirroring)
 
 - **The Pointer:** Use the AI to maintain a "Semantic Mirror" between your English and Chinese study materials/course content.
 - **The Details:** Don't just translate. Ask the AI to ensure the "Educational Intent" and "Cultural Context" are identical in both languages.
-- **ID Application:** Perfect for your accessibility certification Review (ZH) documents to ensure no technical nuance is lost.
-- **Action:** `read cpacc_week4_en.md | gemini "Update the ZH version. Ensure the legal definitions of the ADA are translated for conceptual accuracy, not just word-for-word."`
+- **ID Application:** Perfect for accessibility compliance review (ZH) documents to ensure no technical nuance is lost.
+- **Action:** `read accessibility_week4_en.md | gemini "Update the ZH version. Ensure the legal definitions of the ADA are translated for conceptual accuracy, not just word-for-word."`
 
 ### Day 40: The "Recursive Workspace" (Self-Evolving Manual)
 
@@ -379,8 +379,8 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Day 45: The "Context-Aware" Scheduling Agent (Workflow Resilience)
 
-- **The Pointer:** Feed your personal "Energy Map" (AS fatigue cycles) into the CLI to optimize your high-focus tasks.
-- **The Details:** Schedule the most keystroke-heavy audits for your "Peak Ergonomic" windows (usually post-stretching).
+- **The Pointer:** Feed your personal "Energy Map" (energy patterns) into the CLI to optimize your high-focus tasks.
+- **The Details:** Schedule the most keystroke-heavy audits for your "Peak Focus" windows.
 - **Action:** `gemini "Based on my 04/15 Energy Log, suggest which courses I should audit this morning to minimize physical strain."`
 
 ### Day 46: The "Multi-Persona Focus Group" (Synthetic Stakeholders)
@@ -434,7 +434,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 ### Day 54: The "Efficiency-Balanced" AI Agent (Logic Balancing)
 
 - **The Pointer:** An Agent that suggests "Automation Shortcuts" based on the current length of your CLI session.
-- **The Details:** If you've been tabbing for 3 hours, the AI suggests taking over the remainder of the task to protect your back/joints.
+- **The Details:** If you've been tabbing for 3 hours, the AI suggests taking over the remainder of the task to maintain a sustainable pace.
 - **Action:** `gemini "I've been working for 3 hours. Take the raw SME notes from today's meeting and finalize the BZAN 503 comms log for me."`
 
 ### Day 55: The "Generative Grading" Rubric-Bot
@@ -451,7 +451,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Day 57: "Translation Reliability" (EN/ZH Semantic Check)
 
-- **The Pointer:** A specialized Agent that checks if your accessibility certification notes in Chinese retain the legal nuances of the English ADA.
+- **The Pointer:** A specialized Agent that checks if accessibility compliance notes in Chinese retain the legal nuances of the English ADA.
 - **The Details:** High-level bilingual synthesis for professional certification.
 - **Action:** `gemini "Compare my Week 4 ZH and EN notes. Does the term 'Reasonable Accommodation' have the same legal weight in both versions?"`
 
@@ -464,7 +464,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 ### Day 59: The "Zero-Keystroke" Ideal (Voice-to-Course)
 
 - **The Pointer:** Final test of the Ergonomic Strategist. Build an entire module header, content, and quiz using ONLY voice commands.
-- **The Details:** Proving the system works even on high-pain days.
+- **The Details:** Proving the system works even on high-workload days.
 - **Action:** `[Voice Command] | gemini "Build the 'Sustainability' page. Use the UT Modern Template. Add 3 knowledge check questions."`
 
 ### Day 60: The "Full-Cycle" Systemic Audit
@@ -584,8 +584,8 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Day 82: Energy-Aware Task Prioritization (Dynamic)
 
-- **The Pointer:** An Agent that re-orders your TODO list based on your current "Joint Stiffness" or "Energy Levels."
-- **Action:** `[Status: High Stiffness] | gemini "Prioritize today's tasks to focus on voice-only documentation and high-level strategy."`
+- **The Pointer:** An Agent that re-orders your TODO list based on your current "Task Load" or "Energy Levels."
+- **Action:** `[Status: High Workload] | gemini "Prioritize today's tasks to focus on voice-only documentation and high-level strategy."`
 
 ### Day 83: Semantic Archive Pruning
 
@@ -604,8 +604,8 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Day 86: Cross-Contextual Learning
 
-- **The Pointer:** Use the AI to find 3 ways your accessibility certification study notes directly contradict or improve your current  SOPs.
-- **Action:** `gemini "Compare my accessibility certification 'Visual Disabilities' notes with our 'Canvas Template' SOP. Find the gaps."`
+- **The Pointer:** Use the AI to find 3 ways your accessibility standards notes directly contradict or improve your current  SOPs.
+- **Action:** `gemini "Compare accessibility compliance 'Visual Disabilities' notes with our 'Canvas Template' SOP. Find the gaps."`
 
 ### Day 87: The "Visual Hierarchy" Vision Audit
 
@@ -639,7 +639,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Day 94: The "Multi-Modal" Executive Brief
 
-- **The Pointer:** Use the CLI to turn your Master File Index into a 2-minute "Audio Briefing" for your morning stretch routine.
+- **The Pointer:** Use the CLI to turn your Master File Index into a 2-minute "Audio Briefing" for your morning routine.
 - **Action:** `gemini "Summarize my project status into a 500-word script for a morning audio update."`
 
 ### Day 95: Legacy System Decommissioning
@@ -659,7 +659,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Day 98: Cross-Vault Synthesis (The Final Link)
 
-- **The Pointer:** A final CLI command that links your "Personal Finance," "AS Health," and "Professional ID" notes into a "Holistic Dashboard."
+- **The Pointer:** A final CLI command that links your "Personal Finance," "Professional Development," and "Professional ID" notes into a "Holistic Dashboard."
 - **Action:** `gemini "Synthesize my Health Log, Financial Goals, and ID Projects into a single '2026 Success Metric'."`
 
 ### Day 99: The "Mission Critical" Review

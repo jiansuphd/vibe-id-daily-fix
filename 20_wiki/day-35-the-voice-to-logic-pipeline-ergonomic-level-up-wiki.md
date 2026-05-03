@@ -1,15 +1,15 @@
 ---
-title: "The Voice-to-Logic Pipeline (AS Ergonomic Level-Up) - Concept Wiki"
+title: "The Voice-to-Logic Pipeline (Ergonomic Level-Up) - Concept Wiki"
 tags: [wiki, concept, ergonomics, automation, cli]
 ---
 
-# The Voice-to-Logic Pipeline (AS Ergonomic Level-Up) - Pedagogical Synthesis
+# The Voice-to-Logic Pipeline (Ergonomic Level-Up) - Pedagogical Synthesis
 
 *Expanded concepts from the Day 35 daily pointer.*
 
 ## Core Concept
 
-Voice-to-Logic converts spoken "Vibe Statements" - natural language intent - into precise CLI commands or shell aliases. This dramatically reduces keystrokes on high-fatigue days while maintaining full systemic capability.
+Voice-to-Logic converts spoken "Vibe Statements" - natural language intent - into precise CLI commands or shell aliases. This dramatically reduces keystrokes on high-workload days while maintaining full systemic capability.
 
 ## Workflow
 
@@ -29,7 +29,7 @@ Voice-to-Logic converts spoken "Vibe Statements" - natural language intent - int
 ## ID Application
 
 - Reduces physical cost of systemic engineering through voice-driven workflows
-- Enables full workflow operation on high-fatigue or low-mobility days
+- Enables full workflow operation on high-workload or low-bandwidth days
 - Converts "energy-expensive" multi-step commands into single-word invocations
 
 ---

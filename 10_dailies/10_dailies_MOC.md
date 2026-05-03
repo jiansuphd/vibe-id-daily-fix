@@ -37,7 +37,7 @@ A Map of Content for the raw daily VibeID Daily pointers and automated trends.
 - **[Day 32: The "Schema-Driven" ID (JSON Architect)](day-32-the-schema-driven-id-json-architect.md)**
 - **[Day 33: The "Context-Pruning" Strategy (Token Efficiency)](day-33-the-context-pruning-strategy-token-efficiency.md)**
 - **[Day 34: The "Pedagogical Shadowing" (ARIA-Mirroring)](day-34-the-pedagogical-shadowing-aria-mirroring.md)**
-- **[Day 35: The "Voice-to-Logic" Pipeline (AS Ergonomic Level-Up)](day-35-the-voice-to-logic-pipeline-ergonomic-level-up.md)**
+- **[Day 35: The "Voice-to-Logic" Pipeline (Ergonomic Level-Up)](day-35-the-voice-to-logic-pipeline-ergonomic-level-up.md)**
 - **[Day 36: The "Course-as-API" Concept](day-36-the-course-as-api-concept.md)**
 - **[Day 37: Automated Rubric Calibration (The Fairness Audit)](day-37-automated-rubric-calibration-the-fairness-audit.md)**
 - **[Day 38: The "Cross-Model" Consensus (Model Diversity Audit)](day-38-the-cross-model-consensus-model-diversity-audit.md)**

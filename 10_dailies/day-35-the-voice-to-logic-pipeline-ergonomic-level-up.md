@@ -6,7 +6,7 @@ tags: [issue, vibe-coding, ergonomics, automation]
 # Day 35
 
 - **The Pointer:** Use Voice-to-Text to dictate "Vibe Statements" and let the AI convert them into complex CLI commands or Shell Aliases.
-- **The Details:** On high-fatigue days, stop typing paths. Dictate the intent and ask for the command. Save successful commands as 1-word aliases in your `.zshrc`.
+- **The Details:** On high-workload days, stop typing paths. Dictate the intent and ask for the command. Save successful commands as 1-word aliases in your `.zshrc`.
 - **ID Application:** Reduces the physical cost of "Systemic Engineering."
 - **Action:** `gemini "I want to audit all HTML files in this folder for color contrast. Write a one-liner CLI command using my WCAG_Audit skill."`
 

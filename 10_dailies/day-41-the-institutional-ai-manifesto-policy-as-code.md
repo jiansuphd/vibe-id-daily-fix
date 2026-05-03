@@ -6,7 +6,7 @@ tags: [issue, vibe-coding]
 # Day 41: The 'Institutional AI Manifesto' (Policy as Code)
 
 - **The Pointer:** Treat AI usage policies not as static text, but as 'Guardrail Systems' injected into every prompt.
-- **The Details:** As a Senior ID Manager, you define the 'boundary' for faculty. Convert the UT AI Policy into a system prompt that can be applied to any course design task.
+- **The Details:** As a Senior ID, you define the 'boundary' for faculty. Convert the UT AI Policy into a system prompt that can be applied to any course design task.
 - **Action:**
 
 ```bash

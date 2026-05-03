@@ -409,7 +409,7 @@
 
 | Persona | Focus |
 |---------|-------|
-| **Senior ID Manager** | Strategic overview; standards and deadlines |
+| **Senior ID** | Strategic overview; standards and deadlines |
 | **Systemic Engineer** | JSON schemas, CLI automation, and governance |
 | **Ergonomic Strategist** | Efficiency and "Low-Strokes" optimization for long-term sustainability |
 

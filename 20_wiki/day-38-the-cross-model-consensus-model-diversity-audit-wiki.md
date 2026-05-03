@@ -20,7 +20,7 @@ No single AI model catches every issue. The Cross-Model Consensus runs the same 
 | Consensus | Intersection of findings | High-confidence issue list |
 | Delta | Points of disagreement | High-risk areas for manual review |
 
-## accessibility certification Compliance Application
+## Accessibility Compliance Application
 
 - Run Flash on all course pages for baseline coverage
 - Run Pro on pages flagged by Flash

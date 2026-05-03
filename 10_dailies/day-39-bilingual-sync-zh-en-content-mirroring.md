@@ -7,8 +7,8 @@ tags: [issue, vibe-coding, bilingual, accessibility]
 
 - **The Pointer:** Use the AI to maintain a "Semantic Mirror" between your English and Chinese study materials/course content.
 - **The Details:** Don't just translate. Ask the AI to ensure the "Educational Intent" and "Cultural Context" are identical in both languages.
-- **ID Application:** Perfect for your accessibility certification Review (ZH) documents to ensure no technical nuance is lost.
-- **Action:** `read cpacc_week4_en.md | gemini "Update the ZH version. Ensure the legal definitions of the ADA are translated for conceptual accuracy, not just word-for-word."`
+- **ID Application:** Perfect for accessibility compliance review (ZH) documents to ensure no technical nuance is lost.
+- **Action:** `read accessibility_week4_en.md | gemini "Update the ZH version. Ensure the legal definitions of the ADA are translated for conceptual accuracy, not just word-for-word."`
 
 ---
 **Backlink:** [Dailies MOC](10_dailies_MOC.md)
