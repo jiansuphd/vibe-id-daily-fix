@@ -1,0 +1,9 @@
+node_modules/
+_site/
+.gemini/
+00_meta/scripts/
+00_meta/skills/
+10_dailies/
+20_wiki/
+docs/
+scripts/

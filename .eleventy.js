@@ -2,6 +2,10 @@ const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
+  // Eleventy should not skip files listed in .gitignore
+  // (00_meta/src/posts/ is a build artifact ignored by git but needed by Eleventy)
+  eleventyConfig.setUseGitIgnore(false);
+
   // Plugins
   eleventyConfig.addPlugin(pluginRss);
 
