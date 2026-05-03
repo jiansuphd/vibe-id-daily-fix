@@ -82,5 +82,9 @@
 - [x] **Mobile Responsive Layout Fixed (2026-05-02)**: Added `600px` breakpoint to `style.css` — intro heading scales down, prose stays within screen, subscribe form stacks vertically, HUD metrics wrap. Commit: `9059101`.
 - [x] **Day 33 Automation Verified (2026-05-02)**: Confirmed cron deploy fired at midnight UTC and Day 33 went live automatically. Pipeline working end-to-end through Day 100 (2026-07-08).
 
+## Phase 5: Post Experience & Polish (In Progress)
+- [x] **Post Prev/Next Navigation (2026-05-03)**: Added directional nav to all post pages. `postsChron` collection (oldest-first) powers `getPreviousCollectionItem` / `getNextCollectionItem` filters. Day 1 shows Next → only; Day 100 shows ← Previous + "Full Archive →". CSS: `.post-nav` panel cards with purple accent label, cyan title, hover glow, mobile-stacking at 600px. Commit: `11dcc01`.
+- [x] **Design Audit CSS (2026-05-03)**: Implemented three improvements from design review: (1) Styled dark scrollbars — webkit + Firefox `scrollbar-color`, eliminates white scrollbar immersion break. (2) Subtle terminal background grid — 48px repeating linear-gradient at 4% purple opacity on `body`. (3) Fluid type on intro heading — `clamp(0.95rem, 2.5vw + 0.5rem, 1.3rem)` replaces fixed size for smooth viewport scaling. Items already complete: CSS variables (all in `:root`), mobile breakpoints, color contrast.
+
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)

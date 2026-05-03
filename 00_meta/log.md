@@ -66,6 +66,19 @@ Append-only record of wiki operations. Sorted chronologically (oldest to newest)
 - Day 33 went live at `/posts/day-33-the-context-pruning-strategy-token-efficiency/` with no manual action.
 - Future-date pipeline confirmed working through Day 100 (2026-07-08).
 
+## [2026-05-03] Post Prev/Next Navigation | Added prev/next nav to all post pages.
+- Added `postsChron` Eleventy collection (oldest-first, future posts filtered) to `.eleventy.js` to power directional nav.
+- Updated `post.njk` with a two-column nav block: ← Previous on left, Next → on right.
+- Day 1 behavior: empty left slot, Next → right. Day 100 behavior: ← Previous left, "Full Archive →" right.
+- Added `.post-nav`, `.post-nav-inner`, `.post-nav-btn`, `.post-nav-label`, `.post-nav-title` CSS with hover glow and mobile stacking at 600px.
+- Commit: `11dcc01`.
+
+## [2026-05-03] Design Audit Implementation | Applied three CSS refinements from design review.
+- **Styled scrollbars**: Added webkit `::-webkit-scrollbar` rules (8px, purple thumb, dark track) and Firefox `scrollbar-color`/`scrollbar-width` to `html`. Eliminates white scrollbar immersion break.
+- **Subtle background grid**: Added `background-image` repeating linear-gradient to `body` — 48px grid at 4% purple opacity. Adds terminal depth without distracting from content.
+- **Fluid type for intro heading**: Replaced fixed `1.3rem` on `.intro-block h1` with `clamp(0.95rem, 2.5vw + 0.5rem, 1.3rem)`. Scales smoothly across viewport widths; 600px override now only adjusts `letter-spacing`.
+- Items already confirmed done: CSS variables (all in `:root`), mobile breakpoints, color contrast. No changes needed for those.
+
 ---
 
 **Backlinks:** [Root MOC](../root_MOC.md)

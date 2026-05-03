@@ -1074,3 +1074,94 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 **Summary:** `10_dailies` = the public-facing daily post (the "vibe"). `20_wiki` = the private reference layer that expands each concept with framework analysis, WCAG/Bloom's alignment, and implementation notes.
 
 *Q&A appended — May 2, 2026.*
+
+---
+
+## Session 4 — Post Navigation & Design Audit
+**Date:** May 3, 2026 (GitHub Copilot / Claude Sonnet 4.6)
+
+### Work Completed
+
+#### 1. Post Prev/Next Navigation (Carried from Session 3 end)
+**Commit:** `11dcc01`
+
+Three files modified and shipped:
+
+- **`.eleventy.js`** — Added `postsChron` collection: chronological order (oldest-first), same future-date filter as `posts`:
+  ```js
+  eleventyConfig.addCollection("postsChron", function(collectionApi) {
+    const now = new Date();
+    return collectionApi
+      .getFilteredByGlob("00_meta/src/posts/*.md")
+      .filter(post => post.date <= now);
+  });
+  ```
+
+- **`00_meta/src/_includes/post.njk`** — Added nav block above "Back to Latest":
+  - `getPreviousCollectionItem(page)` / `getNextCollectionItem(page)` on `postsChron`
+  - Day 1 (no prev): empty left, Next → right
+  - Day 100 (no next): ← Previous left, "Full Archive →" right
+
+- **`00_meta/src/css/style.css`** — `.post-nav` component: dark panel cards, purple accent labels, cyan titles, hover glow (`var(--glow)`), mobile stacking at 600px.
+
+---
+
+#### 2. Design Audit Implementation
+**Commit:** (bundled with log update)
+
+**Source audit:** "Design Audit: Vibe ID Daily Aesthetic" — May 2, 2026
+
+Items already confirmed done (no changes needed):
+- CSS variables — all colors defined in `:root` (`--accent: #8b5cf6`, `--cyan: #06b6d4`, etc.)
+- Mobile breakpoints — 600px and 900px already in `style.css`
+- Color contrast — `--text: #f1f5f9`, `--text-dim: #cbd5e1`, `--text-soft` applied
+
+Items implemented:
+
+**A. Styled Scrollbars**
+
+Added to `html` block:
+```css
+/* Firefox */
+scrollbar-color: var(--accent) var(--panel);
+scrollbar-width: thin;
+
+/* Webkit */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--panel); }
+::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-light); }
+```
+Eliminates the default white scrollbar that broke dark-theme immersion.
+
+**B. Subtle Terminal Background Grid**
+
+Added to `body`:
+```css
+background-image:
+  linear-gradient(rgba(139, 92, 246, 0.04) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(139, 92, 246, 0.04) 1px, transparent 1px);
+background-size: 48px 48px;
+```
+4% purple opacity at 48px intervals — adds terminal texture without competing with content.
+
+**C. Fluid Type — Intro Heading**
+
+Replaced fixed size with CSS `clamp()`:
+```css
+/* Before */
+font-size: 1.3rem;
+
+/* After */
+font-size: clamp(0.95rem, 2.5vw + 0.5rem, 1.3rem);
+```
+Scales smoothly from mobile (≈0.95rem at 320px) to desktop (1.3rem at ~800px). The 600px breakpoint override now only adjusts `letter-spacing`, not font-size.
+
+### Key Commits (Session 4)
+
+| Commit | Description |
+|---|---|
+| `11dcc01` | feat: add prev/next post navigation to post pages |
+| *(pending)* | style: design audit — scrollbars, bg grid, fluid type; update all logs |
+
+*Session 4 appended — May 3, 2026.*
