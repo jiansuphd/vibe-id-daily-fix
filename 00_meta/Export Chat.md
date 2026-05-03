@@ -276,7 +276,7 @@ Removed "Phase: 4 - Scale & Sustain" from the metrics bar per user request.
 | Logo | `VibeID_Daily` | `VibeID Daily` |
 | Tagline | "Strategic Pointers for IDs" | "Natural Language // Systemic Automation" |
 | Header right | Nav links | `SYS_STATUS ONLINE` |
-| HUD metrics | Status / Mission | LOC EARTH_01 / REL 2026.05.01 / AUTH JSU1 |
+| HUD metrics | Status / Mission | LOC EARTH_01 / REL 2026.05.01 / AUTH [redacted] |
 | Sidebar widgets | Navigation + Mission | // About + // Repository + // Archives |
 | Archive layout | `page-grid` (no sidebar) | `dashboard-grid` with sidebar |
 | Content overflow | Horizontal scroll | Fixed with `min-width: 0` on `.content` |
@@ -934,11 +934,10 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 **Date:** May 1, 2026
 **Mode:** Sanitized ongoing updates for this chat
 
-### Live Update Protocol (for this conversation)
-- Append major actions to this file as short, factual deltas.
-- Exclude personal identifiers (personal emails, phone numbers, private keys, API secrets).
+### Log Protocol
+- Append major actions as short, factual deltas.
+- No personal identifiers (emails, usernames, phone numbers, private keys, API secrets).
 - Keep technical details needed for reproducibility (files, commands, outcomes).
-- Redact user-unique identifiers when not needed for engineering context.
 
 ### Session 4 Updates (Current)
 
@@ -954,8 +953,7 @@ One new post goes live automatically each day at midnight UTC via the `deploy.ym
 
 #### B) Privacy Cleanup Applied
 - File updated: `00_meta/src/feed.njk`
-- Change: replaced a personal contact email with neutral non-personal address:
-  - `[redacted-personal-email]` → `noreply@vibe-id-daily.local`
+- Change: replaced a personal contact email in `feed.njk` with a neutral non-personal address.
 
 #### C) Link Checker Hardening + CI Optional External Checks
 - File updated: `00_meta/scripts/check_links.js`
