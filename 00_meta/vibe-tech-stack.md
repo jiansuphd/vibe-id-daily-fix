@@ -49,6 +49,61 @@ The "compiler" layer of the Knowledge Compiler.
 
 ---
 
+## Content Architecture: Three Layers, One Pipeline
+
+The content system has three distinct layers. Understanding how they relate prevents confusion about why files exist in multiple folders.
+
+```
+10_dailies/          →   parse_dailies.js   →   00_meta/src/posts/   →   _site/
+(source of truth)        (transform step)        (build artifact)         (output)
+
+20_wiki/                                                                (never published)
+(private reference layer)
+```
+
+### `10_dailies/` — Source of Truth
+
+The vault-native daily post files. Written in Obsidian-compatible Markdown.
+
+- **You edit these.** Commit here, push once — done.
+- Obsidian-style formatting: `# Day N` H1 heading, `**Backlink:**` footer line, smart quotes in titles
+- Front matter has `date:` for scheduling and `tags:` but no `layout:`
+- **Git-tracked.** This is the canonical record.
+
+### `00_meta/src/posts/` — Build Artifact
+
+Generated automatically by `parse_dailies.js` as part of every build. **Never edit these directly** and **not committed to git.**
+
+Transformations applied during parse:
+- `layout: post.njk` injected into front matter
+- Leading `# Day N` H1 stripped from body (rendered by the template instead)
+- `**Backlink:**` footer line stripped
+- Smart quotes in titles converted to straight quotes (YAML compatibility)
+
+Because `npm run parse` is wired as a `prebuild` hook in `package.json`, this folder is always regenerated before Eleventy runs — locally and in CI.
+
+### `20_wiki/` — Private Reference Layer
+
+Separate files entirely. Never published to the live site. Obsidian knowledge base only.
+
+- Filename pattern: `day-NN-...-wiki.md` (`-wiki` suffix distinguishes from dailies)
+- Longer synthesis format: framework tables, WCAG/Bloom's alignment, agentic CLI prompts
+- No `date:` front matter — Eleventy never picks these up
+- **Git-tracked.** Permanent vault reference.
+
+### Why This Structure?
+
+| Concern | Solution |
+|---|---|
+| Single source of truth | Edit `10_dailies/` only |
+| Obsidian compatibility | `10_dailies/` stays in raw vault format |
+| Eleventy compatibility | `parse_dailies.js` transforms for SSG |
+| No duplicate commits | `src/posts/` is in `.gitignore` |
+| CI works without commits | `prebuild` hook regenerates posts on every deploy |
+| Private deep-dives | `20_wiki/` stays in vault, never hits the web |
+
+---
+
 ## Vibe Coding with Nunjucks
 
 When adding a new section to the site, you edit a Nunjucks template — not raw HTML.
@@ -78,6 +133,6 @@ The value is defined once — every page that extends `base.njk` inherits it aut
 
 ---
 
-*Last Updated: May 2, 2026*
+*Last Updated: May 3, 2026*
 
 **Backlinks:** [Root MOC](../root_MOC.md)
