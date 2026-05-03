@@ -86,7 +86,7 @@
 - [x] **Post Prev/Next Navigation (2026-05-03)**: Added directional nav to all post pages. `postsChron` collection (oldest-first) powers `getPreviousCollectionItem` / `getNextCollectionItem` filters. Day 1 shows Next → only; Day 100 shows ← Previous + "Full Archive →". CSS: `.post-nav` panel cards with purple accent label, cyan title, hover glow, mobile-stacking at 600px. Commit: `11dcc01`.
 - [x] **Design Audit CSS (2026-05-03)**: Implemented three improvements from design review: (1) Styled dark scrollbars — webkit + Firefox `scrollbar-color`, eliminates white scrollbar immersion break. (2) Subtle terminal background grid — 48px repeating linear-gradient at 4% purple opacity on `body`. (3) Fluid type on intro heading — `clamp(0.95rem, 2.5vw + 0.5rem, 1.3rem)` replaces fixed size for smooth viewport scaling. Items already complete: CSS variables (all in `:root`), mobile breakpoints, color contrast.
 
-- [x] **Privacy & Redundancy Audit (2026-05-03)**: Thorough repo-wide lint. Removed `AS Accommodation` health ref from 60 wiki files; `cpacc` from tags in day-38, day-39; renamed day-86 files (removed `cpacc-vs-id`); fixed `UTA` → "ID professional"; `SCM` → "specialized domain"; `UT Knoxville` → "institutional syllabus template"; `uta` key skill → "compliance". Removed duplicate Day 60 post and stale `superpowers/` directory. Lint and build pass clean. Commit: `a1f39c3`.
+- [x] **Privacy & Redundancy Audit (2026-05-03)**: Thorough repo-wide lint. Removed personal health, certification, and institution references from 80 files (60 wiki files + post tags + post content). Renamed day-86 files to neutral slugs. Removed duplicate Day 60 post and stale `superpowers/` planning directory. Lint and build pass clean. Commit: `a1f39c3`.
 
 ---
 
@@ -151,7 +151,7 @@
 - Eleventy rebuilds all pages on each cron run. `postsChron` re-evaluates `post.date <= now` at build time. Nav updates automatically — no stale HTML, no manual changes needed.
 
 ### [2026-05-03] Privacy & Redundancy Audit | 80 files cleaned, 261 lines removed.
-- Removed AS Accommodation health refs, cpacc tags, UTA/SCM/UT Knoxville institution refs. Renamed day-86 files. Deleted duplicate Day 60 and stale `superpowers/` directory. Lint and build pass clean.
+- Removed personal health, certification, and institution references from 60 wiki files, post tags, and post content. Renamed day-86 files to neutral slugs. Deleted duplicate Day 60 post and stale `superpowers/` planning directory. Lint and build pass clean.
 
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
