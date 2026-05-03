@@ -10,7 +10,7 @@ tags:
 
 ## Core Concept
 
-Build cross-contextual prompts that apply accessibility certification (accessibility certification) knowledge to ID practice and vice versa. Your two domains — instructional design and accessibility credentialing — reinforce each other. An agent that bridges them surfaces insights that single-domain practitioners miss.
+Build cross-contextual prompts that apply accessibility certification knowledge to ID practice and vice versa. Your two domains — instructional design and accessibility credentialing — reinforce each other. An agent that bridges them surfaces insights that single-domain practitioners miss.
 
 ## ID Framework Alignment
 
