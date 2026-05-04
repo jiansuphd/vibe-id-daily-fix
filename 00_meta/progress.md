@@ -184,5 +184,9 @@
 ### [2026-05-04] Fix | Broken backlink in Day 1 unblocked CI deploy.
 - Day 1 backlink pointed to `_dailies_MOC.md` (does not exist); corrected to `10_dailies_MOC.md`. Lint was failing in GitHub Actions before the build step, silently keeping the live site on the prior version. Commit `6a8cce5`.
 
+### [2026-05-04] Content | Day 2 expanded with full detail.
+- `10_dailies/day-02-the-skeleton-first-prompt.md` rewritten from 3-bullet summary to full post: Instructional Debt concept, Mechanics of Structural Planning, Module Mapping / Taxonomy Verification / QM Alignment under ID Application, Strategic Impact, and actionable "Try This Today" blockquote exercise.
+- `20_wiki/day-02-the-skeleton-first-prompt-wiki.md` fully synthesized: Gagné Event 2, Cognitive Load Theory (Sweller), QM Standard 2.1, Bloom's progressive architecture framework integration; 3-stage technical implementation with real prompt templates and audit checklist; JSON Schema and Nested Skeleton advanced patterns; 4 common pitfalls with specific failure modes. Commit `01f4138`.
+
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
