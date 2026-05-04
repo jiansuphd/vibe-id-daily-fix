@@ -1329,6 +1329,64 @@ Wiki pages link to daily posts using relative paths. Confirm the filename in the
 
 ---
 
+## What Languages Do You Need for Phase 2?
+
+Phase 2 builds directly on Phase 1. Here is what is new or goes deeper:
+
+### New in Phase 2
+
+| Language / Tool | Used For | Difficulty vs Phase 1 |
+|----------------|----------|-----------------------|
+| **JavaScript (Node.js)** | Enhanced parser — regex, string manipulation, multi-step frontmatter processing | ⭐⭐⭐ Step up — more logic, but fully annotated in Section 4 |
+| **Nunjucks (`.njk`)** | `post.njk` (prev/next nav), `archive.njk` (full listing), updated `index.njk` (two-column grid) | ⭐⭐ Same as Phase 1 — more `{% if %}` / `{% for %}` blocks |
+| **CSS** | Grid layout, `.post-nav`, `.archive-list`, `.widget`, responsive breakpoints | ⭐⭐⭐ More rules added — still all provided in full |
+| **Markdown** | Daily post bodies, wiki deep-dive pages | ⭐ Same as Phase 1 — just more files |
+| **Regex** | Inside the parser — pattern matching for filenames and frontmatter | ⭐⭐⭐ New concept — explained line by line in Section 4 |
+
+### What Carries Over Unchanged from Phase 1
+
+| Language / Tool | Status |
+|----------------|--------|
+| YAML (frontmatter) | Same syntax, same fields |
+| Bash / Terminal | Same commands (`git`, `npm run`) |
+| JSON (`package.json`) | No changes needed |
+| GitHub Actions YAML | No changes needed |
+| HTML | Same structural tags in templates |
+
+### The One New Concept to Focus On: Regular Expressions (Regex)
+
+Phase 2's parser uses regex in three places. You do not need to write regex from scratch — the patterns are provided — but you need to read them.
+
+| Pattern in parser | What it matches | Plain-English meaning |
+|------------------|-----------------|-----------------------|
+| `/^day-\d+-.+\.md$/` | `day-01-the-title.md` | Filename must start with `day-`, have digits, a hyphen, any text, end in `.md` |
+| `/title: "(.*)"/g` | `title: "The 'Entry' Protocol"` | Finds the title field so inner quotes can be fixed |
+| `/^\n*(# [^\n]+\n)/` | `# Day 1\n` at the top of the body | Finds and removes the leading H1 heading |
+| `/---\n\*\*Backlink:\*\*.*$/ms` | `---\n**Backlink:** ...` at file end | Finds and removes the Obsidian backlink footer |
+
+**How to read a regex pattern:**
+- `^` = start of string, `$` = end of string
+- `\d` = any digit (0-9), `\d+` = one or more digits
+- `.` = any character, `.+` = one or more of any character
+- `\.` = a literal dot (backslash escapes the special meaning)
+- `[^\n]` = any character that is NOT a newline
+- `*` after a character class = zero or more, `+` = one or more
+
+### Realistic Time Investment (Phase 2 only, building on Phase 1)
+
+| Skill | Time needed |
+|-------|-------------|
+| Reading the enhanced parser logic | 1-2 hours with the annotations |
+| Understanding Nunjucks `{% if %}` / `{% for %}` | 1 hour |
+| Reading CSS grid (`grid-template-columns`) | 1-2 hours |
+| Understanding regex patterns (read-only, not write) | 2-3 hours |
+| Writing 5 daily posts in Markdown | 1-2 hours |
+| Writing 1 wiki page (or using AI to generate it) | 30-60 minutes |
+
+> **The honest answer for Phase 2:** The biggest new skill is reading the JavaScript parser and understanding why each step exists. Every regex and every `if` block is explained in Section 4 with inline comments. If you understand Phase 1's parser, Phase 2's version is the same structure with more steps added — not a different concept.
+
+---
+
 ## Next Step: Phase 3
 
 Phase 3 covers full automation — the cyborg aggregator for external trend data, the link checker script, the skill library (SOPs as reusable AI prompts), and the GitHub Actions workflow for automated nightly builds.
