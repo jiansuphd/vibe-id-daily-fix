@@ -1267,3 +1267,124 @@ Em dash normalization had split compound words in `Work Plan.md`. Fixed:
 | `c2441f9` | docs: update ops log - session 5 entries |
 
 *Session 5 appended - May 3, 2026.*
+
+---
+
+## Session 6 - May 4, 2026
+
+### Summary
+Content expansion session. Phase 1 and Phase 2 beginner tutorials created. Day 1 and Day 2 expanded from 3-bullet summaries to full posts with wiki synthesis pages. CI deployment bug found and fixed. Ops log updated throughout.
+
+### Actions Taken
+
+#### 1. Wiki Page Count Corrected in Work Plan
+**Commit:** `5e15264`
+
+`Work Plan.md` line updated: "40 deep-dive pages" corrected to "101 deep-dive pages." Count verified by directory listing (`ls 20_wiki/ | grep -v "^_" | wc -l` = 102 including MOC = 101 content pages).
+
+#### 2. Phase 1 Beginner Tutorial Created
+**Commits:** `6cb8abd`, `9651085`
+
+`00_meta/phase_1.md` created (1,172 lines). 16-step guide covering:
+- Prerequisites (Git, Node.js, GitHub account, VS Code)
+- Repository creation and cloning
+- Folder structure with purpose of each directory
+- `package.json` with all scripts explained
+- Eleventy + RSS plugin + Luxon installation
+- `.gitignore` and `.eleventyignore` configuration
+- `GEMINI.md` AI mission briefing
+- `.eleventy.js` with inline comments on every decision
+- Midnight Pro CSS (full stylesheet with variables explained)
+- `base.njk` layout with Nunjucks syntax explained
+- `index.njk` homepage
+- All four MOCs
+- `parse_dailies.js` parser script
+- First local build and preview
+- GitHub Actions `deploy.yml` step-by-step
+- 18-item verification checklist + common errors/fixes
+
+"What Languages Do You Need?" section added to end of file: two tables (must-know vs. Phase 1 specific), realistic learning order with time estimates.
+
+#### 3. Phase 2 Beginner Tutorial Created
+**Commits:** `226cfb4`, `faad49a`
+
+`00_meta/phase_2.md` created (1,340 lines). 16-step guide covering:
+- Brand finalization (VibeID Daily, tagline, voice)
+- Daily post format (filename convention, frontmatter fields, 3-field body)
+- Enhanced parser with 9 annotated steps (filter, inject layout, fix quotes, strip H1, strip backlinks)
+- `post.njk` with prev/next nav and layout inheritance chain explained
+- All new CSS (`.prose`, `.post-nav`, `.btn`, `.dashboard-grid`, `.archive-list`, `.widget`, responsive breakpoints)
+- `archive.njk` with sidebar
+- Homepage upgraded to dashboard-grid layout
+- `ID_Personas.md` - Senior ID and Accessibility Auditor personas
+- `pathPrefix` / `| url` filter fix for GitHub Pages pathing
+- 5 example daily posts ready to copy
+- Wiki deep-dive pages - format, naming, AI generation prompt template
+- Wiki MOC maintenance rule
+- Full pipeline verification + path audit command
+- 25-item checklist + 5 common error/fix pairs
+
+"What Languages Do You Need for Phase 2?" section added: new vs. carried-over tables, regex deep-dive (all 4 parser patterns decoded), per-skill time estimates.
+
+#### 4. Day 1 Expanded - Full Post and Wiki
+**Commit:** `79cbf5d`
+
+`10_dailies/day-01-...md` rewritten from 3-bullet summary to full post:
+- Prompt Drift concept and GEMINI.md as root-level anchor
+- Zero-Shot Grounding mechanics
+- Chat model vs. Environment model shift
+- Senior ID Persona definition
+- QM/UDL pedagogical guardrails
+- Bloom's Taxonomy integration ("Cognitive Engine")
+- Instructional Sovereignty - Strategic Impact section
+- "Try This Today" 3-step exercise
+
+`20_wiki/day-01-...wiki.md` fully synthesized:
+- Framework integration: Gagné Event 1, QM 1.1, UDL Principle 3, Bloom's Apply/Evaluate
+- 4-section GEMINI.md implementation guide with real code examples
+- Living Document pattern and Multi-Persona pattern
+- Zero-Shot Grounding effect explained
+- 4 common pitfalls with actionable remediation
+
+#### 5. CI Deploy Unblocked - Day 1 Broken Backlink
+**Commit:** `6a8cce5`
+
+Day 1 backlink pointed to `_dailies_MOC.md` (file does not exist). Correct filename is `10_dailies_MOC.md`. The `npm run lint` step in GitHub Actions runs before `npm run build` — so lint failure silently blocked all deployments since the Day 1 expansion commit. Live site was stuck on the prior version. Fixed, lint confirmed clean (`✅ All internal links are valid`), deploy unblocked.
+
+#### 6. Day 2 Expanded - Full Post and Wiki
+**Commit:** `01f4138`
+
+`10_dailies/day-02-...md` rewritten from 3-bullet summary to full post:
+- Instructional Debt concept introduced
+- Skeleton-First as mandatory guardrail for Systemic Engineering
+- Mechanics of Structural Planning (file tree, JSON schema, nested list)
+- Reactive vs. proactive workflow model
+- "Born Accessible" and Technical Contract concepts
+- ID Application: Module Mapping, Taxonomy Verification, QM Alignment
+- Strategic Impact: scalability and orchestration over correction
+- "Try This Today" blockquote exercise
+
+`20_wiki/day-02-...wiki.md` fully synthesized:
+- Framework integration: Gagné Event 2, Cognitive Load Theory (Sweller), QM Standard 2.1, Bloom's progressive architecture
+- 3-stage technical implementation with real prompt templates for module map, file structure, and syllabus tasks
+- Skeleton audit checklist (5 items)
+- Approval gate pattern ("do not proceed until approved")
+- Advanced: JSON Schema as skeleton, Nested Skeleton for curriculum redesign, Skeleton as Audit Tool
+- 4 common pitfalls (vague skeleton, skipping audit, wrong skeleton type, no scope lock)
+
+### Key Commits (Session 6)
+
+| Commit | Description |
+|---|---|
+| `5e15264` | fix: update wiki page count from 40 to 101 in Work Plan |
+| `6cb8abd` | docs: add Phase 1 beginner tutorial |
+| `9651085` | docs: add required languages section to Phase 1 tutorial |
+| `226cfb4` | docs: add Phase 2 beginner tutorial |
+| `faad49a` | docs: add required languages section to Phase 2 tutorial |
+| `79cbf5d` | content: expand Day 1 - Entry Point Protocol with full detail and wiki synthesis |
+| `6a8cce5` | fix: correct broken backlink in Day 1 - unblocks GitHub Actions deploy |
+| `01f4138` | content: expand Day 2 - Skeleton-First Prompt with full detail and wiki synthesis |
+| `7c686ca` | log: Session 6 ops entries - tutorials, Day 1 expansion, CI fix |
+| `b33c34b` | log: Day 2 expansion entry added to ops log |
+
+*Session 6 appended - May 4, 2026.*
