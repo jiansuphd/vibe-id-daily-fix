@@ -37,4 +37,4 @@ The Entry Point Protocol is about Instructional Sovereignty. It ensures that the
 3. Start your next CLI session by simply asking: `"Analyze my current directory based on my mission briefing."`
 
 ---
-**Backlink:** [Dailies MOC](_dailies_MOC.md)
+**Backlink:** [Dailies MOC](10_dailies_MOC.md)
