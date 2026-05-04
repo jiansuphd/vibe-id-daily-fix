@@ -1386,5 +1386,25 @@ Day 1 backlink pointed to `_dailies_MOC.md` (file does not exist). Correct filen
 | `01f4138` | content: expand Day 2 - Skeleton-First Prompt with full detail and wiki synthesis |
 | `7c686ca` | log: Session 6 ops entries - tutorials, Day 1 expansion, CI fix |
 | `b33c34b` | log: Day 2 expansion entry added to ops log |
+| `9621159` | content: expand Day 3 - Draft-to-Diff Workflow with full detail and wiki synthesis |
+
+## Action 7 - Day 3 Expansion (Draft-to-Diff Workflow)
+
+**Task:** Expand Day 3 daily post and wiki from 3-bullet stubs to full canonical content.
+
+**Day 3 Daily Post** (`10_dailies/day-03-the-draft-to-diff-workflow.md`):
+- Total Rewrite problem framed as "Instructional Debt"
+- Delta Management concept: diff outputs vs. whole-document rewrites
+- Directive prompt pattern: "Identify only X, provide in diff format, do not modify Y"
+- ID Application: SME voice preservation, WCAG 2.2 table accessibility patch, audit transparency via diff
+- Strategic Impact: Version-Controlled Instruction enabling cumulative improvements
+- "Try This Today" exercise: UDL Principle 1 diff prompt on existing Canvas page
+
+**Day 3 Wiki** (`20_wiki/day-03-the-draft-to-diff-workflow-wiki.md`):
+- Framework integration: Gagné Event 5 (Learning Guidance), QM 8.2, UDL Principle 1, Cognitive Load Theory (extraneous load reduction)
+- 3 technical prompt patterns with real code: Accessibility Patch, UDL Scaffold Addition, Version Delta Audit
+- Diff block example (WCAG table `<caption>` + `scope="col"` patch)
+- Advanced applications: Git as instructional diff tool, staged diff reviews for multi-stakeholder courses, diff as ADA compliance documentation
+- 4 common pitfalls: accepting total rewrites, missing scope constraint, skipping review, single-pass audits
 
 *Session 6 appended - May 4, 2026.*

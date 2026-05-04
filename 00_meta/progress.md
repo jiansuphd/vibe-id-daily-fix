@@ -188,5 +188,9 @@
 - `10_dailies/day-02-the-skeleton-first-prompt.md` rewritten from 3-bullet summary to full post: Instructional Debt concept, Mechanics of Structural Planning, Module Mapping / Taxonomy Verification / QM Alignment under ID Application, Strategic Impact, and actionable "Try This Today" blockquote exercise.
 - `20_wiki/day-02-the-skeleton-first-prompt-wiki.md` fully synthesized: Gagné Event 2, Cognitive Load Theory (Sweller), QM Standard 2.1, Bloom's progressive architecture framework integration; 3-stage technical implementation with real prompt templates and audit checklist; JSON Schema and Nested Skeleton advanced patterns; 4 common pitfalls with specific failure modes. Commit `01f4138`.
 
+### [2026-05-04] Content | Day 3 expanded with full detail.
+- `10_dailies/day-03-the-draft-to-diff-workflow.md` rewritten from 3-bullet summary to full post: Total Rewrite vs. Delta Management concept, Instructional Debt framing, Draft-to-Diff mechanics with directive prompt pattern, ID application covering SME voice preservation and WCAG 2.2 accessibility patching, audit transparency, and "Try This Today" UDL-diff exercise.
+- `20_wiki/day-03-the-draft-to-diff-workflow-wiki.md` fully synthesized: Gagné Event 5 / QM 8.2 / UDL Principle 1 / Cognitive Load framework integration; 3 technical prompt patterns (Accessibility Patch, UDL Scaffold Addition, Version Delta Audit) with real diff-block examples; advanced applications (Git as instructional diff tool, staged diff reviews, diff as ADA documentation); 4 common pitfalls. Commit `9621159`.
+
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
