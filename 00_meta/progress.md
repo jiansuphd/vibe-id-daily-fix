@@ -168,5 +168,21 @@
 ### [2026-05-03] Style | Em dashes normalized to ` - ` across repo.
 - 123 files updated. All `—` replaced with spaced hyphens per project dash standard.
 
+### [2026-05-04] Accuracy Fix | Wiki page count corrected in Work Plan.
+- `Work Plan.md` line updated: 40 deep-dive pages → 101. Commit `5e15264`.
+
+### [2026-05-04] Docs | Phase 1 beginner tutorial created.
+- `00_meta/phase_1.md` created (1,172 lines). Covers 16 steps: prerequisites, repo setup, folder structure, Node.js init, Eleventy install, `.gitignore`, GEMINI.md, `.eleventy.js`, CSS, Nunjucks layout, homepage, MOCs, parser script, first build, GitHub Actions deploy, and verification checklist. Commits `6cb8abd`, `9651085`.
+
+### [2026-05-04] Docs | Phase 2 beginner tutorial created.
+- `00_meta/phase_2.md` created (1,340 lines). Covers 16 steps: brand finalization, daily post format, enhanced parser with inline annotations, `post.njk` with prev/next nav, archive page, dashboard-grid homepage, ID persona anchors, `pathPrefix` / `url` filter fix, 5 example posts, wiki deep-dive pages, wiki MOC maintenance, and full pipeline verification. Commits `226cfb4`, `faad49a`.
+
+### [2026-05-04] Content | Day 1 expanded with full detail.
+- `10_dailies/day-01-...md` rewritten from 3-bullet summary to full post: Prompt Drift, Zero-Shot Grounding, Chat-to-Environment model, Senior ID Persona, QM/UDL guardrails, Bloom's Taxonomy integration, and "Try This Today" exercise.
+- `20_wiki/day-01-...wiki.md` fully synthesized: Gagné Event 1 / QM 1.1 / UDL / Bloom's framework integration, 4-section GEMINI.md implementation guide with code examples, Living Document and Multi-Persona advanced patterns, 4 common pitfalls. Commit `79cbf5d`.
+
+### [2026-05-04] Fix | Broken backlink in Day 1 unblocked CI deploy.
+- Day 1 backlink pointed to `_dailies_MOC.md` (does not exist); corrected to `10_dailies_MOC.md`. Lint was failing in GitHub Actions before the build step, silently keeping the live site on the prior version. Commit `6a8cce5`.
+
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
