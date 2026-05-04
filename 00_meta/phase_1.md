@@ -1161,11 +1161,48 @@ In your repository settings → **Pages**, confirm the source is set to **GitHub
 
 ---
 
+## What Languages Do You Need?
+
+Based on Phase 1, here are the languages and technologies involved:
+
+### Must-Know (You cannot skip these)
+
+| Language / Tool | Used For | Difficulty |
+|----------------|----------|------------|
+| **Markdown** | Writing all posts, MOCs, README, GEMINI.md | ⭐ Beginner — learn in 30 minutes |
+| **YAML** | Frontmatter blocks (`title:`, `date:`, `tags:`) inside Markdown files | ⭐ Beginner — just key-value pairs |
+| **Bash / Terminal** | Running `git`, `npm`, and build commands | ⭐⭐ Beginner-intermediate — ~10 commands total |
+| **JSON** | Reading/editing `package.json` | ⭐ Beginner — structured like a form |
+
+### Phase 1 Specific (Provided in full — read and understand, not memorize)
+
+| Language / Tool | Used For | Difficulty |
+|----------------|----------|------------|
+| **JavaScript (Node.js)** | `parse_dailies.js` — the script that copies your posts | ⭐⭐ Beginner — only uses `fs.readFileSync`, `fs.writeFileSync`, `path.join` |
+| **Nunjucks (`.njk`)** | `base.njk` layout template — the HTML wrapper for every page | ⭐⭐ Beginner — HTML + `{{ variable }}` syntax |
+| **HTML** | Inside the `.njk` templates | ⭐⭐ Beginner — structural tags only |
+| **CSS** | `style.css` — the dashboard visual design | ⭐⭐⭐ Intermediate — but the full file is provided |
+| **YAML (GitHub Actions)** | `deploy.yml` — the deployment workflow | ⭐⭐ Beginner — indentation-sensitive, but structure is explained |
+
+### Realistic Learning Order
+
+1. **Markdown + YAML** — 1 day. These are just text formatting rules.
+2. **Terminal basics** — 1 day. You need: `cd`, `ls`, `mkdir`, `git add/commit/push`, `npm run`.
+3. **HTML basics** — 2 days. Understand `<div>`, `<a>`, `<link>`, `<head>`, `<body>`.
+4. **JavaScript (Node.js, file system only)** — 2-3 days focused on `fs` and `path` modules.
+5. **Nunjucks** — half a day. It is HTML with `{{ }}` and `{% %}` blocks.
+6. **CSS** — ongoing. Phase 1 gives you the full stylesheet; you only need to read it, not write it from scratch.
+7. **GitHub Actions YAML** — 1 day. The workflow file is provided in full; understanding what each step does is enough.
+
+> **The honest answer:** You do not need to *master* any of these before starting. Phase 1 is designed so every file is provided in full with line-by-line explanations. The primary skill is **reading comprehension** — understanding what each block does and why — not writing from memory.
+
+---
+
 ## Next Step: Phase 2
 
 Phase 2 covers converting your raw notes into structured daily issues and generating wiki entries — including building the log-to-post pipeline, ID persona anchors, and wiki synthesis workflow.
 
-See `00_meta/phase_2.md` (coming soon).
+See [00_meta/phase_2.md](phase_2.md).
 
 ---
 
