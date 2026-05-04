@@ -1,0 +1,1172 @@
+---
+title: "Phase 1 Tutorial - Infrastructure & The Dashboard"
+date: 2026-05-04
+tags:
+  - tutorial
+  - phase-1
+  - beginner
+  - eleventy
+  - infrastructure
+---
+
+# Phase 1 Tutorial: Infrastructure & The Dashboard
+
+**Audience:** Total beginners — no prior web development experience assumed.
+**Goal:** By the end of this guide you will have a live, publicly accessible knowledge dashboard hosted on GitHub Pages, powered by Eleventy (a static site generator), with a folder structure that can grow to 100+ daily posts.
+
+**What you are building:**
+
+```
+Your Markdown notes  →  Parser script  →  Eleventy  →  Live website
+(raw knowledge)           (automation)    (builder)    (GitHub Pages)
+```
+
+---
+
+## Table of Contents
+
+1. [Prerequisites — Install Your Tools](#1-prerequisites)
+2. [Create the GitHub Repository](#2-create-the-github-repository)
+3. [Clone the Repo and Set Up the Folder Structure](#3-folder-structure)
+4. [Initialize the Node.js Project](#4-nodejs-project)
+5. [Install Eleventy](#5-install-eleventy)
+6. [Configure `.gitignore`](#6-gitignore)
+7. [Write the AI Mission Briefing (GEMINI.md)](#7-geminmd-the-mission-briefing)
+8. [Create the Eleventy Config (`.eleventy.js`)](#8-eleventy-config)
+9. [Build the Dashboard Aesthetic (CSS)](#9-dashboard-css)
+10. [Create the Base Layout Template](#10-base-layout)
+11. [Create the Homepage](#11-homepage)
+12. [Set Up Your Maps of Content (MOCs)](#12-maps-of-content)
+13. [Run Eleventy Locally — First Build](#13-first-build)
+14. [Deploy to GitHub Pages with GitHub Actions](#14-github-actions-deployment)
+15. [Verify Everything is Live](#15-verify)
+16. [Phase 1 Checklist](#16-checklist)
+
+---
+
+## 1. Prerequisites
+
+Before touching code, install these three tools on your computer. Each link goes to the official download page.
+
+### 1a. Install Git
+
+Git is the version-control system that tracks every change to your files and lets you publish them to GitHub.
+
+- **Mac**: Open Terminal, type `git --version`. If not installed, macOS will prompt you to install Xcode Command Line Tools — follow the prompt.
+- **Windows**: Download from [https://git-scm.com/download/win](https://git-scm.com/download/win). Use all default settings during installation.
+- **Linux**: `sudo apt install git`
+
+Verify the install:
+```bash
+git --version
+# Expected output: git version 2.x.x
+```
+
+### 1b. Install Node.js (version 18 or higher)
+
+Node.js is a JavaScript runtime. Eleventy runs on top of it. Installing Node also installs `npm` (Node Package Manager), which you use to install Eleventy.
+
+Download the **LTS (Long-Term Support)** version from [https://nodejs.org](https://nodejs.org).
+
+Verify:
+```bash
+node --version
+# Expected: v18.x.x or higher
+
+npm --version
+# Expected: 9.x.x or higher
+```
+
+### 1c. Create a GitHub Account
+
+Go to [https://github.com](https://github.com) and sign up for a free account. Your username will appear in your site's URL, so choose something you are comfortable with.
+
+### 1d. Install a Code Editor
+
+[Visual Studio Code](https://code.visualstudio.com/) is recommended. It is free and has extensions for Markdown and Nunjucks templates.
+
+---
+
+## 2. Create the GitHub Repository
+
+### 2a. Create the repo on GitHub
+
+1. Log in to GitHub.
+2. Click the **+** icon in the top-right corner → **New repository**.
+3. Fill in the form:
+   - **Repository name**: `vibe-id-daily` (use lowercase with hyphens, no spaces)
+   - **Description**: `Strategic Pointers for Instructional Designers`
+   - **Visibility**: Public (required for free GitHub Pages hosting)
+   - Check **Add a README file**
+4. Click **Create repository**.
+
+> **Why public?** GitHub Pages (the free hosting service) requires your repository to be public on the free tier.
+
+### 2b. Clone the repo to your computer
+
+"Cloning" downloads the repository to your local machine so you can edit files.
+
+Open Terminal (Mac/Linux) or Git Bash (Windows) and run:
+
+```bash
+# Replace YOUR_USERNAME with your actual GitHub username
+git clone https://github.com/YOUR_USERNAME/vibe-id-daily.git
+
+# Move into the project folder
+cd vibe-id-daily
+```
+
+You now have a local copy of the empty repo on your computer.
+
+---
+
+## 3. Folder Structure
+
+This project uses a numbered folder naming convention. Numbers make folder order predictable and sortable in any file explorer.
+
+Create all the required directories:
+
+```bash
+mkdir -p 00_meta/src/_includes
+mkdir -p 00_meta/src/css
+mkdir -p 00_meta/src/posts
+mkdir -p 00_meta/scripts
+mkdir -p 00_meta/skills
+mkdir -p 10_dailies
+mkdir -p 20_wiki
+mkdir -p docs
+```
+
+**What each folder does:**
+
+| Folder | Purpose |
+|--------|---------|
+| `00_meta/` | The "brain" — config, scripts, templates, CSS |
+| `00_meta/src/` | Eleventy reads files from here to build the website |
+| `00_meta/src/_includes/` | Reusable HTML templates (Nunjucks) |
+| `00_meta/src/css/` | Stylesheet for the dashboard look |
+| `00_meta/src/posts/` | Auto-generated by a script — DO NOT edit manually |
+| `00_meta/scripts/` | Automation scripts (parser, link checker, etc.) |
+| `00_meta/skills/` | AI skill definition files (SOPs) |
+| `10_dailies/` | Your raw daily Markdown notes |
+| `20_wiki/` | AI-generated deep-dive wiki pages |
+| `docs/` | Any supplementary documentation |
+
+> **The key mental model:** You write raw notes in `10_dailies/`. A script automatically reads them and copies processed versions into `00_meta/src/posts/`. Eleventy then reads from `src/posts/` to build the website. You never manually touch `src/posts/`.
+
+---
+
+## 4. Node.js Project
+
+Every Node.js project needs a `package.json` file. This file records the project name, version, and which packages (like Eleventy) are installed.
+
+Run this command in your project root (the `vibe-id-daily/` folder):
+
+```bash
+npm init -y
+```
+
+This creates a `package.json` with defaults. Now open `package.json` in VS Code and replace the contents with:
+
+```json
+{
+  "name": "vibe-id-daily",
+  "version": "1.0.0",
+  "description": "Strategic Pointers for Instructional Designers - Modern Tech Dashboard",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "parse": "node 00_meta/scripts/parse_dailies.js",
+    "lint": "node 00_meta/scripts/check_links.js",
+    "prebuild": "npm run parse"
+  },
+  "keywords": ["eleventy", "instructional-design", "vibe-coding"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {}
+}
+```
+
+**What the `scripts` section does:**
+
+| Script | Command | What it does |
+|--------|---------|--------------|
+| `build` | `npm run build` | Runs parse + builds the site into `_site/` |
+| `start` | `npm run start` | Builds the site AND starts a live-reload local server |
+| `parse` | `npm run parse` | Runs the parser script (copies dailies to src/posts) |
+| `lint` | `npm run lint` | Checks all internal links for broken references |
+| `prebuild` | runs automatically before `build` | Ensures parse runs before every build |
+
+---
+
+## 5. Install Eleventy
+
+Eleventy (also written "11ty") is the static site generator that converts your Markdown and templates into HTML files.
+
+```bash
+npm install --save-dev @11ty/eleventy@^2.0.1
+npm install --save-dev @11ty/eleventy-plugin-rss@^1.2.0
+npm install --save-dev luxon@^3.3.0
+```
+
+**What these packages do:**
+
+- `@11ty/eleventy` — the core site builder
+- `@11ty/eleventy-plugin-rss` — generates an RSS/Atom feed so readers can subscribe
+- `luxon` — a date formatting library used in templates
+
+After installation, your `package.json` will show these under `devDependencies` and a `node_modules/` folder will appear. That folder is large and should never be committed to Git (you will configure `.gitignore` to exclude it next).
+
+---
+
+## 6. `.gitignore`
+
+A `.gitignore` file tells Git which files and folders to never track or upload. This is critical for security and keeping your repo clean.
+
+Create a file named `.gitignore` in your project root:
+
+```bash
+touch .gitignore
+```
+
+Paste this content into it:
+
+```gitignore
+# Eleventy — generated output, not source
+_site/
+
+# Node — never commit installed packages
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+
+# Environment variables — NEVER commit secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+
+# OS / Editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Obsidian app config (may contain plugin API keys)
+.obsidian/
+
+# Gemini CLI / AI tool config
+.gemini/
+!.gemini/settings.example.json
+.geminiignore
+MEMORY.md
+*.tmp
+*.log
+
+# Sensitive data — never commit credentials
+secrets.json
+*.pem
+*.key
+credentials.json
+*.sqlite
+*.db
+*.bak
+
+# Build artifact — auto-generated by parse_dailies.js
+# This folder is needed by Eleventy but NOT tracked by Git
+00_meta/src/posts/
+```
+
+> **Critical line:** `00_meta/src/posts/` is ignored by Git but used by Eleventy. This is intentional. The posts folder is a "build artifact" — it gets regenerated fresh every time you run the parse script. You also need to tell Eleventy to ignore `.gitignore` so it still reads that folder (covered in the next step).
+
+---
+
+## 6b. `.eleventyignore`
+
+Eleventy has its own ignore file. Create `.eleventyignore` in your project root:
+
+```
+node_modules/
+_site/
+.gemini/
+00_meta/scripts/
+00_meta/skills/
+10_dailies/
+20_wiki/
+docs/
+scripts/
+```
+
+This tells Eleventy to only look at `00_meta/src/` for templates and posts, not the entire repo.
+
+---
+
+## 7. GEMINI.md — The Mission Briefing
+
+`GEMINI.md` is a configuration file read by the Gemini CLI (Google's AI command-line tool). It acts as a persistent "mission briefing" for any AI session — so the AI always knows your project's conventions, voice, and standards without you having to re-explain them in every session.
+
+> **Concept:** Think of it as an employee handbook. Every new AI "hire" reads it first. This eliminates "Prompt Drift" — the gradual degradation of AI output quality over a long conversation.
+
+Create `00_meta/GEMINI.md`:
+
+```markdown
+# Schema for Knowledge Compiler Wiki
+
+This repository is maintained using the "knowledge compiler" concept.
+
+## Architecture
+
+1. **00_meta**: Repository configuration, schemas, and automation scripts.
+2. **10_dailies**: Raw daily Markdown notes. Primary source of truth.
+3. **20_wiki**: LLM-generated synthesis pages — never edit manually.
+4. **MOCs (Maps of Content)**: Index files (`root_MOC.md`, `00_meta_MOC.md`, etc.)
+
+## Core Files
+
+- `root_MOC.md`: Central hub connecting all top-level domains.
+- `00_meta/Work Plan.md`: The 4-phase roadmap for this repository.
+- `00_meta/progress.md`: Combined phase checklist and append-only ops log.
+
+## Standards
+
+- **Voice**: Senior Instructional Designer — professional, precise
+- **Pedagogy**: Bloom's Taxonomy, UDL, WCAG 2.2, Quality Matters
+- **Dash style**: Use ` - ` (spaced hyphen), never em dash (—)
+- **Links**: All cross-references use relative file paths, never wikilinks `[[]]`
+
+## Operations
+
+When instructed to **Ingest** a new source:
+1. Read the source files.
+2. Create or update a corresponding wiki page in `20_wiki/`.
+3. Update the relevant MOC with a link and one-line summary.
+4. Append a log entry to `00_meta/progress.md`.
+
+When instructed to **Lint**:
+1. Check for contradictions, stale claims, orphan pages, broken links.
+2. Ensure MOCs reflect the actual directory contents.
+3. Verify `progress.md` ops log is properly formatted.
+```
+
+---
+
+## 8. Eleventy Config (`.eleventy.js`)
+
+This is the most important configuration file. It tells Eleventy where to find files, how to build them, and which plugins and filters to use.
+
+Create `.eleventy.js` in your project root:
+
+```javascript
+const { DateTime } = require("luxon");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
+module.exports = function(eleventyConfig) {
+
+  // ---------------------------------------------------
+  // CRITICAL: Tell Eleventy to ignore .gitignore rules.
+  // 00_meta/src/posts/ is excluded from Git (it's a
+  // build artifact) but Eleventy MUST read it.
+  // ---------------------------------------------------
+  eleventyConfig.setUseGitIgnore(false);
+
+  // Plugins
+  eleventyConfig.addPlugin(pluginRss);
+
+  // Passthrough Copy: copy the css folder to _site/ unchanged
+  eleventyConfig.addPassthroughCopy("00_meta/src/css");
+
+  // ---------------------------------------------------
+  // Filters: custom functions usable inside templates
+  // ---------------------------------------------------
+
+  // Display a date like "04 May 2026"
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("dd LLL yyyy");
+  });
+
+  // Format date as "2026-05-04" (used in HTML <time> elements for accessibility)
+  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+  });
+
+  // Extract "Day 7" from a filename like "day-07-the-prompt-trick.md"
+  eleventyConfig.addFilter("dayLabel", (fileSlug) => {
+    const match = fileSlug && fileSlug.match(/^day-0*(\d+)/);
+    return match ? `Day ${parseInt(match[1], 10)}` : null;
+  });
+
+  // Return only the first N items from an array
+  eleventyConfig.addFilter("head", (array, n) => {
+    if (!Array.isArray(array) || array.length === 0) return [];
+    if (n < 0) return array.slice(n);
+    return array.slice(0, n);
+  });
+
+  // ---------------------------------------------------
+  // Collections: named groups of posts
+  // ---------------------------------------------------
+
+  // "posts": newest-first, no future-dated posts shown
+  eleventyConfig.addCollection("posts", function(collectionApi) {
+    const now = new Date();
+    return collectionApi
+      .getFilteredByGlob("00_meta/src/posts/*.md")
+      .filter(post => post.date <= now)
+      .reverse();
+  });
+
+  // "postsChron": oldest-first, used for prev/next navigation
+  eleventyConfig.addCollection("postsChron", function(collectionApi) {
+    const now = new Date();
+    return collectionApi
+      .getFilteredByGlob("00_meta/src/posts/*.md")
+      .filter(post => post.date <= now);
+  });
+
+  // ---------------------------------------------------
+  // Directory configuration
+  // ---------------------------------------------------
+  return {
+    dir: {
+      input: "00_meta/src",     // Eleventy reads from here
+      output: "_site",           // Eleventy writes the built site here
+      includes: "_includes",     // Subfolder inside input for layout templates
+      data: "_data"              // Subfolder inside input for global data files
+    },
+    templateFormats: ["md", "njk", "html"],
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+    // pathPrefix: set this to /YOUR-REPO-NAME/ for GitHub Pages subdirectory hosting
+    pathPrefix: "/vibe-id-daily/"
+  };
+};
+```
+
+> **Key concept — `pathPrefix`:** GitHub Pages hosts your site at `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/`. The `/vibe-id-daily/` prefix ensures all CSS and link paths resolve correctly in that subdirectory. Replace `vibe-id-daily` with your own repository name.
+
+---
+
+## 9. Dashboard CSS
+
+This is the stylesheet that gives the site its "Midnight Pro" tech dashboard look — dark background, violet accent color, monospace font.
+
+Create `00_meta/src/css/style.css`:
+
+```css
+/* ============================================
+   VIBE ID DAILY - Midnight Pro Aesthetic v1.0
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS custom properties (variables) — change these to retheme the whole site */
+:root {
+  --bg:            #0b1220;   /* Near-black navy background */
+  --panel:         #0f172a;   /* Slightly lighter for panels */
+  --panel-light:   #1e293b;   /* Card/hover backgrounds */
+  --text:          #f1f5f9;   /* Primary text (off-white) */
+  --text-soft:     #d6dee8;
+  --text-dim:      #cbd5e1;
+  --accent:        #8b5cf6;   /* Violet purple — the signature color */
+  --accent-light:  #a78bfa;
+  --cyan:          #06b6d4;   /* Secondary accent */
+  --border:        #334155;
+  --border-dim:    #1e293b;
+  --glow:          rgba(139, 92, 246, 0.2);
+
+  --font-mono:     'JetBrains Mono', monospace;
+  --font-sans:     'Inter', -apple-system, sans-serif;
+  --max-width:     1200px;
+}
+
+html {
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg);
+  overflow-x: hidden;
+  /* Dark scrollbar */
+  scrollbar-color: var(--accent) var(--panel);
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--panel); }
+::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-light); }
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Accessibility: skip-to-content link (hidden until focused by keyboard) */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--accent);
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+.skip-link:focus { top: 0; }
+
+/* ---- Header / HUD ---- */
+.hud {
+  background: var(--panel);
+  border-bottom: 1px solid var(--accent);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hud-logo a {
+  font-family: var(--font-mono);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent-light);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+
+.hud-tagline {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  margin-top: 0.15rem;
+}
+
+.hud-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.hud-status-label {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--text-dim);
+}
+
+.hud-status-value {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: #22c55e; /* Green "online" indicator */
+  font-weight: 700;
+}
+
+.hud-metrics {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.metric-label {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.metric span:last-child {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--cyan);
+}
+
+/* ---- Main content area ---- */
+main {
+  flex: 1;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+/* ---- Footer ---- */
+footer {
+  background: var(--panel);
+  border-top: 1px solid var(--border);
+  padding: 1rem 2rem;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+/* ---- Typography ---- */
+h1, h2, h3, h4 {
+  font-family: var(--font-mono);
+  color: var(--accent-light);
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+}
+
+h1 { font-size: clamp(1.4rem, 3vw, 2rem); }
+h2 { font-size: clamp(1.1rem, 2.5vw, 1.5rem); }
+h3 { font-size: 1.1rem; }
+
+p { margin-bottom: 1rem; line-height: 1.75; color: var(--text-soft); }
+
+a { color: var(--accent-light); }
+a:hover { color: var(--cyan); }
+
+code {
+  font-family: var(--font-mono);
+  background: var(--panel-light);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-size: 0.85em;
+  color: var(--cyan);
+}
+
+pre {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+pre code { background: none; padding: 0; }
+
+/* ---- Post cards (used on homepage) ---- */
+.post-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post-card {
+  background: var(--panel);
+  border: 1px solid var(--border-dim);
+  border-left: 3px solid var(--accent);
+  padding: 1.25rem 1.5rem;
+  border-radius: 4px;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.post-card:hover {
+  border-color: var(--accent-light);
+  background: var(--panel-light);
+}
+
+.post-card a {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.post-card a:hover { color: var(--accent-light); }
+
+.post-meta {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  margin-top: 0.35rem;
+}
+```
+
+---
+
+## 10. Base Layout Template
+
+Templates in Eleventy use the **Nunjucks** templating language (`.njk` files). The base layout wraps every page with the same header, footer, and HTML boilerplate.
+
+Create `00_meta/src/_includes/base.njk`:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or "VibeID Daily" }}</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="alternate" type="application/atom+xml" title="VibeID Daily RSS Feed" href="{{ '/feed.xml' | url }}">
+</head>
+<body>
+    <!-- Accessibility: skip link lets keyboard users jump past the header -->
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <header class="hud">
+        <div class="hud-logo">
+            <div class="hud-brand">
+                <a href="{{ '/' | url }}">VibeID Daily</a>
+                <div class="hud-tagline">Natural Language // Systemic Automation</div>
+            </div>
+            <div class="hud-status">
+                <span class="hud-status-label">SYS_STATUS</span>
+                <span class="hud-status-value">ONLINE</span>
+            </div>
+        </div>
+        <div class="hud-metrics">
+            <div class="metric">
+                <span class="metric-label">LOC</span>
+                <span>EARTH_01</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">REL</span>
+                <span>2026.05.01</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">PROJ</span>
+                <span>ID-DAILY</span>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        {{ content | safe }}
+    </main>
+
+    <footer>
+        <p>&copy; 2026 VibeID Daily | Built with Eleventy</p>
+    </footer>
+</body>
+</html>
+```
+
+> **Key Nunjucks syntax explained:**
+> - `{{ title or "VibeID Daily" }}` — outputs the page's `title` variable, falling back to the default string if not set.
+> - `{{ '/css/style.css' | url }}` — the `url` filter prepends the `pathPrefix` from your config, so links work on GitHub Pages.
+> - `{{ content | safe }}` — injects the current page's rendered HTML content into this slot.
+
+---
+
+## 11. Homepage
+
+The homepage (`index.njk`) is the first page visitors see. It lists your recent posts.
+
+Create `00_meta/src/index.njk`:
+
+```njk
+---
+layout: base.njk
+title: VibeID Daily
+---
+
+<section class="hero">
+  <h1>VibeID Daily</h1>
+  <p class="hero-sub">Strategic Pointers for Instructional Designers transitioning from natural language workflows to systemic automation.</p>
+</section>
+
+<section>
+  <h2>// Latest Transmissions</h2>
+
+  {% if collections.posts.length > 0 %}
+    <ul class="post-list">
+      {% for post in collections.posts | head(10) %}
+        <li class="post-card">
+          <a href="{{ post.url | url }}">
+            {% set label = post.fileSlug | dayLabel %}
+            {% if label %}<span class="day-label">{{ label }} — </span>{% endif %}
+            {{ post.data.title }}
+          </a>
+          <div class="post-meta">
+            <time datetime="{{ post.date | htmlDateString }}">
+              {{ post.date | readableDate }}
+            </time>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No posts yet. Add Markdown files to <code>10_dailies/</code> and run <code>npm run parse</code>.</p>
+  {% endif %}
+</section>
+```
+
+> **`head(10)`** — uses the custom filter from `.eleventy.js` to show only the 10 most recent posts on the homepage.
+
+---
+
+## 12. Maps of Content (MOCs)
+
+A **Map of Content** (MOC) is a Markdown index file that lists and links to everything inside a folder. It serves as a human-navigable table of contents for your knowledge vault.
+
+### 12a. Root MOC
+
+Create `root_MOC.md` in your project root:
+
+```markdown
+# Root MOC
+
+Welcome to the central Map of Content for **VibeID Daily**.
+
+## Quick Links
+- **Live Dashboard:** [https://YOUR_USERNAME.github.io/vibe-id-daily/](https://YOUR_USERNAME.github.io/vibe-id-daily/)
+
+## Directories
+- **[10_dailies](10_dailies/_dailies_MOC.md)**: Raw daily pointers and trend aggregations.
+- **[20_wiki](20_wiki/_wiki_MOC.md)**: Deep-dive synthesis and analysis pages.
+- **[00_meta](00_meta/00_meta_MOC.md)**: Configuration, roadmaps, scripts, and site source.
+
+## Core Resources
+- **[Work Plan](00_meta/Work%20Plan.md)**: The phased roadmap.
+- **[Progress Log](00_meta/progress.md)**: Phase checklist and ops log.
+
+---
+**Backlinks:** [Root MOC](root_MOC.md)
+```
+
+### 12b. Meta MOC
+
+Create `00_meta/00_meta_MOC.md`:
+
+```markdown
+# Meta MOC
+
+Central index for repository configuration, scripts, and automation assets.
+
+## Infrastructure & Automation
+- **[Dailies Parser](scripts/parse_dailies.js)**: Synchronizes vault content to the dashboard.
+- **[Link Checker](scripts/check_links.js)**: Validates vault integrity.
+
+## Dashboard (VibeID Daily)
+- **[Dashboard Home](src/index.njk)**: The front-facing HUD source.
+- **[Base Template](src/_includes/base.njk)**: Main dashboard layout.
+- **[Dashboard CSS](src/css/style.css)**: Midnight Pro styles.
+
+## Project Management
+- **[Work Plan](Work%20Plan.md)**: Current roadmap.
+- **[Progress Log](progress.md)**: History of operations.
+
+---
+**Backlinks:** [Root MOC](../root_MOC.md)
+```
+
+### 12c. Dailies MOC
+
+Create `10_dailies/_dailies_MOC.md`:
+
+```markdown
+# Dailies MOC
+
+Index of all raw daily pointers. Each file is a single "transmission."
+
+## Posts
+*(Links will be added here as you create daily posts)*
+
+---
+**Backlinks:** [Root MOC](../root_MOC.md)
+```
+
+### 12d. Wiki MOC
+
+Create `20_wiki/_wiki_MOC.md`:
+
+```markdown
+# Wiki MOC
+
+Index of all deep-dive synthesis pages.
+
+## Pages
+*(Wiki pages will be added here as they are generated)*
+
+---
+**Backlinks:** [Root MOC](../root_MOC.md)
+```
+
+---
+
+## 13. First Build — Run Locally
+
+Before deploying, confirm the site builds on your machine.
+
+### 13a. Create a placeholder post
+
+Since the parser requires at least one file in `10_dailies/`, create a test post:
+
+Create `10_dailies/day-01-test-transmission.md`:
+
+```markdown
+---
+title: "Day 1: Test Transmission"
+date: 2026-05-04
+tags:
+  - day-01
+  - test
+---
+
+# Day 1: Test Transmission
+
+This is the first daily pointer. The system is online.
+
+**The Pointer:** Establish a GEMINI.md file in your root to give any AI tool a persistent mission briefing.
+
+**ID Application:** One briefing file eliminates re-explaining your persona, standard, and tone in every new AI session.
+```
+
+### 13b. Create the parser script
+
+The parser reads files from `10_dailies/` and copies them into `00_meta/src/posts/` with any additional processing needed.
+
+Create `00_meta/scripts/parse_dailies.js`:
+
+```javascript
+const fs = require("fs");
+const path = require("path");
+
+const SOURCE_DIR = path.join(__dirname, "../../10_dailies");
+const DEST_DIR   = path.join(__dirname, "../src/posts");
+
+// Ensure the destination folder exists
+if (!fs.existsSync(DEST_DIR)) {
+  fs.mkdirSync(DEST_DIR, { recursive: true });
+}
+
+// Read all .md files from 10_dailies/, skip MOC files
+const files = fs.readdirSync(SOURCE_DIR).filter(
+  f => f.endsWith(".md") && !f.startsWith("_")
+);
+
+let count = 0;
+for (const file of files) {
+  const src  = path.join(SOURCE_DIR, file);
+  const dest = path.join(DEST_DIR, file);
+  fs.copyFileSync(src, dest);
+  count++;
+}
+
+console.log(`[parse_dailies] Copied ${count} posts to src/posts/`);
+```
+
+### 13c. Run the build
+
+```bash
+npm run build
+```
+
+Expected output:
+
+```
+[parse_dailies] Copied 1 posts to src/posts/
+[11ty] Writing 3 files in 0.35 seconds (v2.0.1)
+```
+
+A `_site/` folder will appear containing your built website.
+
+### 13d. Preview locally
+
+```bash
+npm start
+```
+
+Open your browser and go to `http://localhost:8080/vibe-id-daily/`. You should see the dashboard homepage with your first post listed.
+
+Press `Ctrl+C` to stop the local server.
+
+---
+
+## 14. Deploy to GitHub Pages with GitHub Actions
+
+GitHub Actions is an automation system built into GitHub. You will configure it to automatically rebuild and publish your site every time you push changes.
+
+### 14a. Enable GitHub Pages in repository settings
+
+1. Go to your repository on GitHub.
+2. Click **Settings** → **Pages** (left sidebar).
+3. Under **Source**, select **GitHub Actions**.
+4. Save.
+
+### 14b. Create the workflow file
+
+The workflow file tells GitHub Actions exactly what to do on each push.
+
+Create the directory and file:
+
+```bash
+mkdir -p .github/workflows
+```
+
+Create `.github/workflows/deploy.yml`:
+
+```yaml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main   # Runs every time you push to the main branch
+
+# Grant permissions to deploy to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # 1. Check out the repository code
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Install Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      # 3. Install project dependencies (Eleventy, plugins, etc.)
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Build the site (runs parse script first, then Eleventy)
+      - name: Build site
+        run: npm run build
+
+      # 5. Configure GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # 6. Upload the built _site/ folder as the deployment artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+
+      # 7. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+> **How this works step by step:**
+> 1. You push code to GitHub (`git push`)
+> 2. GitHub Actions detects the push and starts this workflow
+> 3. It spins up a fresh Ubuntu virtual machine
+> 4. Checks out your code, installs Node.js, runs `npm ci` (clean install)
+> 5. Runs `npm run build` → parser runs, then Eleventy builds `_site/`
+> 6. Uploads `_site/` to GitHub's Pages CDN
+> 7. Your site is live — usually within 60 seconds
+
+---
+
+## 15. First Push — Go Live
+
+Commit everything and push to GitHub:
+
+```bash
+# Stage all files
+git add .
+
+# Create the first commit
+git commit -m "feat: Phase 1 infrastructure - Eleventy dashboard, MOCs, GitHub Actions"
+
+# Push to GitHub
+git push origin main
+```
+
+Go to your repository on GitHub → click the **Actions** tab. You will see the workflow running. When it shows a green checkmark, your site is live at:
+
+```
+https://YOUR_USERNAME.github.io/vibe-id-daily/
+```
+
+---
+
+## 16. Phase 1 Checklist
+
+Verify each item before moving to Phase 2.
+
+- [ ] Repository created on GitHub, cloned locally
+- [ ] Folder structure in place (`00_meta/`, `10_dailies/`, `20_wiki/`)
+- [ ] `package.json` has correct scripts (`build`, `start`, `parse`, `lint`, `prebuild`)
+- [ ] Eleventy, eleventy-plugin-rss, and luxon installed
+- [ ] `.gitignore` excludes `node_modules/`, `_site/`, `.env`, and `00_meta/src/posts/`
+- [ ] `.eleventyignore` directs Eleventy to only read `00_meta/src/`
+- [ ] `GEMINI.md` contains AI mission briefing with standards and voice
+- [ ] `.eleventy.js` has correct `pathPrefix`, collections, and filters
+- [ ] `style.css` loads Midnight Pro fonts and color variables
+- [ ] `base.njk` renders header HUD, main content slot, and footer
+- [ ] `index.njk` lists posts from the `posts` collection
+- [ ] All four MOCs created (`root_MOC.md`, `00_meta_MOC.md`, `_dailies_MOC.md`, `_wiki_MOC.md`)
+- [ ] `parse_dailies.js` copies `10_dailies/*.md` to `00_meta/src/posts/`
+- [ ] `npm run build` completes without errors locally
+- [ ] `npm start` serves the site at `http://localhost:8080/vibe-id-daily/`
+- [ ] `.github/workflows/deploy.yml` created with correct permissions and steps
+- [ ] First commit pushed — GitHub Actions workflow passes (green checkmark)
+- [ ] Live site loads at `https://YOUR_USERNAME.github.io/vibe-id-daily/`
+
+---
+
+## Common Errors and Fixes
+
+### "Cannot find module '@11ty/eleventy'"
+You have not installed dependencies. Run `npm install`.
+
+### Site loads but CSS is missing / all links are broken
+Check `pathPrefix` in `.eleventy.js`. It must match your repository name exactly, including the leading `/`.
+
+### `npm run build` outputs zero files
+Check that `.eleventyignore` is not accidentally excluding `00_meta/src/`. Also verify the parser ran and `00_meta/src/posts/` contains `.md` files.
+
+### GitHub Actions fails with "Permission denied"
+In your repository settings → **Pages**, confirm the source is set to **GitHub Actions** (not "Deploy from a branch"). Also confirm the `permissions` block in `deploy.yml` includes `pages: write`.
+
+### Posts are not showing on the homepage
+1. Confirm the frontmatter in your daily post has a valid `date:` field.
+2. Check that the `posts` collection in `.eleventy.js` uses the correct glob: `"00_meta/src/posts/*.md"`.
+3. Future-dated posts are intentionally hidden — check the date is not in the future.
+
+---
+
+## Next Step: Phase 2
+
+Phase 2 covers converting your raw notes into structured daily issues and generating wiki entries — including building the log-to-post pipeline, ID persona anchors, and wiki synthesis workflow.
+
+See `00_meta/phase_2.md` (coming soon).
+
+---
+
+*Tutorial authored May 2026 | VibeID Daily*
