@@ -192,5 +192,8 @@
 - `10_dailies/day-03-the-draft-to-diff-workflow.md` rewritten from 3-bullet summary to full post: Total Rewrite vs. Delta Management concept, Instructional Debt framing, Draft-to-Diff mechanics with directive prompt pattern, ID application covering SME voice preservation and WCAG 2.2 accessibility patching, audit transparency, and "Try This Today" UDL-diff exercise.
 - `20_wiki/day-03-the-draft-to-diff-workflow-wiki.md` fully synthesized: Gagné Event 5 / QM 8.2 / UDL Principle 1 / Cognitive Load framework integration; 3 technical prompt patterns (Accessibility Patch, UDL Scaffold Addition, Version Delta Audit) with real diff-block examples; advanced applications (Git as instructional diff tool, staged diff reviews, diff as ADA documentation); 4 common pitfalls. Commit `9621159`.
 
+### [2026-05-05] Docs | Phase 3 beginner tutorial created.
+- `00_meta/phase_3.md` created (1,332 lines, 16 steps). Covers: three-layer automation hierarchy, GitHub Actions YAML with cron syntax decoder, intermediate Node.js skills breakdown, Eleventy `setUseGitIgnore(false)` bug explanation, `cyborg_aggregator.js` (fully commented, with duplicate-guard), Skill Library rationale and 3 SOPs (AltText Reviewer, Bloom Taxonomy Aligner, Prompt Injection Auditor), `check_links.js` with regex walkthrough, two-job GitHub Actions workflow (`lint` → `deploy` with `needs: lint`), GEMINI.md Phase 3 update, end-to-end test sequence, and 25-item Phase 3 checklist. Commit `871fc15`.
+
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)

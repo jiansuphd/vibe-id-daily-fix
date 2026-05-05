@@ -1408,3 +1408,31 @@ Day 1 backlink pointed to `_dailies_MOC.md` (file does not exist). Correct filen
 - 4 common pitfalls: accepting total rewrites, missing scope constraint, skipping review, single-pass audits
 
 *Session 6 appended - May 4, 2026.*
+
+## Action 8 - Phase 3 Tutorial Created
+
+**Task:** Create `00_meta/phase_3.md` - a detailed step-by-step beginner tutorial covering Phase 3 Automation & Agentic Workflows.
+
+**File:** `00_meta/phase_3.md` (1,332 lines, 16 steps)
+
+**Tutorial contents:**
+- Step 1: Phase 3 goal - three-layer automation hierarchy (cron → parse → build → deploy)
+- Step 2: **Languages You Need** - GitHub Actions YAML with full cron syntax decoder, intermediate Node.js (Date objects, process.env, async/fetch, regex, recursive directory walk), skill progression table across Phases 1-2-3
+- Step 3: Eleventy config upgrade - `postsChron` collection, `setUseGitIgnore(false)` (explains silent beginner bug it prevents)
+- Step 4: Cyborg Aggregator script - fully commented `cyborg_aggregator.js` with duplicate-guard logic
+- Step 5: Local aggregator test - duplicate protection verification
+- Step 6: Skill Library folder - rationale for SOP files vs. re-typing prompts
+- Step 7: AltText Reviewer SOP - 5-step procedure, image triage table, HTML examples, validation checklist
+- Step 8: Bloom Taxonomy Aligner SOP - 6-level taxonomy table, misalignment pattern table, `npm run lint` validation
+- Step 9: Prompt Injection Auditor SOP - injection risk table, adversarial input testing, compliance checklist
+- Step 10: Link Checker script - fully commented `check_links.js` with regex walkthrough
+- Step 11: `package.json` lint script wiring
+- Step 12: Scheduled GitHub Actions - full updated `deploy.yml` with `schedule: cron: '0 0 * * *'` and two-job structure
+- Step 13: Lint gate operational explanation - flow diagram and common failure patterns
+- Step 14: GEMINI.md update - Phase 3 architecture section, skill library inventory, ops commands table
+- Step 15: End-to-end test sequence - clean state, CI simulation, push + Actions verification
+- Step 16: Phase 3 Checklist (25 items) + Phase 4 preview
+
+**Commit:** `871fc15` — `docs: add Phase 3 beginner tutorial - automation, skill library, CI scheduling`
+
+*Session 6 continued - May 5, 2026.*
