@@ -1436,3 +1436,26 @@ Day 1 backlink pointed to `_dailies_MOC.md` (file does not exist). Correct filen
 **Commit:** `871fc15` — `docs: add Phase 3 beginner tutorial - automation, skill library, CI scheduling`
 
 *Session 6 continued - May 5, 2026.*
+
+## Action 9 - Day 4 Expansion (Prompt Injection for Standards)
+
+**Task:** Expand Day 4 daily post and wiki from 3-bullet stubs to full canonical content.
+
+**Day 4 Daily Post** (`10_dailies/day-04-prompt-injection-for-standards.md`):
+- Generic Template problem as the core ID friction point for ungrounded AI sessions
+- Zero-Shot Learning / Grounded Logic model replacing the "Chat" interaction model
+- Mechanics of Grounding: Hallucinated Compliance concept, Read-Only library pattern, `syllabus_standard_2026.md` reference example
+- ID Application: syllabus template injection (mandatory section preservation), brand compliance via CSS/guide injection, WCAG 2.2 technical audit alignment (Target Size 2.5.8, Focus Appearance 2.4.11)
+- Strategic Impact: Artisanal Editing → Systemic Reliability; Senior ID as Systemic Architect
+- "Try This Today" exercise: CLI prompt using `@Syllabus_Template.md` for a graduate course policies section
+- Privacy rules applied: institution names, course codes, and team-specific references removed
+
+**Day 4 Wiki** (`20_wiki/day-04-prompt-injection-for-standards-wiki.md`):
+- Framework integration: Gagné Event 2 (Informing Learner of Objective), QM Standard 4.1, UDL Principle 2 (Multiple Means of Action and Expression), Cognitive Load Theory (extraneous load externalized to reference document)
+- 3 technical prompt patterns with full templates: Syllabus Template Injection (with conflict-flag clause), WCAG Audit Injection (scope-restricted to cheatsheet only), Brand Compliance Injection (hex codes and naming conventions)
+- Advanced applications: Layered Injection (3 simultaneous reference documents), Living Reference Files as versioned assets, SME Voice Preservation via dual-document injection
+- 4 common pitfalls: outdated injected documents, context position priority, missing conflict escalation clause, over-large reference files
+
+**Commit:** `1812137` — `content: expand Day 4 - Prompt Injection for Standards with full detail and wiki synthesis`
+
+*Session 6 continued - May 5, 2026.*

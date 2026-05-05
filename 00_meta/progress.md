@@ -195,5 +195,9 @@
 ### [2026-05-05] Docs | Phase 3 beginner tutorial created.
 - `00_meta/phase_3.md` created (1,332 lines, 16 steps). Covers: three-layer automation hierarchy, GitHub Actions YAML with cron syntax decoder, intermediate Node.js skills breakdown, Eleventy `setUseGitIgnore(false)` bug explanation, `cyborg_aggregator.js` (fully commented, with duplicate-guard), Skill Library rationale and 3 SOPs (AltText Reviewer, Bloom Taxonomy Aligner, Prompt Injection Auditor), `check_links.js` with regex walkthrough, two-job GitHub Actions workflow (`lint` → `deploy` with `needs: lint`), GEMINI.md Phase 3 update, end-to-end test sequence, and 25-item Phase 3 checklist. Commit `871fc15`.
 
+### [2026-05-05] Content | Day 4 expanded with full detail.
+- `10_dailies/day-04-prompt-injection-for-standards.md` rewritten from 3-bullet stub to full post: Generic Template problem framed as core ID friction, Zero-Shot Learning / Grounded Logic model, Mechanics of Grounding (Hallucinated Compliance concept, Read-Only library pattern), ID Application covering syllabus template injection, brand compliance injection, and WCAG 2.2 technical audit alignment (criteria 2.5.8, 2.4.11), Strategic Impact (Artisanal Editing → Systemic Reliability), and "Try This Today" CLI prompt exercise. Privacy rules applied: institution names and course codes removed.
+- `20_wiki/day-04-prompt-injection-for-standards-wiki.md` fully synthesized: Gagné Event 2 / QM 4.1 / UDL Principle 2 / Cognitive Load Theory framework integration; 3 technical prompt patterns with full templates (Syllabus Template Injection, WCAG Audit Injection, Brand Compliance Injection); advanced applications (Layered Injection with 3 simultaneous documents, Living Reference Files, SME Voice Preservation via injection); 4 common pitfalls (outdated documents, context position, no conflict escalation clause, over-large reference files). Commit `1812137`.
+
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
