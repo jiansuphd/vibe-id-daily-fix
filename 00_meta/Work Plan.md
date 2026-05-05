@@ -70,7 +70,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 ### Day 1: The "Entry Point" Protocol (AGENTS.md / GEMINI.md)
 
 - **The Pointer:** Create a GEMINI.md file in your root folder to act as the AI's "Mission Briefing."
-- **The Details:** The CLI automatically searches for this. By placing your ID Persona and UT Brand Standards here, you eliminate "Prompt Drift."
+- **The Details:** The CLI automatically searches for this. By placing your ID Persona and institutional brand standards here, you eliminate "Prompt Drift."
 - **ID Application:** Define your "Voice" (Senior ID) and "Pedagogy" (Bloom's Taxonomy, Quality Matters).
 
 ### Day 2: The "Skeleton-First" Prompt
@@ -132,8 +132,8 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 ### Day 11: Prompt Injection for Brand Compliance
 
 - **The Pointer:** Feed the AI your CSS "Global Stylesheet" before asking for HTML design.
-- **The Details:** Forces the AI to use local UT hex codes (Torch Orange, Smokey Grey) instead of generic Bootstrap colors.
-- **ID Application:** Ensures all generated Canvas pages are unified and "on-vibe" with UT Brand Standards.
+- **The Details:** Forces the AI to use your institutional hex codes and color tokens instead of generic Bootstrap colors.
+- **ID Application:** Ensures all generated Canvas pages are unified and "on-vibe" with institutional brand standards.
 
 ### Day 12: The "Predictive Syllabus" (Contextual Mapping)
 
@@ -172,7 +172,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 - **The Pointer:** Use the Model Context Protocol (MCP) to bridge your "Second Brain" (Obsidian) directly into your CLI.
 - **The Details:** Connecting your vault via the obsidian-mcp-server eliminates manual copy - pasting. The AI can now semantically search past research.
-- **Action:** gemini "Based on my accessibility standards notes and the AREC 342 course map, suggest 3 accessibility improvements for the Module 1 syllabus."
+- **Action:** gemini "Based on my accessibility standards notes and the current course map, suggest 3 accessibility improvements for the Module 1 syllabus."
 
 ### Day 19: The "Agentic Git" (Instructional Assets as Code)
 
@@ -184,7 +184,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 - **The Pointer:** Use the CLI to extract "Latent Knowledge" from your 99_System/Archive to inform current projects.
 - **The Details:** Your Archive is a goldmine. Use the AI to find "how we solved this in 2025" and bridge those successes into your new course builds.
-- **Action:** gemini "Search the 99_System/Archive for previous EdTech Hub presentations and extract the best practices for AI Avatars to use in AREC 342."
+- **Action:** gemini "Search the 99_System/Archive for previous EdTech Hub presentations and extract the best practices for AI Avatars to use in a current course."
 
 ### Day 21: The "Self-Correction Pattern" (Agentic Reflection)
 
@@ -232,7 +232,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 - **The Pointer:** Convert a "Successful Vibe" session into a Standard Operating Procedure (SOP) immediately.
 - **The Details:** Use the /path command to save the step-by-step logic of a win as a new skill in 02_Skills.
-- **ID Application:** Turns a one - off interactive build into a repeatable template for the rest of the Digital Learning team.
+- **ID Application:** Turns a one - off interactive build into a repeatable template for the rest of the instructional team.
 - **Action:** gemini "Summarize our workflow for creating this interactive timeline. Format it it as an SOP and save it to 02_Skills/Rise_Timeline_Builder.md."
 
 ### Day 28: The "Ergonomic Flow" Persona 
@@ -369,7 +369,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 - **The Pointer:** Use the CLI to find semantic connections between  different departmental course materials.
 - **The Details:** Identify where "Sustainability" or "Supply Chain" concepts overlap to reduce redundant design work across the UT System.
-- **Action:** `gemini --files scm_syllabus.pdf, arec_syllabus.pdf "Identify 3 core pedagogical overlaps where shared instructional assets could be utilized."`
+- **Action:** `gemini --files course_a_syllabus.pdf, course_b_syllabus.pdf "Identify 3 core pedagogical overlaps where shared instructional assets could be utilized."`
 
 ### Day 44: The "Syllabus-to-Skill" Auto-Pipeline
 
@@ -379,9 +379,9 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Day 45: The "Context-Aware" Scheduling Agent (Workflow Resilience)
 
-- **The Pointer:** Feed your personal "Energy Map" (energy patterns) into the CLI to optimize your high-focus tasks.
+- **The Pointer:** Feed a workflow capacity map (available time and focus blocks) into the CLI to optimize task scheduling.
 - **The Details:** Schedule the most keystroke-heavy audits for your "Peak Focus" windows.
-- **Action:** `gemini "Based on my 04/15 Energy Log, suggest which courses I should audit this morning to minimize physical strain."`
+- **Action:** `gemini "Based on my workload log, suggest which courses to prioritize for high-focus work today."`
 
 ### Day 46: The "Multi-Persona Focus Group" (Synthetic Stakeholders)
 
@@ -518,7 +518,7 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 ### Day 69: Zero-Friction Synthesis
 
 - **The Pointer:** Use the CLI to merge a Word doc (Syllabus) and a JSON file (UT Policies) into a single, accessible HTML page for Canvas.
-- **Action:** `gemini --files syllabus.docx, ut_policies.json "Synthesize these into a semantic HTML syllabus page. Ensure 4.5:1 contrast."`
+- **Action:** `gemini --files syllabus.docx, policies.json "Synthesize these into a semantic HTML syllabus page. Ensure 4.5:1 contrast."`
 
 ### Day 70: Ethical AI Auditing for Diversity
 
@@ -659,8 +659,8 @@ Create a front-facing dashboard that aggregates daily strategic "pointers" for I
 
 ### Day 98: Cross-Vault Synthesis (The Final Link)
 
-- **The Pointer:** A final CLI command that links your "Personal Finance," "Professional Development," and "Professional ID" notes into a "Holistic Dashboard."
-- **Action:** `gemini "Synthesize my Health Log, Financial Goals, and ID Projects into a single '2026 Success Metric'."`
+- **The Pointer:** A final CLI command that links your "Professional Goals," "Learning Projects," and "ID Research" notes into a unified knowledge dashboard.
+- **Action:** `gemini "Synthesize my Skill Log, Project Goals, and ID Outcomes into a single '2026 Success Metric'."`
 
 ### Day 99: The "Mission Critical" Review
 
