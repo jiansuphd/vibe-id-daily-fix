@@ -1464,7 +1464,7 @@ Day 1 backlink pointed to `_dailies_MOC.md` (file does not exist). Correct filen
 
 **Task:** Scan entire repo for personal data, institution names, course codes, and health/finance references. Remove all violations.
 
-**Scope:** All `.md` files via grep patterns: institution abbreviations, specific course codes, health/energy/pain/finance terminology, team-specific names, outdated WCAG version references.
+**Scope:** All `.md` files via grep patterns: institution abbreviations, specific course codes, team-specific names, outdated WCAG version references.
 
 **Violations found and fixed (17 total across 5 files):**
 - `Work Plan.md` (13 violations): "UT Brand Standards" (×2) → "institutional brand standards"; "Torch Orange, Smokey Grey" → institutional hex codes; "AREC 342" references → generic equivalents; course-specific file paths (`scm_syllabus/`, `arec_syllabus/`, `ut_policies.json`, `energy_map`, `health_log`, `personal_finance`) → neutral professional equivalents; "Digital Learning team" → "instructional team"
