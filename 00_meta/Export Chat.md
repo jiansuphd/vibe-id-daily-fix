@@ -1478,3 +1478,30 @@ Day 1 backlink pointed to `_dailies_MOC.md` (file does not exist). Correct filen
 **Commit:** `17ae609` — `fix: privacy audit - remove institution names, course codes, and personal data repo-wide`
 
 *Session 6 closed - May 5, 2026.*
+
+## Action 11 - Phase 4 Beginner Tutorial
+
+**Task:** Create `00_meta/phase_4.md` — a step-by-step beginner guide for Phase 4: Scale & Sustainability. Also update `00_meta_MOC.md` to index all four phase tutorials.
+
+**phase_4.md** (1,085 lines, 15 steps):
+- Goal and problem/solution table for Phase 4 (MCP, RSS, future-date filter, 100-day calendar)
+- Languages section: JSON syntax rules vs. YAML, Nunjucks feed template syntax, bash `for` loop basics
+- Step 3 - MCP Integration: Obsidian Local REST API plugin setup, `.gemini/settings.example.json` scaffold, `.gitignore` pattern (`.gemini/` ignored, `!settings.example.json` whitelisted), connection test
+- Step 4-5 - RSS Plugin: v1 vs. v3 version compatibility warning, `metadata.json` data file, `feed.njk` Atom template with `| url | absoluteUrl(metadata.url)` pathPrefix fix explained
+- Step 6 - Autodiscovery: `<link rel="alternate" type="application/atom+xml">` in `base.njk`
+- Step 7-8 - Subscribe Widget: follow.it registration flow, embed form on homepage and archive page, domain verification meta tag
+- Step 9 - Future-Date Filter: `post.date <= now` on both `posts` and `postsChron` collections, UTC date behavior explained
+- Step 10 - MOC Rename: file rename commands, bulk `sed` replace for references, lint verification
+- Step 11 - 100-Day Stubs: date formula (`base + N-1 days`), bash loop with day-to-slug mapping, duplicate guard
+- Step 12 - Wiki MOC: Phase 4 section with table, wiki stub template
+- Step 13 - GEMINI.md update: MCP section, community infrastructure, publishing calendar, agentic directives
+- Step 14-15 - End-to-end test sequence + 40-item checklist + Phase 5 preview
+
+**00_meta_MOC.md updates:**
+- Added `## 📖 Phase Tutorials` section linking all four tutorials (phase_1 through phase_4)
+- Removed duplicate `Progress Log` entry
+- Added `Export Chat.md` link to Project Management section
+
+**Commits:** `a7f1da9` (phase_4.md) + follow-up commit for MOC and log updates.
+
+*Session 6 - May 5, 2026.*

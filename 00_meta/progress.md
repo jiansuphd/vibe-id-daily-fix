@@ -205,5 +205,9 @@
 - Fixed: "UT Brand Standards" → "institutional brand standards", "AREC 342" → "a current course", "Digital Learning team" → "instructional team", "Torch Orange, Smokey Grey" → "institutional hex codes", course-specific file paths → generic equivalents.
 - All 17 violations resolved. Lint passes clean. Commit `17ae609`.
 
+### [2026-05-05] Docs | Phase 4 beginner tutorial created.
+- `00_meta/phase_4.md` created (1,085 lines, 15 steps). Covers: Phase 4 goal and problem/solution table, languages needed (JSON basics, Nunjucks feed syntax, bash loop), MCP integration (Obsidian Local REST API plugin, `.gemini/settings.example.json` scaffold, gitignore security pattern), Eleventy RSS plugin v1 install and version-compatibility warning, `metadata.json` data file, `feed.njk` Atom feed template with `| url | absoluteUrl` pathPrefix fix, RSS autodiscovery `<link rel="alternate">` in `base.njk`, follow.it email subscribe widget on homepage and archive page, future-date publishing filter (`post.date <= now`), MOC rename and relink procedure, bulk-create 100-day post stubs via bash loop with date formula, Wiki MOC extension, GEMINI.md Phase 4 update, end-to-end test sequence, and 40-item Phase 4 checklist. Commit `a7f1da9`.
+- `00_meta/00_meta_MOC.md` updated: added Phase Tutorials section (all 4 tutorials linked), fixed duplicate progress.md entry, added Export Chat.md link. Commit pending.
+
 ---
 **Backlinks:** [Root MOC](../root_MOC.md)
