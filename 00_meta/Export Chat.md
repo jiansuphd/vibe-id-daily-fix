@@ -1459,3 +1459,22 @@ Day 1 backlink pointed to `_dailies_MOC.md` (file does not exist). Correct filen
 **Commit:** `1812137` — `content: expand Day 4 - Prompt Injection for Standards with full detail and wiki synthesis`
 
 *Session 6 continued - May 5, 2026.*
+
+## Action 10 - Privacy Audit (Repo-Wide)
+
+**Task:** Scan entire repo for personal data, institution names, course codes, and health/finance references. Remove all violations.
+
+**Scope:** All `.md` files via grep patterns: institution abbreviations, specific course codes, health/energy/pain/finance terminology, team-specific names, outdated WCAG version references.
+
+**Violations found and fixed (17 total across 5 files):**
+- `Work Plan.md` (13 violations): "UT Brand Standards" (×2) → "institutional brand standards"; "Torch Orange, Smokey Grey" → institutional hex codes; "AREC 342" references → generic equivalents; course-specific file paths (`scm_syllabus/`, `arec_syllabus/`, `ut_policies.json`, `energy_map`, `health_log`, `personal_finance`) → neutral professional equivalents; "Digital Learning team" → "instructional team"
+- `day-11-prompt-injection-for-brand-compliance.md` (1): "UT Brand Standards" → "institutional brand standards"
+- `day-17-the-full-vault-synthesis-mcp-integration.md` (1): "AREC 342" → "a current course map"
+- `day-20-the-semantic-bridge-historical-knowledge-extraction.md` (1): "AREC 342" → "a current course"
+- `day-27-the-vibe-to-sop-auto-documentation.md` (1): "Digital Learning team" → "instructional team"
+
+**Process:** `multi_replace_string_in_file` (14 ops, 13 succeeded, 1 context-mismatch fail) → `read_file` to find exact context → `replace_string_in_file` for remaining 2 violations → `npm run lint` (clean) → commit + push.
+
+**Commit:** `17ae609` — `fix: privacy audit - remove institution names, course codes, and personal data repo-wide`
+
+*Session 6 closed - May 5, 2026.*
