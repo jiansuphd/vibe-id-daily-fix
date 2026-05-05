@@ -200,9 +200,9 @@
 - `20_wiki/day-04-prompt-injection-for-standards-wiki.md` fully synthesized: Gagné Event 2 / QM 4.1 / UDL Principle 2 / Cognitive Load Theory framework integration; 3 technical prompt patterns with full templates (Syllabus Template Injection, WCAG Audit Injection, Brand Compliance Injection); advanced applications (Layered Injection with 3 simultaneous documents, Living Reference Files, SME Voice Preservation via injection); 4 common pitfalls (outdated documents, context position, no conflict escalation clause, over-large reference files). Commit `1812137`.
 
 ### [2026-05-05] Privacy Audit | Removed institution names, course codes, and personal data repo-wide.
-- Scanned all `.md` files via grep for: institution names (UT, Haslam), course codes (AREC, SCM), health/energy/pain/finance data, "Digital Learning team", WCAG 2.1 references.
+- Scanned all `.md` files via grep for: institution names (UT, Haslam), course codes (AREC, SCM), "Digital Learning team", WCAG 2.1 references.
 - Found 17 violations across 5 files: `Work Plan.md` (13 violations), `day-11`, `day-17`, `day-20`, `day-27` (1 each).
-- Fixed: "UT Brand Standards" → "institutional brand standards", "AREC 342" → "a current course", "Digital Learning team" → "instructional team", "Torch Orange, Smokey Grey" → "institutional hex codes", course-specific file paths → generic equivalents, health tracking terminology removed.
+- Fixed: "UT Brand Standards" → "institutional brand standards", "AREC 342" → "a current course", "Digital Learning team" → "instructional team", "Torch Orange, Smokey Grey" → "institutional hex codes", course-specific file paths → generic equivalents.
 - All 17 violations resolved. Lint passes clean. Commit `17ae609`.
 
 ---
