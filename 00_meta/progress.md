@@ -151,7 +151,7 @@
 - Eleventy rebuilds all pages on each cron run. `postsChron` re-evaluates `post.date <= now` at build time. Nav updates automatically - no stale HTML, no manual changes needed.
 
 ### [2026-05-03] Privacy & Redundancy Audit | 80 files cleaned, 261 lines removed.
-- Removed personal health, certification, and institution references from 60 wiki files, post tags, and post content. Renamed day-86 files to neutral slugs. Deleted duplicate Day 60 post and stale `superpowers/` planning directory. Lint and build pass clean.
+- Removed personal and institution references from 60 wiki files, post tags, and post content. Renamed day-86 files to neutral slugs. Deleted duplicate Day 60 post and stale `superpowers/` planning directory. Lint and build pass clean.
 
 ### [2026-05-03] Log Merge | `log.md` merged into `progress.md`; log.md deleted.
 - Ops Log section added to `progress.md`. References updated in 5 files. Backlinks corrected.
